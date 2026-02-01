@@ -1,0 +1,6 @@
+flask
+opencv-python
+requests
+openai
+httpx
+numpy
