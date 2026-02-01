@@ -20,6 +20,7 @@ PERIOD = float(os.environ.get("AI_PERIOD", "2.0"))
 app = Flask(__name__)
 latest_overlay = None
 
+
 def get_frame_from_stream():
     """Grab one frame from MJPEG stream."""
     resp = requests.get(STREAM_URL, stream=True, timeout=5)
@@ -27,16 +28,17 @@ def get_frame_from_stream():
     try:
         for chunk in resp.iter_content(chunk_size=1024):
             bytes_buff += chunk
-            a = bytes_buff.find(b'\xff\xd8')
-            b = bytes_buff.find(b'\xff\xd9')
+            a = bytes_buff.find(b"\xff\xd8")
+            b = bytes_buff.find(b"\xff\xd9")
             if a != -1 and b != -1:
-                jpg = bytes_buff[a:b+2]
-                bytes_buff = bytes_buff[b+2:]
+                jpg = bytes_buff[a : b + 2]
+                bytes_buff = bytes_buff[b + 2 :]
                 img = cv2.imdecode(np.frombuffer(jpg, dtype=np.uint8), cv2.IMREAD_COLOR)
                 return img
     finally:
         resp.close()
     return None
+
 
 def call_openai_on_frame(frame_bgr):
     _, jpg = cv2.imencode(".jpg", frame_bgr)
@@ -48,7 +50,7 @@ def call_openai_on_frame(frame_bgr):
         "- a person directly ahead, and roughly how far (near / mid / far)\n"
         "- a red stop sign\n\n"
         "Example:\n"
-        "{\"person\": {\"present\": true, \"distance\": \"near\"}, \"stop_sign\": {\"present\": false}}"
+        '{"person": {"present": true, "distance": "near"}, "stop_sign": {"present": false}}'
     )
 
     resp = client.chat.completions.create(
@@ -60,9 +62,7 @@ def call_openai_on_frame(frame_bgr):
                     {"type": "text", "text": prompt},
                     {
                         "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{b64}"
-                        },
+                        "image_url": {"url": f"data:image/jpeg;base64,{b64}"},
                     },
                 ],
             }
@@ -71,6 +71,7 @@ def call_openai_on_frame(frame_bgr):
     )
     text = resp.choices[0].message.content
     return text
+
 
 def parse_policy(text):
     text_low = text.lower()
@@ -86,6 +87,7 @@ def parse_policy(text):
             policy["action"] = "go"
     return policy
 
+
 def apply_policy(policy):
     try:
         if policy["action"] == "stop":
@@ -98,6 +100,7 @@ def apply_policy(policy):
             requests.get(f"{MOTOR_URL}/cmd", params={"c": "fwd"}, timeout=2)
     except Exception as e:
         print("[WARN] motor apply error:", e)
+
 
 def policy_loop():
     global latest_overlay
@@ -130,6 +133,7 @@ def policy_loop():
             print("[WARN] policy error:", e)
         time.sleep(PERIOD)
 
+
 @app.route("/overlay.mjpg")
 def overlay_stream():
     def gen():
@@ -140,15 +144,19 @@ def overlay_stream():
                 continue
             _, jpg = cv2.imencode(".jpg", latest_overlay)
             data = jpg.tobytes()
-            yield (b"--frame\r\n"
-                   b"Content-Type: image/jpeg\r\n\r\n" + data + b"\r\n")
+            yield (b"--frame\r\nContent-Type: image/jpeg\r\n\r\n" + data + b"\r\n")
+
     return Response(gen(), mimetype="multipart/x-mixed-replace; boundary=frame")
+
 
 if __name__ == "__main__":
     import threading
+
     t = threading.Thread(target=policy_loop, daemon=True)
     t.start()
 
     port = int(os.environ.get("POLICY_PORT", "8091"))
-    print(f"[INFO] Motor={MOTOR_URL}  Vision={STREAM_URL}  Overlay=http://<Pi-IP>:{port}/overlay.mjpg")
+    print(
+        f"[INFO] Motor={MOTOR_URL}  Vision={STREAM_URL}  Overlay=http://<Pi-IP>:{port}/overlay.mjpg"
+    )
     app.run(host="0.0.0.0", port=port)

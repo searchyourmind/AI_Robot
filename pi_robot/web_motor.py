@@ -30,8 +30,10 @@ pwmB.start(0)
 speed = 50  # 0–100
 app = Flask(__name__)
 
+
 def standby(on: bool):
     GPIO.output(STBY, GPIO.HIGH if on else GPIO.LOW)
+
 
 def stop_all():
     global speed
@@ -41,9 +43,11 @@ def stop_all():
     pwmA.ChangeDutyCycle(0)
     pwmB.ChangeDutyCycle(0)
 
+
 def set_speed(val: int):
     global speed
     speed = max(0, min(100, int(val)))
+
 
 def forward():
     standby(True)
@@ -54,6 +58,7 @@ def forward():
     pwmA.ChangeDutyCycle(speed)
     pwmB.ChangeDutyCycle(speed)
 
+
 def backward():
     standby(True)
     GPIO.output(AIN1, GPIO.LOW)
@@ -63,15 +68,21 @@ def backward():
     pwmA.ChangeDutyCycle(speed)
     pwmB.ChangeDutyCycle(speed)
 
+
 def left():
     standby(True)
     # left: A backwards, B forward
     GPIO.output(AIN1, GPIO.LOW)
     GPIO.output(AIN2, GPIO.HIGH)
     GPIO.output(BIN1, GPIO.HIGH)
+    import math
+
     GPIO.output(BIN2, GPIO.LOW)
     pwmA.ChangeDutyCycle(speed)
     pwmB.ChangeDutyCycle(speed)
+
+    import time
+
 
 def right():
     standby(True)
@@ -82,6 +93,7 @@ def right():
     GPIO.output(BIN2, GPIO.HIGH)
     pwmA.ChangeDutyCycle(speed)
     pwmB.ChangeDutyCycle(speed)
+
 
 @app.route("/cmd")
 def cmd():
@@ -109,9 +121,11 @@ def cmd():
 
     return jsonify({"ok": True, "cmd": c, "speed": speed})
 
+
 @app.route("/status")
 def status():
     return jsonify({"ok": True, "speed": speed})
+
 
 if __name__ == "__main__":
     try:

@@ -21,7 +21,7 @@ cap.set(cv2.CAP_PROP_FPS, CAM_FPS)
 if not cap.isOpened():
     print("[ERR] Could not open camera /dev/video0")
 
-HTML_PAGE = '''<!doctype html>
+HTML_PAGE = """<!doctype html>
 <html>
 <head>
   <title>Robot Cam + Drive</title>
@@ -57,11 +57,13 @@ function setSpeed(v) {
 </script>
 </body>
 </html>
-'''
+"""
+
 
 @app.route("/")
 def index():
     return render_template_string(HTML_PAGE, motor_url=MOTOR_URL)
+
 
 def mjpeg_generator():
     global cap
@@ -81,18 +83,20 @@ def mjpeg_generator():
         if not ret:
             continue
         data = jpg.tobytes()
-        yield (b"--frame\r\n"
-               b"Content-Type: image/jpeg\r\n\r\n" +
-               data + b"\r\n")
+        yield (b"--frame\r\nContent-Type: image/jpeg\r\n\r\n" + data + b"\r\n")
+
 
 @app.route("/stream.mjpg")
 def stream():
-    return Response(mjpeg_generator(),
-                    mimetype="multipart/x-mixed-replace; boundary=frame")
+    return Response(
+        mjpeg_generator(), mimetype="multipart/x-mixed-replace; boundary=frame"
+    )
+
 
 @app.route("/status")
 def status():
     return jsonify({"ok": True})
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", "8090"))
