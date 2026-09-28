@@ -1,0 +1,15 @@
+#VRML V2.0 utf8
+# Project-authored nominal visualization, not manufacturer CAD or fit certification.
+# External KiCad VRML unit=2.54mm. Lead bends/chamfers/marking/underside details simplified.
+# Nominal body3.3x3.3x1.0; height max1.1, body bounds3.2-3.4; pitch.65. Common drain underside shown by approximate rectangle, not package-certified clip geometry.
+Transform { translation 0 0 0.216535 children [ Shape { appearance Appearance { material Material { diffuseColor 0.065 0.070 0.080 } } geometry Box { size 1.299213 1.299213 0.354331 } } ] }
+Transform { translation -0.561024 0.383858 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation -0.561024 0.127953 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation -0.561024 -0.127953 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation -0.561024 -0.383858 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation 0.561024 -0.383858 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation 0.561024 -0.127953 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation 0.561024 0.127953 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation 0.561024 0.383858 0.029528 children [ Shape { appearance Appearance { material Material { diffuseColor 0.65 0.67 0.70 } } geometry Box { size 0.177165 0.133858 0.059055 } } ] }
+Transform { translation 0.167323 0 0.009843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.55 0.57 0.59 } } geometry Box { size 0.688976 0.964567 0.019685 } } ] }
+Transform { translation -0.492126 0.492126 0.395669 children [ Shape { appearance Appearance { material Material { diffuseColor 0.68 0.70 0.72 } } geometry Box { size 0.086614 0.086614 0.003937 } } ] }

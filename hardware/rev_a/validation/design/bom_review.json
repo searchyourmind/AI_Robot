@@ -1,0 +1,302 @@
+{
+  "status": "DRAFT - NOT RELEASED FOR FABRICATION",
+  "review_date": "2026-09-28",
+  "manifest": "work/redesign12v/design_manifest.json",
+  "manifest_sha256": "71b76047da224433f414b0c205fbe67ba003c064f2e59530479020ec6d2da83c",
+  "generator_sha256": "1476eb5d7ab53f22223dee566a5623b9f5259d302aa34163f9c3164ae0c3b76e",
+  "manifest_instances": 135,
+  "fitted_placements": 121,
+  "copper_testpoints": 14,
+  "fitted_mpn_groups": 43,
+  "grouping_key": [
+    "MPN",
+    "Footprint"
+  ],
+  "mount_counts": {
+    "THT": 13,
+    "SMD": 108
+  },
+  "category_counts": {
+    "Capacitor": 38,
+    "Diode": 2,
+    "Fuse": 1,
+    "Connector": 6,
+    "Transistor": 2,
+    "Resistor": 54,
+    "Switch": 1,
+    "IC": 17
+  },
+  "functional_partition": {
+    "Drivers and local support": {
+      "count": 40,
+      "references": [
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "R20",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R31",
+        "R32",
+        "R33",
+        "R34",
+        "R35",
+        "U20",
+        "U21",
+        "U22",
+        "U23"
+      ]
+    },
+    "Board connectors": {
+      "count": 6,
+      "references": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6"
+      ]
+    },
+    "Input protection, feed, bulk and bleed": {
+      "count": 19,
+      "references": [
+        "C1",
+        "C2",
+        "C40",
+        "C41",
+        "C42",
+        "D1",
+        "D2",
+        "F1",
+        "Q1",
+        "Q2",
+        "R5",
+        "R40",
+        "R41",
+        "R42",
+        "R43",
+        "R44",
+        "R45",
+        "R46",
+        "U13"
+      ]
+    },
+    "VM window monitor": {
+      "count": 7,
+      "references": [
+        "C11",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "U11"
+      ]
+    },
+    "Sleep/feed qualification": {
+      "count": 4,
+      "references": [
+        "C12",
+        "R11",
+        "R12",
+        "U14"
+      ]
+    },
+    "PWM/DIR decode and input conditioning": {
+      "count": 14,
+      "references": [
+        "C13",
+        "C14",
+        "C101",
+        "R100",
+        "R101",
+        "R104",
+        "R105",
+        "R112",
+        "R113",
+        "R116",
+        "R117",
+        "U3",
+        "U15",
+        "U16"
+      ]
+    },
+    "RUN/ARM/HB and fault conditioning": {
+      "count": 13,
+      "references": [
+        "C106",
+        "C107",
+        "C109",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R132",
+        "U8",
+        "U9",
+        "U12"
+      ]
+    },
+    "Physical inhibit and filter": {
+      "count": 4,
+      "references": [
+        "C100",
+        "R133",
+        "R134",
+        "SW1"
+      ]
+    },
+    "Watchdog": {
+      "count": 4,
+      "references": [
+        "C102",
+        "R130",
+        "R131",
+        "U4"
+      ]
+    },
+    "Logic-rail supervisor": {
+      "count": 3,
+      "references": [
+        "C105",
+        "R138",
+        "U7"
+      ]
+    },
+    "Arm latch and permission gates": {
+      "count": 7,
+      "references": [
+        "C103",
+        "C104",
+        "R139",
+        "R140",
+        "R141",
+        "U5",
+        "U6"
+      ]
+    }
+  },
+  "testpoint_references": [
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10",
+    "TP20",
+    "TP21",
+    "TP22",
+    "TP23"
+  ],
+  "new_mpns": [
+    "0451003.MRL",
+    "BSS138",
+    "C0805C223K5RACTU",
+    "C1206C105K1RACTU",
+    "C1206C225K5RACTU",
+    "CSD19537Q3",
+    "DRV8874PWPR",
+    "EEUFR1H102",
+    "EEUFR1H221",
+    "PR02000206800JA100",
+    "RC0603FR-076K04L",
+    "SMBJ18A",
+    "SMBJ24CA",
+    "SN74LVC1G08DBVR",
+    "SN74LVC2G14DBVR",
+    "SN74LVC08APWR",
+    "SN74LVC132APWR",
+    "TNPW08051K00BEEA",
+    "TNPW08053K09BEEA",
+    "TNPW080520K0BEEA",
+    "TNPW080553K6BEEA",
+    "TNPW080560K4BEEA",
+    "TNPW0805124KBEEA",
+    "TNPW0805200KBEEA",
+    "TNPW0805442KBEEA",
+    "TPS26630RGER"
+  ],
+  "harmless_value_aliases": {
+    "TNPW080510K0BEEA": [
+      "10k 0.1% 25ppm/K",
+      "10k 0.1%"
+    ]
+  },
+  "purpose_metadata_corrections": {
+    "SW1": "Physical switch now inhibits driver sleep and semiconductor eFuse feed; not galvanic isolation",
+    "J6": "PWM/DIR harness; pins 6/10 NC, 15 GND",
+    "U9": "Shared fault and heartbeat Schmitt conditioning",
+    "R132": "Buffered heartbeat default low; no isolation claim",
+    "R141": "DRIVE_ENABLE_CMD pulldown; no legacy STBY output",
+    "C109": "Local bypass for U12; C11 belongs to U11"
+  },
+  "checks": {
+    "unique_manifest_references": true,
+    "all_fitted_mpns_have_source_entries": true,
+    "all_fitted_references_have_current_purposes": true,
+    "functional_partition_is_disjoint_and_complete": true,
+    "artifact_table_readback_exact": true,
+    "all_csv_artifact_roundtrips_pass": true,
+    "grouped_quantity_sum_121": true,
+    "testpoints_purchased_quantity_zero": true
+  },
+  "files": {
+    "bom_fitted.csv": {
+      "sha256": "b6e6d138ad1d93547146649743fe9791fc342349a51d653b5c1946b0e2eec959",
+      "data_rows": 121,
+      "columns": 16
+    },
+    "bom_grouped.csv": {
+      "sha256": "9e14eec4a833034c6edb617524d3e1637e6f68277ec4c7ce86ddbba547a563a6",
+      "data_rows": 43,
+      "columns": 16
+    },
+    "bom_testpoints.csv": {
+      "sha256": "be25e6aaee126a4275b4ce832c5289b0e0f15b6338857af9da2089e25873c8e6",
+      "data_rows": 14,
+      "columns": 10
+    }
+  },
+  "source_registry_sha256": "30ada2b3d4da1f82702945eef47b06f435432649533822a234bc24c3da5477ed",
+  "limits": [
+    "This BOM is generated from the electrical manifest; final native CAD/BOM parity is a separate root validation step.",
+    "No prices, stock, supplier approval, purchases or assembler acceptance verified.",
+    "Four PCB-only mounting holes and off-board plugs/cables/Pi/motors/packs/fasteners are excluded; not a complete system shopping list.",
+    "Exact Murata D delivery suffix not refreshed; primary manufacturer list verifies the base part.",
+    "TI, Vishay and Littelfuse family/order-code verification is not a claim of current stock for every exact suffix.",
+    "TPS26630 thermal holes under paste require filled/capped/planarized fabrication qualification; package count is not assembly process approval.",
+    "No physical fabrication, assembly, electrical or robot testing performed; actual battery and motor compatibility remains unverified."
+  ]
+}

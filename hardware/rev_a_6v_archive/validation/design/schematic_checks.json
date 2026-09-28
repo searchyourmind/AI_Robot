@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-28",
+  "tool": "KiCad 10.0.6 task-local official runtime",
+  "commands": [
+    {
+      "command": "kicad-cli sch erc --format json --severity-all --exit-code-violations --output schematic_erc.json ai_robot_interface.kicad_sch",
+      "exit_code": 0,
+      "result": "0 violations, including warnings and exclusions; only simulation_model_issue ignored",
+      "actual_command": "work/kicad_runtime/KiCad/KiCad.app/Contents/MacOS/kicad-cli sch erc --format json --severity-all --exit-code-violations --output work/cad/erc_final.json outputs/AI_Robot/hardware/rev_a/ai_robot_interface.kicad_sch"
+    },
+    {
+      "command": "kicad-cli sch export pdf --output schematic.pdf ai_robot_interface.kicad_sch",
+      "exit_code": 0,
+      "result": "5 A3 pages",
+      "actual_command": "work/kicad_runtime/KiCad/KiCad.app/Contents/MacOS/kicad-cli sch export pdf --output work/cad/schematic_final.pdf outputs/AI_Robot/hardware/rev_a/ai_robot_interface.kicad_sch"
+    },
+    {
+      "command": "kicad-cli sch export netlist --format kicadxml --output schematic_netlist.xml ai_robot_interface.kicad_sch",
+      "exit_code": 0,
+      "result": "107 components, 60 connected nets, 2 isolated NC nets",
+      "actual_command": "work/kicad_runtime/KiCad/KiCad.app/Contents/MacOS/kicad-cli sch export netlist --format kicadxml --output work/cad/schematic_final.net.xml outputs/AI_Robot/hardware/rev_a/ai_robot_interface.kicad_sch"
+    }
+  ],
+  "runtime_warning": "Fontconfig error: Cannot load default config file: File not found",
+  "visual_review": "All five final exported PDF pages rendered and inspected; diode K/A and package pin numbers visible; polarized capacitor plus marks, J6 pin15 GND, TB6612 pin labels, sheet/title blocks checked.",
+  "source_sha256": {
+    "ai_robot_interface.kicad_sch": "c02547a42ac1d7aeda9f1fde1ed43a79e3ed2d62783815e6b6b09aba61865646",
+    "enable_latch.kicad_sch": "8e6e834efb35d82e7f526a0564edf88d042521c47ab845f2b1f6c9d3bd13b4f9",
+    "interface.kicad_sch": "59410a132b88802e39b791d2cfb726701e98dfc29c486185be38ce6d8c8433e0",
+    "motor_drivers.kicad_sch": "37242b2dee86041f3ed76095d97b9735561ee9a5b0190aff8a4589fc817a9f7d",
+    "supervision.kicad_sch": "122596a775e328048386c0ebfbd704d71efa0da86a692d85b5fb1dbf0ccc9a9e",
+    "libraries/AI_Robot.kicad_sym": "dd0b315957d429ce371acfea82441923ca52948cb3762fe5d0f38d029e50a5a7",
+    "sym-lib-table": "15d5ade5079d22ba14b103f9b4dff47eb652d86560ffb96494255e66b57b1625",
+    "ai_robot_interface.kicad_pro": "f08dd66f41fec9328b9e50e1e792fef0eea2c0f499fa4a5f4c96096f29994e7a"
+  },
+  "evidence_sha256": {
+    "schematic_erc.json": "11582cf357bc7bbca79aa0b17d6560b041f59eef777825d5a9922c43a233e7da",
+    "schematic_netlist.xml": "d48197df11c71f483252a95cc6a76d6e52e8fc14b8ac42dc9bd15d96ff86e26f",
+    "schematic_manifest.json": "0d68d0b4474dd2627032e4d7d4987235934c55058c50810e711a22b576b79958",
+    "schematic_parity.json": "8a61df54b207c29b544890c4b60792d38dd0f1dec63a32ca24b7c11bcfd28fe6",
+    "schematic_final.pdf": "4d8b1fd8ee6e0c076e66b7c9b76404a02249573ec3f68eca20e702443162f3d1"
+  },
+  "metadata_alignment": "TP1\u2013TP10 library definitions and schematic instances have in_bom no; U4 definition and instance have manufacturer datasheet field; native netlist metadata assertions passed.",
+  "metadata_update_visual_regression": [
+    {
+      "page": 1,
+      "raster_matches_previously_visually_inspected_page": true
+    },
+    {
+      "page": 2,
+      "raster_matches_previously_visually_inspected_page": true
+    },
+    {
+      "page": 3,
+      "raster_matches_previously_visually_inspected_page": true
+    },
+    {
+      "page": 4,
+      "raster_matches_previously_visually_inspected_page": true
+    },
+    {
+      "page": 5,
+      "raster_matches_previously_visually_inspected_page": true
+    }
+  ]
+}

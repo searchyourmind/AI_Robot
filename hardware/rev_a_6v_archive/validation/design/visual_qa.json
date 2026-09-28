@@ -1,0 +1,63 @@
+{
+  "scope": "Digital visual inspection only; no physical measurements or board photograph",
+  "pdfs": [
+    {
+      "file": "exports/draft/schematic.pdf",
+      "sha256": "4d8b1fd8ee6e0c076e66b7c9b76404a02249573ec3f68eca20e702443162f3d1",
+      "pages": 5,
+      "review": "All pages rasterized and inspected. Final PCB page title blocks do not overlap geometry; assembly separates F.Fab and F.SilkS; schematic labels/pin numbers and title blocks checked.",
+      "status": "REVIEWED"
+    },
+    {
+      "file": "exports/draft/pcb_layout.pdf",
+      "sha256": "e7d95aaee8f57b91ddecff1c8bc62618c7c8dd033ec652ac0474f4d59bf14391",
+      "pages": 2,
+      "review": "All pages rasterized and inspected. Final PCB page title blocks do not overlap geometry; assembly separates F.Fab and F.SilkS; schematic labels/pin numbers and title blocks checked.",
+      "status": "REVIEWED"
+    },
+    {
+      "file": "exports/draft/assembly_top.pdf",
+      "sha256": "36d027339f7105ee4244d3b1cafafaa02ae250c378daa603e5b2e6a4a75cce61",
+      "pages": 2,
+      "review": "All pages rasterized and inspected. Final PCB page title blocks do not overlap geometry; assembly separates F.Fab and F.SilkS; schematic labels/pin numbers and title blocks checked.",
+      "status": "REVIEWED"
+    }
+  ],
+  "image_review": [
+    {
+      "file": "exports/draft/views/kicad_3d_render.png",
+      "sha256": "df216e3ff58fac862d72d501c6551b9dacd30e974008fe5667249b18bba3c2ff",
+      "size_px": [
+        1768,
+        1288
+      ],
+      "status": "REVIEWED",
+      "notes": "Full board in frame; nominal capacitor model present; no physical-board claim."
+    },
+    {
+      "file": "exports/draft/views/pcb_top.png",
+      "sha256": "afb0bcfe092947f5f50f2d9dc7ba56e3c6a4fb3bccd4c70051b9d27c1974c8e2",
+      "size_px": [
+        1418,
+        1134
+      ],
+      "status": "REVIEWED",
+      "notes": "Top copper and silkscreen review view."
+    },
+    {
+      "file": "exports/draft/views/pcb_bottom.png",
+      "sha256": "9ac3df698db6e1bfd94b119913d378ea691e544cd5d6908f05ed34506cadf286",
+      "size_px": [
+        1418,
+        1134
+      ],
+      "status": "REVIEWED",
+      "notes": "Underside viewed mirrored."
+    }
+  ],
+  "limitations": [
+    "3D models include nominal/generic approximations; see libraries/3dmodels/README.md",
+    "PCB review PDFs use 1.45:1 scaling; no dimensions should be inferred from a screenshot",
+    "Electrical operation, mechanical fit and solderability remain untested"
+  ]
+}

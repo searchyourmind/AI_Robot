@@ -1,0 +1,2 @@
+(sym_lib_table (version 7)
+(lib (name "AI_Robot") (type "KiCad") (uri "${KIPRJMOD}/libraries/AI_Robot.kicad_sym") (options "") (descr "Project pin-exact reference circuit symbols")))

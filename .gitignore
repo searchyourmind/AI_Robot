@@ -17,3 +17,8 @@ venv/
 
 # Environment variables / secrets
 .env
+
+# Local KiCad session state
+*.kicad_prl
+*.lck
+*-backups/

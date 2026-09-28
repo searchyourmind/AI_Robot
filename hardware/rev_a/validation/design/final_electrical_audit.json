@@ -1,0 +1,316 @@
+{
+  "kind": "Independent desk-only final electrical audit; no CAD or manifest edits",
+  "date": "2026-09-28",
+  "reviewer_scope": "Netlist connectivity, source limits, calculations and document consistency; final routing in progress",
+  "manifest_sha256": "71b76047da224433f414b0c205fbe67ba003c064f2e59530479020ec6d2da83c",
+  "inputs": {
+    "work/redesign12v/design_manifest.json": "71b76047da224433f414b0c205fbe67ba003c064f2e59530479020ec6d2da83c",
+    "work/redesign12v/power_parts.json": "aff131fb2255e30affc4863e7a65de16ec255eb959feaf15e3eafa300b7b172c",
+    "work/redesign12v/logic_truth_review.json": "8e5e7954e30171d240f9bcc9893cee686ae891fdfd572d5052fa9e6504d4363c",
+    "work/redesign12v/logic_review.md": "6aa17aea87b62e65e6acf454cbcb5c372d60ba0758c9f1af64f26eb9be5d3ab7"
+  },
+  "items": 135,
+  "fitted_components": 121,
+  "check_count": 45,
+  "checks": [
+    {
+      "check": "TPS26630 complete 25-pad power contract",
+      "passed": true,
+      "detail": "MODE/IMON/NC declarations intentional; both IN and both OUT physical terminals retained"
+    },
+    {
+      "check": "Q1 sources/raw and drains/protected",
+      "passed": true,
+      "detail": "Large exposed drain is EFUSE_IN, not GND"
+    },
+    {
+      "check": "BSS138 floating-source pulldown",
+      "passed": true,
+      "detail": "Source deliberately follows raw input; VDS is BGATE\u2212IN_SYS, not VM relative to ground"
+    },
+    {
+      "check": "TVS topology/polarity",
+      "passed": true,
+      "detail": "Input bidirectional; VM unidirectional cathode to VM"
+    },
+    {
+      "check": "R40 sensing source",
+      "passed": true,
+      "detail": "UV/OV sense post-blocker; PGTH senses actual output"
+    },
+    {
+      "check": "R42 sensing source",
+      "passed": true,
+      "detail": "UV/OV sense post-blocker; PGTH senses actual output"
+    },
+    {
+      "check": "R45 sensing source",
+      "passed": true,
+      "detail": "UV/OV sense post-blocker; PGTH senses actual output"
+    },
+    {
+      "check": "R46 sensing source",
+      "passed": true,
+      "detail": "UV/OV sense post-blocker; PGTH senses actual output"
+    },
+    {
+      "check": "FEED_ENABLE source",
+      "passed": true,
+      "detail": "No ARM/fault/PGOOD feedback to power feed"
+    },
+    {
+      "check": "SHDN series and sink",
+      "passed": true,
+      "detail": "Loaded U14 VOH2.4V with conservative1% divider gives2.178V; source-current low screen0.101V"
+    },
+    {
+      "check": "External arm clock and asynchronous clear",
+      "passed": true,
+      "detail": "Healthy recovery cannot itself create a new clock edge"
+    },
+    {
+      "check": "Motion gate remains qualified",
+      "passed": true,
+      "detail": "Faults actively remove commands even while drivers remain awake"
+    },
+    {
+      "check": "U20 awake/configuration/fault",
+      "passed": true,
+      "detail": "nSLEEP independent ARM; PWM mode; IMODE floating"
+    },
+    {
+      "check": "U20 ground and VM",
+      "passed": true,
+      "detail": "Electrical ground leads and exposed ground all connected in manifest"
+    },
+    {
+      "check": "U20 charge pump and local bulk",
+      "passed": true,
+      "detail": "VCP\u2013VM reservoir and CPH\u2013CPL flying capacitor, not VCP\u2013GND"
+    },
+    {
+      "check": "U21 awake/configuration/fault",
+      "passed": true,
+      "detail": "nSLEEP independent ARM; PWM mode; IMODE floating"
+    },
+    {
+      "check": "U21 ground and VM",
+      "passed": true,
+      "detail": "Electrical ground leads and exposed ground all connected in manifest"
+    },
+    {
+      "check": "U21 charge pump and local bulk",
+      "passed": true,
+      "detail": "VCP\u2013VM reservoir and CPH\u2013CPL flying capacitor, not VCP\u2013GND"
+    },
+    {
+      "check": "U22 awake/configuration/fault",
+      "passed": true,
+      "detail": "nSLEEP independent ARM; PWM mode; IMODE floating"
+    },
+    {
+      "check": "U22 ground and VM",
+      "passed": true,
+      "detail": "Electrical ground leads and exposed ground all connected in manifest"
+    },
+    {
+      "check": "U22 charge pump and local bulk",
+      "passed": true,
+      "detail": "VCP\u2013VM reservoir and CPH\u2013CPL flying capacitor, not VCP\u2013GND"
+    },
+    {
+      "check": "U23 awake/configuration/fault",
+      "passed": true,
+      "detail": "nSLEEP independent ARM; PWM mode; IMODE floating"
+    },
+    {
+      "check": "U23 ground and VM",
+      "passed": true,
+      "detail": "Electrical ground leads and exposed ground all connected in manifest"
+    },
+    {
+      "check": "U23 charge pump and local bulk",
+      "passed": true,
+      "detail": "VCP\u2013VM reservoir and CPH\u2013CPL flying capacitor, not VCP\u2013GND"
+    },
+    {
+      "check": "Four isolated power outputs",
+      "passed": true,
+      "detail": "Pairing applies only to controls"
+    },
+    {
+      "check": "Independent 32-case command evaluation",
+      "passed": true,
+      "detail": "128 driver pairs: disarmed coast; armed PWM0 brake; paired direction correct"
+    },
+    {
+      "check": "Prior Boolean evidence matches current manifest",
+      "passed": true,
+      "detail": "Independent evaluation agrees with supplied32-case artifact"
+    },
+    {
+      "check": "F1 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "D1 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "Q1 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "Q2 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "U13 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R40 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R41 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R42 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R43 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R44 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "C40 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "C41 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "C42 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "D2 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "C1 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "C2 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R45 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    },
+    {
+      "check": "R46 power proposal agreement",
+      "passed": true,
+      "detail": "Only explicit NC_* declarations normalized; real net strings compared exactly"
+    }
+  ],
+  "must_fix_electrical_defects_found": [],
+  "conclusion": "No unambiguous schematic/net-contract defect found in reviewed provisional envelope. This is not a fabrication, thermal, transient, full-board routing or real-robot compatibility approval.",
+  "calculations": {
+    "C_nom_F": 0.00288,
+    "C_min_F": 0.002304,
+    "C_max_F": 0.0034560000000000003,
+    "regen_0p1J_from15V_V": 17.658016750347574,
+    "energy15_to18V_J": 0.114048,
+    "energy_headroom_to17p766V_above0p1J_J": 0.004406630911999956,
+    "bleed_power15V_W": 0.34829721362229105,
+    "bleed_power32V_W": 1.585139318885449,
+    "discharge32_to0p3_seconds": 11.522898490363971,
+    "efuse_limit_nom_A": 2.980132450331126,
+    "efuse_screen_min_A": 2.6555635696019935,
+    "efuse_screen_max_A": 3.311258278145696,
+    "nominal_ramp15V_seconds": 0.6864,
+    "cap_inrush_with20pct_extra_loss_A": 0.1262181818181818,
+    "efuse_3A_hot_conduction_W": 0.477,
+    "Q1_3A_2x_hot_allowance_W": 0.2988,
+    "Q1_opposed32andminus45V_stress_V": 77,
+    "SHDN_loaded_high_min_V": 2.1778185151237395,
+    "SHDN_unpowered_source_screen_V": 0.101,
+    "cold_start_input_screen_A": 0.17913799605966788,
+    "paired0p3x2mm_escape_each_W": 0.011153101112380956,
+    "fused1mm_per10mm_at3p31A_W": 0.06691860667428573
+  },
+  "open_conditions": [
+    {
+      "id": "R1",
+      "type": "PHYSICAL_RELEASE_OPEN",
+      "item": "TVS32V/45V targets are not guaranteed hot pulse measurements",
+      "condition": "VM\u226432V and upstream absolute magnitude\u226445V must include overshoot; pulse limits2A,1ms,.05J,.1Hz,initialTVS\u226460C apply together."
+    },
+    {
+      "id": "R2",
+      "type": "PHYSICAL_RELEASE_OPEN",
+      "item": "BSS138 speed/capacitance not fully worst-case bounded",
+      "condition": "TI examples select this part, but onsemi27pF Ciss is typical and RDSon is specified at4.5V, while DRV high minimum3V. Do not claim a guaranteed reverse turn-off nanosecond bound; qualify actual gate waveforms/charge and overshoot."
+    },
+    {
+      "id": "R3",
+      "type": "PHYSICAL_RELEASE_OPEN",
+      "item": "Narrow regen-to-monitor headroom",
+      "condition": "0.1J/15V requires effectiveC\u22652304uF; only4.4mJ to conservative17.766V VMOV threshold. Ripple, cold/life capacitance and actualreturned energy need verification."
+    },
+    {
+      "id": "R4",
+      "type": "PHYSICAL_RELEASE_OPEN",
+      "item": "Motor stall and starting torque remain unknown",
+      "condition": "Current chopping is not stall-time protection; watchdog detects missing heartbeat, not a stalled motor with live heartbeat. No sustained-stall authorization."
+    },
+    {
+      "id": "R5",
+      "type": "PHYSICAL_RELEASE_OPEN",
+      "item": "Battery voltage/topology and prospective short current unknown",
+      "condition": "9\u201315V is provisional;300A/32V fuse interrupt credit must cover actual source fault current. Listing current claims do not establish this."
+    },
+    {
+      "id": "R6",
+      "type": "LAYOUT_REVIEW_PENDING",
+      "item": "Paired eFuse power escapes and returns require actual geometry inventory",
+      "condition": "BothIN pads and bothOUT pads must independently connect with shortfanouts, avoiding an unseen sharedneck. Verify maincurrent vias, FUSED_IN1mm lengths, ground thermal copper and filled/cappedU13holes."
+    },
+    {
+      "id": "R7",
+      "type": "PHYSICAL_RELEASE_OPEN",
+      "item": "Warm recovery and arbitrary brownout remain unmeasured",
+      "condition": "PGTHhigh recovery may bypassCdVdT; awake current must be included. Verify noautomaticrearm and no slow-edge/partialpower motion."
+    }
+  ],
+  "final_board_review": "PENDING; routing incomplete at this review",
+  "fabrication": "DEFERRED",
+  "assembly": "NOT ASSEMBLED",
+  "physical_validation": "NOT TESTED"
+}

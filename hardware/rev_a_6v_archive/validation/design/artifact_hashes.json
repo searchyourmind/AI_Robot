@@ -1,0 +1,730 @@
+{
+  "scope": "Local uncommitted design-only snapshot after 12 V purchase-evidence review; preserved 6 V CAD is direct-12 V incompatible; no fabrication release",
+  "base": "AI_Robot repository root",
+  "baseline_commit": "034882cb2ce8106982508cf1a8309b4fa69673ff",
+  "excludes": [
+    "this self-referential manifest",
+    ".git",
+    "__pycache__",
+    ".pytest_cache",
+    ".DS_Store",
+    "*.pyc",
+    "*.kicad_prl",
+    "*.lck"
+  ],
+  "file_count": 178,
+  "files": {
+    ".gitignore": {
+      "sha256": "6bb689b06d0b981da35ad7a03a14ed09e1a8f7a9c9b0cdc9b4e20334c61465c7",
+      "bytes": 186
+    },
+    "README.md": {
+      "sha256": "3e6e24dbc020f9a31809581ef797192fef30eeb02607788d7a9799ff28f2df63",
+      "bytes": 11562
+    },
+    "docs/portfolio/engineering_narrative.md": {
+      "sha256": "c28fc0d8e37fcd4b7ef34b17e4d92d124c3f0380e8136ca83251c64387b1a53a",
+      "bytes": 9730
+    },
+    "docs/vision_safety_integration.md": {
+      "sha256": "291d5e1ec3e65d457aa5e3b960366fa07dcd81215b654c4ca5d0264900408b45",
+      "bytes": 10796
+    },
+    "hardware/rev_a/PROGRESS.md": {
+      "sha256": "9910643b602da099dd69429b5186fcb1fed0d073cb153379af5a3d0657db03f4",
+      "bytes": 16362
+    },
+    "hardware/rev_a/README.md": {
+      "sha256": "c1fa3332576b7605645c2554996f9712308e2ea4bfb4b9858c542694c867e236",
+      "bytes": 8437
+    },
+    "hardware/rev_a/ai_robot_interface.kicad_pcb": {
+      "sha256": "2a5c00e9b49f78fa7a03420b92d5be16abc4048dd8b17c995c770ec7048457ce",
+      "bytes": 1198263
+    },
+    "hardware/rev_a/ai_robot_interface.kicad_pro": {
+      "sha256": "ca8080f0a7f51607089c6b9204283a091f8c83fa7d4565e9fe0fa4d947a64eaf",
+      "bytes": 13432
+    },
+    "hardware/rev_a/ai_robot_interface.kicad_sch": {
+      "sha256": "c02547a42ac1d7aeda9f1fde1ed43a79e3ed2d62783815e6b6b09aba61865646",
+      "bytes": 64701
+    },
+    "hardware/rev_a/docs/12v_design_impact.md": {
+      "sha256": "c1c0b094c502ac508c6251b6f1ce2b967a08d2348763861d744ce27a75aa367e",
+      "bytes": 12642
+    },
+    "hardware/rev_a/docs/actual_hardware_evidence.md": {
+      "sha256": "3da1c71ec4441cd35e10475ae78ae78d295793c2557e26db4903a5d94c41bf68",
+      "bytes": 21555
+    },
+    "hardware/rev_a/docs/architecture_review.md": {
+      "sha256": "c22a2b40d66cfcf7739cf87f0e49d37af858975077b58b4bc8b5ff6fd9e1f849",
+      "bytes": 13685
+    },
+    "hardware/rev_a/docs/assembly_notes.md": {
+      "sha256": "c14dda24809f2e491aeb7fb7e447e0ad6fbeb84e3b2882d1bd46a7ddf872a6e1",
+      "bytes": 4824
+    },
+    "hardware/rev_a/docs/bom_review.md": {
+      "sha256": "87a20664fed686dd76b3fae1bec61e444e9947e3e3f6521c3845e089fe6a5f8d",
+      "bytes": 6094
+    },
+    "hardware/rev_a/docs/cad_workflow.md": {
+      "sha256": "ec744304e3cec0195a4f28264c897590f0684d99f83b6a5a5984de7ab7489e7c",
+      "bytes": 4697
+    },
+    "hardware/rev_a/docs/circuit_review.md": {
+      "sha256": "7d2fc9b305977781533c4bf17b29b061f992db7563fcec82d97db695f5daedb6",
+      "bytes": 19457
+    },
+    "hardware/rev_a/docs/component_count_review.md": {
+      "sha256": "950c47c8f992013c3992149397e91d4a619e0e004704d2c8d63d49ba370759a4",
+      "bytes": 14129
+    },
+    "hardware/rev_a/docs/design_decisions.md": {
+      "sha256": "643f9d8af71c82c35b51fe73b7ea967322b543e5bc0da8df7f0fdc2d5df7df22",
+      "bytes": 13351
+    },
+    "hardware/rev_a/docs/design_sources.md": {
+      "sha256": "9288827c60efe9f2b5e433ff6e895f689ac12216f3c245465761e4ea17ae23aa",
+      "bytes": 9965
+    },
+    "hardware/rev_a/docs/electrical_budget.md": {
+      "sha256": "d141ab086ed469d7c26c93b5b5d4c7efe4172cab4be4d00ebff363aa84eb866c",
+      "bytes": 15420
+    },
+    "hardware/rev_a/docs/electrical_layout_review.md": {
+      "sha256": "89a27ccb1a1ed61fe0996c2cf1daa68a168ca7faa679b1f46469d5f6bb2f50fa",
+      "bytes": 4513
+    },
+    "hardware/rev_a/docs/enable_interface_spec.md": {
+      "sha256": "6c785cd3341727c6e93ad947974a15113cf43f9dbb6951b00c368315740710c1",
+      "bytes": 24319
+    },
+    "hardware/rev_a/docs/existing_system_audit.md": {
+      "sha256": "650d6de2682f74fd25595502b0545aac7d5be0e1e9da4ac2b7899ec02e5ccb57",
+      "bytes": 10502
+    },
+    "hardware/rev_a/docs/fabrication_notes.md": {
+      "sha256": "8f4520304b5f7cf6a4125ebf305fa7c279b5deab45f63f867d905428584f535c",
+      "bytes": 3395
+    },
+    "hardware/rev_a/docs/footprint_review.md": {
+      "sha256": "873dcf6d27598caf38587e74228c3b2fb61919ee3c618f7ffce81c463d890057",
+      "bytes": 14831
+    },
+    "hardware/rev_a/docs/pin_map.md": {
+      "sha256": "8f3f29b23b78f154212c26d298f85ea420edad88808bf98c328fbeeeaa461695",
+      "bytes": 7933
+    },
+    "hardware/rev_a/docs/power_circuit_spec.md": {
+      "sha256": "9f8d3787fe5c83f58899d839fa0c4a49f5d2c3dc2c12ab1c562abc7de8a134e9",
+      "bytes": 16817
+    },
+    "hardware/rev_a/docs/reference_electrical_spec.md": {
+      "sha256": "9e91b3d1501b45c10be909afb480b9ba0ef02c70e0b4808f9e440aeac56aec29",
+      "bytes": 11614
+    },
+    "hardware/rev_a/docs/requirements.md": {
+      "sha256": "925181ce7dd45af2099ddf4ba99382dd40ff0a4f96b7f662bcea5ac5233aa58c",
+      "bytes": 11667
+    },
+    "hardware/rev_a/docs/requirements_assumptions.md": {
+      "sha256": "e3c81ac4af5652c1c08bfe7097ef863cc7b5e24b7719ff766453a557a5779735",
+      "bytes": 22563
+    },
+    "hardware/rev_a/docs/revision_history.md": {
+      "sha256": "25395ea6417ae940a9344f127a9e3686705feeb1aaa7a5485167b2af2215c16c",
+      "bytes": 1192
+    },
+    "hardware/rev_a/docs/risks.md": {
+      "sha256": "77812e569132dd046cea7d892f937dcd67cf2a34a582bd2536b5a7d66b4ba208",
+      "bytes": 7650
+    },
+    "hardware/rev_a/docs/routing_rationale.md": {
+      "sha256": "e9ad9e11831f7b5c48d6ac6b2c706bec3eb54fc5fbde9b8d179bb58574d4169c",
+      "bytes": 9393
+    },
+    "hardware/rev_a/docs/schematic_review.md": {
+      "sha256": "0cf8bbf25996b461d3b182e67b9e70f85886fff8c4cc7191f7d45eb91480141d",
+      "bytes": 5852
+    },
+    "hardware/rev_a/docs/scope_design_only.md": {
+      "sha256": "19c47e6f6ea686c375922aac191a057ca9f1a876d7654e41eb21af0ed1f6d647",
+      "bytes": 6605
+    },
+    "hardware/rev_a/docs/software_safety_api.md": {
+      "sha256": "7ee84983650eba501d7154fd45d25fb5969f0f212f3fee3ca93e84e322fcd352",
+      "bytes": 13268
+    },
+    "hardware/rev_a/docs/wheeltec_source_review.md": {
+      "sha256": "efa11526ab0a2ea76ab0b9123acd91761968599826f084bfb2810be03e5a9fbd",
+      "bytes": 3996
+    },
+    "hardware/rev_a/docs/wiring_guide.md": {
+      "sha256": "77a296199b9134be867b2ebcbe9dcbe8b57d1b5ce140087ec70ba40aa6887463",
+      "bytes": 10327
+    },
+    "hardware/rev_a/enable_latch.kicad_sch": {
+      "sha256": "8e6e834efb35d82e7f526a0564edf88d042521c47ab845f2b1f6c9d3bd13b4f9",
+      "bytes": 42405
+    },
+    "hardware/rev_a/exports/draft/README.md": {
+      "sha256": "9b7683f03eec721c2bffd6c8ef9f1023ef2e68afa71ddb8ad1943ee9a5629a2e",
+      "bytes": 3545
+    },
+    "hardware/rev_a/exports/draft/READ_BEFORE_USE_12V_INCOMPATIBLE.txt": {
+      "sha256": "61f8fba4336d21a11c3e90f2e483f33bbcfbfc6fcfc22a0477a04f3ae7974a59",
+      "bytes": 633
+    },
+    "hardware/rev_a/exports/draft/assembly_top.pdf": {
+      "sha256": "36d027339f7105ee4244d3b1cafafaa02ae250c378daa603e5b2e6a4a75cce61",
+      "bytes": 234215
+    },
+    "hardware/rev_a/exports/draft/bom_candidates.csv": {
+      "sha256": "910814648ef0d9f8d21a4061ce8cdc526590a657fc5c92e9ec90910a546e824f",
+      "bytes": 2748
+    },
+    "hardware/rev_a/exports/draft/bom_offboard_candidates.tsv": {
+      "sha256": "90dbced0c2cc5c46d0d6b3b8500fda0b6cf0c148ff51e11a08837401e7443c41",
+      "bytes": 297
+    },
+    "hardware/rev_a/exports/draft/bom_per_reference.tsv": {
+      "sha256": "379e0aa0bf83e87e257b94201db4557c38a1687a5830f4bf07f93f2cf12c8610",
+      "bytes": 22151
+    },
+    "hardware/rev_a/exports/draft/bom_reference.tsv": {
+      "sha256": "4f13f06a6583dfc10bd08c1567fe01ef4c973fe242cbd80c97f6cd40920ec928",
+      "bytes": 8205
+    },
+    "hardware/rev_a/exports/draft/drills/ai_robot_interface-NPTH-drl_map.svg": {
+      "sha256": "60e15bd72006407bf7c10076ddb0f69c6ec5939f30c5fe940083850ba8f83a9d",
+      "bytes": 45024
+    },
+    "hardware/rev_a/exports/draft/drills/ai_robot_interface-NPTH.drl": {
+      "sha256": "17588031816cbbc172fede7f22dca85f29a9be07e3d1789087765a698bff8c19",
+      "bytes": 453
+    },
+    "hardware/rev_a/exports/draft/drills/ai_robot_interface-PTH-drl_map.svg": {
+      "sha256": "36750fb12f30941d10e3b3a2cdcdec29ec909087cadcd3a582a87bcb14e1e09d",
+      "bytes": 108708
+    },
+    "hardware/rev_a/exports/draft/drills/ai_robot_interface-PTH.drl": {
+      "sha256": "df0cb84bf3c8e053fdc282aa4a98378187e4993859cc80735bbea53c86a2f767",
+      "bytes": 2614
+    },
+    "hardware/rev_a/exports/draft/drills/drill_report.txt": {
+      "sha256": "5254c1a65a5c37c2eac53e2ea2297bd25ddf0aa7e54a46ec84c53c59c4a4cbd0",
+      "bytes": 906
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-B_Cu.gbl": {
+      "sha256": "cbdd67883fc2a1c270c1762c9e7c7760b05381dbf1e06a8cb4253cdff74bb1f2",
+      "bytes": 113952
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-B_Mask.gbs": {
+      "sha256": "ce498fc7378872c3bac0548a73355241d0044950262034dda9bdf90adf2ac00e",
+      "bytes": 71252
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-B_Silkscreen.gbo": {
+      "sha256": "3bf852ad7ad7b26c586914ff3f75322170a250a1fe6d5238155352a128ee5778",
+      "bytes": 467
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-Edge_Cuts.gm1": {
+      "sha256": "3d05e85220dffa0c665eedf057022ba99c0a81a13092d690aae1c99602b1c69d",
+      "bytes": 628
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-F_Cu.gtl": {
+      "sha256": "24faf4af9f25844b53ea90bc6ed63282910d03bab81065051255198936b0824e",
+      "bytes": 335034
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-F_Mask.gts": {
+      "sha256": "f857bd084782edf030818beab25e36c6ea786b74be2bfcf08ba02f8cfcecd373",
+      "bytes": 352674
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-F_Paste.gtp": {
+      "sha256": "8e25a01cf19117e2f7a501c389cf1b864781815164f35459ae4deeb899c4b5f4",
+      "bytes": 11265
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-F_Silkscreen.gto": {
+      "sha256": "68bea7e8fb8089328c0fa5126bb485e4d080ee6ee5166b33d279deaa447b8a58",
+      "bytes": 256934
+    },
+    "hardware/rev_a/exports/draft/gerbers/ai_robot_interface-job.gbrjob": {
+      "sha256": "16a21b767a533c30598878f099eee52c7caae8bc1998b04b12683236c42c24d4",
+      "bytes": 2657
+    },
+    "hardware/rev_a/exports/draft/pcb_layout.pdf": {
+      "sha256": "e7d95aaee8f57b91ddecff1c8bc62618c7c8dd033ec652ac0474f4d59bf14391",
+      "bytes": 336943
+    },
+    "hardware/rev_a/exports/draft/placement_all.csv": {
+      "sha256": "c8a0196b85c3d1448bdebab8dfe59f0b541e293777ca44417d68dd915946fe51",
+      "bytes": 7146
+    },
+    "hardware/rev_a/exports/draft/schematic.pdf": {
+      "sha256": "4d8b1fd8ee6e0c076e66b7c9b76404a02249573ec3f68eca20e702443162f3d1",
+      "bytes": 387841
+    },
+    "hardware/rev_a/exports/draft/views/kicad_3d_render.png": {
+      "sha256": "df216e3ff58fac862d72d501c6551b9dacd30e974008fe5667249b18bba3c2ff",
+      "bytes": 906162
+    },
+    "hardware/rev_a/exports/draft/views/pcb_bottom.png": {
+      "sha256": "9ac3df698db6e1bfd94b119913d378ea691e544cd5d6908f05ed34506cadf286",
+      "bytes": 100373
+    },
+    "hardware/rev_a/exports/draft/views/pcb_bottom.svg": {
+      "sha256": "13fde5311f363c416262fdab07cc7bd439dc9d269e9790f57a809a7c785015e4",
+      "bytes": 103264
+    },
+    "hardware/rev_a/exports/draft/views/pcb_top.png": {
+      "sha256": "afb0bcfe092947f5f50f2d9dc7ba56e3c6a4fb3bccd4c70051b9d27c1974c8e2",
+      "bytes": 270141
+    },
+    "hardware/rev_a/exports/draft/views/pcb_top.svg": {
+      "sha256": "3f19565b3d9a7445a1a95f61d1cfcd7481cce982f03365ec693c587076b96f35",
+      "bytes": 685838
+    },
+    "hardware/rev_a/exports/draft/views/schematic_drivers.png": {
+      "sha256": "bd5bb27ad51d00b3e62b178b55b077a369750e00220ce5d625bf891839428024",
+      "bytes": 74405
+    },
+    "hardware/rev_a/exports/draft/views/schematic_power.png": {
+      "sha256": "88bbddb0cbe4d5d79a46d8f82271c6361bb938f320a2db867fa0a34236ebae8a",
+      "bytes": 71484
+    },
+    "hardware/rev_a/fp-lib-table": {
+      "sha256": "756bc28f29f1dcbb61585d097e12cfc6eb343bd6542d389d9ba3511ce59fa8ed",
+      "bytes": 1765
+    },
+    "hardware/rev_a/interface.kicad_sch": {
+      "sha256": "59410a132b88802e39b791d2cfb726701e98dfc29c486185be38ce6d8c8433e0",
+      "bytes": 80467
+    },
+    "hardware/rev_a/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step": {
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "bytes": 43450
+    },
+    "hardware/rev_a/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step": {
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "bytes": 43618
+    },
+    "hardware/rev_a/libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step": {
+      "sha256": "7367f35dd5439e325ba3912de65e9200831fdc6698080ffd056cd268649ba41d",
+      "bytes": 141407
+    },
+    "hardware/rev_a/libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.00mm.step": {
+      "sha256": "96f77599ffdd30a40b9738a02543510138a4977d6427f42fef3fdd584405fc1d",
+      "bytes": 139943
+    },
+    "hardware/rev_a/libraries/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step": {
+      "sha256": "b5cb8ba55564999d7db361023fe8e370448ccb21865df04947edc053d5dded9e",
+      "bytes": 474937
+    },
+    "hardware/rev_a/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step": {
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+      "bytes": 94129
+    },
+    "hardware/rev_a/libraries/3dmodels/Diode_SMD.3dshapes/D_SMB.step": {
+      "sha256": "029466277d91e9f5492556be93e46611049e07115c7913880c547afa96058ed4",
+      "bytes": 70508
+    },
+    "hardware/rev_a/libraries/3dmodels/Diode_SMD.3dshapes/D_SMC.step": {
+      "sha256": "30dab4c2e22239b7e3694a4d45304e04255c6b70a79d28e9c34c6072ba647991",
+      "bytes": 70688
+    },
+    "hardware/rev_a/libraries/3dmodels/Fuse_Littelfuse_451_nominal.wrl": {
+      "sha256": "f807fa00128fb1de36610bdc5d6fb2757bce59846e8f3277cb8b37515aae83a9",
+      "bytes": 1013
+    },
+    "hardware/rev_a/libraries/3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step": {
+      "sha256": "65626b93d9b55c6bfae7e3fdafcfd9dc36fe0121778aa04d8da3a20c7d1f041e",
+      "bytes": 110593
+    },
+    "hardware/rev_a/libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step": {
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+      "bytes": 198789
+    },
+    "hardware/rev_a/libraries/3dmodels/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step": {
+      "sha256": "353552981eef35cb93635057d4aeb89aef22648c77af6fd095e328bfe6b834bd",
+      "bytes": 124982
+    },
+    "hardware/rev_a/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step": {
+      "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+      "bytes": 87532
+    },
+    "hardware/rev_a/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step": {
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "bytes": 99639
+    },
+    "hardware/rev_a/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step": {
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+      "bytes": 60296
+    },
+    "hardware/rev_a/libraries/3dmodels/Panasonic_EEUFR1E102_D10_H20_P5_nominal.wrl": {
+      "sha256": "0f6c7a1aad148595159da874fdc15e51d7fa48d0e9ab02fdf62dcb7f57fe724d",
+      "bytes": 31577
+    },
+    "hardware/rev_a/libraries/3dmodels/README.md": {
+      "sha256": "7cc430f0d201284f780f488752ac21ae1eca576e198560ce37bbea5daeaca34c",
+      "bytes": 3873
+    },
+    "hardware/rev_a/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step": {
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "bytes": 40618
+    },
+    "hardware/rev_a/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step": {
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "bytes": 40592
+    },
+    "hardware/rev_a/libraries/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step": {
+      "sha256": "adda0647a71569528494b0c89336a4700aa00105603a72f3e617460fa4b7b776",
+      "bytes": 24614
+    },
+    "hardware/rev_a/libraries/3dmodels/SW_JS102011SAQN_nominal.wrl": {
+      "sha256": "fbc2b8a7c697bcee076e394b68c53ab248f9eae2d8e1894bf464cacb7c77fbc4",
+      "bytes": 2503
+    },
+    "hardware/rev_a/libraries/3dmodels/TB6612FNG_nominal.wrl": {
+      "sha256": "5c77ada67766aad07d1feca1d0acb3a3e594a30d95b452f57ff564ba41181ec5",
+      "bytes": 21945
+    },
+    "hardware/rev_a/libraries/AI_Robot.kicad_sym": {
+      "sha256": "dd0b315957d429ce371acfea82441923ca52948cb3762fe5d0f38d029e50a5a7",
+      "bytes": 129594
+    },
+    "hardware/rev_a/libraries/AI_Robot.pretty/Fuse_Littelfuse_451.kicad_mod": {
+      "sha256": "74d3cd56f7c4cda558c882191ead20e886b5dcd836a687e64b738f3695b9ac51",
+      "bytes": 1466
+    },
+    "hardware/rev_a/libraries/AI_Robot.pretty/IDC_Wurth_61201621621.kicad_mod": {
+      "sha256": "31dc30244c3f308f30499065b31b9a5431770491345c80e98d89fa4e6a6286f8",
+      "bytes": 6607
+    },
+    "hardware/rev_a/libraries/AI_Robot.pretty/TB6612FNG_SSOP24_5.6x7.8_P0.65.kicad_mod": {
+      "sha256": "3d96ddc59fac4837d00c9ce8c3fc60073b3949aa23ab5bef115f089b5f9c2316",
+      "bytes": 4577
+    },
+    "hardware/rev_a/libraries/AI_Robot.pretty/TI_DCU0008A.kicad_mod": {
+      "sha256": "f159a6d5b0942fad4426b9f4b74fe741892dc9a81c520409e1b6c1001a80e7ea",
+      "bytes": 4188
+    },
+    "hardware/rev_a/libraries/AI_Robot.pretty/TPS3431_DRB8_3x3_P0.65.kicad_mod": {
+      "sha256": "a5d11b3bb9f9ed5f81bf7264b9aab57662b722884ad3603535deac3906531ebf",
+      "bytes": 7452
+    },
+    "hardware/rev_a/libraries/Button_Switch_SMD.pretty/SW_SPDT_CK_JS102011SAQN.kicad_mod": {
+      "sha256": "1d6a25b7bb84c97a6b20133c55bd59857bcd0499b621f10fe2fc897f006fe78c",
+      "bytes": 8411
+    },
+    "hardware/rev_a/libraries/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": {
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "bytes": 1936
+    },
+    "hardware/rev_a/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod": {
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "bytes": 2038
+    },
+    "hardware/rev_a/libraries/Capacitor_THT.pretty/CP_Radial_D10.0mm_P5.00mm.kicad_mod": {
+      "sha256": "bf98e50e7f8a398cdc9fb3bcfd7b7d1def01c18322ace59b5b74bf34ff3aaa01",
+      "bytes": 24887
+    },
+    "hardware/rev_a/libraries/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod": {
+      "sha256": "f4769c5a76a97f4ffafd8e4a23a51b17a2dca4f119c487026f06fd7e74763b13",
+      "bytes": 16188
+    },
+    "hardware/rev_a/libraries/Connector_IDC.pretty/IDC-Header_2x08_P2.54mm_Vertical.kicad_mod": {
+      "sha256": "34bcf0cbb79d41ee925663de9bf4dbe03f13fd10d970b14479781a3a29cf3940",
+      "bytes": 6584
+    },
+    "hardware/rev_a/libraries/Connector_Phoenix_MSTB.pretty/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.kicad_mod": {
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+      "bytes": 3639
+    },
+    "hardware/rev_a/libraries/Diode_SMD.pretty/D_SMB.kicad_mod": {
+      "sha256": "6f7f1c0c3ad02d5963c932f7e8c4ea489b479b029e56bbcf8057dcf8f2a34dd0",
+      "bytes": 4559
+    },
+    "hardware/rev_a/libraries/Diode_SMD.pretty/D_SMC.kicad_mod": {
+      "sha256": "438b672fa91711480026f1b38d4c78d89cb6ec50210c5333155dbf3f9784551a",
+      "bytes": 4563
+    },
+    "hardware/rev_a/libraries/LICENSE_KICAD.md": {
+      "sha256": "45d2bce75e5a4208f5afb01b8fb2c406e700371c4fe2b5f5cd5c443d46db4d8f",
+      "bytes": 2101
+    },
+    "hardware/rev_a/libraries/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": {
+      "sha256": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a",
+      "bytes": 5388
+    },
+    "hardware/rev_a/libraries/Package_SO.pretty/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod": {
+      "sha256": "1e315346ebbae9d6def9ed807a76c9835a6bfdc1e0365aa97689cdc45673d93b",
+      "bytes": 4087
+    },
+    "hardware/rev_a/libraries/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod": {
+      "sha256": "398558a828233ca0093e89517f367e87be165738bfb67eea029a7c4162983f65",
+      "bytes": 4753
+    },
+    "hardware/rev_a/libraries/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod": {
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+      "bytes": 4288
+    },
+    "hardware/rev_a/libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod": {
+      "sha256": "9e9b07822ac0c9afab4a1b3aaae470ebbd2d2f5cf28dffd79249ebd536eb8f63",
+      "bytes": 4493
+    },
+    "hardware/rev_a/libraries/README.md": {
+      "sha256": "926a7e63965825f573e1aa92bb225601fffd5b9cb41fd10ce3d18cb5e98b8606",
+      "bytes": 1975
+    },
+    "hardware/rev_a/libraries/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod": {
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "bytes": 1951
+    },
+    "hardware/rev_a/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod": {
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "bytes": 1953
+    },
+    "hardware/rev_a/libraries/Resistor_THT.pretty/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.kicad_mod": {
+      "sha256": "5f84c6689c7af8378b6050502112f039797a9a54bef50c0299baea267087c65b",
+      "bytes": 2390
+    },
+    "hardware/rev_a/libraries/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod": {
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "bytes": 1756
+    },
+    "hardware/rev_a/manufacturing/release/README.md": {
+      "sha256": "35de1dd8d9d9b38e14f6803558b30ea2b701a7f8e8735abb5a8d3be533704ea3",
+      "bytes": 531
+    },
+    "hardware/rev_a/motor_drivers.kicad_sch": {
+      "sha256": "37242b2dee86041f3ed76095d97b9735561ee9a5b0190aff8a4589fc817a9f7d",
+      "bytes": 64674
+    },
+    "hardware/rev_a/supervision.kicad_sch": {
+      "sha256": "122596a775e328048386c0ebfbd704d71efa0da86a692d85b5fb1dbf0ccc9a9e",
+      "bytes": 80640
+    },
+    "hardware/rev_a/sym-lib-table": {
+      "sha256": "15d5ade5079d22ba14b103f9b4dff47eb652d86560ffb96494255e66b57b1625",
+      "bytes": 183
+    },
+    "hardware/rev_a/validation/baseline_parser_reproduction.json": {
+      "sha256": "8fcae7d28d6a31ace2a49d62f35d6b12589dd47ed3a121bf8df7ca347cbd0145",
+      "bytes": 517
+    },
+    "hardware/rev_a/validation/bom_manifest_check.json": {
+      "sha256": "3abd77355528bcf6892c754fa1ea353ccb954911837722387838122013e6db82",
+      "bytes": 905
+    },
+    "hardware/rev_a/validation/bring_up.md": {
+      "sha256": "f203cd2021c387f480a583c6e8b2e2ed69e64c68d1371a8978f9b0cb798a4970",
+      "bytes": 9060
+    },
+    "hardware/rev_a/validation/changed_files.txt": {
+      "sha256": "aa68a84279aeade558bc9969da6fc55918b380160340095024fba53651ec9680",
+      "bytes": 1978
+    },
+    "hardware/rev_a/validation/design/12v_design_impact.json": {
+      "sha256": "0a3781780f6b292802808e885dee5332bdbbd408f62dd62a964a46b9174a39a5",
+      "bytes": 11024
+    },
+    "hardware/rev_a/validation/design/command_log.json": {
+      "sha256": "5cc2c73b10a8de1248332ff812b94db9df6ae9f6158aa2977df5526909c357d6",
+      "bytes": 26480
+    },
+    "hardware/rev_a/validation/design/component_count_review.json": {
+      "sha256": "c12ca321bcc90b7ed889cb4a35d210a767b3e0e667a6d1aebbb77a2ad1e8a3a1",
+      "bytes": 13569
+    },
+    "hardware/rev_a/validation/design/design_check_report.md": {
+      "sha256": "7ed685c320b4a6e52f6b6267a2f441666a5d0eb851ea123de215d2c7e26744f4",
+      "bytes": 6496
+    },
+    "hardware/rev_a/validation/design/documentation_links.json": {
+      "sha256": "4c0e6248676621ad097f20f70147a5211ebbdf3b3bc5659b0e9e09e20bc50b0c",
+      "bytes": 144
+    },
+    "hardware/rev_a/validation/design/drc_default_rule_review.json": {
+      "sha256": "91c59a0ec17e36b3012a70cd9803524badfcf92fdd82d664ffc85e030b7a197a",
+      "bytes": 4660
+    },
+    "hardware/rev_a/validation/design/drc_default_rule_review.md": {
+      "sha256": "4496c56ebd8b38c14d7802ef95f0653573346bb93da8581606a3e016fe7318f9",
+      "bytes": 1609
+    },
+    "hardware/rev_a/validation/design/drc_final.json": {
+      "sha256": "519ddd740bfca239dae1a79173d3706530000b981450c7f8f581f39ca57b48d2",
+      "bytes": 398
+    },
+    "hardware/rev_a/validation/design/drc_final.rpt": {
+      "sha256": "7f5b0a18b164a0ae1fa7f8e18da9807b1b3740c154982414a51467a9e472d7bc",
+      "bytes": 287
+    },
+    "hardware/rev_a/validation/design/electrical_board_review.json": {
+      "sha256": "4018569aca18df408752b907b4458c6b4c862dad54848c1c12bdbb15bb3d129e",
+      "bytes": 30117
+    },
+    "hardware/rev_a/validation/design/enable_footprints.json": {
+      "sha256": "8c2189abe3bad9f3e5ebebc90bfcfc54d7cc77e093391c4ca252149298997573",
+      "bytes": 8420
+    },
+    "hardware/rev_a/validation/design/erc_final.json": {
+      "sha256": "f8e45bac0899bf85b65cf3a34e383cbada30a20e6bff944f9f10be0eb70bf582",
+      "bytes": 1342
+    },
+    "hardware/rev_a/validation/design/export_consistency.json": {
+      "sha256": "e34a0ee385ae39f47141c29bc8c37883d8b6dcbe7de724e9935674b537be4f44",
+      "bytes": 1864
+    },
+    "hardware/rev_a/validation/design/hardware_explanation_review.json": {
+      "sha256": "fbffa277a4a8447bd96c54c418e7a0ba858e0b8e5724cd5ea32a60b516c2b1b1",
+      "bytes": 1772
+    },
+    "hardware/rev_a/validation/design/hardware_logic_desk_review.json": {
+      "sha256": "1f7228c271217ba37988e92343f8e56f303f4de5afd9a2bc807f1eee0ca08ddf",
+      "bytes": 14237
+    },
+    "hardware/rev_a/validation/design/header_native_check.json": {
+      "sha256": "54456d8f494a7b8bef3d806ae253bddcd092625a45b62958ddc23966d54c1826",
+      "bytes": 433
+    },
+    "hardware/rev_a/validation/design/model_paths.json": {
+      "sha256": "6c4366d663d0fbb4e70a198ad5a60c9cabd23c7fb34fad4794757d1076ef2263",
+      "bytes": 13504
+    },
+    "hardware/rev_a/validation/design/purchase_update_verification.json": {
+      "sha256": "7dd47887b968e0200e6b50441e4b45ee17b5a0824848c11310573cc3119b671f",
+      "bytes": 21296
+    },
+    "hardware/rev_a/validation/design/schematic_checks.json": {
+      "sha256": "00eda79a7caaea407879e0ddbdc1fb74a61c515375f92f59925582d3f14d717d",
+      "bytes": 3801
+    },
+    "hardware/rev_a/validation/design/schematic_erc.json": {
+      "sha256": "11582cf357bc7bbca79aa0b17d6560b041f59eef777825d5a9922c43a233e7da",
+      "bytes": 1342
+    },
+    "hardware/rev_a/validation/design/schematic_manifest.json": {
+      "sha256": "0d68d0b4474dd2627032e4d7d4987235934c55058c50810e711a22b576b79958",
+      "bytes": 84325
+    },
+    "hardware/rev_a/validation/design/schematic_netlist.xml": {
+      "sha256": "d48197df11c71f483252a95cc6a76d6e52e8fc14b8ac42dc9bd15d96ff86e26f",
+      "bytes": 188020
+    },
+    "hardware/rev_a/validation/design/schematic_parity.json": {
+      "sha256": "8a61df54b207c29b544890c4b60792d38dd0f1dec63a32ca24b7c11bcfd28fe6",
+      "bytes": 1056
+    },
+    "hardware/rev_a/validation/design/schematic_paths.json": {
+      "sha256": "26ceb714a8002265e255d1b6d6ffd2da91e5a992199f0cde4f765bdde1ea6863",
+      "bytes": 31434
+    },
+    "hardware/rev_a/validation/design/tool_version.txt": {
+      "sha256": "79903cfb5fce27bbddaa3cda8e3265c336d8053b799426ca9cfc835ed648c85c",
+      "bytes": 7
+    },
+    "hardware/rev_a/validation/design/visual_qa.json": {
+      "sha256": "d669d51608d387031f5cc9965f87f40e2153178400f22ce0de1271f94c922746",
+      "bytes": 2481
+    },
+    "hardware/rev_a/validation/mock_tests.junit.xml": {
+      "sha256": "db5a70a947769df63656d36b0bc726911738cb661d2122e831d8d5e0c567b473",
+      "bytes": 23304
+    },
+    "hardware/rev_a/validation/physical_test_records.csv": {
+      "sha256": "8d0be5f25bd0068b0c55d15620f8da528f43ef0fca9553e8d529615f7c5427d6",
+      "bytes": 4736
+    },
+    "hardware/rev_a/validation/software_input_hashes.json": {
+      "sha256": "41af4daf8b310200c3ae409bdb8de2812faa462a371ee4fad192892d9e093606",
+      "bytes": 1499
+    },
+    "hardware/rev_a/validation/software_test_report.md": {
+      "sha256": "ba52e1a29b1bbdef4f2432df6b0ea7b43c350fd1529ff60e16fccd07312ffaf3",
+      "bytes": 5518
+    },
+    "hardware/rev_a/validation/test_environment.txt": {
+      "sha256": "87ec840323b7866548c731fff4e38529715f9b7d4e98c4fa3b91de8b066ea72e",
+      "bytes": 288
+    },
+    "hardware/rev_a/validation/verification_checks.json": {
+      "sha256": "6263435ed16e7ada2e266fdd2403a77eadcd40523d18e732b1b4e641294f8a32",
+      "bytes": 703
+    },
+    "pi_robot/README.md": {
+      "sha256": "0c390762cc1a74493f6ecb88847ce36d6b549d52b496173e0c612c1ebb977879",
+      "bytes": 9352
+    },
+    "pi_robot/motor_backend.py": {
+      "sha256": "1d5274c5e985f1d19c0e922848d6be671ec0e82888a3c473f70f3eda81adcb30",
+      "bytes": 1191
+    },
+    "pi_robot/motor_config.py": {
+      "sha256": "7274bf962b66e81c2965942f8df13f6ef1c6d8b3602aa8729f8ec3f1200d301d",
+      "bytes": 1795
+    },
+    "pi_robot/motor_control.py": {
+      "sha256": "5ad94b76d6c56f9db3adb241352215776668eb7c73d0ae459c057aef350d85e5",
+      "bytes": 13665
+    },
+    "pi_robot/requirements.txt": {
+      "sha256": "7a65e3c41c5ab8371a29a96cef8a8116980dd026703f48b67ffa5a58772d0d98",
+      "bytes": 48
+    },
+    "pi_robot/vision_policy_daemon.py": {
+      "sha256": "748b563c0ae0b5a5ce839342aecd2032adc89a8e7df541494318c5bf1774a4c1",
+      "bytes": 9156
+    },
+    "pi_robot/vision_safety.py": {
+      "sha256": "a1add8f0e64b1e33e8b2f866f39f5445b815e1b38037cd4443cc96cbf8014803",
+      "bytes": 3539
+    },
+    "pi_robot/voice_ai_motor_simple.py": {
+      "sha256": "dff742b9367eef90a1e91517d13dac08adb3d2c6e4fd13bec9cddacefd276bc2",
+      "bytes": 3819
+    },
+    "pi_robot/web_motor.py": {
+      "sha256": "9449f031a1c6e31120aca26e92293a9eeae8cc3e6fbfd4e036128ebd1318b10b",
+      "bytes": 3631
+    },
+    "pi_robot/web_vision_drive_picam_ai.py": {
+      "sha256": "3522dd41a71546660ff6f08f7e9a9f97c11e04c817a8917a403e61f34c6ae03e",
+      "bytes": 12406
+    },
+    "tests/hardware_mock/README.md": {
+      "sha256": "5ab72c71e8c4f3750073815dac05f313c00b62cd6c48e853ae5b27fa59db131c",
+      "bytes": 1174
+    },
+    "tests/hardware_mock/conftest.py": {
+      "sha256": "a0386ab91c1f7cc8a119916655fd0127900b4d96fbd13b13d2e7a0653c042277",
+      "bytes": 490
+    },
+    "tests/hardware_mock/requirements.txt": {
+      "sha256": "6847cf340355aaf96142decaa14fe49391486e26c623fc3d712bc499c45e4f63",
+      "bytes": 131
+    },
+    "tests/hardware_mock/test_clients_camera.py": {
+      "sha256": "03a5260929b1869d69d93f356ce148fbc29c3aa5411223fb2b74caa1d547cbcd",
+      "bytes": 6553
+    },
+    "tests/hardware_mock/test_motor_api.py": {
+      "sha256": "a2908c5aca093e676817841699459f7b5fad29a9c96b742c0fb1fc02561aaa2b",
+      "bytes": 3911
+    },
+    "tests/hardware_mock/test_motor_control.py": {
+      "sha256": "705c258d1339e5f485738a47ff8e97fb26ff865dff70fbb5f88e426e3db32fa2",
+      "bytes": 13799
+    },
+    "tests/hardware_mock/test_system_integration.py": {
+      "sha256": "df8afbfae6540797d317c2f18eccbc1d2b00eefa29f901788aa700be8a1d2073",
+      "bytes": 6540
+    },
+    "tests/hardware_mock/test_vision_policy.py": {
+      "sha256": "41019d36b95c7a9a5d87ed2a50d3877a983228a893dbda017642ed38d1e7c12d",
+      "bytes": 9276
+    }
+  }
+}

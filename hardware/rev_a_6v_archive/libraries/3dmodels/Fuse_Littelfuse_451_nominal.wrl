@@ -1,0 +1,8 @@
+#VRML V2.0 utf8
+# Nominal project-authored visualization, not manufacturer CAD or mechanical fit proof.
+# Littelfuse451/453 datasheet GD12/01/25 p4:6.10+/-0.20 length;2.69+/-0.25 width AND height; caplength1.45.
+# Nominal box envelope only; ceramic corners and termination details simplified. Nonpolar.
+# One externalKiCadVRML unit=2.54mm. Body bottomatboardplane; solderstandoffnotmodeled.
+Transform { translation 0.0000000 0.0000000 0.5295276 children [ Shape { appearance Appearance { material Material { diffuseColor 0.83 0.83 0.77 } } geometry Box { size 1.2598425 1.0590551 1.0590551 } } ] }
+Transform { translation -0.9153543 0.0000000 0.5295276 children [ Shape { appearance Appearance { material Material { diffuseColor 0.64 0.56 0.35 } } geometry Box { size 0.5708661 1.0590551 1.0590551 } } ] }
+Transform { translation 0.9153543 0.0000000 0.5295276 children [ Shape { appearance Appearance { material Material { diffuseColor 0.64 0.56 0.35 } } geometry Box { size 0.5708661 1.0590551 1.0590551 } } ] }

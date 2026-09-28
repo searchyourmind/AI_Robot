@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-28",
+  "source": "KiCad 10.0.6 native kicadxml export compared with normalized reviewed manifest",
+  "status": "PASS",
+  "components": 107,
+  "connected_nets": 60,
+  "no_connect_pins": [
+    [
+      "U5",
+      "3"
+    ],
+    [
+      "U10",
+      "1"
+    ]
+  ],
+  "bom_excluded_copper_features": [
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10"
+  ],
+  "total_package_pins": 322,
+  "actual_export_nets_including_nc": 62,
+  "compared_fields": [
+    "reference set",
+    "value",
+    "footprint",
+    "MPN",
+    "symbol instance UUID",
+    "every package pin number",
+    "every pin net",
+    "every pin electrical type",
+    "entire membership of every net",
+    "explicit NC isolation",
+    "copper TP BOM exclusions",
+    "U4 datasheet"
+  ],
+  "errors": [],
+  "sha256": {
+    "design_manifest.json": "0d68d0b4474dd2627032e4d7d4987235934c55058c50810e711a22b576b79958",
+    "schematic_final.net.xml": "d48197df11c71f483252a95cc6a76d6e52e8fc14b8ac42dc9bd15d96ff86e26f"
+  }
+}

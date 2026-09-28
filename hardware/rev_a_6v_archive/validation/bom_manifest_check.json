@@ -1,0 +1,32 @@
+{
+  "status": "DRAFT - NOT RELEASED FOR FABRICATION",
+  "source_manifest_sha256": "0d68d0b4474dd2627032e4d7d4987235934c55058c50810e711a22b576b79958",
+  "component_instances": 97,
+  "grouped_bom_lines": 33,
+  "unique_mpns": 33,
+  "excluded_manifest_features": [
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10"
+  ],
+  "checks": {
+    "unique_references": true,
+    "all_board_components_have_reviewed_mpn": true,
+    "bom_roundtrip_references_equal_manifest_components": true,
+    "quantities_sum_to_component_count": true,
+    "copper_test_points_and_mounting_features_excluded": true
+  },
+  "limits": [
+    "No stock, price, assembler acceptance or purchasing check",
+    "Mounting holes may exist only in PCB and are not purchased components",
+    "No physical validation",
+    "Regenerate if the integrated component manifest changes"
+  ]
+}

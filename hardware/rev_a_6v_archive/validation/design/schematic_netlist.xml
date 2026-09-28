@@ -1,0 +1,4850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/outputs/AI_Robot/hardware/rev_a/ai_robot_interface.kicad_sch</source>
+    <date>2026-09-28T01:04:23</date>
+    <tool>Eeschema 10.0.6</tool>
+    <textvar name="DESIGN_STATUS">DRAFT - NOT RELEASED FOR FABRICATION</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AI Robot Rev A / Power</title>
+        <company>Design only / pre-fabrication</company>
+        <rev>A-draft</rev>
+        <date>2026-09-28</date>
+        <source>ai_robot_interface.kicad_sch</source>
+        <comment number="1" value="NOT BUILT / NOT PHYSICALLY TESTED"/>
+        <comment number="2" value="PROVISIONAL - NOT VERIFIED FOR THE EXISTING ROBOT"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/">
+      <title_block>
+        <title>AI Robot Rev A / Interface</title>
+        <company>Design only / pre-fabrication</company>
+        <rev>A-draft</rev>
+        <date>2026-09-28</date>
+        <source>interface.kicad_sch</source>
+        <comment number="1" value="NOT BUILT / NOT PHYSICALLY TESTED"/>
+        <comment number="2" value="PROVISIONAL - NOT VERIFIED FOR THE EXISTING ROBOT"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/">
+      <title_block>
+        <title>AI Robot Rev A / Safety</title>
+        <company>Design only / pre-fabrication</company>
+        <rev>A-draft</rev>
+        <date>2026-09-28</date>
+        <source>supervision.kicad_sch</source>
+        <comment number="1" value="NOT BUILT / NOT PHYSICALLY TESTED"/>
+        <comment number="2" value="PROVISIONAL - NOT VERIFIED FOR THE EXISTING ROBOT"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/">
+      <title_block>
+        <title>AI Robot Rev A / Latch</title>
+        <company>Design only / pre-fabrication</company>
+        <rev>A-draft</rev>
+        <date>2026-09-28</date>
+        <source>enable_latch.kicad_sch</source>
+        <comment number="1" value="NOT BUILT / NOT PHYSICALLY TESTED"/>
+        <comment number="2" value="PROVISIONAL - NOT VERIFIED FOR THE EXISTING ROBOT"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/">
+      <title_block>
+        <title>AI Robot Rev A / Drivers</title>
+        <company>Design only / pre-fabrication</company>
+        <rev>A-draft</rev>
+        <date>2026-09-28</date>
+        <source>motor_drivers.kicad_sch</source>
+        <comment number="1" value="NOT BUILT / NOT PHYSICALLY TESTED"/>
+        <comment number="2" value="PROVISIONAL - NOT VERIFIED FOR THE EXISTING ROBOT"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1000uF25V20%</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1E102</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C1_PIN_EXACT" description=""/>
+      <property name="MPN" value="EEUFR1E102"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cba637f7-785f-51ca-9ea1-420917ba238f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1000uF25V20%</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1E102</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C2_PIN_EXACT" description=""/>
+      <property name="MPN" value="EEUFR1E102"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60c6052b-c73d-55d0-a1a1-8c9cf13979f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C11_PIN_EXACT" description=""/>
+      <property name="MPN" value="C0805C104K5RACTU"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27844cdb-d0e1-5cf8-8f5a-7e7ee08e62fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>40V 5A</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <fields>
+        <field name="MPN">SSC54-E3/57T</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="D1_PIN_EXACT" description=""/>
+      <property name="MPN" value="SSC54-E3/57T"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b22f711e-df7b-5e75-9f50-e770224553c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>7V unidirectional</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="MPN">SMBJ7.0A</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="D2_PIN_EXACT" description=""/>
+      <property name="MPN" value="SMBJ7.0A"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf52a0f1-b48d-520c-88d6-13a0d2c0ac9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>2A 125V</value>
+      <footprint>AI_Robot:Fuse_Littelfuse_451</footprint>
+      <fields>
+        <field name="MPN">0451002.MRL</field>
+        <field name="Footprint">AI_Robot:Fuse_Littelfuse_451</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="F1_PIN_EXACT" description=""/>
+      <property name="MPN" value="0451002.MRL"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3829dae-bf1d-5f66-aefc-ad83254de850</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Phoenix MSTBA2.5/2-G5.08</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1757242</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="J1_PIN_EXACT" description=""/>
+      <property name="MPN" value="1757242"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7013fe1d-abdc-5397-8f8a-89c0f96f71dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>-30V P-MOS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="MPN">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="Q1_PIN_EXACT" description=""/>
+      <property name="MPN" value="AO3401A"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>761bf489-c663-5dcf-8e1b-32f627ff2e49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>40V NPN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="Q2_PIN_EXACT" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>540a3dea-1dd3-55ef-b528-79dfd5d40a7f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>22k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW080522K0BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R1_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW080522K0BEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bbe0326-349e-51e4-a184-3bc551562cc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW08054K70BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R2_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW08054K70BEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7289aa0d-1ca0-5ff4-b15a-5fcb85f42c79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW080510K0BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R3_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW080510K0BEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea5ef87e-b27a-5e18-a381-b14dcab28fca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW0805100KBEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R4_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW0805100KBEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ef17e15-a7fe-52da-86d8-02acd3fbbdd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>330R 5% 2W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">PR02000203300JA100</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R5_PIN_EXACT" description=""/>
+      <property name="MPN" value="PR02000203300JA100"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a88536c-71a6-5c1e-a955-9bd43ad88a12</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>110k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW0805110KBEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R6_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW0805110KBEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce03cab1-243f-5759-85f0-75dda8f417a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW080510K0BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R7_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW080510K0BEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9941d8e6-c012-5fb9-a06e-abb2da0b01eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>169k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW0805169KBEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R8_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW0805169KBEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3be759df-e7a3-5a64-88b3-34df65cc13c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW080510K0BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R9_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW080510K0BEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03e2b92a-134c-550d-8938-3bb0b9fb64f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k 0.1% 25ppm/K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">TNPW080510K0BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R10_PIN_EXACT" description=""/>
+      <property name="MPN" value="TNPW080510K0BEEA"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fb6ac70-198c-5d52-8d98-130796b8822e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>VM</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP1_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>082f6853-2a63-5f20-be36-643bf5ebd894</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>PI_3V3</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP2_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c48a01c3-c41a-53e0-81d2-d4850c370ffe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP3_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59cc8818-12bb-59db-90cf-0211ba0f9da8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U11">
+      <value>TPS3700</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">TPS3700DDCR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U11_PIN_EXACT" description=""/>
+      <property name="MPN" value="TPS3700DDCR"/>
+      <property name="Sheetname" value="ai_robot_interface"/>
+      <property name="Sheetfile" value="ai_robot_interface.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9bfb65a-4957-54eb-b76d-a26c4183bfa7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C101">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C101_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>c19f0d19-141f-5de3-a1ea-910f275eeed2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>Pi logic / IDC16</value>
+      <footprint>AI_Robot:IDC_Wurth_61201621621</footprint>
+      <fields>
+        <field name="MPN">61201621621</field>
+        <field name="Footprint">AI_Robot:IDC_Wurth_61201621621</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="J6_PIN_EXACT" description=""/>
+      <property name="MPN" value="61201621621"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>d004267c-1454-59aa-af74-eb3ec23c47ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R100">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R100_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>ab61113b-46b3-57c7-8738-dc2b86c63da5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R101_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>30e2489c-cf44-5028-a71f-5ccfd99325a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R102">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R102_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>306ddae5-3a5e-50d0-aa1a-02876dcdcbd1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R103_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>593b4fc0-0733-5b82-984c-171e69584b38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R104">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R104_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>ec49cb1c-ea38-55e3-8222-86213fcecc4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R105">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R105_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>4f7c167b-4f54-56ca-afa3-30854726bd74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R106">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R106_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>0664437b-9866-5adc-bc19-79164315cdd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R107">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R107_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>f4d941c9-1ba2-5c23-954a-b4970a094d49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R108">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R108_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>d5208d07-8924-5a3e-b127-fcce503ad70a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R109">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R109_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>8c64fd9f-9ec8-53ba-bc65-688698273483</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R110">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R110_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>e34cfd93-d95a-56ab-91c4-07a473a850f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R111">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R111_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>154cfe95-2df8-57f3-a576-0827fc223623</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R112">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R112_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>1245f3f0-9955-59ea-a4eb-46bf627d33fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R113">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R113_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>594451c3-18c7-5fd7-960a-4c9228d8212f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R114">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R114_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>2a006505-577d-555c-8cf4-9b6ffa7f5bb6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R115">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R115_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>7ace5a98-129c-530e-82e0-29417565169b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R116">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R116_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>03bb9845-7f55-5b1c-9bce-ac3f5d4e9f76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R117">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R117_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>9fad1c8d-378d-5bcc-a7a6-4b7b9fc988d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R118">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R118_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>95bd7f2e-f201-552e-aa93-41ffc2f4e421</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R119">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R119_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>affe22d1-5835-5875-a156-678a081b29cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R120">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R120_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>69a58756-b2a5-56f8-8398-e03d18c1a55b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R121">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R121_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>92956429-203c-5a8a-be5e-0e812c3e78b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R122">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R122_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>2cd39d7c-b04c-5fc8-894b-d8746b14fd38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R123">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R123_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>5ccdaaa9-8c0e-57ec-9779-18eec677967d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC07APWR</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC07APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U3_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC07APWR"/>
+      <property name="Sheetname" value="Interface"/>
+      <property name="Sheetfile" value="interface.kicad_sch"/>
+      <sheetpath names="/Interface/" tstamps="/463669ec-998f-533b-88ad-05c47b09077b/"/>
+      <tstamps>16b1ac22-1aaf-5c66-a1c4-c015658de738</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C100">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H102JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C100_PIN_EXACT" description=""/>
+      <property name="MPN" value="GRM1885C1H102JA01D"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>2dbdc399-fab9-5164-8296-f07755d8ee99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C102">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C102_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>f369d7ee-c1c6-5a8f-89c4-de6ec9e24a50</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C105">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C105_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>028bc83f-7f45-5c75-9975-ba4b5ba62008</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C106">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C106_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>883f5f7d-6ac9-5085-958a-64ff933d2c5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C107">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C107_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>573b8cae-7a32-577e-991a-74a66f4e6043</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C109">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C109_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>0417c2d4-80f6-57b5-9782-3f4db6d62fe9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R124">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R124_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>4cb253d8-7e2b-53fa-9a08-3e99b32155a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R125">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R125_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>44689fc0-70c3-5e26-86eb-a12011cfba25</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R126">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R126_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>501879f2-6826-560f-b40f-2eb2f673071c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R127">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R127_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>3fe2119e-ea59-503f-ae6e-863b12bd8c08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R128">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R128_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>e34496b6-2d63-5a9a-9eba-0197cb664341</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R129">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R129_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>61c0e380-ecd1-514c-a3cb-5b3319bf0e8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R130">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R130_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>736b570a-f7fa-54b3-a788-628523396b0e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R131">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R131_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>68798688-4eba-52dd-9bd0-5fe3697dd9fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R132">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R132_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>8e680ca4-b6bd-5685-b42d-12e785869b07</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R133">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R133_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>e15aa736-29f8-5c4b-8f7c-115f768b935b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R134">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R134_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>79b46a70-9110-5e70-adc6-61c3b4118876</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R138">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R138_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>62af4d76-32a5-53c4-9415-d6cc963aa5d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>JS102011SAQN</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN</footprint>
+      <fields>
+        <field name="MPN">JS102011SAQN</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="SW1_PIN_EXACT" description=""/>
+      <property name="MPN" value="JS102011SAQN"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>90597fdc-1362-593f-a25e-eb6ebb067fb6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>LOGIC_GOOD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP4_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>548305ea-42c7-53f7-a191-211e20f4d5ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>VM_OK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP5_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>18d3a857-acc6-5295-aed4-b0db87a2ec7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>WD_RAW</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP6_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>0cea1480-2595-57f1-a4c0-968683c5897c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP7">
+      <value>HB</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP7_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>2b3258d0-74f4-557d-afbd-4320085b4746</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>TPS3431SDRBR</value>
+      <footprint>AI_Robot:TPS3431_DRB8_3x3_P0.65</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3431.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS3431SDRBR</field>
+        <field name="Footprint">AI_Robot:TPS3431_DRB8_3x3_P0.65</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3431.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U4_PIN_EXACT" description=""/>
+      <property name="MPN" value="TPS3431SDRBR"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>2624a1c8-f6f7-51fd-a44a-78bf230b2a64</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>TPS3839G33DBZR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="MPN">TPS3839G33DBZR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U7_PIN_EXACT" description=""/>
+      <property name="MPN" value="TPS3839G33DBZR"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>0e8eff6d-1037-5e7e-96be-6fd8ff625e18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>SN74LVC2G17DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">SN74LVC2G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U8_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC2G17DBVR"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>5878c26c-98ce-5300-a38d-cc07d4360054</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>SN74LVC2G17DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">SN74LVC2G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U9_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC2G17DBVR"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>9891e7cc-7e59-5c19-a6e0-fe96f2d35ef7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U12">
+      <value>SN74LVC2G17DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">SN74LVC2G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U12_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC2G17DBVR"/>
+      <property name="Sheetname" value="Safety"/>
+      <property name="Sheetfile" value="supervision.kicad_sch"/>
+      <sheetpath names="/Safety/" tstamps="/7ffd985f-4eb7-5b28-9a8b-ff10659c1176/"/>
+      <tstamps>58f8fabe-97f6-5886-aa67-8f31ff28d56c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C103">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C103_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>27e472c3-aabb-5396-8938-96dbe2ee26c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C104">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C104_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>a90f1c16-f08e-504d-84d4-ac79ea96a2b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C108">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C108_PIN_EXACT" description=""/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>d5cbae10-56a7-59ed-9de9-daf1cbe8c411</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R135">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R135_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>6e720be4-b909-501e-b589-20d30ca893b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R139">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R139_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>0c4b1190-940c-57f7-8ced-5baf7e2e07ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R140">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R140_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>363309fc-3c9f-5aec-bb5b-35420d71ee4d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R141">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R141_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>467c8312-96d6-58f0-8ec1-6f58e2508c9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP8">
+      <value>ARM_Q</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP8_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>8db77db1-5f54-5748-ac01-0e19320f4c62</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP9">
+      <value>ALL_OK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP9_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>23d78d6b-d05d-501f-b5d5-d8906b7fb33c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP10">
+      <value>STBY</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="TP10_PIN_EXACT" description=""/>
+      <property name="MPN" value="PCB_COPPER_FEATURE"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>24ee957e-dbff-5788-a2ae-0c2407afeb5a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC1G74DCUR</value>
+      <footprint>AI_Robot:TI_DCU0008A</footprint>
+      <fields>
+        <field name="MPN">SN74LVC1G74DCUR</field>
+        <field name="Footprint">AI_Robot:TI_DCU0008A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U5_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC1G74DCUR"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>ac227491-e7e7-55e2-8842-e8a6f505383c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LVC11APWR</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC11APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U6_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC11APWR"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>4a1f0d93-2abb-589f-97a4-06c1cdefc2a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U10">
+      <value>SN74LVC1G07DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">SN74LVC1G07DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U10_PIN_EXACT" description=""/>
+      <property name="MPN" value="SN74LVC1G07DBVR"/>
+      <property name="Sheetname" value="Latch"/>
+      <property name="Sheetfile" value="enable_latch.kicad_sch"/>
+      <sheetpath names="/Latch/" tstamps="/22f4c8d5-98f5-5713-b143-d7c2a84303a3/"/>
+      <tstamps>6d03735a-6901-51f2-8a6e-1bd2067e80af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>47uF25V20%</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1E470</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C3_PIN_EXACT" description=""/>
+      <property name="MPN" value="EEUFR1E470"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>b348a3d6-eccf-51d5-985e-861ab0520a60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C4_PIN_EXACT" description=""/>
+      <property name="MPN" value="C0805C104K5RACTU"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>22300c7b-1765-5326-813a-d3ccb5132d99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>47uF25V20%</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1E470</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C5_PIN_EXACT" description=""/>
+      <property name="MPN" value="EEUFR1E470"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>d0f7a199-3042-5ee0-a8e4-2c61f6b8e9a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C6_PIN_EXACT" description=""/>
+      <property name="MPN" value="C0805C104K5RACTU"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>cbf6579b-7514-5b6b-9c3d-a4090296e4fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>47uF25V20%</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1E470</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C7_PIN_EXACT" description=""/>
+      <property name="MPN" value="EEUFR1E470"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>0f85c5e2-0572-56b8-96af-77f5e316fb30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C8_PIN_EXACT" description=""/>
+      <property name="MPN" value="C0805C104K5RACTU"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>46cfe28d-4f06-5071-be35-d4c39affce6a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>47uF25V20%</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="MPN">EEUFR1E470</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C9_PIN_EXACT" description=""/>
+      <property name="MPN" value="EEUFR1E470"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>76fe156c-1cb6-55bf-a79a-830f1c5be0ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF 50V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="C10_PIN_EXACT" description=""/>
+      <property name="MPN" value="C0805C104K5RACTU"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>7b69bcdf-1d3e-5218-9be8-c1742e885234</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Phoenix MSTBA2.5/2-G5.08</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1757242</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="J2_PIN_EXACT" description=""/>
+      <property name="MPN" value="1757242"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>d01bcd90-8e46-528c-9ab9-ed4167dc5b3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Phoenix MSTBA2.5/2-G5.08</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1757242</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="J3_PIN_EXACT" description=""/>
+      <property name="MPN" value="1757242"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>25ed47a8-af15-540c-a844-88b367adbf40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Phoenix MSTBA2.5/2-G5.08</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1757242</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="J4_PIN_EXACT" description=""/>
+      <property name="MPN" value="1757242"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>718044f1-eca0-5f79-aca6-23a989101cab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>Phoenix MSTBA2.5/2-G5.08</value>
+      <footprint>Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1757242</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="J5_PIN_EXACT" description=""/>
+      <property name="MPN" value="1757242"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>3c09dbcf-8aec-5fee-a554-9cf332d409be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R136">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R136_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>c5e20790-5909-5be3-b998-cf582afc9688</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R137">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="R137_PIN_EXACT" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>747b11c4-4286-5488-8457-4397b69ad689</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TB6612FNG</value>
+      <footprint>AI_Robot:TB6612FNG_SSOP24_5.6x7.8_P0.65</footprint>
+      <fields>
+        <field name="MPN">TB6612FNG(O,C,8,EL</field>
+        <field name="Footprint">AI_Robot:TB6612FNG_SSOP24_5.6x7.8_P0.65</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U1_PIN_EXACT" description=""/>
+      <property name="MPN" value="TB6612FNG(O,C,8,EL"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>b15364a6-9d1f-5aae-99b8-4ae95a25aee0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TB6612FNG</value>
+      <footprint>AI_Robot:TB6612FNG_SSOP24_5.6x7.8_P0.65</footprint>
+      <fields>
+        <field name="MPN">TB6612FNG(O,C,8,EL</field>
+        <field name="Footprint">AI_Robot:TB6612FNG_SSOP24_5.6x7.8_P0.65</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="AI_Robot" part="U2_PIN_EXACT" description=""/>
+      <property name="MPN" value="TB6612FNG(O,C,8,EL"/>
+      <property name="Sheetname" value="Drivers"/>
+      <property name="Sheetfile" value="motor_drivers.kicad_sch"/>
+      <sheetpath names="/Drivers/" tstamps="/a700bf1d-24cd-5e42-87fb-6366c17f5307/"/>
+      <tstamps>ae36fa07-0300-5c70-b3a1-439daf48270b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AI_Robot" part="C100_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">GRM1885C1H102JA01D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C101_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C102_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C103_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C104_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C105_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C106_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C107_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C108_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C109_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C10_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V X7R</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">C0805C104K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C11_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V X7R</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">C0805C104K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C1_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1000uF25V20%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">EEUFR1E102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C2_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1000uF25V20%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">EEUFR1E102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C3_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF25V20%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">EEUFR1E470</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C4_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V X7R</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">C0805C104K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C5_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF25V20%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">EEUFR1E470</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C6_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V X7R</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">C0805C104K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C7_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF25V20%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">EEUFR1E470</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C8_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF 50V X7R</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">C0805C104K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="C9_PIN_EXACT">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF25V20%</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">EEUFR1E470</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="D1_PIN_EXACT">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">40V 5A</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SSC54-E3/57T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="D2_PIN_EXACT">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">7V unidirectional</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SMBJ7.0A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="F1_PIN_EXACT">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">2A 125V</field>
+        <field name="Footprint">AI_Robot:Fuse_Littelfuse_451</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">0451002.MRL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="J1_PIN_EXACT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Phoenix MSTBA2.5/2-G5.08</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">1757242</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="J2_PIN_EXACT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Phoenix MSTBA2.5/2-G5.08</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">1757242</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="J3_PIN_EXACT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Phoenix MSTBA2.5/2-G5.08</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">1757242</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="J4_PIN_EXACT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Phoenix MSTBA2.5/2-G5.08</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">1757242</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="J5_PIN_EXACT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Phoenix MSTBA2.5/2-G5.08</field>
+        <field name="Footprint">Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">1757242</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="J6_PIN_EXACT">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Pi logic / IDC16</field>
+        <field name="Footprint">AI_Robot:IDC_Wurth_61201621621</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">61201621621</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="Q1_PIN_EXACT">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">-30V P-MOS</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">AO3401A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="Q2_PIN_EXACT">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">40V NPN</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">MMBT3904LT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R100_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R101_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R102_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R103_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R104_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R105_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R106_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R107_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R108_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R109_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R10_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW080510K0BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R110_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R111_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R112_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R113_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R114_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R115_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R116_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R117_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R118_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R119_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R120_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R121_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R122_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R123_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R124_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R125_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R126_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R127_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R128_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07330RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R129_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R130_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R131_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R132_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R133_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R134_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R135_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R136_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R137_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R138_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R139_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R140_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R141_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">RC0603FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R1_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">22k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW080522K0BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R2_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW08054K70BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R3_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW080510K0BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R4_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW0805100KBEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R5_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330R 5% 2W</field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PR02000203300JA100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R6_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">110k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW0805110KBEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R7_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW080510K0BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R8_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">169k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW0805169KBEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="R9_PIN_EXACT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k 0.1% 25ppm/K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TNPW080510K0BEEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="SW1_PIN_EXACT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">JS102011SAQN</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">JS102011SAQN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ENABLE" type="passive"/>
+        <pin num="2" name="COMMON" type="passive"/>
+        <pin num="3" name="INHIBIT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP10_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">STBY</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP1_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">VM</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP2_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">PI_3V3</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP3_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP4_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">LOGIC_GOOD</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP5_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">VM_OK</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP6_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">WD_RAW</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP7_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">HB</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP8_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">ARM_Q</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="TP9_PIN_EXACT">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">ALL_OK</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">PCB_COPPER_FEATURE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U10_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G07DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC1G07DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="open_collector"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U11_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3700</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TPS3700DDCR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="INA+" type="input"/>
+        <pin num="4" name="INB-" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="OUTB" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U12_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC2G17DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U1_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TB6612FNG</field>
+        <field name="Footprint">AI_Robot:TB6612FNG_SSOP24_5.6x7.8_P0.65</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TB6612FNG(O,C,8,EL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AO1" type="output"/>
+        <pin num="2" name="AO1" type="passive"/>
+        <pin num="3" name="PGND1" type="power_in"/>
+        <pin num="4" name="PGND1" type="power_in"/>
+        <pin num="5" name="AO2" type="output"/>
+        <pin num="6" name="AO2" type="passive"/>
+        <pin num="7" name="BO2" type="output"/>
+        <pin num="8" name="BO2" type="passive"/>
+        <pin num="9" name="PGND2" type="power_in"/>
+        <pin num="10" name="PGND2" type="power_in"/>
+        <pin num="11" name="BO1" type="output"/>
+        <pin num="12" name="BO1" type="passive"/>
+        <pin num="13" name="VM2" type="power_in"/>
+        <pin num="14" name="VM3" type="power_in"/>
+        <pin num="15" name="PWMB" type="input"/>
+        <pin num="16" name="BIN2" type="input"/>
+        <pin num="17" name="BIN1" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="STBY" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="AIN1" type="input"/>
+        <pin num="22" name="AIN2" type="input"/>
+        <pin num="23" name="PWMA" type="input"/>
+        <pin num="24" name="VM1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U2_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TB6612FNG</field>
+        <field name="Footprint">AI_Robot:TB6612FNG_SSOP24_5.6x7.8_P0.65</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TB6612FNG(O,C,8,EL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AO1" type="output"/>
+        <pin num="2" name="AO1" type="passive"/>
+        <pin num="3" name="PGND1" type="power_in"/>
+        <pin num="4" name="PGND1" type="power_in"/>
+        <pin num="5" name="AO2" type="output"/>
+        <pin num="6" name="AO2" type="passive"/>
+        <pin num="7" name="BO2" type="output"/>
+        <pin num="8" name="BO2" type="passive"/>
+        <pin num="9" name="PGND2" type="power_in"/>
+        <pin num="10" name="PGND2" type="power_in"/>
+        <pin num="11" name="BO1" type="output"/>
+        <pin num="12" name="BO1" type="passive"/>
+        <pin num="13" name="VM2" type="power_in"/>
+        <pin num="14" name="VM3" type="power_in"/>
+        <pin num="15" name="PWMB" type="input"/>
+        <pin num="16" name="BIN2" type="input"/>
+        <pin num="17" name="BIN1" type="input"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="STBY" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+        <pin num="21" name="AIN1" type="input"/>
+        <pin num="22" name="AIN2" type="input"/>
+        <pin num="23" name="PWMA" type="input"/>
+        <pin num="24" name="VM1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U3_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC07APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC07APWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1Y" type="open_collector"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="open_collector"/>
+        <pin num="5" name="3A" type="input"/>
+        <pin num="6" name="3Y" type="open_collector"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="4Y" type="open_collector"/>
+        <pin num="9" name="4A" type="input"/>
+        <pin num="10" name="5Y" type="open_collector"/>
+        <pin num="11" name="5A" type="input"/>
+        <pin num="12" name="6Y" type="open_collector"/>
+        <pin num="13" name="6A" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U4_PIN_EXACT">
+      <docs>https://www.ti.com/lit/ds/symlink/tps3431.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3431SDRBR</field>
+        <field name="Footprint">AI_Robot:TPS3431_DRB8_3x3_P0.65</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3431.pdf</field>
+        <field name="Description"/>
+        <field name="MPN">TPS3431SDRBR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CWD" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SET1" type="input"/>
+        <pin num="6" name="WDI" type="input"/>
+        <pin num="7" name="WDO_n" type="open_collector"/>
+        <pin num="8" name="ENOUT" type="open_collector"/>
+        <pin num="9" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U5_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G74DCUR</field>
+        <field name="Footprint">AI_Robot:TI_DCU0008A</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC1G74DCUR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="Q_n" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="CLR_n" type="input"/>
+        <pin num="7" name="PRE_n" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U6_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC11APWR</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC11APWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1B" type="input"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2B" type="input"/>
+        <pin num="5" name="2C" type="input"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3Y" type="output"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3B" type="input"/>
+        <pin num="11" name="3C" type="input"/>
+        <pin num="12" name="1Y" type="output"/>
+        <pin num="13" name="1C" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U7_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3839G33DBZR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">TPS3839G33DBZR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="RESET_n" type="output"/>
+        <pin num="3" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U8_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC2G17DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="AI_Robot" part="U9_PIN_EXACT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2G17DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MPN">SN74LVC2G17DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AI_Robot">
+      <uri>${KIPRJMOD}/libraries/AI_Robot.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AIN1" class="Default">
+      <node ref="R106" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R107" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="AIN1_21" pintype="input"/>
+      <node ref="U2" pin="21" pinfunction="AIN1_21" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="2Y_4" pintype="open_collector"/>
+    </net>
+    <net code="2" name="AIN1_RAW" class="Default">
+      <node ref="R104" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R105" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="3" name="AIN2" class="Default">
+      <node ref="R110" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R111" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="AIN2_22" pintype="input"/>
+      <node ref="U2" pin="22" pinfunction="AIN2_22" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="3Y_6" pintype="open_collector"/>
+    </net>
+    <net code="4" name="AIN2_RAW" class="Default">
+      <node ref="R108" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R109" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="3A_5" pintype="input"/>
+    </net>
+    <net code="5" name="ALL_OK" class="Default">
+      <node ref="R140" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="CLR_n_6" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="3B_10" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="2Y_6" pintype="output"/>
+    </net>
+    <net code="6" name="ARM_PULSE" class="Default">
+      <node ref="U12" pin="4" pinfunction="2Y_4" pintype="output"/>
+      <node ref="U5" pin="1" pinfunction="CLK_1" pintype="input"/>
+    </net>
+    <net code="7" name="ARM_Q" class="Default">
+      <node ref="R139" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="Q_5" pintype="output"/>
+      <node ref="U6" pin="9" pinfunction="3A_9" pintype="input"/>
+    </net>
+    <net code="8" name="ARM_RAW" class="Default">
+      <node ref="R126" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R127" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="9" name="BIN1" class="Default">
+      <node ref="R118" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R119" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="BIN1_17" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="BIN1_17" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="5Y_10" pintype="open_collector"/>
+    </net>
+    <net code="10" name="BIN1_RAW" class="Default">
+      <node ref="R116" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R117" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="5A_11" pintype="input"/>
+    </net>
+    <net code="11" name="BIN2" class="Default">
+      <node ref="R122" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R123" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="BIN2_16" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="BIN2_16" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="6Y_12" pintype="open_collector"/>
+    </net>
+    <net code="12" name="BIN2_RAW" class="Default">
+      <node ref="R120" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R121" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="6A_13" pintype="input"/>
+    </net>
+    <net code="13" name="BL_OUT1" class="Motor">
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="AO1_1" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="AO1_2" pintype="passive"/>
+    </net>
+    <net code="14" name="BL_OUT2" class="Motor">
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="AO2_5" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="AO2_6" pintype="passive"/>
+    </net>
+    <net code="15" name="BR_OUT1" class="Motor">
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="BO1_11" pintype="output"/>
+      <node ref="U2" pin="12" pinfunction="BO1_12" pintype="passive"/>
+    </net>
+    <net code="16" name="BR_OUT2" class="Motor">
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="BO2_7" pintype="output"/>
+      <node ref="U2" pin="8" pinfunction="BO2_8" pintype="passive"/>
+    </net>
+    <net code="17" name="FL_OUT1" class="Motor">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="AO1_1" pintype="output"/>
+      <node ref="U1" pin="2" pinfunction="AO1_2" pintype="passive"/>
+    </net>
+    <net code="18" name="FL_OUT2" class="Motor">
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="AO2_5" pintype="output"/>
+      <node ref="U1" pin="6" pinfunction="AO2_6" pintype="passive"/>
+    </net>
+    <net code="19" name="FR_OUT1" class="Motor">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="BO1_11" pintype="output"/>
+      <node ref="U1" pin="12" pinfunction="BO1_12" pintype="passive"/>
+    </net>
+    <net code="20" name="FR_OUT2" class="Motor">
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="BO2_7" pintype="output"/>
+      <node ref="U1" pin="8" pinfunction="BO2_8" pintype="passive"/>
+    </net>
+    <net code="21" name="FUSED_IN" class="Power">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="22" name="GND" class="Ground">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C100" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C101" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C102" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C103" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C104" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C105" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C106" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C107" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C108" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C109" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="J6" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="J6" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="R101" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R103" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R105" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R107" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R109" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R111" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R113" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R115" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R117" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R119" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R121" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R123" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R125" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R127" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R129" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R132" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R134" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R136" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R137" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R138" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R139" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R140" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R141" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="INHIBIT_3" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PGND2_10" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="GND_18" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="PGND1_3" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="PGND1_4" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="PGND2_9" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="PGND2_10" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="GND_18" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="PGND1_3" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="PGND1_4" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="PGND2_9" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="EP_9" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="23" name="GPIO5" class="Default">
+      <node ref="J6" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R116" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="24" name="GPIO6" class="Default">
+      <node ref="J6" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="R120" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="GPIO13" class="Default">
+      <node ref="J6" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="R112" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="26" name="GPIO17" class="Default">
+      <node ref="J6" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="R126" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="27" name="GPIO18" class="Default">
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R100" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="28" name="GPIO23" class="Default">
+      <node ref="J6" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R104" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="29" name="GPIO24" class="Default">
+      <node ref="J6" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R108" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="30" name="GPIO25" class="Default">
+      <node ref="J6" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="R124" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="31" name="GPIO27" class="Default">
+      <node ref="J6" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="R128" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="32" name="HB" class="Default">
+      <node ref="R132" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="WDI_6" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="2Y_4" pintype="output"/>
+    </net>
+    <net code="33" name="HB_RAW" class="Default">
+      <node ref="R128" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R129" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="34" name="LOGIC_GOOD" class="Default">
+      <node ref="R138" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="1A_1" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="RESET_n_2" pintype="output"/>
+    </net>
+    <net code="35" name="MOTOR_IN" class="Power">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="36" name="PHYS_OK" class="Default">
+      <node ref="U6" pin="2" pinfunction="1B_2" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="1Y_6" pintype="output"/>
+    </net>
+    <net code="37" name="PHYS_RAW" class="Default">
+      <node ref="C100" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R134" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="COMMON_2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="1A_1" pintype="input"/>
+    </net>
+    <net code="38" name="PHYS_SUPPLY" class="Default">
+      <node ref="R133" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="ENABLE_1" pintype="passive"/>
+    </net>
+    <net code="39" name="PI_3V3" class="LogicPower">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C101" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C102" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C103" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C104" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C105" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C106" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C107" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C108" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C109" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R102" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R106" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R110" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R114" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R118" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R122" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R130" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R131" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R133" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R135" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+      <node ref="U10" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="VDD_5" pintype="power_in"/>
+      <node ref="U12" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U2" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="SET1_5" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="D_2" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="PRE_n_7" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="3C_11" pintype="input"/>
+      <node ref="U6" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="VDD_3" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="40" name="PWM_A" class="Default">
+      <node ref="R102" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R103" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PWMA_23" pintype="input"/>
+      <node ref="U2" pin="23" pinfunction="PWMA_23" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="1Y_2" pintype="open_collector"/>
+    </net>
+    <net code="41" name="PWM_A_RAW" class="Default">
+      <node ref="R100" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R101" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="1A_1" pintype="input"/>
+    </net>
+    <net code="42" name="PWM_B" class="Default">
+      <node ref="R114" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R115" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PWMB_15" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="PWMB_15" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="4Y_8" pintype="open_collector"/>
+    </net>
+    <net code="43" name="PWM_B_RAW" class="Default">
+      <node ref="R112" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R113" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="4A_9" pintype="input"/>
+    </net>
+    <net code="44" name="RAILS_OK" class="Default">
+      <node ref="U6" pin="12" pinfunction="1Y_12" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="45" name="REV_PROTECTED" class="Power">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="46" name="RUN_RAW" class="Default">
+      <node ref="R124" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R125" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="1A_1" pintype="input"/>
+    </net>
+    <net code="47" name="RUN_REQ" class="Default">
+      <node ref="U12" pin="6" pinfunction="1Y_6" pintype="output"/>
+      <node ref="U6" pin="5" pinfunction="2C_5" pintype="input"/>
+    </net>
+    <net code="48" name="STBY" class="Default">
+      <node ref="R135" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R136" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R137" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="STBY_19" pintype="input"/>
+      <node ref="U10" pin="4" pinfunction="Y_4" pintype="open_collector"/>
+      <node ref="U2" pin="19" pinfunction="STBY_19" pintype="input"/>
+    </net>
+    <net code="49" name="STBY_EN" class="Default">
+      <node ref="R141" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="A_2" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="3Y_8" pintype="output"/>
+    </net>
+    <net code="50" name="VM" class="Power">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VM2_13" pintype="power_in"/>
+      <node ref="U1" pin="14" pinfunction="VM3_14" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="VM1_24" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="VM2_13" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="VM3_14" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="VM1_24" pintype="power_in"/>
+    </net>
+    <net code="51" name="VM_EN_BASE" class="Default">
+      <node ref="Q2" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="52" name="VM_EN_COL" class="Default">
+      <node ref="Q2" pin="3" pinfunction="C_3" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="53" name="VM_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="54" name="VM_OK" class="Default">
+      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="1C_13" pintype="input"/>
+      <node ref="U9" pin="6" pinfunction="1Y_6" pintype="output"/>
+    </net>
+    <net code="55" name="VM_OK_RAW" class="Default">
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="OUTA_1" pintype="open_collector"/>
+      <node ref="U11" pin="6" pinfunction="OUTB_6" pintype="open_collector"/>
+      <node ref="U9" pin="1" pinfunction="1A_1" pintype="input"/>
+    </net>
+    <net code="56" name="VM_OV_SENSE" class="Default">
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="INB-_4" pintype="input"/>
+    </net>
+    <net code="57" name="VM_UV_SENSE" class="Default">
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="INA+_3" pintype="input"/>
+    </net>
+    <net code="58" name="WD_OK" class="Default">
+      <node ref="U6" pin="4" pinfunction="2B_4" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="2Y_4" pintype="output"/>
+    </net>
+    <net code="59" name="WD_RAW" class="Default">
+      <node ref="R131" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="WDO_n_7" pintype="open_collector"/>
+      <node ref="U4" pin="8" pinfunction="ENOUT_8" pintype="open_collector"/>
+      <node ref="U8" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="60" name="WD_SELECT" class="Default">
+      <node ref="R130" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="CWD_2" pintype="input"/>
+    </net>
+    <net code="61" name="unconnected-(U5-Q_n-Pad3)" class="Default">
+      <node ref="U5" pin="3" pinfunction="Q_n_3" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U10-NC-Pad1)" class="Default">
+      <node ref="U10" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

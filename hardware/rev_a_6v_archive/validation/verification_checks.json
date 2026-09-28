@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-09-28T04:11:50.187519+00:00",
+  "markdown_files_checked": 22,
+  "missing_local_links": [],
+  "physical_records_count": 17,
+  "physical_records_blank_and_not_tested": true,
+  "kicad_cli_lookup": {
+    "command": "command -v kicad-cli",
+    "exit_status": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "git_diff_check": {
+    "exit_status": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "software_input_count": 14,
+  "junit_summary": [
+    {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "132",
+      "time": "0.257",
+      "timestamp": "2026-09-28T00:11:10.223615-04:00",
+      "hostname": "Qizhengs-Air-3"
+    }
+  ]
+}

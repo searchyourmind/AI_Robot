@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scope": "Template integrity only; no physical test executed",
+  "planned_cases": 22,
+  "result_columns_all_blank": true
+}

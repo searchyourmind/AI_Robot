@@ -1,0 +1,4274 @@
+{
+  "project": "ai_robot_interface",
+  "root_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+  "status": "12 V CLASS REFERENCE REDESIGN; PROVISIONAL 9\u201315 V SOURCE; NOT VERIFIED FOR EXISTING ROBOT; DRAFT NOT RELEASED",
+  "parts": [
+    {
+      "ref": "R5",
+      "type": "resistor",
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "680R 5% 2W",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "PR02 maxbody10x3.9mm,totalmeniscus12mm,Cu lead0.78\u00b10.05mm; largerlibrarybodyclearance intentional;1.2mm drill accommodateslead.",
+      "mpn": "PR02000206800JA100",
+      "role": "PR02 maxbody10x3.9mm,totalmeniscus12mm,Cu lead0.78\u00b10.05mm; largerlibrarybodyclearance intentional;1.2mm drill accommodateslead.",
+      "group": "power",
+      "uuid": "2a88536c-71a6-5c1e-a955-9bd43ad88a12"
+    },
+    {
+      "ref": "C11",
+      "type": "capacitor",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "PI_3V3",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "100nF 50V X7R",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "",
+      "mpn": "C0805C104K5RACTU",
+      "role": "",
+      "group": "rail_monitor",
+      "uuid": "27844cdb-d0e1-5cf8-8f5a-7e7ee08e62fe"
+    },
+    {
+      "ref": "U11",
+      "type": "voltage_window_monitor",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "pins": [
+        {
+          "number": "1",
+          "net": "FAULT_OK_RAW",
+          "name": "OUTA",
+          "type": "open_collector"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "3",
+          "net": "VM_UV_SENSE",
+          "name": "INA+",
+          "type": "input"
+        },
+        {
+          "number": "4",
+          "net": "VM_OV_SENSE",
+          "name": "INB-",
+          "type": "input"
+        },
+        {
+          "number": "5",
+          "net": "PI_3V3",
+          "name": "VDD",
+          "type": "power_in"
+        },
+        {
+          "number": "6",
+          "net": "FAULT_OK_RAW",
+          "name": "OUTB",
+          "type": "open_collector"
+        }
+      ],
+      "value": "TPS3700",
+      "pin_meta": {
+        "1": {
+          "name": "OUTA",
+          "type": "open_collector"
+        },
+        "2": {
+          "name": "GND",
+          "type": "power_in"
+        },
+        "3": {
+          "name": "INA+",
+          "type": "input"
+        },
+        "4": {
+          "name": "INB-",
+          "type": "input"
+        },
+        "5": {
+          "name": "VDD",
+          "type": "power_in"
+        },
+        "6": {
+          "name": "OUTB",
+          "type": "open_collector"
+        }
+      },
+      "notes": "DDC pinmap,notDSE.100nFC11atpin5/2.",
+      "mpn": "TPS3700DDCR",
+      "role": "DDC pinmap,notDSE.100nFC11atpin5/2.",
+      "group": "rail_monitor",
+      "uuid": "e9bfb65a-4957-54eb-b76d-a26c4183bfa7"
+    },
+    {
+      "ref": "R6",
+      "value": "200k 0.1% 25ppm/K",
+      "mpn": "TNPW0805200KBEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "rail_monitor",
+      "uuid": "2df497da-a967-555a-a6b3-be3dc76eca9f",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "VM_UV_SENSE",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "type": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM_UV_SENSE",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "10k 0.1% 25ppm/K",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "",
+      "mpn": "TNPW080510K0BEEA",
+      "role": "",
+      "group": "rail_monitor",
+      "uuid": "9941d8e6-c012-5fb9-a06e-abb2da0b01eb"
+    },
+    {
+      "ref": "R8",
+      "value": "442k 0.1% 25ppm/K",
+      "mpn": "TNPW0805442KBEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "rail_monitor",
+      "uuid": "6cb8003d-4165-5a30-ad05-25d71c57adb3",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "VM_OV_SENSE",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "type": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM_OV_SENSE",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "10k 0.1% 25ppm/K",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "",
+      "mpn": "TNPW080510K0BEEA",
+      "role": "",
+      "group": "rail_monitor",
+      "uuid": "03e2b92a-134c-550d-8938-3bb0b9fb64f9"
+    },
+    {
+      "ref": "R10",
+      "type": "resistor",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "PI_3V3",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "FAULT_OK_RAW",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "10k 0.1% 25ppm/K",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "",
+      "mpn": "TNPW080510K0BEEA",
+      "role": "",
+      "group": "rail_monitor",
+      "uuid": "4fb6ac70-198c-5d52-8d98-130796b8822e"
+    },
+    {
+      "ref": "J1",
+      "type": "connector",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "pins": [
+        {
+          "number": "1",
+          "net": "MOTOR_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "Phoenix MSTBA2.5/2-G5.08",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "motorinput;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "mpn": "1757242",
+      "role": "motorinput;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "group": "power",
+      "uuid": "7013fe1d-abdc-5397-8f8a-89c0f96f71dc"
+    },
+    {
+      "ref": "J2",
+      "type": "connector",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "pins": [
+        {
+          "number": "1",
+          "net": "FL_OUT1",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "FL_OUT2",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "Phoenix MSTBA2.5/2-G5.08",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "frontleft;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "mpn": "1757242",
+      "role": "frontleft;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "group": "drivers_front",
+      "uuid": "d01bcd90-8e46-528c-9ab9-ed4167dc5b3b"
+    },
+    {
+      "ref": "J3",
+      "type": "connector",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "pins": [
+        {
+          "number": "1",
+          "net": "FR_OUT1",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "FR_OUT2",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "Phoenix MSTBA2.5/2-G5.08",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "frontright;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "mpn": "1757242",
+      "role": "frontright;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "group": "drivers_front",
+      "uuid": "25ed47a8-af15-540c-a844-88b367adbf40"
+    },
+    {
+      "ref": "J4",
+      "type": "connector",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "pins": [
+        {
+          "number": "1",
+          "net": "BL_OUT1",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "BL_OUT2",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "Phoenix MSTBA2.5/2-G5.08",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "backleft;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "mpn": "1757242",
+      "role": "backleft;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "group": "drivers_rear",
+      "uuid": "718044f1-eca0-5f79-aca6-23a989101cab"
+    },
+    {
+      "ref": "J5",
+      "type": "connector",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "pins": [
+        {
+          "number": "1",
+          "net": "BR_OUT1",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "BR_OUT2",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "value": "Phoenix MSTBA2.5/2-G5.08",
+      "pin_meta": {
+        "1": {
+          "name": "1",
+          "type": "passive"
+        },
+        "2": {
+          "name": "2",
+          "type": "passive"
+        }
+      },
+      "notes": "backright;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "mpn": "1757242",
+      "role": "backright;matingcableplug1757019offboard;12A;1.4mmdrill;nohotplug.",
+      "group": "drivers_rear",
+      "uuid": "3c09dbcf-8aec-5fee-a554-9cf332d409be"
+    },
+    {
+      "ref": "U3",
+      "value": "SN74LVC08A",
+      "mpn": "SN74LVC08APWR",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "interface",
+      "uuid": "64797df6-9ae2-524f-a89b-21f89a181f8b",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "net": "LEFT_PRE1",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "1B",
+          "net": "DRIVE_ENABLE_CMD",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "1Y",
+          "net": "LEFT_IN1",
+          "type": "output"
+        },
+        {
+          "number": "4",
+          "name": "2A",
+          "net": "LEFT_PRE2",
+          "type": "input"
+        },
+        {
+          "number": "5",
+          "name": "2B",
+          "net": "DRIVE_ENABLE_CMD",
+          "type": "input"
+        },
+        {
+          "number": "6",
+          "name": "2Y",
+          "net": "LEFT_IN2",
+          "type": "output"
+        },
+        {
+          "number": "7",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "8",
+          "name": "3Y",
+          "net": "RIGHT_IN1",
+          "type": "output"
+        },
+        {
+          "number": "9",
+          "name": "3A",
+          "net": "RIGHT_PRE1",
+          "type": "input"
+        },
+        {
+          "number": "10",
+          "name": "3B",
+          "net": "DRIVE_ENABLE_CMD",
+          "type": "input"
+        },
+        {
+          "number": "11",
+          "name": "4Y",
+          "net": "RIGHT_IN2",
+          "type": "output"
+        },
+        {
+          "number": "12",
+          "name": "4A",
+          "net": "RIGHT_PRE2",
+          "type": "input"
+        },
+        {
+          "number": "13",
+          "name": "4B",
+          "net": "DRIVE_ENABLE_CMD",
+          "type": "input"
+        },
+        {
+          "number": "14",
+          "name": "VCC",
+          "net": "PI_3V3",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf"
+    },
+    {
+      "ref": "U4",
+      "role": "Independent 170-230ms missing-falling-edge watchdog",
+      "value": "TPS3431SDRBR",
+      "mpn": "TPS3431SDRBR",
+      "footprint": "AI_Robot:TPS3431_DRB8_3x3_P0.65",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "VDD",
+          "type": "power_in",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "CWD",
+          "type": "input",
+          "net": "WD_SELECT"
+        },
+        {
+          "number": "3",
+          "name": "EN",
+          "type": "input",
+          "net": "LOGIC_GOOD"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "SET1",
+          "type": "input",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "6",
+          "name": "WDI",
+          "type": "input",
+          "net": "HB"
+        },
+        {
+          "number": "7",
+          "name": "WDO_n",
+          "type": "open_collector",
+          "net": "WD_RAW"
+        },
+        {
+          "number": "8",
+          "name": "ENOUT",
+          "type": "open_collector",
+          "net": "WD_RAW"
+        },
+        {
+          "number": "9",
+          "name": "EP",
+          "type": "power_in",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "2624a1c8-f6f7-51fd-a44a-78bf230b2a64"
+    },
+    {
+      "ref": "U5",
+      "role": "Positive-edge arm latch with dominant asynchronous clear",
+      "value": "SN74LVC1G74DCUR",
+      "mpn": "SN74LVC1G74DCUR",
+      "footprint": "AI_Robot:TI_DCU0008A",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "CLK",
+          "type": "input",
+          "net": "ARM_PULSE"
+        },
+        {
+          "number": "2",
+          "name": "D",
+          "type": "input",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "3",
+          "name": "Q_n",
+          "type": "no_connect",
+          "net": null
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "Q",
+          "type": "output",
+          "net": "ARM_Q"
+        },
+        {
+          "number": "6",
+          "name": "CLR_n",
+          "type": "input",
+          "net": "ALL_OK"
+        },
+        {
+          "number": "7",
+          "name": "PRE_n",
+          "type": "input",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "8",
+          "name": "VCC",
+          "type": "power_in",
+          "net": "PI_3V3"
+        }
+      ],
+      "group": "safety",
+      "uuid": "ac227491-e7e7-55e2-8842-e8a6f505383c"
+    },
+    {
+      "ref": "U6",
+      "role": "Rail, physical-inhibit, watchdog, run-request qualification",
+      "value": "SN74LVC11APWR",
+      "mpn": "SN74LVC11APWR",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "datasheet": "https://www.ti.com/lit/gpn/sn74lvc11a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "type": "input",
+          "net": "LOGIC_GOOD"
+        },
+        {
+          "number": "2",
+          "name": "1B",
+          "type": "input",
+          "net": "PHYS_OK"
+        },
+        {
+          "number": "3",
+          "name": "2A",
+          "type": "input",
+          "net": "RAILS_OK"
+        },
+        {
+          "number": "4",
+          "name": "2B",
+          "type": "input",
+          "net": "WD_OK"
+        },
+        {
+          "number": "5",
+          "name": "2C",
+          "type": "input",
+          "net": "RUN_REQ"
+        },
+        {
+          "number": "6",
+          "name": "2Y",
+          "type": "output",
+          "net": "ALL_OK"
+        },
+        {
+          "number": "7",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "8",
+          "name": "3Y",
+          "type": "output",
+          "net": "DRIVE_ENABLE_CMD"
+        },
+        {
+          "number": "9",
+          "name": "3A",
+          "type": "input",
+          "net": "ARM_Q"
+        },
+        {
+          "number": "10",
+          "name": "3B",
+          "type": "input",
+          "net": "ALL_OK"
+        },
+        {
+          "number": "11",
+          "name": "3C",
+          "type": "input",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "12",
+          "name": "1Y",
+          "type": "output",
+          "net": "RAILS_OK"
+        },
+        {
+          "number": "13",
+          "name": "1C",
+          "type": "input",
+          "net": "FAULT_OK"
+        },
+        {
+          "number": "14",
+          "name": "VCC",
+          "type": "power_in",
+          "net": "PI_3V3"
+        }
+      ],
+      "group": "safety",
+      "uuid": "4a1f0d93-2abb-589f-97a4-06c1cdefc2a7"
+    },
+    {
+      "ref": "U7",
+      "role": "3.08V logic-rail supervisor, 120-350ms reset release",
+      "value": "TPS3839G33DBZR",
+      "mpn": "TPS3839G33DBZR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps3839.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "name": "RESET_n",
+          "type": "output",
+          "net": "LOGIC_GOOD"
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "net": "PI_3V3"
+        }
+      ],
+      "group": "safety",
+      "uuid": "0e8eff6d-1037-5e7e-96be-6fd8ff625e18"
+    },
+    {
+      "ref": "U8",
+      "role": "Schmitt conditioning for physical inhibit and watchdog",
+      "value": "SN74LVC2G17DBVR",
+      "mpn": "SN74LVC2G17DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "type": "input",
+          "net": "PHYS_RAW"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "2A",
+          "type": "input",
+          "net": "WD_RAW"
+        },
+        {
+          "number": "4",
+          "name": "2Y",
+          "type": "output",
+          "net": "WD_OK"
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "type": "power_in",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "6",
+          "name": "1Y",
+          "type": "output",
+          "net": "PHYS_OK"
+        }
+      ],
+      "group": "safety",
+      "uuid": "5878c26c-98ce-5300-a38d-cc07d4360054"
+    },
+    {
+      "ref": "U9",
+      "role": "Schmitt conditioning for VM monitor and isolated heartbeat",
+      "value": "SN74LVC2G17DBVR",
+      "mpn": "SN74LVC2G17DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "type": "input",
+          "net": "FAULT_OK_RAW"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "2A",
+          "type": "input",
+          "net": "HB_RAW"
+        },
+        {
+          "number": "4",
+          "name": "2Y",
+          "type": "output",
+          "net": "HB"
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "type": "power_in",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "6",
+          "name": "1Y",
+          "type": "output",
+          "net": "FAULT_OK"
+        }
+      ],
+      "group": "safety",
+      "uuid": "9891e7cc-7e59-5c19-a6e0-fe96f2d35ef7"
+    },
+    {
+      "ref": "SW1",
+      "role": "Physical MOTOR INHIBIT, not power interruption",
+      "value": "JS102011SAQN",
+      "mpn": "JS102011SAQN",
+      "footprint": "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN",
+      "datasheet": "https://www.ckswitches.com/media/1422/js.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "ENABLE",
+          "type": "passive",
+          "net": "PHYS_SUPPLY"
+        },
+        {
+          "number": "2",
+          "name": "COMMON",
+          "type": "passive",
+          "net": "PHYS_RAW"
+        },
+        {
+          "number": "3",
+          "name": "INHIBIT",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "90597fdc-1362-593f-a25e-eb6ebb067fb6"
+    },
+    {
+      "ref": "R100",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO18"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "PWM_A_RAW"
+        }
+      ],
+      "group": "interface",
+      "uuid": "ab61113b-46b3-57c7-8738-dc2b86c63da5"
+    },
+    {
+      "ref": "R101",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PWM_A_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "interface",
+      "uuid": "30e2489c-cf44-5028-a71f-5ccfd99325a5"
+    },
+    {
+      "ref": "R104",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO23"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "AIN1_RAW"
+        }
+      ],
+      "group": "interface",
+      "uuid": "ec49cb1c-ea38-55e3-8222-86213fcecc4e"
+    },
+    {
+      "ref": "R105",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "AIN1_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "interface",
+      "uuid": "4f7c167b-4f54-56ca-afa3-30854726bd74"
+    },
+    {
+      "ref": "R112",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO13"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "PWM_B_RAW"
+        }
+      ],
+      "group": "interface",
+      "uuid": "1245f3f0-9955-59ea-a4eb-46bf627d33fd"
+    },
+    {
+      "ref": "R113",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PWM_B_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "interface",
+      "uuid": "594451c3-18c7-5fd7-960a-4c9228d8212f"
+    },
+    {
+      "ref": "R116",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO5"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "BIN1_RAW"
+        }
+      ],
+      "group": "interface",
+      "uuid": "03bb9845-7f55-5b1c-9bce-ac3f5d4e9f76"
+    },
+    {
+      "ref": "R117",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "BIN1_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "interface",
+      "uuid": "9fad1c8d-378d-5bcc-a7a6-4b7b9fc988d2"
+    },
+    {
+      "ref": "R124",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO25"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "RUN_RAW"
+        }
+      ],
+      "group": "safety",
+      "uuid": "4cb253d8-7e2b-53fa-9a08-3e99b32155a8"
+    },
+    {
+      "ref": "R125",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "RUN_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "44689fc0-70c3-5e26-86eb-a12011cfba25"
+    },
+    {
+      "ref": "R126",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO17"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "ARM_RAW"
+        }
+      ],
+      "group": "safety",
+      "uuid": "501879f2-6826-560f-b40f-2eb2f673071c"
+    },
+    {
+      "ref": "R127",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "ARM_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "3fe2119e-ea59-503f-ae6e-863b12bd8c08"
+    },
+    {
+      "ref": "R128",
+      "role": "Pi-side series resistor",
+      "value": "330",
+      "mpn": "RC0603FR-07330RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GPIO27"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "HB_RAW"
+        }
+      ],
+      "group": "safety",
+      "uuid": "e34496b6-2d63-5a9a-9eba-0197cb664341"
+    },
+    {
+      "ref": "R129",
+      "role": "Input disconnected default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "HB_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "61c0e380-ecd1-514c-a3cb-5b3319bf0e8e"
+    },
+    {
+      "ref": "R130",
+      "role": "Watchdog factory200ms select",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "WD_SELECT"
+        }
+      ],
+      "group": "safety",
+      "uuid": "736b570a-f7fa-54b3-a788-628523396b0e"
+    },
+    {
+      "ref": "R131",
+      "role": "Wired open-drain watchdog pullup",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "WD_RAW"
+        }
+      ],
+      "group": "safety",
+      "uuid": "68798688-4eba-52dd-9bd0-5fe3697dd9fb"
+    },
+    {
+      "ref": "R132",
+      "role": "Watchdog input held low if isolated buffer is unpowered",
+      "value": "100k",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "HB"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "8e680ca4-b6bd-5685-b42d-12e785869b07"
+    },
+    {
+      "ref": "R133",
+      "role": "Physical switch supply current limit",
+      "value": "1k",
+      "mpn": "RC0603FR-071KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "PHYS_SUPPLY"
+        }
+      ],
+      "group": "safety",
+      "uuid": "e15aa736-29f8-5c4b-8f7c-115f768b935b"
+    },
+    {
+      "ref": "R134",
+      "role": "Open-switch/disconnect default inhibit",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PHYS_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "79b46a70-9110-5e70-adc6-61c3b4118876"
+    },
+    {
+      "ref": "R138",
+      "role": "Supervisor output default low when power absent",
+      "value": "100k",
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "LOGIC_GOOD"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "62af4d76-32a5-53c4-9415-d6cc963aa5d5"
+    },
+    {
+      "ref": "R139",
+      "role": "Arm latch output default low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "ARM_Q"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "0c4b1190-940c-57f7-8ced-5baf7e2e07ca"
+    },
+    {
+      "ref": "R140",
+      "role": "Clear defaults low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "ALL_OK"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "363309fc-3c9f-5aec-bb5b-35420d71ee4d"
+    },
+    {
+      "ref": "R141",
+      "role": "Standby-buffer input defaults low",
+      "value": "10k",
+      "mpn": "RC0603FR-0710KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "tolerance": "1%",
+      "power_W": 0.1,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "DRIVE_ENABLE_CMD"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "467c8312-96d6-58f0-8ec1-6f58e2508c9c"
+    },
+    {
+      "ref": "C100",
+      "role": "5% C0G50V contact-noise filter; Schmitt input",
+      "value": "1nF",
+      "mpn": "GRM1885C1H102JA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PHYS_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "2dbdc399-fab9-5164-8296-f07755d8ee99"
+    },
+    {
+      "ref": "C101",
+      "role": "10% X7R50V local bypass next to U3",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "c19f0d19-141f-5de3-a1ea-910f275eeed2"
+    },
+    {
+      "ref": "C102",
+      "role": "10% X7R50V local bypass next to U4",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "f369d7ee-c1c6-5a8f-89c4-de6ec9e24a50"
+    },
+    {
+      "ref": "C103",
+      "role": "10% X7R50V local bypass next to U5",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "27e472c3-aabb-5396-8938-96dbe2ee26c1"
+    },
+    {
+      "ref": "C104",
+      "role": "10% X7R50V local bypass next to U6",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "a90f1c16-f08e-504d-84d4-ac79ea96a2b6"
+    },
+    {
+      "ref": "C105",
+      "role": "10% X7R50V local bypass next to U7",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "028bc83f-7f45-5c75-9975-ba4b5ba62008"
+    },
+    {
+      "ref": "C106",
+      "role": "10% X7R50V local bypass next to U8",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "883f5f7d-6ac9-5085-958a-64ff933d2c5c"
+    },
+    {
+      "ref": "C107",
+      "role": "10% X7R50V local bypass next to U9",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "573b8cae-7a32-577e-991a-74a66f4e6043"
+    },
+    {
+      "ref": "J6",
+      "value": "Pi logic / IDC16",
+      "mpn": "61201621621",
+      "footprint": "AI_Robot:IDC_Wurth_61201621621",
+      "group": "interface",
+      "role": "Custom logic cable, not a Pi 40-pin HAT header; pin 15 is GND, with no direct STBY feedback to a Pi GPIO. STBY observation is at TP10 only.",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "3",
+          "type": "passive",
+          "net": "GPIO18"
+        },
+        {
+          "number": "4",
+          "name": "4",
+          "type": "passive",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "5",
+          "type": "passive",
+          "net": "GPIO23"
+        },
+        {
+          "number": "6",
+          "name": "6",
+          "type": "passive",
+          "net": null
+        },
+        {
+          "number": "7",
+          "name": "7",
+          "type": "passive",
+          "net": "GPIO13"
+        },
+        {
+          "number": "8",
+          "name": "8",
+          "type": "passive",
+          "net": "GND"
+        },
+        {
+          "number": "9",
+          "name": "9",
+          "type": "passive",
+          "net": "GPIO5"
+        },
+        {
+          "number": "10",
+          "name": "10",
+          "type": "passive",
+          "net": null
+        },
+        {
+          "number": "11",
+          "name": "11",
+          "type": "passive",
+          "net": "GPIO25"
+        },
+        {
+          "number": "12",
+          "name": "12",
+          "type": "passive",
+          "net": "GPIO17"
+        },
+        {
+          "number": "13",
+          "name": "13",
+          "type": "passive",
+          "net": "GPIO27"
+        },
+        {
+          "number": "14",
+          "name": "14",
+          "type": "passive",
+          "net": "GND"
+        },
+        {
+          "number": "15",
+          "name": "15",
+          "type": "passive",
+          "net": "GND"
+        },
+        {
+          "number": "16",
+          "name": "16",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "uuid": "d004267c-1454-59aa-af74-eb3ec23c47ca"
+    },
+    {
+      "ref": "TP1",
+      "value": "VM",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "power",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "VM"
+        }
+      ],
+      "uuid": "082f6853-2a63-5f20-be36-643bf5ebd894"
+    },
+    {
+      "ref": "TP2",
+      "value": "PI_3V3",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "power",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        }
+      ],
+      "uuid": "c48a01c3-c41a-53e0-81d2-d4850c370ffe"
+    },
+    {
+      "ref": "TP3",
+      "value": "GND",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "power",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "uuid": "59cc8818-12bb-59db-90cf-0211ba0f9da8"
+    },
+    {
+      "ref": "TP4",
+      "value": "LOGIC_GOOD",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "LOGIC_GOOD"
+        }
+      ],
+      "uuid": "548305ea-42c7-53f7-a191-211e20f4d5ae"
+    },
+    {
+      "ref": "TP5",
+      "value": "FAULT_OK",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "FAULT_OK"
+        }
+      ],
+      "uuid": "18d3a857-acc6-5295-aed4-b0db87a2ec7a"
+    },
+    {
+      "ref": "TP6",
+      "value": "WD_RAW",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "WD_RAW"
+        }
+      ],
+      "uuid": "0cea1480-2595-57f1-a4c0-968683c5897c"
+    },
+    {
+      "ref": "TP7",
+      "value": "HB",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "HB"
+        }
+      ],
+      "uuid": "2b3258d0-74f4-557d-afbd-4320085b4746"
+    },
+    {
+      "ref": "TP8",
+      "value": "ARM_Q",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "ARM_Q"
+        }
+      ],
+      "uuid": "8db77db1-5f54-5748-ac01-0e19320f4c62"
+    },
+    {
+      "ref": "TP9",
+      "value": "ALL_OK",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "ALL_OK"
+        }
+      ],
+      "uuid": "23d78d6b-d05d-501f-b5d5-d8906b7fb33c"
+    },
+    {
+      "ref": "TP10",
+      "value": "DRIVE_ENABLE_CMD",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "safety",
+      "role": "Unpopulated exposed copper test pad; not a purchased part",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "DRIVE_ENABLE_CMD"
+        }
+      ],
+      "uuid": "24ee957e-dbff-5788-a2ae-0c2407afeb5a"
+    },
+    {
+      "ref": "U12",
+      "role": "Schmitt conditioning for run request and arm edge",
+      "value": "SN74LVC2G17DBVR",
+      "mpn": "SN74LVC2G17DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "type": "input",
+          "net": "RUN_RAW"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "type": "power_in",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "2A",
+          "type": "input",
+          "net": "ARM_RAW"
+        },
+        {
+          "number": "4",
+          "name": "2Y",
+          "type": "output",
+          "net": "ARM_PULSE"
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "type": "power_in",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "6",
+          "name": "1Y",
+          "type": "output",
+          "net": "RUN_REQ"
+        }
+      ],
+      "group": "safety",
+      "uuid": "58f8fabe-97f6-5886-aa67-8f31ff28d56c"
+    },
+    {
+      "ref": "C109",
+      "role": "10% X7R50V local bypass next to U11",
+      "value": "100nF",
+      "mpn": "CC0603KRX7R9BB104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "type": "passive",
+          "net": "PI_3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "type": "passive",
+          "net": "GND"
+        }
+      ],
+      "group": "safety",
+      "uuid": "0417c2d4-80f6-57b5-9782-3f4db6d62fe9"
+    },
+    {
+      "ref": "U15",
+      "value": "SN74LVC2G14",
+      "mpn": "SN74LVC2G14DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "group": "interface",
+      "uuid": "a2cf6655-a43b-5709-a995-670988412c2b",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "net": "AIN1_RAW",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "3",
+          "name": "2A",
+          "net": "BIN1_RAW",
+          "type": "input"
+        },
+        {
+          "number": "4",
+          "name": "2Y",
+          "net": "RIGHT_PH_N",
+          "type": "output"
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "net": "PI_3V3",
+          "type": "power_in"
+        },
+        {
+          "number": "6",
+          "name": "1Y",
+          "net": "LEFT_PH_N",
+          "type": "output"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf"
+    },
+    {
+      "ref": "U16",
+      "value": "SN74LVC132A",
+      "mpn": "SN74LVC132APWR",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "group": "interface",
+      "uuid": "06d25988-3773-59da-a1f7-bdfd4819a033",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1A",
+          "net": "PWM_A_RAW",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "1B",
+          "net": "LEFT_PH_N",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "1Y",
+          "net": "LEFT_PRE1",
+          "type": "output"
+        },
+        {
+          "number": "4",
+          "name": "2A",
+          "net": "PWM_A_RAW",
+          "type": "input"
+        },
+        {
+          "number": "5",
+          "name": "2B",
+          "net": "AIN1_RAW",
+          "type": "input"
+        },
+        {
+          "number": "6",
+          "name": "2Y",
+          "net": "LEFT_PRE2",
+          "type": "output"
+        },
+        {
+          "number": "7",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "8",
+          "name": "3Y",
+          "net": "RIGHT_PRE1",
+          "type": "output"
+        },
+        {
+          "number": "9",
+          "name": "3A",
+          "net": "PWM_B_RAW",
+          "type": "input"
+        },
+        {
+          "number": "10",
+          "name": "3B",
+          "net": "RIGHT_PH_N",
+          "type": "input"
+        },
+        {
+          "number": "11",
+          "name": "4Y",
+          "net": "RIGHT_PRE2",
+          "type": "output"
+        },
+        {
+          "number": "12",
+          "name": "4A",
+          "net": "PWM_B_RAW",
+          "type": "input"
+        },
+        {
+          "number": "13",
+          "name": "4B",
+          "net": "BIN1_RAW",
+          "type": "input"
+        },
+        {
+          "number": "14",
+          "name": "VCC",
+          "net": "PI_3V3",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc132a.pdf"
+    },
+    {
+      "ref": "C13",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "interface",
+      "uuid": "0afde680-5b35-5ea9-b34f-acde675b2015",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C14",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "interface",
+      "uuid": "0b94374d-dbb9-5a47-a975-33e014940741",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "U14",
+      "value": "SN74LVC1G08",
+      "mpn": "SN74LVC1G08DBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "group": "rail_monitor",
+      "uuid": "e30a802a-feb8-55c7-b365-f50f4c5d7b59",
+      "pins": [
+        {
+          "number": "1",
+          "name": "A",
+          "net": "LOGIC_GOOD",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "B",
+          "net": "PHYS_OK",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "4",
+          "name": "Y",
+          "net": "FEED_ENABLE",
+          "type": "output"
+        },
+        {
+          "number": "5",
+          "name": "VCC",
+          "net": "PI_3V3",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+    },
+    {
+      "ref": "C12",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "rail_monitor",
+      "uuid": "e28ba6f0-17c6-5268-8417-78c29bbd2f87",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "value": "1k 0.1% 25ppm/K",
+      "mpn": "TNPW08051K00BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "rail_monitor",
+      "uuid": "072989a6-bf7f-5832-8da0-dd39bf01da9c",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FEED_ENABLE",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "EFUSE_SHDN",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "rail_monitor",
+      "uuid": "f642eb33-fd62-5b8b-86e2-2020b0ce631a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "EFUSE_SHDN",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "U20",
+      "value": "DRV8874",
+      "mpn": "DRV8874PWPR",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "group": "drivers_front",
+      "uuid": "d69af610-60f8-5c9e-aafc-0756d5b4cd3c",
+      "pins": [
+        {
+          "number": "1",
+          "name": "IN1",
+          "net": "LEFT_IN1",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "IN2",
+          "net": "LEFT_IN2",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "nSLEEP",
+          "net": "FEED_ENABLE",
+          "type": "input"
+        },
+        {
+          "number": "4",
+          "name": "nFAULT",
+          "net": "FAULT_OK_RAW",
+          "type": "open_collector"
+        },
+        {
+          "number": "5",
+          "name": "VREF",
+          "net": "FL_VREF",
+          "type": "input"
+        },
+        {
+          "number": "6",
+          "name": "IPROPI",
+          "net": "FL_IPROPI",
+          "type": "output"
+        },
+        {
+          "number": "7",
+          "name": "IMODE",
+          "net": null,
+          "type": "input"
+        },
+        {
+          "number": "8",
+          "name": "OUT1",
+          "net": "FL_OUT1",
+          "type": "output"
+        },
+        {
+          "number": "9",
+          "name": "PGND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "10",
+          "name": "OUT2",
+          "net": "FL_OUT2",
+          "type": "output"
+        },
+        {
+          "number": "11",
+          "name": "VM",
+          "net": "VM",
+          "type": "power_in"
+        },
+        {
+          "number": "12",
+          "name": "VCP",
+          "net": "FL_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "13",
+          "name": "CPH",
+          "net": "FL_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "14",
+          "name": "CPL",
+          "net": "FL_CPL",
+          "type": "passive"
+        },
+        {
+          "number": "15",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "16",
+          "name": "PMODE",
+          "net": "PI_3V3",
+          "type": "input"
+        },
+        {
+          "number": "17",
+          "name": "EP",
+          "net": "GND",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/drv8874.pdf"
+    },
+    {
+      "ref": "C20",
+      "value": "220uF50V20%",
+      "mpn": "EEUFR1H221",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "group": "drivers_front",
+      "uuid": "5575e334-9ef4-53fc-9a16-c07dde6b700a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "type": "polarized_capacitor"
+    },
+    {
+      "ref": "C21",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "9032bb59-21c9-5663-8253-6ac4f3133616",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C22",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "c39e9ec6-00f3-5d70-aed0-cc3526033a92",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FL_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "VM",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C23",
+      "value": "22nF 50V X7R",
+      "mpn": "C0805C223K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "64468668-cdd9-5015-b056-2206de6ab20a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FL_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "FL_CPL",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C24",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "9268d8da-3914-51a0-8b50-9a6aa29f696c",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FL_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R20",
+      "value": "20k 0.1% 25ppm/K",
+      "mpn": "TNPW080520K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "852fdcf0-9a4b-53c4-95a0-b5ce7617d639",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "FL_VREF",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R21",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "575d9d59-844c-55c9-b823-d4bbadb6a943",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FL_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R22",
+      "value": "3.09k 0.1% 25ppm/K",
+      "mpn": "TNPW08053K09BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "0c154961-5ebc-53d6-afca-a2d5c056f55c",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FL_IPROPI",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R23",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "0192ce03-d34e-58be-8be6-1ea4b2c2c961",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FEED_ENABLE",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "TP20",
+      "value": "FL_IPROPI",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "drivers_front",
+      "uuid": "94d0809a-b615-51b8-958f-5a482bdfcca3",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FL_IPROPI",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "U21",
+      "value": "DRV8874",
+      "mpn": "DRV8874PWPR",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "group": "drivers_front",
+      "uuid": "adaa8eff-5282-5c09-a587-1b41fd3ba779",
+      "pins": [
+        {
+          "number": "1",
+          "name": "IN1",
+          "net": "RIGHT_IN1",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "IN2",
+          "net": "RIGHT_IN2",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "nSLEEP",
+          "net": "FEED_ENABLE",
+          "type": "input"
+        },
+        {
+          "number": "4",
+          "name": "nFAULT",
+          "net": "FAULT_OK_RAW",
+          "type": "open_collector"
+        },
+        {
+          "number": "5",
+          "name": "VREF",
+          "net": "FR_VREF",
+          "type": "input"
+        },
+        {
+          "number": "6",
+          "name": "IPROPI",
+          "net": "FR_IPROPI",
+          "type": "output"
+        },
+        {
+          "number": "7",
+          "name": "IMODE",
+          "net": null,
+          "type": "input"
+        },
+        {
+          "number": "8",
+          "name": "OUT1",
+          "net": "FR_OUT1",
+          "type": "output"
+        },
+        {
+          "number": "9",
+          "name": "PGND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "10",
+          "name": "OUT2",
+          "net": "FR_OUT2",
+          "type": "output"
+        },
+        {
+          "number": "11",
+          "name": "VM",
+          "net": "VM",
+          "type": "power_in"
+        },
+        {
+          "number": "12",
+          "name": "VCP",
+          "net": "FR_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "13",
+          "name": "CPH",
+          "net": "FR_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "14",
+          "name": "CPL",
+          "net": "FR_CPL",
+          "type": "passive"
+        },
+        {
+          "number": "15",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "16",
+          "name": "PMODE",
+          "net": "PI_3V3",
+          "type": "input"
+        },
+        {
+          "number": "17",
+          "name": "EP",
+          "net": "GND",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/drv8874.pdf"
+    },
+    {
+      "ref": "C25",
+      "value": "220uF50V20%",
+      "mpn": "EEUFR1H221",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "group": "drivers_front",
+      "uuid": "93cab6d4-b7b8-5cc7-8717-714373151026",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "type": "polarized_capacitor"
+    },
+    {
+      "ref": "C26",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "5ae6fd40-1b30-546d-ba14-6ef978b2fb66",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C27",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "7788fec1-9309-5e8c-b94c-a2f610cf59cb",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FR_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "VM",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C28",
+      "value": "22nF 50V X7R",
+      "mpn": "C0805C223K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "9cc3272b-b87b-5533-9330-2bf3b1703f0c",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FR_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "FR_CPL",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C29",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "388e9142-abcf-59f2-b91d-a8cb7871bcb0",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FR_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R24",
+      "value": "20k 0.1% 25ppm/K",
+      "mpn": "TNPW080520K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "c791bf0c-590f-5851-9b16-d19264c64118",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "FR_VREF",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R25",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "94e377e7-5337-521e-b244-b9b7f35d7a3a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FR_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R26",
+      "value": "3.09k 0.1% 25ppm/K",
+      "mpn": "TNPW08053K09BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "4082b055-dbc4-56e1-a60f-3da8279daabd",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FR_IPROPI",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R27",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_front",
+      "uuid": "bbe5b041-d8f8-585f-976c-38106a59751a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FEED_ENABLE",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "TP21",
+      "value": "FR_IPROPI",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "drivers_front",
+      "uuid": "99210bcb-4768-5099-b897-a58580b9a4c5",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FR_IPROPI",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "U22",
+      "value": "DRV8874",
+      "mpn": "DRV8874PWPR",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "group": "drivers_rear",
+      "uuid": "4bf15ae6-0a1d-5558-9838-22d347348fbc",
+      "pins": [
+        {
+          "number": "1",
+          "name": "IN1",
+          "net": "LEFT_IN1",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "IN2",
+          "net": "LEFT_IN2",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "nSLEEP",
+          "net": "FEED_ENABLE",
+          "type": "input"
+        },
+        {
+          "number": "4",
+          "name": "nFAULT",
+          "net": "FAULT_OK_RAW",
+          "type": "open_collector"
+        },
+        {
+          "number": "5",
+          "name": "VREF",
+          "net": "BL_VREF",
+          "type": "input"
+        },
+        {
+          "number": "6",
+          "name": "IPROPI",
+          "net": "BL_IPROPI",
+          "type": "output"
+        },
+        {
+          "number": "7",
+          "name": "IMODE",
+          "net": null,
+          "type": "input"
+        },
+        {
+          "number": "8",
+          "name": "OUT1",
+          "net": "BL_OUT1",
+          "type": "output"
+        },
+        {
+          "number": "9",
+          "name": "PGND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "10",
+          "name": "OUT2",
+          "net": "BL_OUT2",
+          "type": "output"
+        },
+        {
+          "number": "11",
+          "name": "VM",
+          "net": "VM",
+          "type": "power_in"
+        },
+        {
+          "number": "12",
+          "name": "VCP",
+          "net": "BL_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "13",
+          "name": "CPH",
+          "net": "BL_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "14",
+          "name": "CPL",
+          "net": "BL_CPL",
+          "type": "passive"
+        },
+        {
+          "number": "15",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "16",
+          "name": "PMODE",
+          "net": "PI_3V3",
+          "type": "input"
+        },
+        {
+          "number": "17",
+          "name": "EP",
+          "net": "GND",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/drv8874.pdf"
+    },
+    {
+      "ref": "C30",
+      "value": "220uF50V20%",
+      "mpn": "EEUFR1H221",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "group": "drivers_rear",
+      "uuid": "b06f1cc2-f804-5324-b480-9378e2ca49d4",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "type": "polarized_capacitor"
+    },
+    {
+      "ref": "C31",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "688f8046-30bd-51fe-80ac-53af1b0f2324",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C32",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "0d569139-5dde-50bb-b6ab-4937c4ab9acf",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BL_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "VM",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C33",
+      "value": "22nF 50V X7R",
+      "mpn": "C0805C223K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "ca95ea83-37e0-54ec-b714-9efd6e4ae8d8",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BL_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "BL_CPL",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C34",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "a2ef3ec2-600a-5e2f-8605-723692a978bd",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BL_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R28",
+      "value": "20k 0.1% 25ppm/K",
+      "mpn": "TNPW080520K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "606646f2-7902-56e8-b34e-9c0a7c2f2f8f",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "BL_VREF",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R29",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "80f8a103-3f4c-567a-a906-75ddfd8813d8",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BL_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R30",
+      "value": "3.09k 0.1% 25ppm/K",
+      "mpn": "TNPW08053K09BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "086165aa-dfd4-5a4a-a3dc-e6e83191ba4e",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BL_IPROPI",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R31",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "1e06af4e-6a26-59bf-a977-0962e7fe5981",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FEED_ENABLE",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "TP22",
+      "value": "BL_IPROPI",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "drivers_rear",
+      "uuid": "be8a3c7e-7a50-5e9d-bde5-b76312c80b45",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BL_IPROPI",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "U23",
+      "value": "DRV8874",
+      "mpn": "DRV8874PWPR",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "group": "drivers_rear",
+      "uuid": "9d3d38f0-8925-5ff3-b83e-20238f7ad2ce",
+      "pins": [
+        {
+          "number": "1",
+          "name": "IN1",
+          "net": "RIGHT_IN1",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "name": "IN2",
+          "net": "RIGHT_IN2",
+          "type": "input"
+        },
+        {
+          "number": "3",
+          "name": "nSLEEP",
+          "net": "FEED_ENABLE",
+          "type": "input"
+        },
+        {
+          "number": "4",
+          "name": "nFAULT",
+          "net": "FAULT_OK_RAW",
+          "type": "open_collector"
+        },
+        {
+          "number": "5",
+          "name": "VREF",
+          "net": "BR_VREF",
+          "type": "input"
+        },
+        {
+          "number": "6",
+          "name": "IPROPI",
+          "net": "BR_IPROPI",
+          "type": "output"
+        },
+        {
+          "number": "7",
+          "name": "IMODE",
+          "net": null,
+          "type": "input"
+        },
+        {
+          "number": "8",
+          "name": "OUT1",
+          "net": "BR_OUT1",
+          "type": "output"
+        },
+        {
+          "number": "9",
+          "name": "PGND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "10",
+          "name": "OUT2",
+          "net": "BR_OUT2",
+          "type": "output"
+        },
+        {
+          "number": "11",
+          "name": "VM",
+          "net": "VM",
+          "type": "power_in"
+        },
+        {
+          "number": "12",
+          "name": "VCP",
+          "net": "BR_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "13",
+          "name": "CPH",
+          "net": "BR_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "14",
+          "name": "CPL",
+          "net": "BR_CPL",
+          "type": "passive"
+        },
+        {
+          "number": "15",
+          "name": "GND",
+          "net": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "16",
+          "name": "PMODE",
+          "net": "PI_3V3",
+          "type": "input"
+        },
+        {
+          "number": "17",
+          "name": "EP",
+          "net": "GND",
+          "type": "power_in"
+        }
+      ],
+      "datasheet": "https://www.ti.com/lit/ds/symlink/drv8874.pdf"
+    },
+    {
+      "ref": "C35",
+      "value": "220uF50V20%",
+      "mpn": "EEUFR1H221",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "group": "drivers_rear",
+      "uuid": "4098cfc0-6978-53bc-91eb-02776dd44624",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ],
+      "type": "polarized_capacitor"
+    },
+    {
+      "ref": "C36",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "4ca1ad11-147c-5c55-afb6-afddfd3d9bdb",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VM",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C37",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "06736481-6b80-56b8-8a98-d20050a4b5b1",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BR_VCP",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "VM",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C38",
+      "value": "22nF 50V X7R",
+      "mpn": "C0805C223K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "c9c8dec7-b930-54a2-b169-28fe454c509c",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BR_CPH",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "BR_CPL",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C39",
+      "value": "100nF 50V X7R",
+      "mpn": "C0805C104K5RACTU",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "31e4941d-97ec-5d28-957a-0e822a59aa1d",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BR_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R32",
+      "value": "20k 0.1% 25ppm/K",
+      "mpn": "TNPW080520K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "aca04f84-46b6-5f8b-9937-138ee68eee61",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PI_3V3",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "BR_VREF",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R33",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "0aa39685-0fa0-5738-8f9e-a3959c29192a",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BR_VREF",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R34",
+      "value": "3.09k 0.1% 25ppm/K",
+      "mpn": "TNPW08053K09BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "dd9ece42-9a50-5ed5-96c9-ed154bdedcbc",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BR_IPROPI",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R35",
+      "value": "10k 0.1% 25ppm/K",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "drivers_rear",
+      "uuid": "b4956e98-d2e5-5567-a9cb-9cf8b4cb0fa9",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FEED_ENABLE",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "TP23",
+      "value": "BR_IPROPI",
+      "mpn": "PCB_COPPER_FEATURE",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "group": "drivers_rear",
+      "uuid": "d5b0ab91-d817-57e3-aa85-54fe86359ca3",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "BR_IPROPI",
+          "type": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "F1",
+      "type": "fuse",
+      "value": "3A 125V",
+      "mpn": "0451003.MRL",
+      "footprint": "AI_Robot:Fuse_Littelfuse_451",
+      "pins": [
+        {
+          "number": "1",
+          "net": "MOTOR_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "FUSED_IN",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "Conservatively credit 300A interrupt at32VDC; actual prospective fault current unconfirmed; fuse is wiring backup.",
+      "group": "power",
+      "uuid": "3d832157-b8ff-5e83-a1ad-d421ffaee86d"
+    },
+    {
+      "ref": "D1",
+      "type": "tvs_bidirectional",
+      "value": "24V bidirectional input TVS",
+      "mpn": "SMBJ24CA",
+      "footprint": "Diode_SMD:D_SMB",
+      "pins": [
+        {
+          "number": "1",
+          "net": "FUSED_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "Input transient clamp; no cathode polarity requirement. Input transient design ceiling45V including temperature/layout margin.",
+      "group": "power",
+      "uuid": "9d71af00-aa2a-577a-9097-10e847aaf7f0"
+    },
+    {
+      "ref": "Q1",
+      "type": "nmos",
+      "value": "100V N-MOS",
+      "mpn": "CSD19537Q3",
+      "footprint": "AI_Robot:CSD19537Q3_Texas_Q3",
+      "pins": [
+        {
+          "number": "1",
+          "net": "FUSED_IN",
+          "name": "S",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "FUSED_IN",
+          "name": "S",
+          "type": "passive"
+        },
+        {
+          "number": "3",
+          "net": "FUSED_IN",
+          "name": "S",
+          "type": "passive"
+        },
+        {
+          "number": "4",
+          "net": "EFUSE_BGATE",
+          "name": "G",
+          "type": "input"
+        },
+        {
+          "number": "5",
+          "net": "EFUSE_IN",
+          "name": "D",
+          "type": "passive"
+        },
+        {
+          "number": "6",
+          "net": "EFUSE_IN",
+          "name": "D",
+          "type": "passive"
+        },
+        {
+          "number": "7",
+          "net": "EFUSE_IN",
+          "name": "D",
+          "type": "passive"
+        },
+        {
+          "number": "8",
+          "net": "EFUSE_IN",
+          "name": "D",
+          "type": "passive"
+        }
+      ],
+      "notes": "Exposed drain metal MUST be EFUSE_IN, notGND. Custom footprint agent assigns shared drain-pad number.",
+      "group": "power",
+      "uuid": "010d1c43-d607-5b63-bedd-66481c7edc12"
+    },
+    {
+      "ref": "Q2",
+      "type": "nmos",
+      "value": "50V signal N-MOS",
+      "mpn": "BSS138",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_DRV",
+          "name": "G",
+          "type": "input"
+        },
+        {
+          "number": "2",
+          "net": "FUSED_IN",
+          "name": "S",
+          "type": "passive"
+        },
+        {
+          "number": "3",
+          "net": "EFUSE_BGATE",
+          "name": "D",
+          "type": "passive"
+        }
+      ],
+      "notes": "Source is FUSED_IN, notGND. Follows TPS2663 Figure8-7.",
+      "group": "power",
+      "uuid": "484ec916-b40d-5a94-94ed-335cadaccd03"
+    },
+    {
+      "ref": "U13",
+      "type": "ic",
+      "value": "TPS26630",
+      "mpn": "TPS26630RGER",
+      "footprint": "AI_Robot:TPS26630_RGE0024H_EP2.7x2.7",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_IN",
+          "name": "IN",
+          "type": "power_in"
+        },
+        {
+          "number": "2",
+          "net": "EFUSE_IN",
+          "name": "IN",
+          "type": "power_in"
+        },
+        {
+          "number": "3",
+          "net": "EFUSE_BGATE",
+          "name": "B_GATE",
+          "type": "output"
+        },
+        {
+          "number": "4",
+          "net": "EFUSE_DRV",
+          "name": "DRV",
+          "type": "output"
+        },
+        {
+          "number": "5",
+          "net": "FUSED_IN",
+          "name": "IN_SYS",
+          "type": "power_in"
+        },
+        {
+          "number": "6",
+          "net": "EFUSE_UV",
+          "name": "UVLO",
+          "type": "input"
+        },
+        {
+          "number": "7",
+          "net": "EFUSE_OV",
+          "name": "OVP",
+          "type": "input"
+        },
+        {
+          "number": "8",
+          "net": "GND",
+          "name": "GND",
+          "type": "power_in"
+        },
+        {
+          "number": "9",
+          "net": "EFUSE_DVDT",
+          "name": "dVdT",
+          "type": "passive"
+        },
+        {
+          "number": "10",
+          "net": "EFUSE_ILIM",
+          "name": "ILIM",
+          "type": "passive"
+        },
+        {
+          "number": "11",
+          "net": null,
+          "name": "MODE",
+          "type": "input"
+        },
+        {
+          "number": "12",
+          "net": "EFUSE_SHDN",
+          "name": "SHDN",
+          "type": "input"
+        },
+        {
+          "number": "13",
+          "net": null,
+          "name": "IMON",
+          "type": "output"
+        },
+        {
+          "number": "14",
+          "net": "FAULT_OK_RAW",
+          "name": "FLT",
+          "type": "open_collector"
+        },
+        {
+          "number": "15",
+          "net": "EFUSE_PG_SENSE",
+          "name": "PGTH",
+          "type": "input"
+        },
+        {
+          "number": "16",
+          "net": "FAULT_OK_RAW",
+          "name": "PGOOD",
+          "type": "open_collector"
+        },
+        {
+          "number": "17",
+          "net": "VM",
+          "name": "OUT",
+          "type": "power_out"
+        },
+        {
+          "number": "18",
+          "net": "VM",
+          "name": "OUT",
+          "type": "passive"
+        },
+        {
+          "number": "19",
+          "net": null,
+          "name": "NC",
+          "type": "no_connect"
+        },
+        {
+          "number": "20",
+          "net": null,
+          "name": "NC",
+          "type": "no_connect"
+        },
+        {
+          "number": "21",
+          "net": null,
+          "name": "NC",
+          "type": "no_connect"
+        },
+        {
+          "number": "22",
+          "net": null,
+          "name": "NC",
+          "type": "no_connect"
+        },
+        {
+          "number": "23",
+          "net": null,
+          "name": "NC",
+          "type": "no_connect"
+        },
+        {
+          "number": "24",
+          "net": null,
+          "name": "NC",
+          "type": "no_connect"
+        },
+        {
+          "number": "25",
+          "net": "GND",
+          "name": "EP",
+          "type": "power_in"
+        }
+      ],
+      "notes": "MODE intentionallyOPEN selects latch-off. SHDNlow-high, UVLOcycle orinputpowercycle canreset; arm latch independentlyrequiresfreshARM. PGTH sensesVMthroughdedicated60.4k/10kdivider to preserve dV/dt recovery behavior; PGOOD AND FLT bothsharedFAULT_OK_RAW topreventarmbeforerampcompletion.",
+      "group": "power",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps2663.pdf",
+      "uuid": "c588683f-0be9-5729-adc6-43c7261214fa"
+    },
+    {
+      "ref": "R40",
+      "type": "resistor",
+      "value": "53.6k 0.1%",
+      "mpn": "TNPW080553K6BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "EFUSE_UV",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "Input UV floor leaves startup body-diode precharge margin at9V; independentVMUV remains8.4V.",
+      "group": "power",
+      "uuid": "c2549cef-86f6-596e-82ba-b1ef30bb3914"
+    },
+    {
+      "ref": "R41",
+      "type": "resistor",
+      "value": "10k 0.1%",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_UV",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "40ceca12-942c-5b05-ba3a-da147a002825"
+    },
+    {
+      "ref": "R42",
+      "type": "resistor",
+      "value": "124k 0.1%",
+      "mpn": "TNPW0805124KBEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "EFUSE_OV",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "47dc6489-1e1a-5152-8980-ca5d80899d6c"
+    },
+    {
+      "ref": "R43",
+      "type": "resistor",
+      "value": "10k 0.1%",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_OV",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "76474d70-9160-5b62-afcb-da4ed0a063b2"
+    },
+    {
+      "ref": "R44",
+      "type": "resistor",
+      "value": "6.04k 1%",
+      "mpn": "RC0603FR-076K04L",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_ILIM",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "e6eae7d5-95c6-5121-a32b-0c0e6eadb594"
+    },
+    {
+      "ref": "C40",
+      "type": "capacitor",
+      "value": "2.2uF50V X7R10%",
+      "mpn": "C1206C225K5RACTU",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_DVDT",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "dd3bcf20-f419-593e-a552-58c3553e4451"
+    },
+    {
+      "ref": "C41",
+      "type": "capacitor",
+      "value": "1uF100V X7R10%",
+      "mpn": "C1206C105K1RACTU",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "FUSED_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "6d28eba8-12ca-5a25-9322-c6645610c899"
+    },
+    {
+      "ref": "C42",
+      "type": "capacitor",
+      "value": "1uF100V X7R10%",
+      "mpn": "C1206C105K1RACTU",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_IN",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "b7f4545e-f3ec-534a-b798-c3c3ee58dc7c"
+    },
+    {
+      "ref": "D2",
+      "type": "tvs",
+      "value": "18V unidirectional VM TVS",
+      "mpn": "SMBJ18A",
+      "footprint": "Diode_SMD:D_SMB",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM",
+          "name": "K",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "A",
+          "type": "passive"
+        }
+      ],
+      "notes": "Cathode/bandVM. Backup transient clamp, not continuous braking load.",
+      "group": "power",
+      "uuid": "f70de244-d077-5290-8bef-6b31d66e1e9c"
+    },
+    {
+      "ref": "C1",
+      "type": "polarized_capacitor",
+      "value": "1000uF50V20%",
+      "mpn": "EEUFR1H102",
+      "footprint": "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "bf83c39a-cc3c-5b95-b917-ab2d30438087"
+    },
+    {
+      "ref": "C2",
+      "type": "polarized_capacitor",
+      "value": "1000uF50V20%",
+      "mpn": "EEUFR1H102",
+      "footprint": "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "",
+      "group": "power",
+      "uuid": "46a37760-4b72-55f6-b3a7-5aa5871ef160"
+    },
+    {
+      "ref": "R45",
+      "type": "resistor",
+      "value": "60.4k 0.1%",
+      "mpn": "TNPW080560K4BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "VM",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "EFUSE_PG_SENSE",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "PGTH mustsenseOUT/VM, notEFUSE_IN; seeTPS2663section8.3.2.1",
+      "group": "power",
+      "uuid": "9950ee09-daf1-5d23-b4ea-837af213ff28"
+    },
+    {
+      "ref": "R46",
+      "type": "resistor",
+      "value": "10k 0.1%",
+      "mpn": "TNPW080510K0BEEA",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pins": [
+        {
+          "number": "1",
+          "net": "EFUSE_PG_SENSE",
+          "name": "1",
+          "type": "passive"
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "name": "2",
+          "type": "passive"
+        }
+      ],
+      "notes": "PGTH mustsenseOUT/VM, notEFUSE_IN; seeTPS2663section8.3.2.1",
+      "group": "power",
+      "uuid": "241357d2-2ef3-5809-9628-0fcd2bfb2870"
+    }
+  ]
+}

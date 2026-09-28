@@ -1,0 +1,421 @@
+{
+  "review_date_utc": "2026-09-28T04:50:22.323905+00:00",
+  "scope": "Native KiCad 10.0.6 footprint parsing and pad geometry inspection; not PCB DRC, SPICE or physical inspection.",
+  "source_hashes": [
+    {
+      "source": "libraries/AI_Robot.pretty/TI_DCU0008A.kicad_mod",
+      "sha256": "f159a6d5b0942fad4426b9f4b74fe741892dc9a81c520409e1b6c1001a80e7ea"
+    },
+    {
+      "source": "libraries/AI_Robot.pretty/TPS3431_DRB8_3x3_P0.65.kicad_mod",
+      "sha256": "a5d11b3bb9f9ed5f81bf7264b9aab57662b722884ad3603535deac3906531ebf"
+    }
+  ],
+  "results": {
+    "tool": "KiCad 10.0.6",
+    "footprints": [
+      {
+        "name": "TI_DCU0008A",
+        "load": "PASS",
+        "pads": [
+          {
+            "number": "1",
+            "position_mm": [
+              -1.55,
+              -0.75
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "position_mm": [
+              -1.55,
+              -0.25
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "position_mm": [
+              -1.55,
+              0.25
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "position_mm": [
+              -1.55,
+              0.75
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "position_mm": [
+              1.55,
+              0.75
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "position_mm": [
+              1.55,
+              0.25
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "position_mm": [
+              1.55,
+              -0.25
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "position_mm": [
+              1.55,
+              -0.75
+            ],
+            "size_mm": [
+              0.85,
+              0.3
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TPS3431_DRB8_3x3_P0.65",
+        "load": "PASS",
+        "pads": [
+          {
+            "number": "",
+            "position_mm": [
+              -0.325,
+              -1.337
+            ],
+            "size_mm": [
+              0.23,
+              0.725
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "position_mm": [
+              -0.325,
+              1.337
+            ],
+            "size_mm": [
+              0.23,
+              0.725
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "position_mm": [
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              1.34,
+              1.55
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "position_mm": [
+              0.325,
+              -1.337
+            ],
+            "size_mm": [
+              0.23,
+              0.725
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "",
+            "position_mm": [
+              0.325,
+              1.337
+            ],
+            "size_mm": [
+              0.23,
+              0.725
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "1",
+            "position_mm": [
+              -1.4,
+              -0.975
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "2",
+            "position_mm": [
+              -1.4,
+              -0.325
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "3",
+            "position_mm": [
+              -1.4,
+              0.325
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "4",
+            "position_mm": [
+              -1.4,
+              0.975
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "5",
+            "position_mm": [
+              1.4,
+              0.975
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "6",
+            "position_mm": [
+              1.4,
+              0.325
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "7",
+            "position_mm": [
+              1.4,
+              -0.325
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "8",
+            "position_mm": [
+              1.4,
+              -0.975
+            ],
+            "size_mm": [
+              0.6,
+              0.31
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "position_mm": [
+              -0.325,
+              -1.1875
+            ],
+            "size_mm": [
+              0.23,
+              1.025
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "position_mm": [
+              -0.325,
+              1.1875
+            ],
+            "size_mm": [
+              0.23,
+              1.025
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "position_mm": [
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              1.5,
+              1.75
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "position_mm": [
+              0.325,
+              -1.1875
+            ],
+            "size_mm": [
+              0.23,
+              1.025
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "number": "9",
+            "position_mm": [
+              0.325,
+              1.1875
+            ],
+            "size_mm": [
+              0.23,
+              1.025
+            ],
+            "drill_mm": [
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "status": "READ-ONLY COMPONENT-COUNT AND DESIGN-COMPLEXITY REVIEW; NO CAD/BOM CHANGES",
+  "date": "2026-09-28",
+  "manifest_sha256": "0d68d0b4474dd2627032e4d7d4987235934c55058c50810e711a22b576b79958",
+  "per_reference_bom_sha256": "379e0aa0bf83e87e257b94201db4557c38a1687a5830f4bf07f93f2cf12c8610",
+  "fitted_component_count": 97,
+  "unique_mpn_count": 33,
+  "passive_count": 73,
+  "interface_conditioning_and_supervision_count": 62,
+  "categories": [
+    {
+      "category": "Resistors",
+      "count": 52,
+      "refs": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R130",
+        "R131",
+        "R132",
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137",
+        "R138",
+        "R139",
+        "R140",
+        "R141"
+      ]
+    },
+    {
+      "category": "Capacitors",
+      "count": 21,
+      "refs": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C100",
+        "C101",
+        "C102",
+        "C103",
+        "C104",
+        "C105",
+        "C106",
+        "C107",
+        "C108",
+        "C109"
+      ]
+    },
+    {
+      "category": "ICs",
+      "count": 12,
+      "refs": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U9",
+        "U10",
+        "U11",
+        "U12"
+      ]
+    },
+    {
+      "category": "Board-mounted connectors",
+      "count": 6,
+      "refs": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6"
+      ]
+    },
+    {
+      "category": "Diodes",
+      "count": 2,
+      "refs": [
+        "D1",
+        "D2"
+      ]
+    },
+    {
+      "category": "Transistors",
+      "count": 2,
+      "refs": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    {
+      "category": "Fuse",
+      "count": 1,
+      "refs": [
+        "F1"
+      ]
+    },
+    {
+      "category": "Switch",
+      "count": 1,
+      "refs": [
+        "SW1"
+      ]
+    }
+  ],
+  "functional_blocks": [
+    {
+      "id": "motor_core",
+      "function": "Motor drivers and local VM/VCC decoupling",
+      "count": 10,
+      "refs": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "U1",
+        "U2"
+      ],
+      "broad_group": "motor_support"
+    },
+    {
+      "id": "connectors",
+      "function": "Motor input, four motor outputs and Pi interface",
+      "count": 6,
+      "refs": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6"
+      ],
+      "broad_group": "motor_support"
+    },
+    {
+      "id": "power_stage",
+      "function": "Input fuse, reverse blocker, feed switch, clamp, bulk storage and bleed",
+      "count": 12,
+      "refs": [
+        "C1",
+        "C2",
+        "D1",
+        "D2",
+        "F1",
+        "Q1",
+        "Q2",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "broad_group": "power_protection"
+    },
+    {
+      "id": "vm_monitor",
+      "function": "VM window monitor, dividers, pullup and bypass",
+      "count": 7,
+      "refs": [
+        "C11",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "U11"
+      ],
+      "broad_group": "power_protection"
+    },
+    {
+      "id": "motor_signal_conditioning",
+      "function": "Six motor-control GPIO buffer channels",
+      "count": 26,
+      "refs": [
+        "C101",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "U3"
+      ],
+      "broad_group": "conditioning"
+    },
+    {
+      "id": "aux_signal_conditioning",
+      "function": "RUN/ARM/HB input bias and six Schmitt channels",
+      "count": 13,
+      "refs": [
+        "C106",
+        "C107",
+        "C109",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R132",
+        "U8",
+        "U9",
+        "U12"
+      ],
+      "broad_group": "conditioning"
+    },
+    {
+      "id": "physical_inhibit",
+      "function": "Physical enable/inhibit switch and filter",
+      "count": 4,
+      "refs": [
+        "C100",
+        "R133",
+        "R134",
+        "SW1"
+      ],
+      "broad_group": "hardware_supervision"
+    },
+    {
+      "id": "watchdog",
+      "function": "Independent watchdog, factory timing selection and pullup",
+      "count": 4,
+      "refs": [
+        "C102",
+        "R130",
+        "R131",
+        "U4"
+      ],
+      "broad_group": "hardware_supervision"
+    },
+    {
+      "id": "logic_por",
+      "function": "Logic rail supervisor and default bias",
+      "count": 3,
+      "refs": [
+        "C105",
+        "R138",
+        "U7"
+      ],
+      "broad_group": "hardware_supervision"
+    },
+    {
+      "id": "arm_qualification",
+      "function": "Arm latch, qualifier gates and default biases",
+      "count": 7,
+      "refs": [
+        "C103",
+        "C104",
+        "R139",
+        "R140",
+        "R141",
+        "U5",
+        "U6"
+      ],
+      "broad_group": "hardware_supervision"
+    },
+    {
+      "id": "standby_output",
+      "function": "Common STBY buffer and local defaults",
+      "count": 5,
+      "refs": [
+        "C108",
+        "R135",
+        "R136",
+        "R137",
+        "U10"
+      ],
+      "broad_group": "hardware_supervision"
+    }
+  ],
+  "broad_groups": [
+    {
+      "id": "motor_support",
+      "function": "Motor drivers, local decoupling and connections",
+      "count": 16,
+      "refs": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "U1",
+        "U2"
+      ],
+      "block_ids": [
+        "motor_core",
+        "connectors"
+      ]
+    },
+    {
+      "id": "power_protection",
+      "function": "Motor power conditioning/protection and VM window",
+      "count": 19,
+      "refs": [
+        "C1",
+        "C2",
+        "C11",
+        "D1",
+        "D2",
+        "F1",
+        "Q1",
+        "Q2",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "U11"
+      ],
+      "block_ids": [
+        "power_stage",
+        "vm_monitor"
+      ]
+    },
+    {
+      "id": "conditioning",
+      "function": "Motor GPIO and auxiliary/fault-signal conditioning",
+      "count": 39,
+      "refs": [
+        "C101",
+        "C106",
+        "C107",
+        "C109",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "R114",
+        "R115",
+        "R116",
+        "R117",
+        "R118",
+        "R119",
+        "R120",
+        "R121",
+        "R122",
+        "R123",
+        "R124",
+        "R125",
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R132",
+        "U3",
+        "U8",
+        "U9",
+        "U12"
+      ],
+      "block_ids": [
+        "motor_signal_conditioning",
+        "aux_signal_conditioning"
+      ]
+    },
+    {
+      "id": "hardware_supervision",
+      "function": "Physical inhibit, watchdog, logic POR, arm qualification and STBY",
+      "count": 23,
+      "refs": [
+        "C100",
+        "C102",
+        "C103",
+        "C104",
+        "C105",
+        "C108",
+        "R130",
+        "R131",
+        "R133",
+        "R134",
+        "R135",
+        "R136",
+        "R137",
+        "R138",
+        "R139",
+        "R140",
+        "R141",
+        "SW1",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U10"
+      ],
+      "block_ids": [
+        "physical_inhibit",
+        "watchdog",
+        "logic_por",
+        "arm_qualification",
+        "standby_output"
+      ]
+    }
+  ],
+  "excluded_features": {
+    "copper_test_pads": [
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9",
+      "TP10"
+    ],
+    "mounting_holes": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "offboard_mating_plugs": {
+      "quantity": 5,
+      "mpn": "1757019",
+      "reason": "Not fitted to PCB"
+    },
+    "other_exclusions": [
+      "Pi, motors, source, wiring/cable assemblies and mounting hardware"
+    ]
+  },
+  "metadata_errata": [
+    {
+      "reference": "C109",
+      "preserved_manifest_text": "10% X7R50V local bypass next to U11",
+      "intended_assignment": "C109 is U12 local bypass; C11 is U11 local bypass",
+      "basis": "enable_interface_spec.md capacitor assignment; both nets are PI_3V3/GND",
+      "action": "Documented only; no manifest/CAD/BOM mutation"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://toshiba.semicon-storage.com/info/datasheet_en_20141001.pdf?did=10660",
+      "revision": "served 2026-05-13",
+      "sections": "pp4-5 electrical, p7 application",
+      "accessed": "2026-09-28"
+    },
+    {
+      "url": "https://assets.nexperia.com/documents/data-sheet/74LV17A.pdf",
+      "revision": "Rev.2 22 March 2024",
+      "sections": "pp1-4 function/package/threshold/Ioff",
+      "accessed": "2026-09-28"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc07a.pdf",
+      "revision": "SCAS595W October 2016",
+      "sections": "output type/electrical tables",
+      "accessed": "2026-09-28"
+    },
+    {
+      "url": "https://www.ti.com/lit/gpn/sn74lvc11a",
+      "revision": "SCLS993A May 2024",
+      "sections": "p5 electrical characteristics",
+      "accessed": "2026-09-28"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf",
+      "revision": "SCES296AG October 2025",
+      "sections": "feature/electrical sections",
+      "accessed": "2026-09-28"
+    },
+    {
+      "url": "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf",
+      "revision": "not established in this packaging-concept review",
+      "sections": "circuit/package tables; no replacement selected",
+      "accessed": "2026-09-28"
+    },
+    {
+      "url": "https://www.vishay.com/docs/28729/pr010203.pdf",
+      "revision": "08 July 2025",
+      "sections": "rating/derating tables",
+      "accessed": "2026-09-28"
+    }
+  ],
+  "checks": {
+    "categories_sum_to_97": true,
+    "functional_blocks_sum_to_97": true,
+    "each_fitted_reference_appears_exactly_once_per_partition": true,
+    "functional_reference_union_equals_manifest_fitted_parts": true,
+    "bom_reference_and_quantity_match": true,
+    "bom_mpn_matches_manifest": true
+  },
+  "candidate_arithmetic_not_an_approved_bom": [
+    {
+      "candidate": "Three dual Schmitt ICs and bypass capacitors replaced by one six-channel IC and one bypass",
+      "existing_refs": [
+        "U8",
+        "U9",
+        "U12",
+        "C106",
+        "C107",
+        "C109"
+      ],
+      "existing_placements": 6,
+      "proposed_placements": 2,
+      "conditional_reduction": 4
+    },
+    {
+      "candidate": "Push-pull motor input buffer topology removes six open-drain output pullups",
+      "potential_removed_refs": [
+        "R102",
+        "R106",
+        "R110",
+        "R114",
+        "R118",
+        "R122"
+      ],
+      "conditional_reduction": 6,
+      "note": "U3 changes; actual enable/power-off topology and threshold review can add parts"
+    },
+    {
+      "candidate": "Nine series resistors plus nine raw-input pulldowns packaged as six isolated four-resistor arrays",
+      "existing_refs": [
+        "R100",
+        "R104",
+        "R108",
+        "R112",
+        "R116",
+        "R120",
+        "R124",
+        "R126",
+        "R128",
+        "R101",
+        "R105",
+        "R109",
+        "R113",
+        "R117",
+        "R121",
+        "R125",
+        "R127",
+        "R129"
+      ],
+      "existing_placements": 18,
+      "proposed_placements": 6,
+      "conditional_reduction": 12,
+      "note": "Electrical element count is not reduced; routing/package/tolerance qualification required"
+    }
+  ],
+  "conclusion": "The 97 placements are traceable but are not proven minimal or all required by the original wire-consolidation goal. The added conditioning/supervision requirements account for62 placements. Simplification requires a revised design review; no parts are removed by this audit.",
+  "limits": [
+    "No pricing, procurement, availability or assembler-cost estimate",
+    "No physical test or validation of actual robot compatibility",
+    "No per-channel current limiter; abrupt logic-loss partial-power behavior remains unresolved",
+    "Candidate counts are mutually scoped arithmetic, not a released replacement BOM"
+  ]
+}

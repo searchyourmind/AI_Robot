@@ -1,0 +1,347 @@
+{
+  "1757242": {
+    "manufacturer": "Phoenix Contact",
+    "source_url": "https://www.phoenixcontact.com/en-de/products/pcb-header-mstba-25-2-g-508-1757242?type=pdf",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "2-position board header; 5.08 mm pitch; separate off-board mating plug 1757019 excluded",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "0451003.MRL": {
+    "manufacturer": "Littelfuse",
+    "source_url": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "3 A; 125 V; non-resettable; not a per-channel electronic current limiter",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "61201621621": {
+    "manufacturer": "Wurth Elektronik",
+    "source_url": "https://www.we-online.com/components/products/datasheet/61201621621.pdf",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "16-pin shrouded 2.54 mm logic header; custom footprint; not Pi 40-pin compatible",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "BSS138": {
+    "manufacturer": "onsemi",
+    "source_url": "https://www.onsemi.com/pdf/datasheet/bss138-d.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "SOT-23-3; pin 1 gate, 2 source, 3 drain; source is FUSED_IN, not ground",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "C0805C104K5RACTU": {
+    "manufacturer": "KEMET",
+    "source_url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C104K5RACTU",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "100 nF; 50 V; X7R; 10%; 0805",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "C0805C223K5RACTU": {
+    "manufacturer": "KEMET",
+    "source_url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C223K5RACTU",
+    "source_basis": "Manufacturer part-specific document/page reviewed; procurement unconfirmed",
+    "specification": "22 nF; 50 V; X7R; 10%; 0805",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "C1206C105K1RACTU": {
+    "manufacturer": "KEMET",
+    "source_url": "https://search.kemet.com/component-documentation/download/specsheet/C1206C105K1RACTU",
+    "source_basis": "Manufacturer part-specific document/page reviewed; procurement unconfirmed",
+    "specification": "1 uF; 100 V; X7R; 10%; 1206",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "C1206C225K5RACTU": {
+    "manufacturer": "KEMET",
+    "source_url": "https://search.kemet.com/component-documentation/download/specsheet/C1206C225K5RACTU",
+    "source_basis": "Manufacturer part-specific document/page reviewed; procurement unconfirmed",
+    "specification": "2.2 uF; 50 V; X7R; 10%; 1206",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "CC0603KRX7R9BB104": {
+    "manufacturer": "YAGEO",
+    "source_url": "https://yageogroup.com/download/specsheet/CC0603KRX7R9BB104",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "100 nF; 50 V; X7R; 10%; 0603",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "CSD19537Q3": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/csd19537q3",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "DRV8874PWPR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/drv8874",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "EEUFR1H102": {
+    "manufacturer": "Panasonic",
+    "source_url": "https://industrial.panasonic.com/sa/products/pt/aluminum-cap-lead/models/EEUFR1H102",
+    "source_basis": "Manufacturer part-specific document/page reviewed; procurement unconfirmed",
+    "specification": "1000 uF; 50 V; 20%; radial D16 x L25 mm; pitch 7.5 mm",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "EEUFR1H221": {
+    "manufacturer": "Panasonic",
+    "source_url": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1H221",
+    "source_basis": "Manufacturer part-specific document/page reviewed; procurement unconfirmed",
+    "specification": "220 uF; 50 V; 20%; radial D10 x L16 mm; pitch 5 mm",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "GRM1885C1H102JA01D": {
+    "manufacturer": "Murata",
+    "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+    "source_basis": "Manufacturer list confirms base GRM1885C1H102JA01; exact D delivery suffix not refreshed; procurement unconfirmed",
+    "specification": "1 nF; 50 V; C0G; 5%; 0603; archived manufacturer-authored exact-code source retained in source registry",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check",
+    "archived_exact_code_source": "https://datasheet.octopart.com/GRM1885C1H102JA01D-Murata-datasheet-140695818.pdf"
+  },
+  "JS102011SAQN": {
+    "manufacturer": "C&K",
+    "source_url": "https://www.ckswitches.com/media/1422/js.pdf",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "SPDT logic switch; controls sleep and semiconductor feed inhibit; not galvanic isolation",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "PR02000206800JA100": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28729/pr010203.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "680 ohm; 5%; PR02 2 W copper-lead version; formed axial lead pitch 15.24 mm",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "RC0603FR-071KL": {
+    "manufacturer": "YAGEO",
+    "source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "0603; 1%; 0.1 W at 70 C",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "RC0603FR-076K04L": {
+    "manufacturer": "YAGEO",
+    "source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-076K04L",
+    "source_basis": "Manufacturer part-specific document/page reviewed; procurement unconfirmed",
+    "specification": "0603; 1%; 0.1 W at 70 C",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "RC0603FR-0710KL": {
+    "manufacturer": "YAGEO",
+    "source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "0603; 1%; 0.1 W at 70 C",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "RC0603FR-07100KL": {
+    "manufacturer": "YAGEO",
+    "source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "0603; 1%; 0.1 W at 70 C",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "RC0603FR-07330RL": {
+    "manufacturer": "YAGEO",
+    "source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07330RL",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "0603; 1%; 0.1 W at 70 C",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SMBJ18A": {
+    "manufacturer": "Littelfuse",
+    "source_url": "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "18 V standoff; unidirectional; SMB; cathode to VM",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SMBJ24CA": {
+    "manufacturer": "Littelfuse",
+    "source_url": "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "24 V standoff; bidirectional; SMB",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC1G08DBVR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc1g08",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC1G74DCUR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc1g74",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC2G14DBVR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc2g14",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC2G17DBVR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc2g17",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC08APWR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc08a",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC11APWR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc11a",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "SN74LVC132APWR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/sn74lvc132a",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW08051K00BEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW08053K09BEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW080510K0BEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW080520K0BEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW080553K6BEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW080560K4BEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW0805124KBEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW0805200KBEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TNPW0805442KBEEA": {
+    "manufacturer": "Vishay",
+    "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "0805 thin film; 0.1%; 25 ppm/K; full ordering code retained",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TPS3431SDRBR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/tps3431",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TPS3700DDCR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/tps3700",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TPS3839G33DBZR": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/tps3839",
+    "source_basis": "Manufacturer source retained from prior reviewed BOM; procurement unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": true,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  },
+  "TPS26630RGER": {
+    "manufacturer": "Texas Instruments",
+    "source_url": "https://www.ti.com/lit/gpn/tps2663",
+    "source_basis": "Manufacturer family datasheet and ordering format reviewed; exact orderability unconfirmed",
+    "specification": "Use exact package suffix and project-reviewed pin map; no family-only substitution",
+    "retained_from_6v_manifest": false,
+    "procurement_status": "UNCONFIRMED - no stock, price, supplier, purchase or assembler acceptance check"
+  }
+}

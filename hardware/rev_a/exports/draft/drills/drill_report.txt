@@ -1,0 +1,29 @@
+Drill report for ai_robot_interface.kicad_pcb
+Created on 2026-09-28T08:13:04
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ai_robot_interface-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (191 holes))
+    T2  0.300mm  0.0118"  (20 holes))
+    T3  1.000mm  0.0394"  (8 holes))
+    T4  1.100mm  0.0433"  (16 holes))
+    T5  1.200mm  0.0472"  (6 holes))
+    T6  1.400mm  0.0551"  (10 holes))
+
+    Total plated holes count 251
+
+
+Drill file 'ai_robot_interface-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.900mm  0.0354"  (2 holes))
+    T2  3.200mm  0.1260"  (4 holes))
+
+    Total unplated holes count 6

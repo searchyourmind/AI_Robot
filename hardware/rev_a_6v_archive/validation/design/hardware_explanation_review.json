@@ -1,0 +1,41 @@
+{
+  "scope": "Documentation/requirements explanation follow-up; not a new CAD run or physical test",
+  "hardware_compatibility_status": "NOT ESTABLISHED: actual hardware inputs remain unknown",
+  "checked_preexisting_files": 136,
+  "changed_or_missing_CAD_BOM_exports_software_tests_reports": [],
+  "method": "SHA-256 comparison with preceding delivered artifact manifest",
+  "prior_manifest_sha256": "8a6d89e1813bb9a9c008d43f6a668daf5327777442470583c9e2ecb155d07c3d",
+  "pending_actual_inputs": [
+    "motor model/rated voltage/load-dependent running and startup/stall profiles",
+    "battery/source minimum, nominal, fully charged voltage and protection/energy behavior",
+    "both module models, VCC sources and actual per-board GPIO/PWM/STBY fanout",
+    "Pi supply identity/budget and actual switches, capacitors, protection, E-stop configuration"
+  ],
+  "facts_retained": [
+    "Board A A=front-left, B=front-right",
+    "Board B A=back-left, B=back-right",
+    "Pi 5 controls modules directly; no Arduino in motor-control loop",
+    "Separate Pi power and shared ground, per user report"
+  ],
+  "limitations": [
+    "No newly observed hardware or continuity evidence",
+    "Native CAD checks remain historical evidence for unchanged CAD",
+    "132 mock-test reports do not establish physical behavior"
+  ],
+  "intentional_metadata_refreshes": [
+    "validation/design/documentation_links.json",
+    "validation/design/artifact_hashes.json"
+  ],
+  "independent_component_partitions_checked": [
+    "categories",
+    "functional_blocks",
+    "broad_groups"
+  ],
+  "local_markdown_targets_checked": 254,
+  "new_documents": [
+    "docs/actual_hardware_evidence.md",
+    "docs/wiring_guide.md",
+    "docs/design_decisions.md",
+    "docs/component_count_review.md"
+  ]
+}

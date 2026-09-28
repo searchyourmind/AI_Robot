@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "034882cb2ce8106982508cf1a8309b4fa69673ff",
+  "method": "AST extraction of pure parse_policy function only; module imports and top-level statements not executed",
+  "input": {
+    "person": {
+      "present": false
+    },
+    "stop_sign": {
+      "present": false
+    }
+  },
+  "actual_baseline_result": {
+    "action": "stop"
+  },
+  "interpretation": "False stop sign detection incorrectly inferred from key text; reproduction only, not hardware test",
+  "gpio_camera_network_model_calls": 0
+}

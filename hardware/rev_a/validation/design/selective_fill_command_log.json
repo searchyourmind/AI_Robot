@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/venv/bin/python",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/check_via_paste.py",
+    "--classify",
+    "--geometry",
+    "work/redesign12v/selective_fill_final/native_hole_paste_geometry.json",
+    "--output-dir",
+    "work/redesign12v/selective_fill_final"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"PASS_PROCESS_MAP_REQUIRED\",\n  \"paste_aperture_count\": 389,\n  \"plated_hole_count\": 251,\n  \"selective_fill_count\": 13,\n  \"u13_thermal_holes_under_paste\": 4,\n  \"driver_thermal_holes_outside_paste\": 16,\n  \"driver_minimum_hole_to_paste_distance_mm\": 0.275,\n  \"affected_component_references\": [\n    \"Q1\",\n    \"Q2\",\n    \"R22\",\n    \"R27\",\n    \"R30\",\n    \"R40\",\n    \"R46\",\n    \"U13\",\n    \"U20\"\n  ],\n  \"errors\": []\n}\n",
+  "stderr": ""
+}

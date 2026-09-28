@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "tool": "pcbnew 10.0.6",
+  "status": "PASS",
+  "unique_pad_count": 16,
+  "pad_size_mm": [
+    1.8,
+    1.8
+  ],
+  "drill_mm": 1.1,
+  "pitch_mm": 2.54,
+  "body_mm": [
+    9,
+    27.98
+  ],
+  "hashes": {
+    "61201621621.pdf": "0df87add7e40d43c6154ff4d0b47710515a4fd9972b4fbe13c5d55295497b364",
+    "IDC_Wurth_61201621621.kicad_mod": "31dc30244c3f308f30499065b31b9a5431770491345c80e98d89fa4e6a6286f8"
+  }
+}

@@ -1,0 +1,55 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T08:12:54",
+    "ignored_checks": [
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+            "violations": []
+        },
+        {
+            "path": "/Rail_Monitor/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/b8be1274-044b-57b2-b01d-745f363df7a7",
+            "violations": []
+        },
+        {
+            "path": "/Interface/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/6ddea30f-4b2e-5adc-8cbb-f0173e0851b8",
+            "violations": []
+        },
+        {
+            "path": "/Safety/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7a492c2a-62e7-5319-ad7f-42920e748f0d",
+            "violations": []
+        },
+        {
+            "path": "/Latch/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/d5e55059-93bd-5101-a2e6-1006ab528bcb",
+            "violations": []
+        },
+        {
+            "path": "/Drivers_Front/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/0fb1af4d-3f25-5949-8ea1-b45b37a65f4c",
+            "violations": []
+        },
+        {
+            "path": "/Drivers_Rear/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/c3f37538-d01d-57d3-9000-4a1c4aeaaf84",
+            "violations": []
+        }
+    ],
+    "source": "ai_robot_interface.kicad_sch"
+}

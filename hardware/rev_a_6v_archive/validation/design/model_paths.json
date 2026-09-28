@@ -1,0 +1,304 @@
+{
+  "review_date_utc": "2026-09-28T05:19:30.049560+00:00",
+  "scope": "Filesystem resolution of project-relative model paths; not model-shape or mechanical-fit validation. F1 and bulk capacitor nominal models added from cited source dimensions; native footprints loaded successfully with unchanged pad positions.",
+  "source_hashes": [
+    {
+      "source": "libraries/Resistor_THT.pretty/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.kicad_mod",
+      "sha256": "5f84c6689c7af8378b6050502112f039797a9a54bef50c0299baea267087c65b"
+    },
+    {
+      "source": "libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b"
+    },
+    {
+      "source": "libraries/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571"
+    },
+    {
+      "source": "libraries/Diode_SMD.pretty/D_SMC.kicad_mod",
+      "sha256": "438b672fa91711480026f1b38d4c78d89cb6ec50210c5333155dbf3f9784551a"
+    },
+    {
+      "source": "libraries/Diode_SMD.pretty/D_SMB.kicad_mod",
+      "sha256": "6f7f1c0c3ad02d5963c932f7e8c4ea489b479b029e56bbcf8057dcf8f2a34dd0"
+    },
+    {
+      "source": "libraries/Connector_Phoenix_MSTB.pretty/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.kicad_mod",
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b"
+    },
+    {
+      "source": "libraries/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+      "sha256": "398558a828233ca0093e89517f367e87be165738bfb67eea029a7c4162983f65"
+    },
+    {
+      "source": "libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "sha256": "9e9b07822ac0c9afab4a1b3aaae470ebbd2d2f5cf28dffd79249ebd536eb8f63"
+    },
+    {
+      "source": "libraries/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e"
+    },
+    {
+      "source": "libraries/Connector_IDC.pretty/IDC-Header_2x08_P2.54mm_Vertical.kicad_mod",
+      "sha256": "34bcf0cbb79d41ee925663de9bf4dbe03f13fd10d970b14479781a3a29cf3940"
+    },
+    {
+      "source": "libraries/Button_Switch_SMD.pretty/SW_SPDT_CK_JS102011SAQN.kicad_mod",
+      "sha256": "1d6a25b7bb84c97a6b20133c55bd59857bcd0499b621f10fe2fc897f006fe78c"
+    },
+    {
+      "source": "libraries/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042"
+    },
+    {
+      "source": "libraries/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "sha256": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a"
+    },
+    {
+      "source": "libraries/Package_SO.pretty/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+      "sha256": "1e315346ebbae9d6def9ed807a76c9835a6bfdc1e0365aa97689cdc45673d93b"
+    },
+    {
+      "source": "libraries/AI_Robot.pretty/TB6612FNG_SSOP24_5.6x7.8_P0.65.kicad_mod",
+      "sha256": "3d96ddc59fac4837d00c9ce8c3fc60073b3949aa23ab5bef115f089b5f9c2316"
+    },
+    {
+      "source": "libraries/AI_Robot.pretty/Fuse_Littelfuse_451.kicad_mod",
+      "sha256": "74d3cd56f7c4cda558c882191ead20e886b5dcd836a687e64b738f3695b9ac51"
+    },
+    {
+      "source": "libraries/AI_Robot.pretty/IDC_Wurth_61201621621.kicad_mod",
+      "sha256": "31dc30244c3f308f30499065b31b9a5431770491345c80e98d89fa4e6a6286f8"
+    },
+    {
+      "source": "libraries/AI_Robot.pretty/TPS3431_DRB8_3x3_P0.65.kicad_mod",
+      "sha256": "a5d11b3bb9f9ed5f81bf7264b9aab57662b722884ad3603535deac3906531ebf"
+    },
+    {
+      "source": "libraries/AI_Robot.pretty/TI_DCU0008A.kicad_mod",
+      "sha256": "f159a6d5b0942fad4426b9f4b74fe741892dc9a81c520409e1b6c1001a80e7ea"
+    },
+    {
+      "source": "libraries/Capacitor_THT.pretty/CP_Radial_D10.0mm_P5.00mm.kicad_mod",
+      "sha256": "bf98e50e7f8a398cdc9fb3bcfd7b7d1def01c18322ace59b5b74bf34ff3aaa01"
+    },
+    {
+      "source": "libraries/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod",
+      "sha256": "f4769c5a76a97f4ffafd8e4a23a51b17a2dca4f119c487026f06fd7e74763b13"
+    },
+    {
+      "source": "libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549"
+    },
+    {
+      "source": "libraries/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584"
+    },
+    {
+      "source": "libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "source": "libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    {
+      "source": "libraries/3dmodels/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step",
+      "sha256": "353552981eef35cb93635057d4aeb89aef22648c77af6fd095e328bfe6b834bd"
+    },
+    {
+      "source": "libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245"
+    },
+    {
+      "source": "libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step",
+      "sha256": "7367f35dd5439e325ba3912de65e9200831fdc6698080ffd056cd268649ba41d"
+    },
+    {
+      "source": "libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.00mm.step",
+      "sha256": "96f77599ffdd30a40b9738a02543510138a4977d6427f42fef3fdd584405fc1d"
+    },
+    {
+      "source": "libraries/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step",
+      "sha256": "b5cb8ba55564999d7db361023fe8e370448ccb21865df04947edc053d5dded9e"
+    },
+    {
+      "source": "libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a"
+    },
+    {
+      "source": "libraries/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step",
+      "sha256": "adda0647a71569528494b0c89336a4700aa00105603a72f3e617460fa4b7b776"
+    },
+    {
+      "source": "libraries/3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+      "sha256": "65626b93d9b55c6bfae7e3fdafcfd9dc36fe0121778aa04d8da3a20c7d1f041e"
+    },
+    {
+      "source": "libraries/3dmodels/Diode_SMD.3dshapes/D_SMC.step",
+      "sha256": "30dab4c2e22239b7e3694a4d45304e04255c6b70a79d28e9c34c6072ba647991"
+    },
+    {
+      "source": "libraries/3dmodels/Diode_SMD.3dshapes/D_SMB.step",
+      "sha256": "029466277d91e9f5492556be93e46611049e07115c7913880c547afa96058ed4"
+    },
+    {
+      "source": "libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "source": "libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "source": "libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7"
+    },
+    {
+      "source": "libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    {
+      "source": "libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0"
+    },
+    {
+      "source": "libraries/3dmodels/Panasonic_EEUFR1E102_D10_H20_P5_nominal.wrl",
+      "sha256": "0f6c7a1aad148595159da874fdc15e51d7fa48d0e9ab02fdf62dcb7f57fe724d"
+    },
+    {
+      "source": "libraries/3dmodels/SW_JS102011SAQN_nominal.wrl",
+      "sha256": "fbc2b8a7c697bcee076e394b68c53ab248f9eae2d8e1894bf464cacb7c77fbc4"
+    },
+    {
+      "source": "libraries/3dmodels/TB6612FNG_nominal.wrl",
+      "sha256": "5c77ada67766aad07d1feca1d0acb3a3e594a30d95b452f57ff564ba41181ec5"
+    },
+    {
+      "source": "libraries/3dmodels/Fuse_Littelfuse_451_nominal.wrl",
+      "sha256": "f807fa00128fb1de36610bdc5d6fb2757bce59846e8f3277cb8b37515aae83a9"
+    },
+    {
+      "source": "libraries/3dmodels/README.md",
+      "sha256": "7cc430f0d201284f780f488752ac21ae1eca576e198560ce37bbea5daeaca34c"
+    }
+  ],
+  "results": [
+    {
+      "footprint": "libraries/Resistor_THT.pretty/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Diode_SMD.pretty/D_SMC.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Diode_SMD.3dshapes/D_SMC.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Diode_SMD.pretty/D_SMB.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Diode_SMD.3dshapes/D_SMB.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Connector_Phoenix_MSTB.pretty/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Connector_IDC.pretty/IDC-Header_2x08_P2.54mm_Vertical.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Button_Switch_SMD.pretty/SW_SPDT_CK_JS102011SAQN.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/SW_JS102011SAQN_nominal.wrl",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Package_SO.pretty/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/AI_Robot.pretty/TB6612FNG_SSOP24_5.6x7.8_P0.65.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/TB6612FNG_nominal.wrl",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/AI_Robot.pretty/Fuse_Littelfuse_451.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Fuse_Littelfuse_451_nominal.wrl",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/AI_Robot.pretty/IDC_Wurth_61201621621.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/AI_Robot.pretty/TPS3431_DRB8_3x3_P0.65.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/AI_Robot.pretty/TI_DCU0008A.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Capacitor_THT.pretty/CP_Radial_D10.0mm_P5.00mm.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1E102_D10_H20_P5_nominal.wrl",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.00mm.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true
+    },
+    {
+      "footprint": "libraries/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "model": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true
+    }
+  ],
+  "capacitor_native_render_check": {
+    "tool": "KiCad 10.0.6 pcb render",
+    "model_geometry": "explicit IndexedFaceSet meshes",
+    "finding": "Both bulk capacitor can bodies present after replacing unsupported/nonrendered Cylinder primitives; no PCB changes",
+    "scope": "Visual rendering check only; source dimensions and mechanical limitations remain in model README"
+  }
+}

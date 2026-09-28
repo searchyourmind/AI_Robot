@@ -1,0 +1,47 @@
+Generated local git status follows. M=modified tracked file; ??=new untracked file. No commit or push performed.
+ M README.md
+ M pi_robot/README.md
+ M pi_robot/vision_policy_daemon.py
+ M pi_robot/voice_ai_motor_simple.py
+ M pi_robot/web_motor.py
+ M pi_robot/web_vision_drive_picam_ai.py
+?? docs/portfolio/engineering_narrative.md
+?? docs/vision_safety_integration.md
+?? hardware/rev_a/PROGRESS.md
+?? hardware/rev_a/README.md
+?? hardware/rev_a/docs/architecture_review.md
+?? hardware/rev_a/docs/cad_workflow.md
+?? hardware/rev_a/docs/circuit_review.md
+?? hardware/rev_a/docs/design_sources.md
+?? hardware/rev_a/docs/electrical_budget.md
+?? hardware/rev_a/docs/existing_system_audit.md
+?? hardware/rev_a/docs/pin_map.md
+?? hardware/rev_a/docs/requirements.md
+?? hardware/rev_a/docs/revision_history.md
+?? hardware/rev_a/docs/risks.md
+?? hardware/rev_a/docs/software_safety_api.md
+?? hardware/rev_a/exports/draft/README.md
+?? hardware/rev_a/exports/draft/bom_candidates.csv
+?? hardware/rev_a/libraries/README.md
+?? hardware/rev_a/manufacturing/release/README.md
+?? hardware/rev_a/validation/baseline_parser_reproduction.json
+?? hardware/rev_a/validation/bring_up.md
+?? hardware/rev_a/validation/changed_files.txt
+?? hardware/rev_a/validation/mock_tests.junit.xml
+?? hardware/rev_a/validation/physical_test_records.csv
+?? hardware/rev_a/validation/software_input_hashes.json
+?? hardware/rev_a/validation/software_test_report.md
+?? hardware/rev_a/validation/test_environment.txt
+?? hardware/rev_a/validation/verification_checks.json
+?? pi_robot/motor_backend.py
+?? pi_robot/motor_config.py
+?? pi_robot/motor_control.py
+?? pi_robot/vision_safety.py
+?? tests/hardware_mock/README.md
+?? tests/hardware_mock/conftest.py
+?? tests/hardware_mock/requirements.txt
+?? tests/hardware_mock/test_clients_camera.py
+?? tests/hardware_mock/test_motor_api.py
+?? tests/hardware_mock/test_motor_control.py
+?? tests/hardware_mock/test_system_integration.py
+?? tests/hardware_mock/test_vision_policy.py

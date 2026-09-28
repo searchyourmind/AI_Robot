@@ -1,0 +1,672 @@
+{
+  "review_date_utc": "2026-09-28T04:50:22.372377+00:00",
+  "scope": "Boolean desk review only; no SPICE simulation, timing/metastability model, software runtime test or physical test.",
+  "source_hashes": [
+    {
+      "source": "work/design_manifest.json",
+      "sha256": "7fe9f4752c6b5347e92cfe588ac0b908b74c52b5c871266d630d20be9b7173b9"
+    },
+    {
+      "source": "work/enable_circuit.json",
+      "sha256": "ac85ce332098ee92085cecd311f13866838241f5617142599b9b63c77f03a1e1"
+    },
+    {
+      "source": "docs/enable_interface_spec.md",
+      "sha256": "6c785cd3341727c6e93ad947974a15113cf43f9dbb6951b00c368315740710c1"
+    }
+  ],
+  "results": {
+    "status": "BOOLEAN DESK REVIEW ONLY, not electrical simulation or software runtime testing",
+    "manifest_gate_pin_check": "PASS",
+    "steady_state_combinations": 64,
+    "nonzero_STBY_combinations": 1,
+    "held_high_recovery_sequence": "PASS: no automatic restart",
+    "limitations": [
+      "No analog delays/metastability model",
+      "No IC fault tolerance",
+      "No guarantee outside recommended supply conditions"
+    ],
+    "rows": [
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 0,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 0,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 0,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 0,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 0,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 0,
+        "STBY_EN": 0,
+        "ARM_Q_after_clear": 0
+      },
+      {
+        "LOGIC_GOOD": 1,
+        "PHYS_OK": 1,
+        "VM_OK": 1,
+        "WD_OK": 1,
+        "RUN_REQ": 1,
+        "ARM_Q_prior": 1,
+        "STBY_EN": 1,
+        "ARM_Q_after_clear": 1
+      }
+    ]
+  }
+}

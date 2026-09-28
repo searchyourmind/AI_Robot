@@ -1,0 +1,19 @@
+# Project 3D models — visualization only
+
+All model bindings use `${KIPRJMOD}/libraries/3dmodels/` so the included project can be inspected without a machine-specific model directory. Native footprint copper, drill and pin numbering are separate from these models. A resolved model path or attractive render does not establish mechanical fit, electrical polarity, solderability or fabrication readiness.
+
+| Model | Source dimensions and limitations |
+|---|---|
+| `TB6612FNG_nominal.wrl` | Project-authored nominal package model; see the dedicated footprint review. |
+| `SW_JS102011SAQN_nominal.wrl` | Project-authored 9×3.6×3.5 mm nominal housing and one actuator position from the [C&K JS drawing](https://www.ckswitches.com/media/1422/js.pdf), revision VL 01/14/26, p4. Terminals, actuator details, pegs and standoff are simplified. It does not identify the electrically selected contact or prove edge-access clearance. |
+| `Fuse_Littelfuse_451_nominal.wrl` | Project-authored nominal 6.10×2.69×2.69 mm fuse envelope. [Littelfuse 451/453](https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1), revision GD 12/01/25, p4, gives length 6.10±0.20 mm, width and height 2.69±0.25 mm, and 1.45 mm end-cap length. Simple boxes omit corner, plating and solder-standoff details. The fuse is nonpolar. |
+| `Panasonic_EEUFR1E102_D10_H20_P5_nominal.wrl` | Project-authored nominal 10 mm diameter, 20 mm body length, 5 mm pitch can. Dimensions are from the [EEUFR1E102 product page](https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1E102); 0.6 mm nominal lead diameter follows the [FR-A datasheet](https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf), 01-Sep-2025, p1. Origin is footprint pin 1 positive at x=0, pin 2 negative at x=5 mm; can center x=2.5 mm. The illustrated stripe is toward pin 2. Sleeve, vent, lead trim and base details are simplified. Nominal body length does not include manufacturing tolerances, bulging, installation standoff or enclosure clearance. |
+| U4 generic DFN STEP | Included KiCad generic 3×3 mm, 0.65 mm-pitch model. Exposed-pad underside differs from the selected TPS3431; use the custom copper footprint and manufacturer drawing for land-pattern review. |
+| U5 generic VSSOP STEP | Included KiCad nominal package-body model. Manufacturer-based `TI_DCU0008A` copper remains authoritative for the proposed land pattern. |
+| Other STEP models | Copied from the installed official KiCad bundle. They are generic library visualizations unless a separate footprint review explicitly establishes an exact manufacturer match. |
+
+External KiCad VRML units are 2.54 mm; project-authored coordinates are divided by 2.54. Positive model Z is above the top copper plane. Model Y is opposite the PCB coordinate convention. No product photographs, fabricated branding or AI-generated board images were used.
+
+The fuse and bulk-capacitor additions change model references only. F1 retains pads at x=±2.45 mm; C1/C2 retain positive pad 1 at (0,0) and negative pad 2 at (5,0). Native KiCad 10.0.6 footprint loading was checked. Whole-board model parsing/rendering and assembly clearances are reviewed separately. Board-embedded model references must be refreshed after library changes; updating a library alone does not update an already placed footprint.
+
+Native-render correction: the capacitor model uses explicit 64-sided `IndexedFaceSet` meshes for the can, lid and leads. The initial `Cylinder` primitives did not appear in the KiCad 10.0.6 render; replacing them restored both cans. The blue body stops 0.05 mm below the separate lid, whose top remains at 20 mm, to avoid coplanar shading. A subsequent native board render was visually inspected with both cans present. This remains a nominal visualization, not mechanical qualification.

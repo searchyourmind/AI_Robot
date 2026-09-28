@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T01:04:26",
+    "ignored_checks": [
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+            "violations": []
+        },
+        {
+            "path": "/Interface/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+            "violations": []
+        },
+        {
+            "path": "/Safety/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+            "violations": []
+        },
+        {
+            "path": "/Latch/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+            "violations": []
+        },
+        {
+            "path": "/Drivers/",
+            "uuid_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+            "violations": []
+        }
+    ],
+    "source": "ai_robot_interface.kicad_sch"
+}

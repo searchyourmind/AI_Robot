@@ -1,0 +1,36 @@
+[
+  {
+    "argv": [
+      "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/kicad_runtime/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "-o",
+      "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/independent_final/schematic_native.net.xml",
+      "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "Fontconfig error: Cannot load default config file: File not found\n"
+  },
+  {
+    "argv": [
+      "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/kicad_runtime/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+      "pcb",
+      "drc",
+      "--format",
+      "json",
+      "--schematic-parity",
+      "--severity-all",
+      "--exit-code-violations",
+      "-o",
+      "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/independent_final/native_drc.json",
+      "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/independent_final/native_drc.json\n",
+    "stderr": "Fontconfig error: Cannot load default config file: File not found\n"
+  }
+]

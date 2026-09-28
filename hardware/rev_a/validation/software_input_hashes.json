@@ -1,0 +1,16 @@
+{
+  "pi_robot/motor_backend.py": "1d5274c5e985f1d19c0e922848d6be671ec0e82888a3c473f70f3eda81adcb30",
+  "pi_robot/motor_config.py": "7274bf962b66e81c2965942f8df13f6ef1c6d8b3602aa8729f8ec3f1200d301d",
+  "pi_robot/motor_control.py": "5ad94b76d6c56f9db3adb241352215776668eb7c73d0ae459c057aef350d85e5",
+  "pi_robot/vision_policy_daemon.py": "748b563c0ae0b5a5ce839342aecd2032adc89a8e7df541494318c5bf1774a4c1",
+  "pi_robot/vision_safety.py": "a1add8f0e64b1e33e8b2f866f39f5445b815e1b38037cd4443cc96cbf8014803",
+  "pi_robot/voice_ai_motor_simple.py": "dff742b9367eef90a1e91517d13dac08adb3d2c6e4fd13bec9cddacefd276bc2",
+  "pi_robot/web_motor.py": "9449f031a1c6e31120aca26e92293a9eeae8cc3e6fbfd4e036128ebd1318b10b",
+  "pi_robot/web_vision_drive_picam_ai.py": "3522dd41a71546660ff6f08f7e9a9f97c11e04c817a8917a403e61f34c6ae03e",
+  "tests/hardware_mock/conftest.py": "a0386ab91c1f7cc8a119916655fd0127900b4d96fbd13b13d2e7a0653c042277",
+  "tests/hardware_mock/test_clients_camera.py": "03a5260929b1869d69d93f356ce148fbc29c3aa5411223fb2b74caa1d547cbcd",
+  "tests/hardware_mock/test_motor_api.py": "a2908c5aca093e676817841699459f7b5fad29a9c96b742c0fb1fc02561aaa2b",
+  "tests/hardware_mock/test_motor_control.py": "705c258d1339e5f485738a47ff8e97fb26ff865dff70fbb5f88e426e3db32fa2",
+  "tests/hardware_mock/test_system_integration.py": "df8afbfae6540797d317c2f18eccbc1d2b00eefa29f901788aa700be8a1d2073",
+  "tests/hardware_mock/test_vision_policy.py": "41019d36b95c7a9a5d87ed2a50d3877a983228a893dbda017642ed38d1e7c12d"
+}

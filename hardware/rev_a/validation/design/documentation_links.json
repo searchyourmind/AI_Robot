@@ -1,0 +1,1478 @@
+{
+  "status": "PASS",
+  "scope": "Current Markdown local file/directory targets; frozen archive and unchanged historical software report excluded",
+  "checked": 294,
+  "broken": [],
+  "links": [
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/revision_history.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/wiring_guide.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/exports/draft/views/kicad_3d_render.png",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/exports/draft/schematic.pdf",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/exports/draft/pcb_layout.pdf",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/exports/draft/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/design_decisions.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/component_count_review.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/validation/software_test_report.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/vision_safety_integration.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/legacy_project_notes.md",
+      "exists": true
+    },
+    {
+      "source": "docs/portfolio/engineering_narrative.md",
+      "target": "../../hardware/rev_a/docs/revision_history.md",
+      "exists": true
+    },
+    {
+      "source": "docs/portfolio/engineering_narrative.md",
+      "target": "../../hardware/rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "docs/portfolio/engineering_narrative.md",
+      "target": "../../hardware/rev_a/docs/routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "docs/portfolio/engineering_narrative.md",
+      "target": "../../hardware/rev_a/docs/component_count_review.md",
+      "exists": true
+    },
+    {
+      "source": "docs/portfolio/engineering_narrative.md",
+      "target": "../../hardware/rev_a/validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/PROGRESS.md",
+      "target": "../rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/PROGRESS.md",
+      "target": "validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/PROGRESS.md",
+      "target": "docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "../rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "ai_robot_interface.kicad_pro",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "ai_robot_interface.kicad_sch",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "ai_robot_interface.kicad_pcb",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/requirements_assumptions.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/wheeltec_source_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/wiring_guide.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/design_decisions.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/component_count_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/footprint_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/fabrication_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/assembly_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/bom_fitted.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/bom_grouped.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/bom_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "validation/design/command_log.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "PROGRESS.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "docs/cad_workflow.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "validation/bring_up.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "validation/physical_test_records.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/views/kicad_3d_render.png",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/views/pcb_top.png",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/schematic.pdf",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/pcb_layout.pdf",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/assembly_top.pdf",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "exports/draft/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/README.md",
+      "target": "validation/software_test_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/12v_design_impact.md",
+      "target": "../../rev_a_6v_archive/docs/12v_design_impact.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/12v_design_impact.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/12v_design_impact.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/12v_design_impact.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/12v_design_impact.md",
+      "target": "revision_history.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/12v_design_impact.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "../../rev_a_6v_archive/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "12v_design_impact.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "wheeltec_source_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "requirements.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "existing_system_audit.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "../../../pi_robot/motor_config.py",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "../../../pi_robot/motor_backend.py",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "../../../pi_robot/web_motor.py",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "requirements_assumptions.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/actual_hardware_evidence.md",
+      "target": "12v_design_impact.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/architecture_review.md",
+      "target": "design_decisions.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/architecture_review.md",
+      "target": "../../rev_a_6v_archive/docs/architecture_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/architecture_review.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "footprint_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "../exports/draft/drills/selective_via_fill_map.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "../validation/design/selective_via_fill_review.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "fabrication_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/assembly_notes.md",
+      "target": "../validation/bring_up.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/bom_review.md",
+      "target": "../exports/draft/bom_fitted.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/bom_review.md",
+      "target": "../exports/draft/bom_grouped.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/bom_review.md",
+      "target": "../exports/draft/bom_testpoints.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/bom_review.md",
+      "target": "../validation/design/bom_source_registry.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/bom_review.md",
+      "target": "../validation/design/bom_review.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/bom_review.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/cad_workflow.md",
+      "target": "../validation/design/command_log.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/cad_workflow.md",
+      "target": "../validation/design/tool_version.txt",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/cad_workflow.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/cad_workflow.md",
+      "target": "../validation/tools/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/cad_workflow.md",
+      "target": "routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/cad_workflow.md",
+      "target": "../../rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/circuit_review.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/circuit_review.md",
+      "target": "../../rev_a_6v_archive/docs/circuit_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/circuit_review.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "../exports/draft/bom_fitted.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "../exports/draft/bom_grouped.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "../exports/draft/bom_testpoints.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/component_count_review.md",
+      "target": "../../rev_a_6v_archive/docs/component_count_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "wheeltec_source_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "wiring_guide.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "../validation/design/routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "../validation/design/routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_decisions.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "footprint_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "../validation/design/bom_source_registry.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "wheeltec_source_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "../../rev_a_6v_archive/docs/design_sources.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "../libraries/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/design_sources.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/driver_margin_review.md",
+      "target": "wheeltec_source_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/driver_margin_review.md",
+      "target": "../exports/draft/drills/selective_via_fill_map.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/electrical_budget.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/electrical_budget.md",
+      "target": "../../rev_a_6v_archive/docs/electrical_budget.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/electrical_budget.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/electrical_layout_review.md",
+      "target": "routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/electrical_layout_review.md",
+      "target": "../../rev_a_6v_archive/docs/electrical_layout_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/electrical_layout_review.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/enable_interface_spec.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/enable_interface_spec.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/enable_interface_spec.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/enable_interface_spec.md",
+      "target": "wiring_guide.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/existing_system_audit.md",
+      "target": "actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/existing_system_audit.md",
+      "target": "../../rev_a_6v_archive/docs/existing_system_audit.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/existing_system_audit.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/fabrication_notes.md",
+      "target": "../exports/draft/drills/selective_via_fill_map.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/fabrication_notes.md",
+      "target": "../validation/design/selective_via_fill_review.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/fabrication_notes.md",
+      "target": "../validation/design/routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/fabrication_notes.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/footprint_review.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/footprint_review.md",
+      "target": "../libraries/AI_Robot.pretty/IDC_Wurth_61201621621.kicad_mod",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/footprint_review.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/pin_map.md",
+      "target": "../../rev_a_6v_archive/docs/pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/pin_map.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/pin_map.md",
+      "target": "actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_circuit_spec.md",
+      "target": "../../rev_a_6v_archive/docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_circuit_spec.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_circuit_spec.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_circuit_spec.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_path_review_12v.md",
+      "target": "../../rev_a_6v_archive/docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_path_review_12v.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_path_review_12v.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/power_path_review_12v.md",
+      "target": "../validation/design/routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/reference_electrical_spec.md",
+      "target": "../../rev_a_6v_archive/docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/reference_electrical_spec.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/reference_electrical_spec.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/reference_electrical_spec.md",
+      "target": "power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/reference_electrical_spec.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements.md",
+      "target": "requirements_assumptions.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements.md",
+      "target": "../../rev_a_6v_archive/docs/requirements.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "../PROGRESS.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "../../rev_a_6v_archive/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "wheeltec_source_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "../validation/design/routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/requirements_assumptions.md",
+      "target": "12v_design_impact.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/revision_history.md",
+      "target": "../../rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/revision_history.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/risks.md",
+      "target": "requirements_assumptions.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/risks.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/risks.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/risks.md",
+      "target": "../validation/bring_up.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/routing_rationale.md",
+      "target": "../validation/design/routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/routing_rationale.md",
+      "target": "../validation/design/routing_geometry.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/routing_rationale.md",
+      "target": "../exports/draft/drills/selective_via_fill_map.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/routing_rationale.md",
+      "target": "../validation/design/selective_via_fill_review.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/routing_rationale.md",
+      "target": "fabrication_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/schematic_review.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/schematic_review.md",
+      "target": "../../rev_a_6v_archive/docs/schematic_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/schematic_review.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/scope_design_only.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/scope_design_only.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/scope_design_only.md",
+      "target": "../../rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/scope_design_only.md",
+      "target": "../validation/bring_up.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/software_safety_api.md",
+      "target": "design_sources.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/software_safety_api.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/software_safety_api.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/software_safety_api.md",
+      "target": "../validation/software_test_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wheeltec_source_review.md",
+      "target": "../../rev_a_6v_archive/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wheeltec_source_review.md",
+      "target": "driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wheeltec_source_review.md",
+      "target": "reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "../../rev_a_6v_archive/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "actual_hardware_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/docs/wiring_guide.md",
+      "target": "../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "schematic.pdf",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "pcb_layout.pdf",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "assembly_top.pdf",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "bom_fitted.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "bom_grouped.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "bom_testpoints.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "placement_all.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "views/pcb_top.png",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "views/pcb_bottom.png",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "views/kicad_3d_render.png",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "drills/selective_via_fill_map.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "../../docs/fabrication_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "../../docs/assembly_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "../../docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/exports/draft/README.md",
+      "target": "../../validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/libraries/README.md",
+      "target": "../docs/footprint_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/libraries/README.md",
+      "target": "3dmodels/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/libraries/README.md",
+      "target": "../../third_party/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/manufacturing/release/README.md",
+      "target": "../../exports/draft/README.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/manufacturing/release/README.md",
+      "target": "../../../rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/README.md",
+      "target": "design/",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/README.md",
+      "target": "design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/README.md",
+      "target": "../../rev_a_6v_archive/validation/design/",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/README.md",
+      "target": "software_test_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/README.md",
+      "target": "bring_up.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/README.md",
+      "target": "physical_test_records.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "../../rev_a_6v_archive/validation/bring_up.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "physical_test_records.csv",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "../docs/reference_electrical_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "../docs/power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "../docs/power_path_review_12v.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "../docs/driver_margin_review.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/bring_up.md",
+      "target": "../docs/enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "../../../rev_a_6v_archive/validation/design/design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "erc_final.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "drc_final.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "drc_final.rpt",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "command_log.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "independent_verification.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "final_electrical_audit.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "../../docs/routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "export_consistency.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "visual_qa.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "../../docs/fabrication_notes.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "mock_tests_rerun.junit.xml",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "../software_test_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "../mock_tests.junit.xml",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "artifact_hashes.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "archive_preservation.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "documentation_links.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "physical_records_blank_check.json",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/final_electrical_audit.md",
+      "target": "design_check_report.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/design/final_electrical_audit.md",
+      "target": "routing_geometry.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/rev_a/validation/tools/README.md",
+      "target": "../../docs/cad_workflow.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/third_party/README.md",
+      "target": "KiCad_LIBRARY_LICENSE.md",
+      "exists": true
+    },
+    {
+      "source": "hardware/third_party/README.md",
+      "target": "KiCad_MODELS_LICENSE.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/README.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/docs/existing_system_audit.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/docs/requirements.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/docs/architecture_review.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/PROGRESS.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/docs/software_safety_api.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../docs/vision_safety_integration.md",
+      "exists": true
+    }
+  ]
+}

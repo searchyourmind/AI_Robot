@@ -1,0 +1,13 @@
+DRAFT — NOT RELEASED FOR FABRICATION
+6 V REFERENCE ONLY — DIRECT 12 V INPUT INCOMPATIBLE
+
+Purchase records supplied 2026-09-28 describe a 12 V motor system.
+All native CAD, BOM, PDFs, Gerbers, drills and placement files retained here
+are the existing 5.5–6.5 V reference. They are not a 12 V redesign.
+D2 is SMBJ7.0A; nominal VM overvoltage threshold is 7.16 V.
+STBY inhibit does not disconnect the source from D2.
+See ../../docs/12v_design_impact.md and actual_hardware_evidence.md.
+Fabrication: DEFERRED / NOT BUILT
+Assembly: DEFERRED / NOT ASSEMBLED
+Physical validation: NOT TESTED
+Integration with proposed PCB: NOT TESTED

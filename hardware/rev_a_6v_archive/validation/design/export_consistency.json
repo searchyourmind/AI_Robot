@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scope": "Digital draft export consistency only; no assembler acceptance or physical validation",
+  "source_hashes": {
+    "ai_robot_interface.kicad_pcb": "2a5c00e9b49f78fa7a03420b92d5be16abc4048dd8b17c995c770ec7048457ce",
+    "ai_robot_interface.kicad_pro": "ca8080f0a7f51607089c6b9204283a091f8c83fa7d4565e9fe0fa4d947a64eaf",
+    "exports/draft/bom_reference.tsv": "4f13f06a6583dfc10bd08c1567fe01ef4c973fe242cbd80c97f6cd40920ec928",
+    "exports/draft/bom_per_reference.tsv": "379e0aa0bf83e87e257b94201db4557c38a1687a5830f4bf07f93f2cf12c8610",
+    "exports/draft/placement_all.csv": "c8a0196b85c3d1448bdebab8dfe59f0b541e293777ca44417d68dd915946fe51",
+    "validation/design/schematic_netlist.xml": "d48197df11c71f483252a95cc6a76d6e52e8fc14b8ac42dc9bd15d96ff86e26f"
+  },
+  "schematic_component_count": 107,
+  "fitted_BOM_count": 97,
+  "unique_MPNs": 33,
+  "placement_count": 97,
+  "placement_units": "mm",
+  "placement_sides": [
+    "top"
+  ],
+  "placement_origin": "native PCB (50,130) mm: board bottom-left, X right / Y up",
+  "gerber_layers": [
+    "ai_robot_interface-B_Cu.gbl",
+    "ai_robot_interface-B_Mask.gbs",
+    "ai_robot_interface-B_Silkscreen.gbo",
+    "ai_robot_interface-Edge_Cuts.gm1",
+    "ai_robot_interface-F_Cu.gtl",
+    "ai_robot_interface-F_Mask.gts",
+    "ai_robot_interface-F_Paste.gtp",
+    "ai_robot_interface-F_Silkscreen.gto"
+  ],
+  "plated_holes": 145,
+  "plated_breakdown": "105 vias + 40 component holes",
+  "nonplated_holes": 6,
+  "nonplated_breakdown": "4 mounting + 2 switch locating holes",
+  "embedded_model_bindings": 97,
+  "unique_embedded_model_paths": 20,
+  "missing_or_nonportable_models": [],
+  "preserved_mock_report_hashes": {
+    "software_test_report.md": true,
+    "mock_tests.junit.xml": true
+  },
+  "errors": [],
+  "direct_Excellon_coordinate_counts": {
+    "PTH": 145,
+    "NPTH": 6
+  }
+}

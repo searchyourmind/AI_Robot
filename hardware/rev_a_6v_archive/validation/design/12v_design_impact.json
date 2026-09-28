@@ -1,0 +1,249 @@
+{
+  "status": "DIRECT 12V INPUT INCOMPATIBLE WITH PRESERVED 6V REFERENCE; NO REDESIGN OR PHYSICAL TEST",
+  "date": "2026-09-28",
+  "scope": "Read-only comparison of purchase evidence with the existing native schematic/netlist, manifest and BOM",
+  "purchase_evidence": {
+    "provenance": "User-provided purchase information transcribed for this review; no battery label measurement or exact motor datasheet verified here",
+    "chassis_kits": 2,
+    "kit_description": "WHEELTEC R3 two-wheel chassis; 12V 30:1 geared GMR motor listing;500-line encoder listing;TB6612 regulated dual-channel board",
+    "motors_total": 4,
+    "driver_boards_total": 2,
+    "battery_packs_total": 2,
+    "battery_listing": {
+      "listed_voltage_V": 12,
+      "capacity_mAh": 2500,
+      "built_in_protection_claim": true,
+      "continuous_current_claim_A": "<4",
+      "startup_current_claim_A": "<10",
+      "power_claim_W": 48
+    },
+    "unconfirmed_motor_candidate": "MG513P30_12V",
+    "unknown": [
+      "exact motor identity and winding/current data",
+      "actual nominal/minimum/maximum pack voltage, chemistry and series-cell count",
+      "full-charge/low-voltage limits",
+      "BMS thresholds, delay, reverse-current and charge acceptance",
+      "actual one/two-pack connection topology",
+      "exact purchased driver board schematic/regulator and logic supply",
+      "encoder supply, output type, pinout and count convention"
+    ]
+  },
+  "candidate_manufacturer_evidence": {
+    "model": "MG513P30_12V",
+    "identification_status": "UNCONFIRMED FOR INSTALLED MOTORS",
+    "manufacturer_row_visually_inspected": true,
+    "rated_voltage_V": 12,
+    "rated_current_A": 0.36,
+    "stall_current_A": 3.2,
+    "gear_ratio_30_to_1_provenance": "User purchase listing; not independently inferred from the parameter row name",
+    "source_page": "https://www.wheeltec.net/product/html/?163.html",
+    "source_parameter_image": "https://www.wheeltec.net/kindeditor/attached/image/202410/23/20241023091819_60412.jpg",
+    "revision": "No formal revision visible; URL date is not a datasheet revision",
+    "conditional_reference_comparison": {
+      "rated_current_divided_by_reference_0_25A": 1.44,
+      "stall_current_divided_by_reference_0_60A": 5.333333333333334,
+      "illustrative_equal_resistance_conduction_loss_ratio": 2.0736,
+      "qualification": "Ratios apply only if this motor model is confirmed. Rated current is not a measured RMS waveform for all operating conditions. This is not a new thermal pass. Sustained stall cannot use the TB6612 single10ms absolute pulse entry as an operating permission."
+    }
+  },
+  "preserved_manifest_sha256": "0d68d0b4474dd2627032e4d7d4987235934c55058c50810e711a22b576b79958",
+  "preserved_artifact_sha256": {
+    "ai_robot_interface.kicad_sch": "c02547a42ac1d7aeda9f1fde1ed43a79e3ed2d62783815e6b6b09aba61865646",
+    "ai_robot_interface.kicad_pcb": "2a5c00e9b49f78fa7a03420b92d5be16abc4048dd8b17c995c770ec7048457ce",
+    "ai_robot_interface.kicad_pro": "ca8080f0a7f51607089c6b9204283a091f8c83fa7d4565e9fe0fa4d947a64eaf",
+    "exports/draft/bom_reference.tsv": "4f13f06a6583dfc10bd08c1567fe01ef4c973fe242cbd80c97f6cd40920ec928",
+    "exports/draft/bom_per_reference.tsv": "379e0aa0bf83e87e257b94201db4557c38a1687a5830f4bf07f93f2cf12c8610",
+    "validation/design/schematic_netlist.xml": "d48197df11c71f483252a95cc6a76d6e52e8fc14b8ac42dc9bd15d96ff86e26f",
+    "validation/design/drc_final.json": "519ddd740bfca239dae1a79173d3706530000b981450c7f8f581f39ca57b48d2",
+    "validation/design/electrical_board_review.json": "4018569aca18df408752b907b4458c6b4c862dad54848c1c12bdbb15bb3d129e",
+    "validation/design/component_count_review.json": "c12ca321bcc90b7ed889cb4a35d210a767b3e0e667a6d1aebbb77a2ad1e8a3a1"
+  },
+  "confirmed_existing_values": {
+    "D2": {
+      "mpn": "SMBJ7.0A",
+      "nets": [
+        "VM",
+        "GND"
+      ],
+      "standoff_V": 7,
+      "breakdown_at_10mA_V": [
+        7.78,
+        8.6
+      ],
+      "published_clamp_V_at_50A": 12
+    },
+    "U11": "TPS3700DDCR",
+    "R8_ohm": 169000,
+    "R9_ohm": 10000,
+    "nominal_VM_OV_V": 7.16,
+    "VM_OV_initial_tolerance_V": [
+      7.0750285714285726,
+      7.245268868868868
+    ],
+    "Q1_permission": "LOGIC_GOOD through R3,Q2,R2; independent of VM_OK/ARM",
+    "source_to_VM": "J1 -> F1 -> D1 -> Q1 -> VM; no 12V-to-6V regulator"
+  },
+  "definitive_incompatibilities": [
+    {
+      "id": "D12-01",
+      "refs": [
+        "D2"
+      ],
+      "finding": "SMBJ7.0A shunts a directly 12V-fed VM rail into avalanche; it is not a continuous-voltage regulator. Sustained power depends on source impedance and protection, not its600W pulse label.",
+      "classification": "incompatible as fitted"
+    },
+    {
+      "id": "D12-02",
+      "refs": [
+        "U11",
+        "R8",
+        "R9"
+      ],
+      "finding": "Existing OV threshold~7.16V rejects a normal12V-class VM rail; VM_OK inhibits arm but does not open Q1.",
+      "classification": "incompatible settings and inadequate remedy for D2 fault"
+    },
+    {
+      "id": "D12-03",
+      "refs": [
+        "J1",
+        "Q1"
+      ],
+      "finding": "Direct12V input exceeds the accepted5.5\u20136.5V reference envelope; D1/Q1 are not a voltage regulator.",
+      "classification": "outside original design envelope"
+    }
+  ],
+  "conditional_TB6612_evaluation": {
+    "result": "NOT APPROVED; nominal12V alone neither proves suitability nor proves bare-IC voltage incompatibility",
+    "recommended_VM_V": [
+      2.5,
+      13.5
+    ],
+    "absolute_VM_V": 15,
+    "recommended_VCC_V": [
+      2.7,
+      5.5
+    ],
+    "operating_current_A_per_channel_at_VM_ge4_5_without_PWM": 1.0,
+    "absolute_current_A_per_channel": 1.2,
+    "absolute_pulse_entries": [
+      {
+        "A": 2,
+        "duration_ms": 20,
+        "duty_max_percent": 20,
+        "type": "repetitive pulse"
+      },
+      {
+        "A": 3.2,
+        "duration_ms": 10,
+        "type": "single pulse"
+      }
+    ],
+    "requirements": [
+      "actual VM including charge maximum, ripple and regeneration stays inside reviewed operating envelope with margin",
+      "measured/specified startup, stall, reversing and braking currents for each motor",
+      "simultaneous two-channel thermal review for each package plus board heating",
+      "logic-level/partial-power review of exact carrier or new design",
+      "protection coordination cannot use absolute maximum ratings as normal targets"
+    ]
+  },
+  "tvs_replacement_caveat": {
+    "example_only_not_selected": "SMBJ12A",
+    "published_standoff_V": 12,
+    "published_breakdown_V": [
+      13.3,
+      14.7
+    ],
+    "published_clamp_V": 19.9,
+    "published_clamp_test_A": 30.2,
+    "finding": "A12V name does not establish a clamp below the driver15V absolute limit; actual current-dependent and thermal clamp coordination must be designed"
+  },
+  "illustrative_voltage_scaling": {
+    "old_reference_upper_6_5V": {
+      "vm_V": 6.5,
+      "vm_capacitance_nominal_F": 0.002094,
+      "stored_energy_J": 0.04423575,
+      "bleed_330ohm_minus5percent_W": 0.13476874003189793,
+      "initial_pass_switch_V_times_0_1A_W": 0.65,
+      "ideal_discharge_seconds_to_0_3V_Rplus5_Cplus20_no_regen": 2.678031754685086
+    },
+    "illustrative_exact_12V_not_pack_max": {
+      "vm_V": 12.0,
+      "vm_capacitance_nominal_F": 0.002094,
+      "stored_energy_J": 0.15076799999999999,
+      "bleed_330ohm_minus5percent_W": 0.45933014354066987,
+      "initial_pass_switch_V_times_0_1A_W": 1.2000000000000002,
+      "ideal_discharge_seconds_to_0_3V_Rplus5_Cplus20_no_regen": 3.211852745281083
+    }
+  },
+  "required_recalculations": [
+    "pack maximum/minimum and actual pack topology",
+    "motor RMS/peak/stall/braking currents and channel thermal budget",
+    "VM monitor thresholds, tolerances, hysteresis and actual disconnect behavior",
+    "TVS/active-clamp or regenerative-energy strategy across maximum normal source voltage",
+    "Q1 VGS/VDS, SOA, startup/inrush and default-off/partial-power behavior",
+    "fuse/BMS/source-disconnect/wire/connector coordination",
+    "capacitor voltage,ripple,ESR,inrush and stored/discharged/regenerated energy",
+    "R5 power, discharge time, board heating and clamp-event duty",
+    "actual trace/via/path current and losses",
+    "driver carrier regulator function,VCC,input levels and unpowered behavior",
+    "encoder electrical interface and count convention if integration is intended"
+  ],
+  "prohibited_inferences": [
+    "12V listing does not establish3S chemistry or12.6V maximum",
+    "2500mAh is not a motor-current rating",
+    "battery<4A/<10A and48W claims are not per-motor ratings or guaranteed current limiting",
+    "do not divide battery current equally among four channels",
+    "500 lines and30:1 do not establish counts per output-shaft revolution",
+    "MG513P30_12V is not a confirmed installed MPN",
+    "two purchased packs do not establish series,parallel,independent or spare usage"
+  ],
+  "sources": [
+    {
+      "id": "TOSHIBA",
+      "url": "https://toshiba.semicon-storage.com/info/datasheet_en_20141001.pdf?did=10660",
+      "revision": "served2026-05-13",
+      "sections": "pp3,5-7,10; recommended/absolute limits,logic,thermal,application,back-EMF",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "LITTELFUSE_SMBJ",
+      "url": "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e",
+      "revision": "JC.07/04/25 v4",
+      "sections": "p1 pulse specification,p2 SMBJ7.0A andSMBJ12A rows",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "TI_TPS3700",
+      "url": "https://www.ti.com/lit/ds/symlink/tps3700.pdf",
+      "revision": "SBVS187G February2019",
+      "sections": "6.5 electrical characteristics and7.3 comparator functions",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "AOS_AO3401A",
+      "url": "https://www.aosmd.com/pdfs/datasheet/AO3401A.pdf",
+      "revision": "3.1 December2023",
+      "sections": "pp1-3 ratings,electrical,thermal/SOA curves",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "WHEELTEC_MG513",
+      "url": "https://www.wheeltec.net/product/html/?163.html",
+      "parameter_image_url": "https://www.wheeltec.net/kindeditor/attached/image/202410/23/20241023091819_60412.jpg",
+      "revision": "No formal revision visible",
+      "sections": "Motor parameter image, MG513P30_12V row",
+      "accessed": "2026-09-28",
+      "applicability": "Candidate motor model only; not confirmed installed identity"
+    }
+  ],
+  "checks": {
+    "critical_manifest_values_match_native_netlist": true,
+    "existing_netlist_confirms_monitor_inhibit_does_not_gate_Q1": true,
+    "native_CAD_BOM_and_selected_historical_reports_unchanged": true
+  },
+  "limitations": [
+    "No circuit or BOM change",
+    "No12V redesign,physical measurement,powered test or suitability approval",
+    "Historical6V ERC/DRC and BOM evidence remain valid only for their preserved reference snapshot and do not verify12V operation"
+  ]
+}

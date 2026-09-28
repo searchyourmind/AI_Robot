@@ -1,137 +1,108 @@
 #!/usr/bin/env python3
-import time
-from flask import Flask, request, jsonify
-import RPi.GPIO as GPIO
+"""Local mock motor API. See hardware/rev_a/docs/software_safety_api.md."""
+import json
 import os
+import signal
+import threading
 
-# --- PIN MAP (BCM) ---
-PWMA = 18
-AIN1 = 23
-AIN2 = 24
+from flask import Flask, jsonify, request
+from werkzeug.exceptions import HTTPException
 
-PWMB = 13
-BIN1 = 5
-BIN2 = 6
-
-STBY = 25
-
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-
-for pin in [PWMA, AIN1, AIN2, PWMB, BIN1, BIN2, STBY]:
-    GPIO.setup(pin, GPIO.OUT)
-    GPIO.output(pin, GPIO.LOW)
-
-pwmA = GPIO.PWM(PWMA, 1000)  # 1 kHz
-pwmB = GPIO.PWM(PWMB, 1000)
-pwmA.start(0)
-pwmB.start(0)
-
-speed = 50  # 0–100
-app = Flask(__name__)
+try:
+    from .motor_control import CommandError, MotorController
+    from .motor_config import TICK_INTERVAL_S
+except ImportError:
+    from motor_control import CommandError, MotorController
+    from motor_config import TICK_INTERVAL_S
 
 
-def standby(on: bool):
-    GPIO.output(STBY, GPIO.HIGH if on else GPIO.LOW)
+def _unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError("duplicate JSON fields are not accepted")
+        result[key] = value
+    return result
 
 
-def stop_all():
-    global speed
-    standby(True)
-    for pin in [AIN1, AIN2, BIN1, BIN2]:
-        GPIO.output(pin, GPIO.LOW)
-    pwmA.ChangeDutyCycle(0)
-    pwmB.ChangeDutyCycle(0)
+def create_app(controller: MotorController | None = None) -> Flask:
+    application = Flask(__name__)
+    application.config["MAX_CONTENT_LENGTH"] = 4096
+    controller = controller if controller is not None else MotorController()
+    application.extensions["motor_controller"] = controller
+
+    @application.route("/cmd", methods=["GET", "POST"])
+    def cmd():
+        try:
+            if request.method == "POST":
+                if not request.is_json:
+                    raise CommandError("POST requires application/json")
+                try:
+                    data = json.loads(request.get_data(), object_pairs_hook=_unique_object)
+                except (ValueError, UnicodeDecodeError, RecursionError):
+                    raise CommandError("invalid or duplicate JSON fields") from None
+            else:
+                if any(len(request.args.getlist(key)) != 1 for key in request.args):
+                    raise CommandError("duplicate query fields are not accepted")
+                data = request.args.to_dict()
+            return jsonify(controller.execute(data))
+        except CommandError as exc:
+            if exc.status == 400:
+                controller.fault("invalid-request")
+            result = controller.status()
+            return jsonify({**result, "ok": False, "error": str(exc)}), exc.status
+
+    @application.route("/status")
+    def status():
+        try:
+            return jsonify(controller.status())
+        except CommandError as exc:
+            return jsonify({**controller.status(), "ok": False, "error": str(exc)}), exc.status
+
+    @application.errorhandler(HTTPException)
+    def http_error(exc):
+        if request.path == "/cmd":
+            controller.fault("invalid-http-request")
+        return jsonify({"ok": False, "error": exc.description}), exc.code
+
+    return application
 
 
-def set_speed(val: int):
-    global speed
-    speed = max(0, min(100, int(val)))
+def start_ticker(controller: MotorController):
+    stopped = threading.Event()
+
+    def run():
+        while not stopped.wait(TICK_INTERVAL_S):
+            try:
+                controller.tick()
+            except Exception:
+                controller.fault("ticker-failed")
+
+    thread = threading.Thread(target=run, name="motor-software-watchdog", daemon=True)
+    thread.start()
+    return stopped, thread
 
 
-def forward():
-    standby(True)
-    GPIO.output(AIN1, GPIO.HIGH)
-    GPIO.output(AIN2, GPIO.LOW)
-    GPIO.output(BIN1, GPIO.HIGH)
-    GPIO.output(BIN2, GPIO.LOW)
-    pwmA.ChangeDutyCycle(speed)
-    pwmB.ChangeDutyCycle(speed)
+app = create_app()
 
 
-def backward():
-    standby(True)
-    GPIO.output(AIN1, GPIO.LOW)
-    GPIO.output(AIN2, GPIO.HIGH)
-    GPIO.output(BIN1, GPIO.LOW)
-    GPIO.output(BIN2, GPIO.HIGH)
-    pwmA.ChangeDutyCycle(speed)
-    pwmB.ChangeDutyCycle(speed)
+def main():
+    if os.environ.get("MOTOR_BACKEND", "mock") != "mock":
+        raise SystemExit("Only MOTOR_BACKEND=mock is available; GPIO pins and electrical requirements remain unverified.")
+    controller = app.extensions["motor_controller"]
+    stop_event, thread = start_ticker(controller)
 
+    def terminate(_signum, _frame):
+        raise SystemExit(0)
 
-def left():
-    standby(True)
-    # left: A backwards, B forward
-    GPIO.output(AIN1, GPIO.LOW)
-    GPIO.output(AIN2, GPIO.HIGH)
-    GPIO.output(BIN1, GPIO.HIGH)
-    import math
-
-    GPIO.output(BIN2, GPIO.LOW)
-    pwmA.ChangeDutyCycle(speed)
-    pwmB.ChangeDutyCycle(speed)
-
-    import time
-
-
-def right():
-    standby(True)
-    # right: A forward, B backwards
-    GPIO.output(AIN1, GPIO.HIGH)
-    GPIO.output(AIN2, GPIO.LOW)
-    GPIO.output(BIN1, GPIO.LOW)
-    GPIO.output(BIN2, GPIO.HIGH)
-    pwmA.ChangeDutyCycle(speed)
-    pwmB.ChangeDutyCycle(speed)
-
-
-@app.route("/cmd")
-def cmd():
-    global speed
-    c = request.args.get("c", "").lower()
-    val = request.args.get("v")
-    if c == "stop":
-        stop_all()
-    elif c == "fwd":
-        forward()
-    elif c == "back":
-        backward()
-    elif c == "left":
-        left()
-    elif c == "right":
-        right()
-    elif c == "speed" and val is not None:
-        set_speed(val)
-    elif c == "pulse_fwd":
-        forward()
-        time.sleep(float(val) if val else 0.5)
-        stop_all()
-    else:
-        return jsonify({"ok": False, "error": "unknown cmd"}), 400
-
-    return jsonify({"ok": True, "cmd": c, "speed": speed})
-
-
-@app.route("/status")
-def status():
-    return jsonify({"ok": True, "speed": speed})
+    signal.signal(signal.SIGTERM, terminate)
+    try:
+        app.run(host="127.0.0.1", port=int(os.environ.get("PORT", "8088")), threaded=True, use_reloader=False)
+    finally:
+        controller.shutdown()
+        stop_event.set()
+        thread.join(timeout=1)
 
 
 if __name__ == "__main__":
-    try:
-        standby(True)
-        port = int(os.environ.get("PORT", "8088"))
-        app.run(host="0.0.0.0", port=port)
-    finally:
-        stop_all()
-        GPIO.cleanup()
+    main()

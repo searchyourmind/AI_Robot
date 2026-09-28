@@ -1,0 +1,6493 @@
+{
+  "date": "2026-09-28T12:12:55.619755+00:00",
+  "kind": "Read-only native-file consistency and Boolean desk review; not electrical/thermal/physical validation",
+  "stage": "routed",
+  "status": "PASS",
+  "versions": {
+    "pcbnew": "10.0.6",
+    "schematic_export": "Eeschema 10.0.6"
+  },
+  "counts": {
+    "manifest_parts": 135,
+    "schematic_parts": 135,
+    "pcb_electrical_footprints": 135,
+    "pcb_mechanical_footprints": 4,
+    "logical_pins": 434,
+    "physical_numbered_pads": 459,
+    "connected_nets": 85,
+    "explicit_nc_pins": 15,
+    "footprint_library_checks": 135
+  },
+  "routing": {
+    "stage": "routed",
+    "track_segments": 1572,
+    "vias": 191,
+    "zones": 2,
+    "native_connectivity_unconnected": 0,
+    "native_drc_counts": {
+      "violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    }
+  },
+  "ignored_drc_rule_classes": {},
+  "drc_exclusions": [],
+  "logic": [
+    {
+      "source": "manifest",
+      "cases": 32,
+      "driver_input_pairs": 128,
+      "matching_pairs": 128
+    },
+    {
+      "source": "native_schematic",
+      "cases": 32,
+      "driver_input_pairs": 128,
+      "matching_pairs": 128
+    },
+    {
+      "source": "native_pcb",
+      "cases": 32,
+      "driver_input_pairs": 128,
+      "matching_pairs": 128
+    }
+  ],
+  "repeated_pad_numbers": [
+    {
+      "ref": "U4",
+      "pin": "9",
+      "physical_pad_count": 5,
+      "net": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "17",
+      "physical_pad_count": 5,
+      "net": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "17",
+      "physical_pad_count": 5,
+      "net": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "17",
+      "physical_pad_count": 5,
+      "net": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "17",
+      "physical_pad_count": 5,
+      "net": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "5",
+      "physical_pad_count": 2,
+      "net": [
+        "EFUSE_IN",
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "25",
+      "physical_pad_count": 5,
+      "net": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    }
+  ],
+  "intentional_nc": [
+    {
+      "ref": "U5",
+      "pin": "3",
+      "net": "unconnected-(U5-Q_n-Pad3)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "J6",
+      "pin": "6",
+      "net": "unconnected-(J6-Pad6)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "J6",
+      "pin": "10",
+      "net": "unconnected-(J6-Pad10)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U20",
+      "pin": "7",
+      "net": "unconnected-(U20-IMODE-Pad7)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U21",
+      "pin": "7",
+      "net": "unconnected-(U21-IMODE-Pad7)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U22",
+      "pin": "7",
+      "net": "unconnected-(U22-IMODE-Pad7)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U23",
+      "pin": "7",
+      "net": "unconnected-(U23-IMODE-Pad7)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "11",
+      "net": "unconnected-(U13-MODE-Pad11)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "13",
+      "net": "unconnected-(U13-IMON-Pad13)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "19",
+      "net": "unconnected-(U13-NC-Pad19)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "20",
+      "net": "unconnected-(U13-NC-Pad20)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "21",
+      "net": "unconnected-(U13-NC-Pad21)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "22",
+      "net": "unconnected-(U13-NC-Pad22)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "23",
+      "net": "unconnected-(U13-NC-Pad23)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    },
+    {
+      "ref": "U13",
+      "pin": "24",
+      "net": "unconnected-(U13-NC-Pad24)",
+      "connected_items": [],
+      "assigned_tracks_vias": [],
+      "assigned_zones": []
+    }
+  ],
+  "footprint_libraries": [
+    {
+      "ref": "R5",
+      "footprint": "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal",
+      "sha256": "5f84c6689c7af8378b6050502112f039797a9a54bef50c0299baea267087c65b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C11",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U11",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+      "physical_pads": 6,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R6",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R7",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R8",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R9",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R10",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "J1",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "J2",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "J3",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "J4",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "J5",
+      "footprint": "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",
+      "sha256": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U3",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "sha256": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a",
+      "physical_pads": 14,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U4",
+      "footprint": "AI_Robot:TPS3431_DRB8_3x3_P0.65",
+      "sha256": "a5d11b3bb9f9ed5f81bf7264b9aab57662b722884ad3603535deac3906531ebf",
+      "physical_pads": 18,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U5",
+      "footprint": "AI_Robot:TI_DCU0008A",
+      "sha256": "f159a6d5b0942fad4426b9f4b74fe741892dc9a81c520409e1b6c1001a80e7ea",
+      "physical_pads": 8,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U6",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "sha256": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a",
+      "physical_pads": 14,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U7",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "sha256": "9e9b07822ac0c9afab4a1b3aaae470ebbd2d2f5cf28dffd79249ebd536eb8f63",
+      "physical_pads": 3,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U8",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+      "physical_pads": 6,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U9",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+      "physical_pads": 6,
+      "geometry_equal": true
+    },
+    {
+      "ref": "SW1",
+      "footprint": "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN",
+      "sha256": "1d6a25b7bb84c97a6b20133c55bd59857bcd0499b621f10fe2fc897f006fe78c",
+      "physical_pads": 5,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R100",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R101",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R104",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R105",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R112",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R113",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R116",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R117",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R124",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R125",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R126",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R127",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R128",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R129",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R130",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R131",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R132",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R133",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R134",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R138",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R139",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R140",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R141",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C100",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C101",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C102",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C103",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C104",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C105",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C106",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C107",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "J6",
+      "footprint": "AI_Robot:IDC_Wurth_61201621621",
+      "sha256": "31dc30244c3f308f30499065b31b9a5431770491345c80e98d89fa4e6a6286f8",
+      "physical_pads": 16,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP1",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP2",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP3",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP4",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP5",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP6",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP7",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP8",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP9",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP10",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U12",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+      "physical_pads": 6,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C109",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "sha256": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U15",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "sha256": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+      "physical_pads": 6,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U16",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "sha256": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a",
+      "physical_pads": 14,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C13",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C14",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U14",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "sha256": "398558a828233ca0093e89517f367e87be165738bfb67eea029a7c4162983f65",
+      "physical_pads": 5,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C12",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R11",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R12",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U20",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "sha256": "a03317ae740f8a5d42853f77edfb9174154a370444f249d0d5ead44680bd2334",
+      "physical_pads": 23,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C20",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "sha256": "f75eff8ec0dd43b43d31b98e23113f815f6de756f1d3b79662682b9751cb92c4",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C21",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C22",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C23",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C24",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R20",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R21",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R22",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R23",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP20",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U21",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "sha256": "a03317ae740f8a5d42853f77edfb9174154a370444f249d0d5ead44680bd2334",
+      "physical_pads": 23,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C25",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "sha256": "f75eff8ec0dd43b43d31b98e23113f815f6de756f1d3b79662682b9751cb92c4",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C26",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C27",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C28",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C29",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R24",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R25",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R26",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R27",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP21",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U22",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "sha256": "a03317ae740f8a5d42853f77edfb9174154a370444f249d0d5ead44680bd2334",
+      "physical_pads": 23,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C30",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "sha256": "f75eff8ec0dd43b43d31b98e23113f815f6de756f1d3b79662682b9751cb92c4",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C31",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C32",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C33",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C34",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R28",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R29",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R30",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R31",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP22",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U23",
+      "footprint": "AI_Robot:DRV8874_PWP0016J_EP3.4x5",
+      "sha256": "a03317ae740f8a5d42853f77edfb9174154a370444f249d0d5ead44680bd2334",
+      "physical_pads": 23,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C35",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "sha256": "f75eff8ec0dd43b43d31b98e23113f815f6de756f1d3b79662682b9751cb92c4",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C36",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C37",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C38",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C39",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "sha256": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R32",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R33",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R34",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R35",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "TP23",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+      "physical_pads": 1,
+      "geometry_equal": true
+    },
+    {
+      "ref": "F1",
+      "footprint": "AI_Robot:Fuse_Littelfuse_451",
+      "sha256": "74d3cd56f7c4cda558c882191ead20e886b5dcd836a687e64b738f3695b9ac51",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "D1",
+      "footprint": "Diode_SMD:D_SMB",
+      "sha256": "6f7f1c0c3ad02d5963c932f7e8c4ea489b479b029e56bbcf8057dcf8f2a34dd0",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "Q1",
+      "footprint": "AI_Robot:CSD19537Q3_Texas_Q3",
+      "sha256": "7b70a7779259eaab5659ef3c6c5ed3998dd5b50e53ee8bcdbc85ceb0f06c80d3",
+      "physical_pads": 19,
+      "geometry_equal": true
+    },
+    {
+      "ref": "Q2",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "sha256": "9e9b07822ac0c9afab4a1b3aaae470ebbd2d2f5cf28dffd79249ebd536eb8f63",
+      "physical_pads": 3,
+      "geometry_equal": true
+    },
+    {
+      "ref": "U13",
+      "footprint": "AI_Robot:TPS26630_RGE0024H_EP2.7x2.7",
+      "sha256": "f7e48677a0eb68665cb9f8600ea20fb06bca611fdf691b89efa4428cdd123017",
+      "physical_pads": 33,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R40",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R41",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R42",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R43",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R44",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "sha256": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C40",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "sha256": "2b32778fccd401fc0a4bb60eb5c5e85054096c9b026e1e8dc8b0324aa751581f",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C41",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "sha256": "2b32778fccd401fc0a4bb60eb5c5e85054096c9b026e1e8dc8b0324aa751581f",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C42",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "sha256": "2b32778fccd401fc0a4bb60eb5c5e85054096c9b026e1e8dc8b0324aa751581f",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "D2",
+      "footprint": "Diode_SMD:D_SMB",
+      "sha256": "6f7f1c0c3ad02d5963c932f7e8c4ea489b479b029e56bbcf8057dcf8f2a34dd0",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C1",
+      "footprint": "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm",
+      "sha256": "d645fe264aa519badc711805e6d553926edfbd5fd4724392c062e97058e6df60",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "C2",
+      "footprint": "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm",
+      "sha256": "d645fe264aa519badc711805e6d553926edfbd5fd4724392c062e97058e6df60",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R45",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    },
+    {
+      "ref": "R46",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "sha256": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+      "physical_pads": 2,
+      "geometry_equal": true
+    }
+  ],
+  "all_pins": [
+    {
+      "ref": "R5",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C11",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C11",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U11",
+      "pin": "1",
+      "name": "OUTA",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U11",
+      "pin": "2",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U11",
+      "pin": "3",
+      "name": "INA+",
+      "type": "input",
+      "manifest_net": "VM_UV_SENSE",
+      "schematic_net": "VM_UV_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM_UV_SENSE"
+      ]
+    },
+    {
+      "ref": "U11",
+      "pin": "4",
+      "name": "INB-",
+      "type": "input",
+      "manifest_net": "VM_OV_SENSE",
+      "schematic_net": "VM_OV_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM_OV_SENSE"
+      ]
+    },
+    {
+      "ref": "U11",
+      "pin": "5",
+      "name": "VDD",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U11",
+      "pin": "6",
+      "name": "OUTB",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "VM_UV_SENSE",
+      "schematic_net": "VM_UV_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM_UV_SENSE"
+      ]
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM_UV_SENSE",
+      "schematic_net": "VM_UV_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM_UV_SENSE"
+      ]
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R8",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "R8",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "VM_OV_SENSE",
+      "schematic_net": "VM_OV_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM_OV_SENSE"
+      ]
+    },
+    {
+      "ref": "R9",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM_OV_SENSE",
+      "schematic_net": "VM_OV_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM_OV_SENSE"
+      ]
+    },
+    {
+      "ref": "R9",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "MOTOR_IN",
+      "schematic_net": "MOTOR_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "MOTOR_IN"
+      ]
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_OUT1",
+      "schematic_net": "FL_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_OUT1"
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FL_OUT2",
+      "schematic_net": "FL_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_OUT2"
+      ]
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_OUT1",
+      "schematic_net": "FR_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_OUT1"
+      ]
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FR_OUT2",
+      "schematic_net": "FR_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_OUT2"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_OUT1",
+      "schematic_net": "BL_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_OUT1"
+      ]
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BL_OUT2",
+      "schematic_net": "BL_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_OUT2"
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_OUT1",
+      "schematic_net": "BR_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_OUT1"
+      ]
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BR_OUT2",
+      "schematic_net": "BR_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_OUT2"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "LEFT_PRE1",
+      "schematic_net": "LEFT_PRE1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_PRE1"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "name": "1B",
+      "type": "input",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "LEFT_IN1",
+      "schematic_net": "LEFT_IN1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_IN1"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "LEFT_PRE2",
+      "schematic_net": "LEFT_PRE2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_PRE2"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "name": "2B",
+      "type": "input",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "LEFT_IN2",
+      "schematic_net": "LEFT_IN2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_IN2"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "name": "3Y",
+      "type": "output",
+      "manifest_net": "RIGHT_IN1",
+      "schematic_net": "RIGHT_IN1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_IN1"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "9",
+      "name": "3A",
+      "type": "input",
+      "manifest_net": "RIGHT_PRE1",
+      "schematic_net": "RIGHT_PRE1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_PRE1"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "10",
+      "name": "3B",
+      "type": "input",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "11",
+      "name": "4Y",
+      "type": "output",
+      "manifest_net": "RIGHT_IN2",
+      "schematic_net": "RIGHT_IN2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_IN2"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "12",
+      "name": "4A",
+      "type": "input",
+      "manifest_net": "RIGHT_PRE2",
+      "schematic_net": "RIGHT_PRE2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_PRE2"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "13",
+      "name": "4B",
+      "type": "input",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "U3",
+      "pin": "14",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "1",
+      "name": "VDD",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "2",
+      "name": "CWD",
+      "type": "input",
+      "manifest_net": "WD_SELECT",
+      "schematic_net": "WD_SELECT",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_SELECT"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "name": "EN",
+      "type": "input",
+      "manifest_net": "LOGIC_GOOD",
+      "schematic_net": "LOGIC_GOOD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LOGIC_GOOD"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "4",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "5",
+      "name": "SET1",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "6",
+      "name": "WDI",
+      "type": "input",
+      "manifest_net": "HB",
+      "schematic_net": "HB",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "7",
+      "name": "WDO_n",
+      "type": "open_collector",
+      "manifest_net": "WD_RAW",
+      "schematic_net": "WD_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_RAW"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "8",
+      "name": "ENOUT",
+      "type": "open_collector",
+      "manifest_net": "WD_RAW",
+      "schematic_net": "WD_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_RAW"
+      ]
+    },
+    {
+      "ref": "U4",
+      "pin": "9",
+      "name": "EP",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 5,
+      "pcb_nets": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "1",
+      "name": "CLK",
+      "type": "input",
+      "manifest_net": "ARM_PULSE",
+      "schematic_net": "ARM_PULSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_PULSE"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "name": "D",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "3",
+      "name": "Q_n",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U5-Q_n-Pad3)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U5-Q_n-Pad3)"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "4",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "5",
+      "name": "Q",
+      "type": "output",
+      "manifest_net": "ARM_Q",
+      "schematic_net": "ARM_Q",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_Q"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "6",
+      "name": "CLR_n",
+      "type": "input",
+      "manifest_net": "ALL_OK",
+      "schematic_net": "ALL_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ALL_OK"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "7",
+      "name": "PRE_n",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U5",
+      "pin": "8",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "LOGIC_GOOD",
+      "schematic_net": "LOGIC_GOOD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LOGIC_GOOD"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "2",
+      "name": "1B",
+      "type": "input",
+      "manifest_net": "PHYS_OK",
+      "schematic_net": "PHYS_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "RAILS_OK",
+      "schematic_net": "RAILS_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RAILS_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "4",
+      "name": "2B",
+      "type": "input",
+      "manifest_net": "WD_OK",
+      "schematic_net": "WD_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "5",
+      "name": "2C",
+      "type": "input",
+      "manifest_net": "RUN_REQ",
+      "schematic_net": "RUN_REQ",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RUN_REQ"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "6",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "ALL_OK",
+      "schematic_net": "ALL_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ALL_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "7",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "8",
+      "name": "3Y",
+      "type": "output",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "9",
+      "name": "3A",
+      "type": "input",
+      "manifest_net": "ARM_Q",
+      "schematic_net": "ARM_Q",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_Q"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "10",
+      "name": "3B",
+      "type": "input",
+      "manifest_net": "ALL_OK",
+      "schematic_net": "ALL_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ALL_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "11",
+      "name": "3C",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "12",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "RAILS_OK",
+      "schematic_net": "RAILS_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RAILS_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "13",
+      "name": "1C",
+      "type": "input",
+      "manifest_net": "FAULT_OK",
+      "schematic_net": "FAULT_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK"
+      ]
+    },
+    {
+      "ref": "U6",
+      "pin": "14",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "1",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "2",
+      "name": "RESET_n",
+      "type": "output",
+      "manifest_net": "LOGIC_GOOD",
+      "schematic_net": "LOGIC_GOOD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LOGIC_GOOD"
+      ]
+    },
+    {
+      "ref": "U7",
+      "pin": "3",
+      "name": "VDD",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "PHYS_RAW",
+      "schematic_net": "PHYS_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_RAW"
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "WD_RAW",
+      "schematic_net": "WD_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_RAW"
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "WD_OK",
+      "schematic_net": "WD_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_OK"
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U8",
+      "pin": "6",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "PHYS_OK",
+      "schematic_net": "PHYS_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_OK"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "HB_RAW",
+      "schematic_net": "HB_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB_RAW"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "HB",
+      "schematic_net": "HB",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "FAULT_OK",
+      "schematic_net": "FAULT_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK"
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "name": "ENABLE",
+      "type": "passive",
+      "manifest_net": "PHYS_SUPPLY",
+      "schematic_net": "PHYS_SUPPLY",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_SUPPLY"
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "name": "COMMON",
+      "type": "passive",
+      "manifest_net": "PHYS_RAW",
+      "schematic_net": "PHYS_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_RAW"
+      ]
+    },
+    {
+      "ref": "SW1",
+      "pin": "3",
+      "name": "INHIBIT",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R100",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO18",
+      "schematic_net": "GPIO18",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO18"
+      ]
+    },
+    {
+      "ref": "R100",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "PWM_A_RAW",
+      "schematic_net": "PWM_A_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_A_RAW"
+      ]
+    },
+    {
+      "ref": "R101",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PWM_A_RAW",
+      "schematic_net": "PWM_A_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_A_RAW"
+      ]
+    },
+    {
+      "ref": "R101",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R104",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO23",
+      "schematic_net": "GPIO23",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO23"
+      ]
+    },
+    {
+      "ref": "R104",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "AIN1_RAW",
+      "schematic_net": "AIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "AIN1_RAW"
+      ]
+    },
+    {
+      "ref": "R105",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "AIN1_RAW",
+      "schematic_net": "AIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "AIN1_RAW"
+      ]
+    },
+    {
+      "ref": "R105",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R112",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO13",
+      "schematic_net": "GPIO13",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO13"
+      ]
+    },
+    {
+      "ref": "R112",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "PWM_B_RAW",
+      "schematic_net": "PWM_B_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_B_RAW"
+      ]
+    },
+    {
+      "ref": "R113",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PWM_B_RAW",
+      "schematic_net": "PWM_B_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_B_RAW"
+      ]
+    },
+    {
+      "ref": "R113",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R116",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO5",
+      "schematic_net": "GPIO5",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO5"
+      ]
+    },
+    {
+      "ref": "R116",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BIN1_RAW",
+      "schematic_net": "BIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BIN1_RAW"
+      ]
+    },
+    {
+      "ref": "R117",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BIN1_RAW",
+      "schematic_net": "BIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BIN1_RAW"
+      ]
+    },
+    {
+      "ref": "R117",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R124",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO25",
+      "schematic_net": "GPIO25",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO25"
+      ]
+    },
+    {
+      "ref": "R124",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "RUN_RAW",
+      "schematic_net": "RUN_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RUN_RAW"
+      ]
+    },
+    {
+      "ref": "R125",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "RUN_RAW",
+      "schematic_net": "RUN_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RUN_RAW"
+      ]
+    },
+    {
+      "ref": "R125",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R126",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO17",
+      "schematic_net": "GPIO17",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO17"
+      ]
+    },
+    {
+      "ref": "R126",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "ARM_RAW",
+      "schematic_net": "ARM_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_RAW"
+      ]
+    },
+    {
+      "ref": "R127",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "ARM_RAW",
+      "schematic_net": "ARM_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_RAW"
+      ]
+    },
+    {
+      "ref": "R127",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R128",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GPIO27",
+      "schematic_net": "GPIO27",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO27"
+      ]
+    },
+    {
+      "ref": "R128",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "HB_RAW",
+      "schematic_net": "HB_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB_RAW"
+      ]
+    },
+    {
+      "ref": "R129",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "HB_RAW",
+      "schematic_net": "HB_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB_RAW"
+      ]
+    },
+    {
+      "ref": "R129",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R130",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R130",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "WD_SELECT",
+      "schematic_net": "WD_SELECT",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_SELECT"
+      ]
+    },
+    {
+      "ref": "R131",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R131",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "WD_RAW",
+      "schematic_net": "WD_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_RAW"
+      ]
+    },
+    {
+      "ref": "R132",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "HB",
+      "schematic_net": "HB",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB"
+      ]
+    },
+    {
+      "ref": "R132",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R133",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R133",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "PHYS_SUPPLY",
+      "schematic_net": "PHYS_SUPPLY",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_SUPPLY"
+      ]
+    },
+    {
+      "ref": "R134",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PHYS_RAW",
+      "schematic_net": "PHYS_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_RAW"
+      ]
+    },
+    {
+      "ref": "R134",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R138",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "LOGIC_GOOD",
+      "schematic_net": "LOGIC_GOOD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LOGIC_GOOD"
+      ]
+    },
+    {
+      "ref": "R138",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R139",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "ARM_Q",
+      "schematic_net": "ARM_Q",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_Q"
+      ]
+    },
+    {
+      "ref": "R139",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R140",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "ALL_OK",
+      "schematic_net": "ALL_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ALL_OK"
+      ]
+    },
+    {
+      "ref": "R140",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R141",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "R141",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C100",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PHYS_RAW",
+      "schematic_net": "PHYS_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_RAW"
+      ]
+    },
+    {
+      "ref": "C100",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C101",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C101",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C102",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C102",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C103",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C103",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C104",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C104",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C105",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C105",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C106",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C106",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C107",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C107",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "name": "3",
+      "type": "passive",
+      "manifest_net": "GPIO18",
+      "schematic_net": "GPIO18",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO18"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "name": "4",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "5",
+      "name": "5",
+      "type": "passive",
+      "manifest_net": "GPIO23",
+      "schematic_net": "GPIO23",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO23"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "6",
+      "name": "6",
+      "type": "passive",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(J6-Pad6)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(J6-Pad6)"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "7",
+      "name": "7",
+      "type": "passive",
+      "manifest_net": "GPIO13",
+      "schematic_net": "GPIO13",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO13"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "8",
+      "name": "8",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "9",
+      "name": "9",
+      "type": "passive",
+      "manifest_net": "GPIO5",
+      "schematic_net": "GPIO5",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO5"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "10",
+      "name": "10",
+      "type": "passive",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(J6-Pad10)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(J6-Pad10)"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "11",
+      "name": "11",
+      "type": "passive",
+      "manifest_net": "GPIO25",
+      "schematic_net": "GPIO25",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO25"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "12",
+      "name": "12",
+      "type": "passive",
+      "manifest_net": "GPIO17",
+      "schematic_net": "GPIO17",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO17"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "13",
+      "name": "13",
+      "type": "passive",
+      "manifest_net": "GPIO27",
+      "schematic_net": "GPIO27",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GPIO27"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "14",
+      "name": "14",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "15",
+      "name": "15",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "J6",
+      "pin": "16",
+      "name": "16",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "TP1",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "TP2",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "TP3",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "TP4",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "LOGIC_GOOD",
+      "schematic_net": "LOGIC_GOOD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LOGIC_GOOD"
+      ]
+    },
+    {
+      "ref": "TP5",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FAULT_OK",
+      "schematic_net": "FAULT_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK"
+      ]
+    },
+    {
+      "ref": "TP6",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "WD_RAW",
+      "schematic_net": "WD_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "WD_RAW"
+      ]
+    },
+    {
+      "ref": "TP7",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "HB",
+      "schematic_net": "HB",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "HB"
+      ]
+    },
+    {
+      "ref": "TP8",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "ARM_Q",
+      "schematic_net": "ARM_Q",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_Q"
+      ]
+    },
+    {
+      "ref": "TP9",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "ALL_OK",
+      "schematic_net": "ALL_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ALL_OK"
+      ]
+    },
+    {
+      "ref": "TP10",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "DRIVE_ENABLE_CMD",
+      "schematic_net": "DRIVE_ENABLE_CMD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "DRIVE_ENABLE_CMD"
+      ]
+    },
+    {
+      "ref": "U12",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "RUN_RAW",
+      "schematic_net": "RUN_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RUN_RAW"
+      ]
+    },
+    {
+      "ref": "U12",
+      "pin": "2",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U12",
+      "pin": "3",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "ARM_RAW",
+      "schematic_net": "ARM_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_RAW"
+      ]
+    },
+    {
+      "ref": "U12",
+      "pin": "4",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "ARM_PULSE",
+      "schematic_net": "ARM_PULSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "ARM_PULSE"
+      ]
+    },
+    {
+      "ref": "U12",
+      "pin": "5",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U12",
+      "pin": "6",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "RUN_REQ",
+      "schematic_net": "RUN_REQ",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RUN_REQ"
+      ]
+    },
+    {
+      "ref": "C109",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C109",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U15",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "AIN1_RAW",
+      "schematic_net": "AIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "AIN1_RAW"
+      ]
+    },
+    {
+      "ref": "U15",
+      "pin": "2",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U15",
+      "pin": "3",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "BIN1_RAW",
+      "schematic_net": "BIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BIN1_RAW"
+      ]
+    },
+    {
+      "ref": "U15",
+      "pin": "4",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "RIGHT_PH_N",
+      "schematic_net": "RIGHT_PH_N",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_PH_N"
+      ]
+    },
+    {
+      "ref": "U15",
+      "pin": "5",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U15",
+      "pin": "6",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "LEFT_PH_N",
+      "schematic_net": "LEFT_PH_N",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_PH_N"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "1",
+      "name": "1A",
+      "type": "input",
+      "manifest_net": "PWM_A_RAW",
+      "schematic_net": "PWM_A_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_A_RAW"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "2",
+      "name": "1B",
+      "type": "input",
+      "manifest_net": "LEFT_PH_N",
+      "schematic_net": "LEFT_PH_N",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_PH_N"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "3",
+      "name": "1Y",
+      "type": "output",
+      "manifest_net": "LEFT_PRE1",
+      "schematic_net": "LEFT_PRE1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_PRE1"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "4",
+      "name": "2A",
+      "type": "input",
+      "manifest_net": "PWM_A_RAW",
+      "schematic_net": "PWM_A_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_A_RAW"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "5",
+      "name": "2B",
+      "type": "input",
+      "manifest_net": "AIN1_RAW",
+      "schematic_net": "AIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "AIN1_RAW"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "6",
+      "name": "2Y",
+      "type": "output",
+      "manifest_net": "LEFT_PRE2",
+      "schematic_net": "LEFT_PRE2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_PRE2"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "7",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "8",
+      "name": "3Y",
+      "type": "output",
+      "manifest_net": "RIGHT_PRE1",
+      "schematic_net": "RIGHT_PRE1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_PRE1"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "9",
+      "name": "3A",
+      "type": "input",
+      "manifest_net": "PWM_B_RAW",
+      "schematic_net": "PWM_B_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_B_RAW"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "10",
+      "name": "3B",
+      "type": "input",
+      "manifest_net": "RIGHT_PH_N",
+      "schematic_net": "RIGHT_PH_N",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_PH_N"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "11",
+      "name": "4Y",
+      "type": "output",
+      "manifest_net": "RIGHT_PRE2",
+      "schematic_net": "RIGHT_PRE2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_PRE2"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "12",
+      "name": "4A",
+      "type": "input",
+      "manifest_net": "PWM_B_RAW",
+      "schematic_net": "PWM_B_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PWM_B_RAW"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "13",
+      "name": "4B",
+      "type": "input",
+      "manifest_net": "BIN1_RAW",
+      "schematic_net": "BIN1_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BIN1_RAW"
+      ]
+    },
+    {
+      "ref": "U16",
+      "pin": "14",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C13",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C13",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U14",
+      "pin": "1",
+      "name": "A",
+      "type": "input",
+      "manifest_net": "LOGIC_GOOD",
+      "schematic_net": "LOGIC_GOOD",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LOGIC_GOOD"
+      ]
+    },
+    {
+      "ref": "U14",
+      "pin": "2",
+      "name": "B",
+      "type": "input",
+      "manifest_net": "PHYS_OK",
+      "schematic_net": "PHYS_OK",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PHYS_OK"
+      ]
+    },
+    {
+      "ref": "U14",
+      "pin": "3",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U14",
+      "pin": "4",
+      "name": "Y",
+      "type": "output",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "U14",
+      "pin": "5",
+      "name": "VCC",
+      "type": "power_in",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "C12",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "EFUSE_SHDN",
+      "schematic_net": "EFUSE_SHDN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_SHDN"
+      ]
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_SHDN",
+      "schematic_net": "EFUSE_SHDN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_SHDN"
+      ]
+    },
+    {
+      "ref": "R12",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "1",
+      "name": "IN1",
+      "type": "input",
+      "manifest_net": "LEFT_IN1",
+      "schematic_net": "LEFT_IN1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_IN1"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "2",
+      "name": "IN2",
+      "type": "input",
+      "manifest_net": "LEFT_IN2",
+      "schematic_net": "LEFT_IN2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_IN2"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "3",
+      "name": "nSLEEP",
+      "type": "input",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "4",
+      "name": "nFAULT",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "5",
+      "name": "VREF",
+      "type": "input",
+      "manifest_net": "FL_VREF",
+      "schematic_net": "FL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_VREF"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "6",
+      "name": "IPROPI",
+      "type": "output",
+      "manifest_net": "FL_IPROPI",
+      "schematic_net": "FL_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_IPROPI"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "7",
+      "name": "IMODE",
+      "type": "input",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U20-IMODE-Pad7)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U20-IMODE-Pad7)"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "8",
+      "name": "OUT1",
+      "type": "output",
+      "manifest_net": "FL_OUT1",
+      "schematic_net": "FL_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_OUT1"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "9",
+      "name": "PGND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "10",
+      "name": "OUT2",
+      "type": "output",
+      "manifest_net": "FL_OUT2",
+      "schematic_net": "FL_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_OUT2"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "11",
+      "name": "VM",
+      "type": "power_in",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "12",
+      "name": "VCP",
+      "type": "passive",
+      "manifest_net": "FL_VCP",
+      "schematic_net": "FL_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_VCP"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "13",
+      "name": "CPH",
+      "type": "passive",
+      "manifest_net": "FL_CPH",
+      "schematic_net": "FL_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_CPH"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "14",
+      "name": "CPL",
+      "type": "passive",
+      "manifest_net": "FL_CPL",
+      "schematic_net": "FL_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_CPL"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "15",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "16",
+      "name": "PMODE",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U20",
+      "pin": "17",
+      "name": "EP",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 5,
+      "pcb_nets": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C20",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C20",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C21",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C21",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_VCP",
+      "schematic_net": "FL_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_VCP"
+      ]
+    },
+    {
+      "ref": "C22",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C23",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_CPH",
+      "schematic_net": "FL_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_CPH"
+      ]
+    },
+    {
+      "ref": "C23",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FL_CPL",
+      "schematic_net": "FL_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_CPL"
+      ]
+    },
+    {
+      "ref": "C24",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_VREF",
+      "schematic_net": "FL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_VREF"
+      ]
+    },
+    {
+      "ref": "C24",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R20",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R20",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FL_VREF",
+      "schematic_net": "FL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_VREF"
+      ]
+    },
+    {
+      "ref": "R21",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_VREF",
+      "schematic_net": "FL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_VREF"
+      ]
+    },
+    {
+      "ref": "R21",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R22",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_IPROPI",
+      "schematic_net": "FL_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_IPROPI"
+      ]
+    },
+    {
+      "ref": "R22",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R23",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "R23",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "TP20",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FL_IPROPI",
+      "schematic_net": "FL_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FL_IPROPI"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "1",
+      "name": "IN1",
+      "type": "input",
+      "manifest_net": "RIGHT_IN1",
+      "schematic_net": "RIGHT_IN1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_IN1"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "2",
+      "name": "IN2",
+      "type": "input",
+      "manifest_net": "RIGHT_IN2",
+      "schematic_net": "RIGHT_IN2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_IN2"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "3",
+      "name": "nSLEEP",
+      "type": "input",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "4",
+      "name": "nFAULT",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "5",
+      "name": "VREF",
+      "type": "input",
+      "manifest_net": "FR_VREF",
+      "schematic_net": "FR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_VREF"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "6",
+      "name": "IPROPI",
+      "type": "output",
+      "manifest_net": "FR_IPROPI",
+      "schematic_net": "FR_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_IPROPI"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "7",
+      "name": "IMODE",
+      "type": "input",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U21-IMODE-Pad7)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U21-IMODE-Pad7)"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "8",
+      "name": "OUT1",
+      "type": "output",
+      "manifest_net": "FR_OUT1",
+      "schematic_net": "FR_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_OUT1"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "9",
+      "name": "PGND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "10",
+      "name": "OUT2",
+      "type": "output",
+      "manifest_net": "FR_OUT2",
+      "schematic_net": "FR_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_OUT2"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "11",
+      "name": "VM",
+      "type": "power_in",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "12",
+      "name": "VCP",
+      "type": "passive",
+      "manifest_net": "FR_VCP",
+      "schematic_net": "FR_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_VCP"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "13",
+      "name": "CPH",
+      "type": "passive",
+      "manifest_net": "FR_CPH",
+      "schematic_net": "FR_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_CPH"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "14",
+      "name": "CPL",
+      "type": "passive",
+      "manifest_net": "FR_CPL",
+      "schematic_net": "FR_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_CPL"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "15",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "16",
+      "name": "PMODE",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U21",
+      "pin": "17",
+      "name": "EP",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 5,
+      "pcb_nets": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C25",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C25",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C26",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C26",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C27",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_VCP",
+      "schematic_net": "FR_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_VCP"
+      ]
+    },
+    {
+      "ref": "C27",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C28",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_CPH",
+      "schematic_net": "FR_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_CPH"
+      ]
+    },
+    {
+      "ref": "C28",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FR_CPL",
+      "schematic_net": "FR_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_CPL"
+      ]
+    },
+    {
+      "ref": "C29",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_VREF",
+      "schematic_net": "FR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_VREF"
+      ]
+    },
+    {
+      "ref": "C29",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R24",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R24",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FR_VREF",
+      "schematic_net": "FR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_VREF"
+      ]
+    },
+    {
+      "ref": "R25",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_VREF",
+      "schematic_net": "FR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_VREF"
+      ]
+    },
+    {
+      "ref": "R25",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R26",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_IPROPI",
+      "schematic_net": "FR_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_IPROPI"
+      ]
+    },
+    {
+      "ref": "R26",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R27",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "R27",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "TP21",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FR_IPROPI",
+      "schematic_net": "FR_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FR_IPROPI"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "1",
+      "name": "IN1",
+      "type": "input",
+      "manifest_net": "LEFT_IN1",
+      "schematic_net": "LEFT_IN1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_IN1"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "2",
+      "name": "IN2",
+      "type": "input",
+      "manifest_net": "LEFT_IN2",
+      "schematic_net": "LEFT_IN2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "LEFT_IN2"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "3",
+      "name": "nSLEEP",
+      "type": "input",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "4",
+      "name": "nFAULT",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "5",
+      "name": "VREF",
+      "type": "input",
+      "manifest_net": "BL_VREF",
+      "schematic_net": "BL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_VREF"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "6",
+      "name": "IPROPI",
+      "type": "output",
+      "manifest_net": "BL_IPROPI",
+      "schematic_net": "BL_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_IPROPI"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "7",
+      "name": "IMODE",
+      "type": "input",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U22-IMODE-Pad7)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U22-IMODE-Pad7)"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "8",
+      "name": "OUT1",
+      "type": "output",
+      "manifest_net": "BL_OUT1",
+      "schematic_net": "BL_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_OUT1"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "9",
+      "name": "PGND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "10",
+      "name": "OUT2",
+      "type": "output",
+      "manifest_net": "BL_OUT2",
+      "schematic_net": "BL_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_OUT2"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "11",
+      "name": "VM",
+      "type": "power_in",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "12",
+      "name": "VCP",
+      "type": "passive",
+      "manifest_net": "BL_VCP",
+      "schematic_net": "BL_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_VCP"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "13",
+      "name": "CPH",
+      "type": "passive",
+      "manifest_net": "BL_CPH",
+      "schematic_net": "BL_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_CPH"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "14",
+      "name": "CPL",
+      "type": "passive",
+      "manifest_net": "BL_CPL",
+      "schematic_net": "BL_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_CPL"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "15",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "16",
+      "name": "PMODE",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U22",
+      "pin": "17",
+      "name": "EP",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 5,
+      "pcb_nets": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C30",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C30",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C31",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C31",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C32",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_VCP",
+      "schematic_net": "BL_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_VCP"
+      ]
+    },
+    {
+      "ref": "C32",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C33",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_CPH",
+      "schematic_net": "BL_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_CPH"
+      ]
+    },
+    {
+      "ref": "C33",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BL_CPL",
+      "schematic_net": "BL_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_CPL"
+      ]
+    },
+    {
+      "ref": "C34",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_VREF",
+      "schematic_net": "BL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_VREF"
+      ]
+    },
+    {
+      "ref": "C34",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R28",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R28",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BL_VREF",
+      "schematic_net": "BL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_VREF"
+      ]
+    },
+    {
+      "ref": "R29",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_VREF",
+      "schematic_net": "BL_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_VREF"
+      ]
+    },
+    {
+      "ref": "R29",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R30",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_IPROPI",
+      "schematic_net": "BL_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_IPROPI"
+      ]
+    },
+    {
+      "ref": "R30",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R31",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "R31",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "TP22",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BL_IPROPI",
+      "schematic_net": "BL_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BL_IPROPI"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "1",
+      "name": "IN1",
+      "type": "input",
+      "manifest_net": "RIGHT_IN1",
+      "schematic_net": "RIGHT_IN1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_IN1"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "2",
+      "name": "IN2",
+      "type": "input",
+      "manifest_net": "RIGHT_IN2",
+      "schematic_net": "RIGHT_IN2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "RIGHT_IN2"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "3",
+      "name": "nSLEEP",
+      "type": "input",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "4",
+      "name": "nFAULT",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "5",
+      "name": "VREF",
+      "type": "input",
+      "manifest_net": "BR_VREF",
+      "schematic_net": "BR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_VREF"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "6",
+      "name": "IPROPI",
+      "type": "output",
+      "manifest_net": "BR_IPROPI",
+      "schematic_net": "BR_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_IPROPI"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "7",
+      "name": "IMODE",
+      "type": "input",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U23-IMODE-Pad7)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U23-IMODE-Pad7)"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "8",
+      "name": "OUT1",
+      "type": "output",
+      "manifest_net": "BR_OUT1",
+      "schematic_net": "BR_OUT1",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_OUT1"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "9",
+      "name": "PGND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "10",
+      "name": "OUT2",
+      "type": "output",
+      "manifest_net": "BR_OUT2",
+      "schematic_net": "BR_OUT2",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_OUT2"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "11",
+      "name": "VM",
+      "type": "power_in",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "12",
+      "name": "VCP",
+      "type": "passive",
+      "manifest_net": "BR_VCP",
+      "schematic_net": "BR_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_VCP"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "13",
+      "name": "CPH",
+      "type": "passive",
+      "manifest_net": "BR_CPH",
+      "schematic_net": "BR_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_CPH"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "14",
+      "name": "CPL",
+      "type": "passive",
+      "manifest_net": "BR_CPL",
+      "schematic_net": "BR_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_CPL"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "15",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "16",
+      "name": "PMODE",
+      "type": "input",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "U23",
+      "pin": "17",
+      "name": "EP",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 5,
+      "pcb_nets": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "C35",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C35",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C36",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C36",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C37",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_VCP",
+      "schematic_net": "BR_VCP",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_VCP"
+      ]
+    },
+    {
+      "ref": "C37",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C38",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_CPH",
+      "schematic_net": "BR_CPH",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_CPH"
+      ]
+    },
+    {
+      "ref": "C38",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BR_CPL",
+      "schematic_net": "BR_CPL",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_CPL"
+      ]
+    },
+    {
+      "ref": "C39",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_VREF",
+      "schematic_net": "BR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_VREF"
+      ]
+    },
+    {
+      "ref": "C39",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R32",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "PI_3V3",
+      "schematic_net": "PI_3V3",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "PI_3V3"
+      ]
+    },
+    {
+      "ref": "R32",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "BR_VREF",
+      "schematic_net": "BR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_VREF"
+      ]
+    },
+    {
+      "ref": "R33",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_VREF",
+      "schematic_net": "BR_VREF",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_VREF"
+      ]
+    },
+    {
+      "ref": "R33",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R34",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_IPROPI",
+      "schematic_net": "BR_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_IPROPI"
+      ]
+    },
+    {
+      "ref": "R34",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R35",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FEED_ENABLE",
+      "schematic_net": "FEED_ENABLE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FEED_ENABLE"
+      ]
+    },
+    {
+      "ref": "R35",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "TP23",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "BR_IPROPI",
+      "schematic_net": "BR_IPROPI",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "BR_IPROPI"
+      ]
+    },
+    {
+      "ref": "F1",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "MOTOR_IN",
+      "schematic_net": "MOTOR_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "MOTOR_IN"
+      ]
+    },
+    {
+      "ref": "F1",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "name": "S",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "name": "S",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "name": "S",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "4",
+      "name": "G",
+      "type": "input",
+      "manifest_net": "EFUSE_BGATE",
+      "schematic_net": "EFUSE_BGATE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_BGATE"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "5",
+      "name": "D",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 2,
+      "pcb_nets": [
+        "EFUSE_IN",
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "6",
+      "name": "D",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "7",
+      "name": "D",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "pin": "8",
+      "name": "D",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "Q2",
+      "pin": "1",
+      "name": "G",
+      "type": "input",
+      "manifest_net": "EFUSE_DRV",
+      "schematic_net": "EFUSE_DRV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_DRV"
+      ]
+    },
+    {
+      "ref": "Q2",
+      "pin": "2",
+      "name": "S",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "Q2",
+      "pin": "3",
+      "name": "D",
+      "type": "passive",
+      "manifest_net": "EFUSE_BGATE",
+      "schematic_net": "EFUSE_BGATE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_BGATE"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "1",
+      "name": "IN",
+      "type": "power_in",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "2",
+      "name": "IN",
+      "type": "power_in",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "3",
+      "name": "B_GATE",
+      "type": "output",
+      "manifest_net": "EFUSE_BGATE",
+      "schematic_net": "EFUSE_BGATE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_BGATE"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "4",
+      "name": "DRV",
+      "type": "output",
+      "manifest_net": "EFUSE_DRV",
+      "schematic_net": "EFUSE_DRV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_DRV"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "5",
+      "name": "IN_SYS",
+      "type": "power_in",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "6",
+      "name": "UVLO",
+      "type": "input",
+      "manifest_net": "EFUSE_UV",
+      "schematic_net": "EFUSE_UV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_UV"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "7",
+      "name": "OVP",
+      "type": "input",
+      "manifest_net": "EFUSE_OV",
+      "schematic_net": "EFUSE_OV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_OV"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "8",
+      "name": "GND",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "9",
+      "name": "dVdT",
+      "type": "passive",
+      "manifest_net": "EFUSE_DVDT",
+      "schematic_net": "EFUSE_DVDT",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_DVDT"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "10",
+      "name": "ILIM",
+      "type": "passive",
+      "manifest_net": "EFUSE_ILIM",
+      "schematic_net": "EFUSE_ILIM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_ILIM"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "11",
+      "name": "MODE",
+      "type": "input",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-MODE-Pad11)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-MODE-Pad11)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "12",
+      "name": "SHDN",
+      "type": "input",
+      "manifest_net": "EFUSE_SHDN",
+      "schematic_net": "EFUSE_SHDN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_SHDN"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "13",
+      "name": "IMON",
+      "type": "output",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-IMON-Pad13)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-IMON-Pad13)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "14",
+      "name": "FLT",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "15",
+      "name": "PGTH",
+      "type": "input",
+      "manifest_net": "EFUSE_PG_SENSE",
+      "schematic_net": "EFUSE_PG_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_PG_SENSE"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "16",
+      "name": "PGOOD",
+      "type": "open_collector",
+      "manifest_net": "FAULT_OK_RAW",
+      "schematic_net": "FAULT_OK_RAW",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FAULT_OK_RAW"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "17",
+      "name": "OUT",
+      "type": "power_out",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "18",
+      "name": "OUT",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "19",
+      "name": "NC",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-NC-Pad19)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-NC-Pad19)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "20",
+      "name": "NC",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-NC-Pad20)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-NC-Pad20)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "21",
+      "name": "NC",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-NC-Pad21)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-NC-Pad21)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "22",
+      "name": "NC",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-NC-Pad22)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-NC-Pad22)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "23",
+      "name": "NC",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-NC-Pad23)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-NC-Pad23)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "24",
+      "name": "NC",
+      "type": "no_connect",
+      "manifest_net": null,
+      "schematic_net": "unconnected-(U13-NC-Pad24)",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "unconnected-(U13-NC-Pad24)"
+      ]
+    },
+    {
+      "ref": "U13",
+      "pin": "25",
+      "name": "EP",
+      "type": "power_in",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 5,
+      "pcb_nets": [
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "ref": "R40",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "R40",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "EFUSE_UV",
+      "schematic_net": "EFUSE_UV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_UV"
+      ]
+    },
+    {
+      "ref": "R41",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_UV",
+      "schematic_net": "EFUSE_UV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_UV"
+      ]
+    },
+    {
+      "ref": "R41",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R42",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "R42",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "EFUSE_OV",
+      "schematic_net": "EFUSE_OV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_OV"
+      ]
+    },
+    {
+      "ref": "R43",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_OV",
+      "schematic_net": "EFUSE_OV",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_OV"
+      ]
+    },
+    {
+      "ref": "R43",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R44",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_ILIM",
+      "schematic_net": "EFUSE_ILIM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_ILIM"
+      ]
+    },
+    {
+      "ref": "R44",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C40",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_DVDT",
+      "schematic_net": "EFUSE_DVDT",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_DVDT"
+      ]
+    },
+    {
+      "ref": "C40",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C41",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "FUSED_IN",
+      "schematic_net": "FUSED_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "FUSED_IN"
+      ]
+    },
+    {
+      "ref": "C41",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C42",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_IN",
+      "schematic_net": "EFUSE_IN",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_IN"
+      ]
+    },
+    {
+      "ref": "C42",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "name": "K",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "name": "A",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    },
+    {
+      "ref": "R45",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "VM",
+      "schematic_net": "VM",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "VM"
+      ]
+    },
+    {
+      "ref": "R45",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "EFUSE_PG_SENSE",
+      "schematic_net": "EFUSE_PG_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_PG_SENSE"
+      ]
+    },
+    {
+      "ref": "R46",
+      "pin": "1",
+      "name": "1",
+      "type": "passive",
+      "manifest_net": "EFUSE_PG_SENSE",
+      "schematic_net": "EFUSE_PG_SENSE",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "EFUSE_PG_SENSE"
+      ]
+    },
+    {
+      "ref": "R46",
+      "pin": "2",
+      "name": "2",
+      "type": "passive",
+      "manifest_net": "GND",
+      "schematic_net": "GND",
+      "pcb_physical_pad_count": 1,
+      "pcb_nets": [
+        "GND"
+      ]
+    }
+  ],
+  "errors": [],
+  "input_sha256": {
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/design_manifest.json": "71b76047da224433f414b0c205fbe67ba003c064f2e59530479020ec6d2da83c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_pcb": "3eb423b15c766e0647403a8f4eb8eeb2b4a45bfc8c8c5f838797a18a8cf6e116",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_pro": "5f4f764a134185af23a258a52c1b234519f496fffcc810089392a85886f9389f",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/fp-lib-table": "756bc28f29f1dcbb61585d097e12cfc6eb343bd6542d389d9ba3511ce59fa8ed",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/sym-lib-table": "15d5ade5079d22ba14b103f9b4dff47eb652d86560ffb96494255e66b57b1625",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_sch": "3891378e03a8870dbfa5a57cb0bb6b20c30e69c914f7ab260920f0967cf4ca9a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/enable_latch.kicad_sch": "cdcfd9b56b457a1e6c4b195bfd8578703d2d90e797ae4bcbc63e1fe32116d3db",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/interface.kicad_sch": "7336505d860a34aaf898aa2b88246bfe6e71a017329653956950683766480a37",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/motor_front.kicad_sch": "68d5dbd8511b16a6951e7c911855f2957cf22b21f6a781e161317c499a7f49a9",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/motor_rear.kicad_sch": "76162f3be7472b45f38f53a535a786a9df64f2c800ef29f9a6231cb52ec4c73e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/rail_monitor.kicad_sch": "22e5a07d10747ed986ae91deade5265392a1556022961858d19aca6b454755d3",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/supervision.kicad_sch": "66a854e899190ff4fe4422a18886780ed5e225697cc5f175a228e81d2e805488",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.kicad_sym": "d2ef55dae0275bb39bc251205fcb856cce7ab693e62c9f990bb80e15d0b049b8",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/CSD19537Q3_Texas_Q3.kicad_mod": "7b70a7779259eaab5659ef3c6c5ed3998dd5b50e53ee8bcdbc85ceb0f06c80d3",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/DRV8874_PWP0016J_EP3.4x5.kicad_mod": "a03317ae740f8a5d42853f77edfb9174154a370444f249d0d5ead44680bd2334",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/Fuse_Littelfuse_451.kicad_mod": "74d3cd56f7c4cda558c882191ead20e886b5dcd836a687e64b738f3695b9ac51",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/IDC_Wurth_61201621621.kicad_mod": "31dc30244c3f308f30499065b31b9a5431770491345c80e98d89fa4e6a6286f8",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TB6612FNG_SSOP24_5.6x7.8_P0.65.kicad_mod": "3d96ddc59fac4837d00c9ce8c3fc60073b3949aa23ab5bef115f089b5f9c2316",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TI_DCU0008A.kicad_mod": "f159a6d5b0942fad4426b9f4b74fe741892dc9a81c520409e1b6c1001a80e7ea",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TPS26630_RGE0024H_EP2.7x2.7.kicad_mod": "f7e48677a0eb68665cb9f8600ea20fb06bca611fdf691b89efa4428cdd123017",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TPS3431_DRB8_3x3_P0.65.kicad_mod": "a5d11b3bb9f9ed5f81bf7264b9aab57662b722884ad3603535deac3906531ebf",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Button_Switch_SMD.pretty/SW_SPDT_CK_JS102011SAQN.kicad_mod": "1d6a25b7bb84c97a6b20133c55bd59857bcd0499b621f10fe2fc897f006fe78c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod": "2b32778fccd401fc0a4bb60eb5c5e85054096c9b026e1e8dc8b0324aa751581f",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_THT.pretty/CP_Radial_D10.0mm_P5.00mm.kicad_mod": "f75eff8ec0dd43b43d31b98e23113f815f6de756f1d3b79662682b9751cb92c4",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_THT.pretty/CP_Radial_D16.0mm_P7.50mm.kicad_mod": "d645fe264aa519badc711805e6d553926edfbd5fd4724392c062e97058e6df60",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod": "f4769c5a76a97f4ffafd8e4a23a51b17a2dca4f119c487026f06fd7e74763b13",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Connector_IDC.pretty/IDC-Header_2x08_P2.54mm_Vertical.kicad_mod": "34bcf0cbb79d41ee925663de9bf4dbe03f13fd10d970b14479781a3a29cf3940",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Connector_Phoenix_MSTB.pretty/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.kicad_mod": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Diode_SMD.pretty/D_SMB.kicad_mod": "6f7f1c0c3ad02d5963c932f7e8c4ea489b479b029e56bbcf8057dcf8f2a34dd0",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Diode_SMD.pretty/D_SMC.kicad_mod": "438b672fa91711480026f1b38d4c78d89cb6ec50210c5333155dbf3f9784551a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_SO.pretty/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod": "1e315346ebbae9d6def9ed807a76c9835a6bfdc1e0365aa97689cdc45673d93b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod": "398558a828233ca0093e89517f367e87be165738bfb67eea029a7c4162983f65",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod": "9e9b07822ac0c9afab4a1b3aaae470ebbd2d2f5cf28dffd79249ebd536eb8f63",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Resistor_THT.pretty/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.kicad_mod": "5f84c6689c7af8378b6050502112f039797a9a54bef50c0299baea267087c65b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042"
+  },
+  "native_netlist_sha256": "4dc52d1eeb661cd8fefca9da77ccf75e2314f3ff78375c051c959c2ec51e8851",
+  "limitations": [
+    "Matching files can share the same design error; explicit circuit assertions are bounded to documented architecture.",
+    "No analog/timing/SPICE simulation, motor test, thermal measurement or mechanical-fit approval.",
+    "Geometry comparison includes numbered and unnamed pads with shape/position/size/rotation/layers/drill/roundrect data, not manufacturer land-pattern certification.",
+    "No copper width/current-capacity or thermal-area approval is implied by this consistency check."
+  ]
+}

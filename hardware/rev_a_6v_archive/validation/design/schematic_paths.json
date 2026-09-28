@@ -1,0 +1,751 @@
+{
+  "Q1": {
+    "uuid": "761bf489-c663-5dcf-8e1b-32f627ff2e49",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "Q1_PIN_EXACT"
+  },
+  "Q2": {
+    "uuid": "540a3dea-1dd3-55ef-b528-79dfd5d40a7f",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "Q2_PIN_EXACT"
+  },
+  "U11": {
+    "uuid": "e9bfb65a-4957-54eb-b76d-a26c4183bfa7",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "U11_PIN_EXACT"
+  },
+  "C1": {
+    "uuid": "cba637f7-785f-51ca-9ea1-420917ba238f",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "C1_PIN_EXACT"
+  },
+  "C2": {
+    "uuid": "60c6052b-c73d-55d0-a1a1-8c9cf13979f5",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "C2_PIN_EXACT"
+  },
+  "C11": {
+    "uuid": "27844cdb-d0e1-5cf8-8f5a-7e7ee08e62fe",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "C11_PIN_EXACT"
+  },
+  "D1": {
+    "uuid": "b22f711e-df7b-5e75-9f50-e770224553c9",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "D1_PIN_EXACT"
+  },
+  "D2": {
+    "uuid": "bf52a0f1-b48d-520c-88d6-13a0d2c0ac9b",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "D2_PIN_EXACT"
+  },
+  "F1": {
+    "uuid": "b3829dae-bf1d-5f66-aefc-ad83254de850",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "F1_PIN_EXACT"
+  },
+  "J1": {
+    "uuid": "7013fe1d-abdc-5397-8f8a-89c0f96f71dc",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "J1_PIN_EXACT"
+  },
+  "R1": {
+    "uuid": "7bbe0326-349e-51e4-a184-3bc551562cc0",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R1_PIN_EXACT"
+  },
+  "R2": {
+    "uuid": "7289aa0d-1ca0-5ff4-b15a-5fcb85f42c79",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R2_PIN_EXACT"
+  },
+  "R3": {
+    "uuid": "ea5ef87e-b27a-5e18-a381-b14dcab28fca",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R3_PIN_EXACT"
+  },
+  "R4": {
+    "uuid": "5ef17e15-a7fe-52da-86d8-02acd3fbbdd0",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R4_PIN_EXACT"
+  },
+  "R5": {
+    "uuid": "2a88536c-71a6-5c1e-a955-9bd43ad88a12",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R5_PIN_EXACT"
+  },
+  "R6": {
+    "uuid": "ce03cab1-243f-5759-85f0-75dda8f417a6",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R6_PIN_EXACT"
+  },
+  "R7": {
+    "uuid": "9941d8e6-c012-5fb9-a06e-abb2da0b01eb",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R7_PIN_EXACT"
+  },
+  "R8": {
+    "uuid": "3be759df-e7a3-5a64-88b3-34df65cc13c4",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R8_PIN_EXACT"
+  },
+  "R9": {
+    "uuid": "03e2b92a-134c-550d-8938-3bb0b9fb64f9",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R9_PIN_EXACT"
+  },
+  "R10": {
+    "uuid": "4fb6ac70-198c-5d52-8d98-130796b8822e",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "R10_PIN_EXACT"
+  },
+  "TP1": {
+    "uuid": "082f6853-2a63-5f20-be36-643bf5ebd894",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "TP1_PIN_EXACT"
+  },
+  "TP2": {
+    "uuid": "c48a01c3-c41a-53e0-81d2-d4850c370ffe",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "TP2_PIN_EXACT"
+  },
+  "TP3": {
+    "uuid": "59cc8818-12bb-59db-90cf-0211ba0f9da8",
+    "sheet_uuid": "f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7",
+    "sheet_file": "ai_robot_interface.kicad_sch",
+    "symbol_name": "TP3_PIN_EXACT"
+  },
+  "J6": {
+    "uuid": "d004267c-1454-59aa-af74-eb3ec23c47ca",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "J6_PIN_EXACT"
+  },
+  "U3": {
+    "uuid": "16b1ac22-1aaf-5c66-a1c4-c015658de738",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "U3_PIN_EXACT"
+  },
+  "C101": {
+    "uuid": "c19f0d19-141f-5de3-a1ea-910f275eeed2",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "C101_PIN_EXACT"
+  },
+  "R100": {
+    "uuid": "ab61113b-46b3-57c7-8738-dc2b86c63da5",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R100_PIN_EXACT"
+  },
+  "R101": {
+    "uuid": "30e2489c-cf44-5028-a71f-5ccfd99325a5",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R101_PIN_EXACT"
+  },
+  "R102": {
+    "uuid": "306ddae5-3a5e-50d0-aa1a-02876dcdcbd1",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R102_PIN_EXACT"
+  },
+  "R103": {
+    "uuid": "593b4fc0-0733-5b82-984c-171e69584b38",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R103_PIN_EXACT"
+  },
+  "R104": {
+    "uuid": "ec49cb1c-ea38-55e3-8222-86213fcecc4e",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R104_PIN_EXACT"
+  },
+  "R105": {
+    "uuid": "4f7c167b-4f54-56ca-afa3-30854726bd74",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R105_PIN_EXACT"
+  },
+  "R106": {
+    "uuid": "0664437b-9866-5adc-bc19-79164315cdd0",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R106_PIN_EXACT"
+  },
+  "R107": {
+    "uuid": "f4d941c9-1ba2-5c23-954a-b4970a094d49",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R107_PIN_EXACT"
+  },
+  "R108": {
+    "uuid": "d5208d07-8924-5a3e-b127-fcce503ad70a",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R108_PIN_EXACT"
+  },
+  "R109": {
+    "uuid": "8c64fd9f-9ec8-53ba-bc65-688698273483",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R109_PIN_EXACT"
+  },
+  "R110": {
+    "uuid": "e34cfd93-d95a-56ab-91c4-07a473a850f7",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R110_PIN_EXACT"
+  },
+  "R111": {
+    "uuid": "154cfe95-2df8-57f3-a576-0827fc223623",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R111_PIN_EXACT"
+  },
+  "R112": {
+    "uuid": "1245f3f0-9955-59ea-a4eb-46bf627d33fd",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R112_PIN_EXACT"
+  },
+  "R113": {
+    "uuid": "594451c3-18c7-5fd7-960a-4c9228d8212f",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R113_PIN_EXACT"
+  },
+  "R114": {
+    "uuid": "2a006505-577d-555c-8cf4-9b6ffa7f5bb6",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R114_PIN_EXACT"
+  },
+  "R115": {
+    "uuid": "7ace5a98-129c-530e-82e0-29417565169b",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R115_PIN_EXACT"
+  },
+  "R116": {
+    "uuid": "03bb9845-7f55-5b1c-9bce-ac3f5d4e9f76",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R116_PIN_EXACT"
+  },
+  "R117": {
+    "uuid": "9fad1c8d-378d-5bcc-a7a6-4b7b9fc988d2",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R117_PIN_EXACT"
+  },
+  "R118": {
+    "uuid": "95bd7f2e-f201-552e-aa93-41ffc2f4e421",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R118_PIN_EXACT"
+  },
+  "R119": {
+    "uuid": "affe22d1-5835-5875-a156-678a081b29cd",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R119_PIN_EXACT"
+  },
+  "R120": {
+    "uuid": "69a58756-b2a5-56f8-8398-e03d18c1a55b",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R120_PIN_EXACT"
+  },
+  "R121": {
+    "uuid": "92956429-203c-5a8a-be5e-0e812c3e78b0",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R121_PIN_EXACT"
+  },
+  "R122": {
+    "uuid": "2cd39d7c-b04c-5fc8-894b-d8746b14fd38",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R122_PIN_EXACT"
+  },
+  "R123": {
+    "uuid": "5ccdaaa9-8c0e-57ec-9779-18eec677967d",
+    "sheet_uuid": "463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/463669ec-998f-533b-88ad-05c47b09077b",
+    "sheet_file": "interface.kicad_sch",
+    "symbol_name": "R123_PIN_EXACT"
+  },
+  "SW1": {
+    "uuid": "90597fdc-1362-593f-a25e-eb6ebb067fb6",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "SW1_PIN_EXACT"
+  },
+  "U4": {
+    "uuid": "2624a1c8-f6f7-51fd-a44a-78bf230b2a64",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "U4_PIN_EXACT"
+  },
+  "U7": {
+    "uuid": "0e8eff6d-1037-5e7e-96be-6fd8ff625e18",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "U7_PIN_EXACT"
+  },
+  "U8": {
+    "uuid": "5878c26c-98ce-5300-a38d-cc07d4360054",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "U8_PIN_EXACT"
+  },
+  "U9": {
+    "uuid": "9891e7cc-7e59-5c19-a6e0-fe96f2d35ef7",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "U9_PIN_EXACT"
+  },
+  "U12": {
+    "uuid": "58f8fabe-97f6-5886-aa67-8f31ff28d56c",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "U12_PIN_EXACT"
+  },
+  "C100": {
+    "uuid": "2dbdc399-fab9-5164-8296-f07755d8ee99",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "C100_PIN_EXACT"
+  },
+  "C102": {
+    "uuid": "f369d7ee-c1c6-5a8f-89c4-de6ec9e24a50",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "C102_PIN_EXACT"
+  },
+  "C105": {
+    "uuid": "028bc83f-7f45-5c75-9975-ba4b5ba62008",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "C105_PIN_EXACT"
+  },
+  "C106": {
+    "uuid": "883f5f7d-6ac9-5085-958a-64ff933d2c5c",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "C106_PIN_EXACT"
+  },
+  "C107": {
+    "uuid": "573b8cae-7a32-577e-991a-74a66f4e6043",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "C107_PIN_EXACT"
+  },
+  "C109": {
+    "uuid": "0417c2d4-80f6-57b5-9782-3f4db6d62fe9",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "C109_PIN_EXACT"
+  },
+  "R124": {
+    "uuid": "4cb253d8-7e2b-53fa-9a08-3e99b32155a8",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R124_PIN_EXACT"
+  },
+  "R125": {
+    "uuid": "44689fc0-70c3-5e26-86eb-a12011cfba25",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R125_PIN_EXACT"
+  },
+  "R126": {
+    "uuid": "501879f2-6826-560f-b40f-2eb2f673071c",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R126_PIN_EXACT"
+  },
+  "R127": {
+    "uuid": "3fe2119e-ea59-503f-ae6e-863b12bd8c08",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R127_PIN_EXACT"
+  },
+  "R128": {
+    "uuid": "e34496b6-2d63-5a9a-9eba-0197cb664341",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R128_PIN_EXACT"
+  },
+  "R129": {
+    "uuid": "61c0e380-ecd1-514c-a3cb-5b3319bf0e8e",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R129_PIN_EXACT"
+  },
+  "R130": {
+    "uuid": "736b570a-f7fa-54b3-a788-628523396b0e",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R130_PIN_EXACT"
+  },
+  "R131": {
+    "uuid": "68798688-4eba-52dd-9bd0-5fe3697dd9fb",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R131_PIN_EXACT"
+  },
+  "R132": {
+    "uuid": "8e680ca4-b6bd-5685-b42d-12e785869b07",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R132_PIN_EXACT"
+  },
+  "R133": {
+    "uuid": "e15aa736-29f8-5c4b-8f7c-115f768b935b",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R133_PIN_EXACT"
+  },
+  "R134": {
+    "uuid": "79b46a70-9110-5e70-adc6-61c3b4118876",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R134_PIN_EXACT"
+  },
+  "R138": {
+    "uuid": "62af4d76-32a5-53c4-9415-d6cc963aa5d5",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "R138_PIN_EXACT"
+  },
+  "TP4": {
+    "uuid": "548305ea-42c7-53f7-a191-211e20f4d5ae",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "TP4_PIN_EXACT"
+  },
+  "TP5": {
+    "uuid": "18d3a857-acc6-5295-aed4-b0db87a2ec7a",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "TP5_PIN_EXACT"
+  },
+  "TP6": {
+    "uuid": "0cea1480-2595-57f1-a4c0-968683c5897c",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "TP6_PIN_EXACT"
+  },
+  "TP7": {
+    "uuid": "2b3258d0-74f4-557d-afbd-4320085b4746",
+    "sheet_uuid": "7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/7ffd985f-4eb7-5b28-9a8b-ff10659c1176",
+    "sheet_file": "supervision.kicad_sch",
+    "symbol_name": "TP7_PIN_EXACT"
+  },
+  "U5": {
+    "uuid": "ac227491-e7e7-55e2-8842-e8a6f505383c",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "U5_PIN_EXACT"
+  },
+  "U6": {
+    "uuid": "4a1f0d93-2abb-589f-97a4-06c1cdefc2a7",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "U6_PIN_EXACT"
+  },
+  "U10": {
+    "uuid": "6d03735a-6901-51f2-8a6e-1bd2067e80af",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "U10_PIN_EXACT"
+  },
+  "C103": {
+    "uuid": "27e472c3-aabb-5396-8938-96dbe2ee26c1",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "C103_PIN_EXACT"
+  },
+  "C104": {
+    "uuid": "a90f1c16-f08e-504d-84d4-ac79ea96a2b6",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "C104_PIN_EXACT"
+  },
+  "C108": {
+    "uuid": "d5cbae10-56a7-59ed-9de9-daf1cbe8c411",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "C108_PIN_EXACT"
+  },
+  "R135": {
+    "uuid": "6e720be4-b909-501e-b589-20d30ca893b7",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "R135_PIN_EXACT"
+  },
+  "R139": {
+    "uuid": "0c4b1190-940c-57f7-8ced-5baf7e2e07ca",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "R139_PIN_EXACT"
+  },
+  "R140": {
+    "uuid": "363309fc-3c9f-5aec-bb5b-35420d71ee4d",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "R140_PIN_EXACT"
+  },
+  "R141": {
+    "uuid": "467c8312-96d6-58f0-8ec1-6f58e2508c9c",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "R141_PIN_EXACT"
+  },
+  "TP8": {
+    "uuid": "8db77db1-5f54-5748-ac01-0e19320f4c62",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "TP8_PIN_EXACT"
+  },
+  "TP9": {
+    "uuid": "23d78d6b-d05d-501f-b5d5-d8906b7fb33c",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "TP9_PIN_EXACT"
+  },
+  "TP10": {
+    "uuid": "24ee957e-dbff-5788-a2ae-0c2407afeb5a",
+    "sheet_uuid": "22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/22f4c8d5-98f5-5713-b143-d7c2a84303a3",
+    "sheet_file": "enable_latch.kicad_sch",
+    "symbol_name": "TP10_PIN_EXACT"
+  },
+  "U1": {
+    "uuid": "b15364a6-9d1f-5aae-99b8-4ae95a25aee0",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "U1_PIN_EXACT"
+  },
+  "U2": {
+    "uuid": "ae36fa07-0300-5c70-b3a1-439daf48270b",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "U2_PIN_EXACT"
+  },
+  "C3": {
+    "uuid": "b348a3d6-eccf-51d5-985e-861ab0520a60",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C3_PIN_EXACT"
+  },
+  "C4": {
+    "uuid": "22300c7b-1765-5326-813a-d3ccb5132d99",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C4_PIN_EXACT"
+  },
+  "C5": {
+    "uuid": "d0f7a199-3042-5ee0-a8e4-2c61f6b8e9a4",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C5_PIN_EXACT"
+  },
+  "C6": {
+    "uuid": "cbf6579b-7514-5b6b-9c3d-a4090296e4fe",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C6_PIN_EXACT"
+  },
+  "C7": {
+    "uuid": "0f85c5e2-0572-56b8-96af-77f5e316fb30",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C7_PIN_EXACT"
+  },
+  "C8": {
+    "uuid": "46cfe28d-4f06-5071-be35-d4c39affce6a",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C8_PIN_EXACT"
+  },
+  "C9": {
+    "uuid": "76fe156c-1cb6-55bf-a79a-830f1c5be0ee",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C9_PIN_EXACT"
+  },
+  "C10": {
+    "uuid": "7b69bcdf-1d3e-5218-9be8-c1742e885234",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "C10_PIN_EXACT"
+  },
+  "J2": {
+    "uuid": "d01bcd90-8e46-528c-9ab9-ed4167dc5b3b",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "J2_PIN_EXACT"
+  },
+  "J3": {
+    "uuid": "25ed47a8-af15-540c-a844-88b367adbf40",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "J3_PIN_EXACT"
+  },
+  "J4": {
+    "uuid": "718044f1-eca0-5f79-aca6-23a989101cab",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "J4_PIN_EXACT"
+  },
+  "J5": {
+    "uuid": "3c09dbcf-8aec-5fee-a554-9cf332d409be",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "J5_PIN_EXACT"
+  },
+  "R136": {
+    "uuid": "c5e20790-5909-5be3-b998-cf582afc9688",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "R136_PIN_EXACT"
+  },
+  "R137": {
+    "uuid": "747b11c4-4286-5488-8457-4397b69ad689",
+    "sheet_uuid": "a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_path": "/f8e79850-1457-5cf4-b067-b3493d46b0c7/a700bf1d-24cd-5e42-87fb-6366c17f5307",
+    "sheet_file": "motor_drivers.kicad_sch",
+    "symbol_name": "R137_PIN_EXACT"
+  }
+}

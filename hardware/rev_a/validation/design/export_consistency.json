@@ -1,0 +1,5718 @@
+{
+  "date": "2026-09-28T12:22:22.876556+00:00",
+  "status": "PASS",
+  "scope": "Digital native/export consistency only; no visual approval, production release, model fit or physical validation",
+  "versions": {
+    "pcbnew": "10.0.6"
+  },
+  "counts": {
+    "manifest": 135,
+    "fitted_bom": 121,
+    "unique_fitted_mpns": 43,
+    "grouped_rows": 43,
+    "copper_features": 14,
+    "placement": 121,
+    "fitted_model_bindings": 121,
+    "unique_model_paths": 22
+  },
+  "outline_mm": [
+    100,
+    100
+  ],
+  "native_aux_origin_mm": [
+    50.0,
+    150.0
+  ],
+  "placement_convention": "X right, Y up from native PCB (50,150) mm; rotations reconciled to pcbnew",
+  "drills": {
+    "PTH": {
+      "native_count": 251,
+      "export_count": 251,
+      "pad_count": 60,
+      "via_count": 191,
+      "sha256": "c34a7f4c52d27706955ac9c5503c01f45800be272ba9b87db0dcfb6d5efec2a5",
+      "coordinate_resolution_mm": 0.001,
+      "maximum_axis_rounding_error_mm": 0.0005000000000023874,
+      "matching": "one-to-one within half native export coordinate resolution"
+    },
+    "NPTH": {
+      "native_count": 6,
+      "export_count": 6,
+      "pad_count": 6,
+      "via_count": 0,
+      "sha256": "dddee94b6139ee6aa7a6224f7eee1b6b25de7d3a12a07c81e8b68023c63ad869",
+      "coordinate_resolution_mm": 0.001,
+      "maximum_axis_rounding_error_mm": 0.0,
+      "matching": "one-to-one within half native export coordinate resolution"
+    }
+  },
+  "native_drilled_features": [
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U13",
+      "pin": "25",
+      "diameter_x_y_mm": [
+        0.3,
+        33.3,
+        35.7
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U13",
+      "pin": "25",
+      "diameter_x_y_mm": [
+        0.3,
+        33.3,
+        34.3
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U13",
+      "pin": "25",
+      "diameter_x_y_mm": [
+        0.3,
+        34.7,
+        35.7
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U13",
+      "pin": "25",
+      "diameter_x_y_mm": [
+        0.3,
+        34.7,
+        34.3
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C20",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.0,
+        56.0,
+        82.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C20",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.0,
+        61.0,
+        82.0
+      ]
+    },
+    {
+      "kind": "NPTH",
+      "source": "pad",
+      "ref": "H4",
+      "pin": "",
+      "diameter_x_y_mm": [
+        3.2,
+        95.0,
+        5.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C1",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.2,
+        35.0,
+        11.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C1",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.2,
+        42.5,
+        11.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J3",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        58.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J3",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        63.58
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U23",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        22.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U23",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        27.2
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U23",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        22.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U23",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        27.2
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        82.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        82.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "3",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        79.46
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "4",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        79.46
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "5",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        76.92
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "6",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        76.92
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "7",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        74.38
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "8",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        74.38
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "9",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        71.84
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "10",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        71.84
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "11",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        69.3
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "12",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        69.3
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "13",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        66.76
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "14",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        66.76
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "15",
+      "diameter_x_y_mm": [
+        1.1,
+        8.0,
+        64.22
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J6",
+      "pin": "16",
+      "diameter_x_y_mm": [
+        1.1,
+        10.54,
+        64.22
+      ]
+    },
+    {
+      "kind": "NPTH",
+      "source": "pad",
+      "ref": "H3",
+      "pin": "",
+      "diameter_x_y_mm": [
+        3.2,
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J5",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        20.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J5",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        25.58
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U20",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        79.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U20",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        84.2
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U20",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        79.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U20",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        84.2
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J2",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        77.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J2",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        82.58
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U22",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        41.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U22",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        46.2
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U22",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        41.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U22",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        46.2
+      ]
+    },
+    {
+      "kind": "NPTH",
+      "source": "pad",
+      "ref": "H1",
+      "pin": "",
+      "diameter_x_y_mm": [
+        3.2,
+        5.0,
+        95.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J4",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        39.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J4",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.4,
+        86.5,
+        44.58
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "R5",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.2,
+        35.0,
+        95.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "R5",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.2,
+        50.24,
+        95.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C25",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.0,
+        56.0,
+        63.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C25",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.0,
+        61.0,
+        63.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C2",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.2,
+        56.0,
+        11.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C2",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.2,
+        63.5,
+        11.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C35",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.0,
+        56.0,
+        25.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C35",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.0,
+        61.0,
+        25.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C30",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.0,
+        56.0,
+        44.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "C30",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.0,
+        61.0,
+        44.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U21",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        60.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U21",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        75.7,
+        65.2
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U21",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        60.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "U21",
+      "pin": "17",
+      "diameter_x_y_mm": [
+        0.3,
+        74.3,
+        65.2
+      ]
+    },
+    {
+      "kind": "NPTH",
+      "source": "pad",
+      "ref": "H2",
+      "pin": "",
+      "diameter_x_y_mm": [
+        3.2,
+        95.0,
+        95.0
+      ]
+    },
+    {
+      "kind": "NPTH",
+      "source": "pad",
+      "ref": "SW1",
+      "pin": "",
+      "diameter_x_y_mm": [
+        0.9,
+        4.6,
+        48.0
+      ]
+    },
+    {
+      "kind": "NPTH",
+      "source": "pad",
+      "ref": "SW1",
+      "pin": "",
+      "diameter_x_y_mm": [
+        0.9,
+        11.4,
+        48.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J1",
+      "pin": "1",
+      "diameter_x_y_mm": [
+        1.4,
+        13.0,
+        13.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "pad",
+      "ref": "J1",
+      "pin": "2",
+      "diameter_x_y_mm": [
+        1.4,
+        18.08,
+        13.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "1efbbbe1-db9e-498e-bb99-6abca521fd65",
+      "diameter_x_y_mm": [
+        0.3,
+        31.9,
+        32.55
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "76da44d6-bb27-4ac5-b86f-815f5c8f141e",
+      "diameter_x_y_mm": [
+        0.3,
+        29.9,
+        39.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "048d1d2c-4d43-4f03-b9a5-32b6c9d5c4b4",
+      "diameter_x_y_mm": [
+        0.3,
+        43.3979,
+        74.1751
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "16354ce6-7a8b-497e-a001-5800d1c6a7d9",
+      "diameter_x_y_mm": [
+        0.3,
+        82.4125,
+        80.2153
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "19e54d77-c6bc-4afc-9bf8-6de417b9af18",
+      "diameter_x_y_mm": [
+        0.3,
+        42.1899,
+        82.3207
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "35b4803c-3e7b-46ac-9b2e-d24291496073",
+      "diameter_x_y_mm": [
+        0.3,
+        36.3696,
+        30.1535
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "43569643-41ca-4405-be9d-e10b4d546856",
+      "diameter_x_y_mm": [
+        0.3,
+        72.0,
+        84.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b33f3570-c187-4dcf-9d1f-091300ba53f0",
+      "diameter_x_y_mm": [
+        0.3,
+        32.9125,
+        42.3032
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bc9772ee-7aeb-4d28-97e5-722ed9c4fc9a",
+      "diameter_x_y_mm": [
+        0.3,
+        67.35,
+        87.3
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d54dee31-17e2-49b0-8a17-aa24fa77f58c",
+      "diameter_x_y_mm": [
+        0.3,
+        16.8804,
+        25.4038
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "47d2caf4-3954-419b-a4a5-653a472b82fa",
+      "diameter_x_y_mm": [
+        0.3,
+        36.8182,
+        84.1162
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a789864f-eb45-4388-9b50-9fe76e8337c5",
+      "diameter_x_y_mm": [
+        0.3,
+        40.1409,
+        89.9185
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ad821f41-4bdf-47bf-8d3c-9d9dd2d97362",
+      "diameter_x_y_mm": [
+        0.3,
+        29.9664,
+        86.6332
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4a1f6061-9c25-4f72-9ca0-ca4b88713a50",
+      "diameter_x_y_mm": [
+        0.3,
+        43.5635,
+        80.8965
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a15d7f1e-a9b7-409b-b8ec-0fb04524de6d",
+      "diameter_x_y_mm": [
+        0.3,
+        38.8769,
+        82.5376
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "90ae17dd-9821-426a-8779-866a1336fe7f",
+      "diameter_x_y_mm": [
+        0.3,
+        39.652,
+        84.6106
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c7490e9a-48d8-48af-83e3-3b1d10a09103",
+      "diameter_x_y_mm": [
+        0.3,
+        44.9543,
+        84.6637
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "14fc0427-b5ec-45ad-97b5-c43cdaff5b23",
+      "diameter_x_y_mm": [
+        0.3,
+        72.9463,
+        40.8787
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "1d3e97c6-179f-4f15-85bd-c2ecb45ac43d",
+      "diameter_x_y_mm": [
+        0.3,
+        27.0398,
+        69.7711
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "352dd050-4cc7-4c88-ad9f-9571a13cf261",
+      "diameter_x_y_mm": [
+        0.3,
+        44.9607,
+        71.2839
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5469fd0a-a28f-439c-87b1-4eacddebbf7f",
+      "diameter_x_y_mm": [
+        0.3,
+        47.2916,
+        79.679
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "573f58ce-adae-4ce0-a6ed-374cbc0491a6",
+      "diameter_x_y_mm": [
+        0.3,
+        75.6937,
+        86.6116
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "7efcb8d6-0d99-4da8-9228-4d6978c8c105",
+      "diameter_x_y_mm": [
+        0.3,
+        72.9246,
+        59.8889
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "811315bf-ca78-4089-a1b2-57724ad343b2",
+      "diameter_x_y_mm": [
+        0.3,
+        38.241,
+        87.8325
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "94f09c12-9d30-421f-8fa6-b0124331312e",
+      "diameter_x_y_mm": [
+        0.3,
+        8.0,
+        93.584
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "99a31107-47fb-4349-a931-2b32c83489cf",
+      "diameter_x_y_mm": [
+        0.3,
+        80.5875,
+        69.8616
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "9caa4bfe-3378-4cc1-a541-166d014742e8",
+      "diameter_x_y_mm": [
+        0.3,
+        80.5875,
+        31.839
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "9feb182e-3cb9-4f48-8015-975d47d06bd8",
+      "diameter_x_y_mm": [
+        0.3,
+        37.6351,
+        85.9273
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b6474584-7d5f-48f8-bbbd-262835e81a65",
+      "diameter_x_y_mm": [
+        0.3,
+        73.5736,
+        78.8702
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bb8182e5-a2a7-49fa-8eb8-4891e8a9ddc3",
+      "diameter_x_y_mm": [
+        0.3,
+        16.2067,
+        56.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c1897d9b-ac5a-428a-9901-1cb1a01bdf56",
+      "diameter_x_y_mm": [
+        0.3,
+        27.355,
+        64.2621
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d45526f1-4d74-4c74-b20d-58be598f1c42",
+      "diameter_x_y_mm": [
+        0.3,
+        80.5418,
+        50.8175
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d56536ad-c734-421f-80cd-af7781c09d8b",
+      "diameter_x_y_mm": [
+        0.3,
+        47.0182,
+        81.8149
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "dc7faa09-e0db-4933-8dcd-c272bfe41be0",
+      "diameter_x_y_mm": [
+        0.3,
+        46.0599,
+        87.7526
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e4207c8d-0744-4ecb-9090-b093019bc5ff",
+      "diameter_x_y_mm": [
+        0.3,
+        22.0472,
+        67.0623
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e62a119f-e5ef-490c-9bf1-b6fdad52e5a8",
+      "diameter_x_y_mm": [
+        0.3,
+        34.616,
+        90.566
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "eac80f3e-f0a0-440e-a1c9-91415cff55ca",
+      "diameter_x_y_mm": [
+        0.3,
+        40.3854,
+        53.9392
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "fa7e548e-f6b6-4501-aa83-70a1a7ffd7c8",
+      "diameter_x_y_mm": [
+        0.3,
+        32.6934,
+        65.175
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "6c9b1525-9cf1-480e-bbd3-47b8df1cb77e",
+      "diameter_x_y_mm": [
+        0.3,
+        24.1,
+        28.15
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e78a6b17-999a-45b8-9310-ea420e65d6a5",
+      "diameter_x_y_mm": [
+        0.3,
+        30.6,
+        35.75
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5a0910c9-54b9-4ec7-9f00-b474f85c0960",
+      "diameter_x_y_mm": [
+        0.3,
+        22.05,
+        28.95
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bd8945b5-2835-414b-91af-f481685d5e81",
+      "diameter_x_y_mm": [
+        0.3,
+        30.8,
+        34.55
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "3023f71b-71bb-44b0-87f5-b52273260b69",
+      "diameter_x_y_mm": [
+        0.3,
+        15.2288,
+        27.9451
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "80f607cd-8088-4494-819c-72c99b96f812",
+      "diameter_x_y_mm": [
+        0.3,
+        23.55,
+        34.35
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "db736282-8c8f-4888-b15a-2bb4f3037374",
+      "diameter_x_y_mm": [
+        0.3,
+        30.85,
+        33.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e3a152fd-142d-4d17-9115-4f137e1524bb",
+      "diameter_x_y_mm": [
+        0.3,
+        23.4248,
+        26.4131
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c4fcbfb1-b583-4dd1-9d65-1ef007b5f8e6",
+      "diameter_x_y_mm": [
+        0.3,
+        35.5083,
+        37.8709
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ca24bbdb-c401-46cf-a37a-17598e8bb621",
+      "diameter_x_y_mm": [
+        0.3,
+        32.75,
+        32.167
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "2f4863c4-c53e-4928-b8d5-31900ba30558",
+      "diameter_x_y_mm": [
+        0.3,
+        33.75,
+        31.7471
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "39a66fab-9977-4492-81e1-5c0ff94b0ee3",
+      "diameter_x_y_mm": [
+        0.3,
+        32.525,
+        26.7186
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "290ccd09-9231-4a49-a501-d0b379fe3fba",
+      "diameter_x_y_mm": [
+        0.3,
+        36.235,
+        32.4581
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e1e1ae33-be68-4a06-afa0-c4f0ab5c48ed",
+      "diameter_x_y_mm": [
+        0.3,
+        38.2216,
+        42.7079
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "105ecf75-5bcd-405f-b4b0-ed9591daf3c5",
+      "diameter_x_y_mm": [
+        0.3,
+        79.35,
+        81.55
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "1505fadf-2c6a-42ad-9644-18122711956a",
+      "diameter_x_y_mm": [
+        0.3,
+        80.424,
+        42.2409
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "165b17c5-2339-4ba7-b66b-3d0b70df41f6",
+      "diameter_x_y_mm": [
+        0.3,
+        53.912,
+        74.665
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "38df4ff1-46a6-4da8-a5ba-7a44c1cd2cc3",
+      "diameter_x_y_mm": [
+        0.3,
+        46.9856,
+        24.5578
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "44a20b42-b5ab-49ad-af8a-36b2534cfe16",
+      "diameter_x_y_mm": [
+        0.3,
+        75.5771,
+        21.2558
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5328e2b3-da28-41f6-8297-ddb3181143fe",
+      "diameter_x_y_mm": [
+        0.3,
+        49.3005,
+        16.4549
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "75e56f51-8c83-44fa-8000-a486fc02fcbe",
+      "diameter_x_y_mm": [
+        0.3,
+        46.7348,
+        59.8107
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "8f7e2f65-5618-46d8-9837-c099857fb7cf",
+      "diameter_x_y_mm": [
+        0.3,
+        38.0452,
+        34.7141
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "90e82358-f896-4c5a-88bb-aede005492d1",
+      "diameter_x_y_mm": [
+        0.3,
+        72.6752,
+        74.665
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b736ce31-e705-4b75-9b5a-470231a937d0",
+      "diameter_x_y_mm": [
+        0.3,
+        47.8309,
+        20.3118
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b9ae7623-dd33-4381-8b03-4cf8cdb7ec4e",
+      "diameter_x_y_mm": [
+        0.3,
+        36.95,
+        33.45
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d429e3d1-6e7a-4e36-8aa6-0e723644f1b3",
+      "diameter_x_y_mm": [
+        0.3,
+        79.15,
+        62.65
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "f7dbf53c-c584-4559-9b4e-e59d46e0c037",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2541,
+        24.6522
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "62d1ea8d-dde0-444b-904e-eed3755018b0",
+      "diameter_x_y_mm": [
+        0.3,
+        37.1,
+        30.75
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a327b0ed-4134-4057-a333-80fdf4854a3c",
+      "diameter_x_y_mm": [
+        0.3,
+        31.1,
+        22.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "13f09209-3974-4f07-b4d9-c6552a728a67",
+      "diameter_x_y_mm": [
+        0.3,
+        70.2,
+        82.975
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "2b6b7305-bb5b-492d-bc2b-3aa8f7bcad1c",
+      "diameter_x_y_mm": [
+        0.3,
+        70.2,
+        44.975
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5b801bdb-5ba7-440e-888f-4e92fe264f17",
+      "diameter_x_y_mm": [
+        0.3,
+        69.95,
+        87.4648
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "79d17d77-742a-46a5-b0e4-2b0ce46eaac9",
+      "diameter_x_y_mm": [
+        0.3,
+        68.5,
+        49.5515
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "87d1fc50-a0d8-4d2e-82de-0569338e8660",
+      "diameter_x_y_mm": [
+        0.3,
+        69.95,
+        68.525
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b4c2d414-ebd0-4345-9300-a1d4f3b07ecd",
+      "diameter_x_y_mm": [
+        0.3,
+        70.2,
+        25.975
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b8118b77-a753-41f2-99b6-fefe4b703825",
+      "diameter_x_y_mm": [
+        0.3,
+        39.0,
+        36.4
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "cc4da08a-5ee9-469f-88c7-b913a83f3a50",
+      "diameter_x_y_mm": [
+        0.3,
+        70.2,
+        63.975
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d4aa0bec-2e2a-4bcc-9ddd-18dc81f9390c",
+      "diameter_x_y_mm": [
+        0.3,
+        39.0,
+        35.6
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "f29eaa86-9a5e-4b04-ac54-1a6b0a967f94",
+      "diameter_x_y_mm": [
+        0.3,
+        67.5344,
+        26.8208
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "95e57fe4-446c-4001-a716-107babaf1587",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2914,
+        26.1265
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c9f27c86-6533-4eea-99d0-157c4652ecbb",
+      "diameter_x_y_mm": [
+        0.3,
+        81.9504,
+        20.2577
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "41ea7a6d-970e-4865-bf26-4ca25cadd37f",
+      "diameter_x_y_mm": [
+        0.3,
+        25.578,
+        74.125
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "6d11f0f4-bcdc-417d-951b-995665b9b658",
+      "diameter_x_y_mm": [
+        0.3,
+        20.902,
+        69.449
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "122a8a32-d1d9-4e2e-a2d3-2d33ca85b2b1",
+      "diameter_x_y_mm": [
+        0.3,
+        38.7908,
+        79.95
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "678f576d-3bec-450d-8a80-be63b8363dae",
+      "diameter_x_y_mm": [
+        0.3,
+        41.5639,
+        50.8562
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ac056286-d2a6-4937-b952-eb6e3c1507d3",
+      "diameter_x_y_mm": [
+        0.3,
+        23.674,
+        58.1064
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "af60fbf2-609c-413d-a8ed-cf4c807769ab",
+      "diameter_x_y_mm": [
+        0.3,
+        23.674,
+        65.2334
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "088704f3-56d9-404e-9a20-aff72be86902",
+      "diameter_x_y_mm": [
+        0.3,
+        42.0409,
+        55.193
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a2b7c1bf-5a83-4356-ac41-882752e6327d",
+      "diameter_x_y_mm": [
+        0.3,
+        35.1106,
+        79.2201
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a7503a62-3390-43b9-96f9-26981bbaad24",
+      "diameter_x_y_mm": [
+        0.3,
+        38.406,
+        57.6258
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c4541e86-9bc9-464a-a84f-7db3ba77d358",
+      "diameter_x_y_mm": [
+        0.3,
+        43.1358,
+        49.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "1b3d3592-97e4-420e-89c3-f243488c2dd2",
+      "diameter_x_y_mm": [
+        0.3,
+        63.7582,
+        64.3582
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "204534b6-ddce-45a7-a14e-4a6b2877c097",
+      "diameter_x_y_mm": [
+        0.3,
+        75.8197,
+        19.3344
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "23998318-48ab-40a7-a953-4a8dffbfdd91",
+      "diameter_x_y_mm": [
+        0.3,
+        45.405,
+        48.0722
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5da0e151-0271-4cc1-ab0e-b5d01dbf4a12",
+      "diameter_x_y_mm": [
+        0.3,
+        74.05,
+        56.25
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "60c1ecbf-8eee-4888-b1d8-f2bed584c939",
+      "diameter_x_y_mm": [
+        0.3,
+        63.7582,
+        52.3852
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "703b0583-12a6-467d-b103-1bb2fffc98d5",
+      "diameter_x_y_mm": [
+        0.3,
+        79.4898,
+        23.6033
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "82cb677a-6d48-4162-bf41-7dba055c9906",
+      "diameter_x_y_mm": [
+        0.3,
+        47.1827,
+        48.8277
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b611a599-d390-4997-8f92-f381698f9b0e",
+      "diameter_x_y_mm": [
+        0.3,
+        79.808,
+        39.4128
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "cf0636a0-89f7-46d3-948e-1978bd6f2fdd",
+      "diameter_x_y_mm": [
+        0.3,
+        82.9337,
+        23.2249
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "cfd51cf3-6fc5-4d1c-bf4e-cd7f9b59cf56",
+      "diameter_x_y_mm": [
+        0.3,
+        82.7751,
+        34.8337
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ded08458-e3b4-4c23-88b8-e847571ee4e4",
+      "diameter_x_y_mm": [
+        0.3,
+        83.9912,
+        18.4949
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e959e568-227c-4739-8cef-58991654fd56",
+      "diameter_x_y_mm": [
+        0.3,
+        40.7774,
+        43.6623
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "eb74bc9f-f255-4ba8-9795-e7182030b587",
+      "diameter_x_y_mm": [
+        0.3,
+        79.199999,
+        61.8
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "0fe3ef32-39d1-4183-a274-9750127e1097",
+      "diameter_x_y_mm": [
+        0.3,
+        26.3139,
+        84.2804
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "18403928-525f-4f84-abe9-10aaeb3637bd",
+      "diameter_x_y_mm": [
+        0.3,
+        53.0902,
+        54.9743
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "9c6a4d77-10ab-491d-8987-cc43da7c6bd5",
+      "diameter_x_y_mm": [
+        0.3,
+        53.0902,
+        71.8107
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "9701bdc3-e580-430a-9812-ae349e384088",
+      "diameter_x_y_mm": [
+        0.3,
+        83.5282,
+        79.2581
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c7317743-6ea7-4f97-8c34-a2152498600a",
+      "diameter_x_y_mm": [
+        0.3,
+        77.7294,
+        76.9212
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b349d421-6d9b-47df-844d-7ccef973b1a4",
+      "diameter_x_y_mm": [
+        0.3,
+        43.6566,
+        22.9311
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bae31c18-4ba9-4346-90c0-cab545ca60ba",
+      "diameter_x_y_mm": [
+        0.3,
+        45.6191,
+        20.9686
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "0f268382-47e5-41ea-a4c6-64a937e72559",
+      "diameter_x_y_mm": [
+        0.3,
+        80.1,
+        43.95
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "eb2c60e6-6cf1-4968-a021-87ff3ec8790e",
+      "diameter_x_y_mm": [
+        0.3,
+        79.0,
+        45.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "48aca710-5a2c-4fa2-ba14-07fa341e45da",
+      "diameter_x_y_mm": [
+        0.3,
+        14.3356,
+        78.1606
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "dbc96766-45bd-4c53-83be-0347e21d48b9",
+      "diameter_x_y_mm": [
+        0.3,
+        20.055,
+        77.1718
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e3f0d0f2-2c48-4e20-8a8a-3b3b77ed8e01",
+      "diameter_x_y_mm": [
+        0.3,
+        42.5405,
+        84.0922
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "78d336c7-cce0-4018-b7d8-075e7a13f369",
+      "diameter_x_y_mm": [
+        0.3,
+        79.05,
+        82.95
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "802b1042-534d-42fc-98f8-a9751d1c9823",
+      "diameter_x_y_mm": [
+        0.3,
+        80.6,
+        81.7
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4195b23d-6e71-4a68-8b48-c02bdf76bfe5",
+      "diameter_x_y_mm": [
+        0.3,
+        29.9878,
+        59.8845
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c5406a4b-dce1-4a41-bf14-b29ebfc771b3",
+      "diameter_x_y_mm": [
+        0.3,
+        35.2509,
+        55.144
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "027a5a0a-7f5c-4969-b214-56adf6c3939d",
+      "diameter_x_y_mm": [
+        0.3,
+        70.95,
+        24.57
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "1dc18553-8974-4282-b79e-8d54ac175490",
+      "diameter_x_y_mm": [
+        0.3,
+        70.55,
+        22.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a03c9805-2b9f-4c2a-8eb3-a6891c8d137c",
+      "diameter_x_y_mm": [
+        0.3,
+        14.3555,
+        82.1805
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4ac7cfee-e83f-4a5c-8219-41cc9109210d",
+      "diameter_x_y_mm": [
+        0.3,
+        42.884,
+        76.3305
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4b8604cc-f674-4a33-9f68-4e90b46762bc",
+      "diameter_x_y_mm": [
+        0.3,
+        38.0,
+        69.6222
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4d17d28f-aab2-49c6-a703-45893e44c526",
+      "diameter_x_y_mm": [
+        0.3,
+        37.3646,
+        61.8128
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "86202ee6-a21d-4e76-8e0c-9a077d64766c",
+      "diameter_x_y_mm": [
+        0.3,
+        43.7591,
+        65.25
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d7113f25-ae9b-4643-8306-2041690919b6",
+      "diameter_x_y_mm": [
+        0.3,
+        70.6,
+        81.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "f9d511c4-e970-4421-ab6d-7f24e3acf9e1",
+      "diameter_x_y_mm": [
+        0.3,
+        70.6222,
+        78.05
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "04cf7edf-0614-4c28-9403-76abf31d822c",
+      "diameter_x_y_mm": [
+        0.3,
+        48.6969,
+        31.0307
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "6adcb6b9-6fce-42b1-a2ae-bc6cf629dddb",
+      "diameter_x_y_mm": [
+        0.3,
+        48.6969,
+        25.3897
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "eb22104a-caa4-43a4-b756-d0a9118401c3",
+      "diameter_x_y_mm": [
+        0.3,
+        47.2679,
+        21.1804
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "926450a2-b3ee-4cdf-8280-0f8e54c0a9ce",
+      "diameter_x_y_mm": [
+        0.3,
+        44.5764,
+        80.3946
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b3cf02fe-d466-4d41-98b2-fdf503fb1e4b",
+      "diameter_x_y_mm": [
+        0.3,
+        49.4209,
+        59.4231
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ae149757-0070-4202-bbbb-b9416c8206e9",
+      "diameter_x_y_mm": [
+        0.3,
+        80.937,
+        39.491
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "f376f817-cece-49ee-b19a-05ec958f39d8",
+      "diameter_x_y_mm": [
+        0.3,
+        80.6262,
+        45.0597
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e3adb160-f149-4647-9a64-3790629ae20e",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2,
+        65.275
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b30add90-6e05-4a32-88e8-a16b97a577eb",
+      "diameter_x_y_mm": [
+        0.3,
+        70.7,
+        65.4
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "0ecec117-8785-411d-8e40-7852ca29dc8f",
+      "diameter_x_y_mm": [
+        0.3,
+        46.9623,
+        72.1873
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "32320bd9-acaa-4e31-a293-a9edaf036c3b",
+      "diameter_x_y_mm": [
+        0.3,
+        46.1593,
+        68.3343
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "6c89a931-e601-4349-a43e-f68b917fd9ad",
+      "diameter_x_y_mm": [
+        0.3,
+        75.0476,
+        57.8329
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "775b1b37-e24d-42d4-a4b8-1ce7d187933c",
+      "diameter_x_y_mm": [
+        0.3,
+        50.4381,
+        56.5751
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a2823985-996d-403d-9aa7-def9dd43c8d3",
+      "diameter_x_y_mm": [
+        0.3,
+        77.4615,
+        21.6617
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a97a6ddf-7618-42fe-894d-fbe3b1d63188",
+      "diameter_x_y_mm": [
+        0.3,
+        32.3231,
+        81.0231
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5f56263a-d7fb-448e-800e-41d944043ef7",
+      "diameter_x_y_mm": [
+        0.3,
+        26.1236,
+        83.0867
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "9dea82f3-93ba-4532-b958-fc3814e68e50",
+      "diameter_x_y_mm": [
+        0.3,
+        78.527,
+        57.7126
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "aa017fa4-ab05-4909-8bb7-929bb330d0a1",
+      "diameter_x_y_mm": [
+        0.3,
+        81.3338,
+        17.0899
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e5358cb5-2ed0-4973-813e-392bb25f2f58",
+      "diameter_x_y_mm": [
+        0.3,
+        60.9662,
+        50.3011
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4469399e-0c22-4d47-a021-c4615b1d4b24",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2,
+        27.275
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "f948cfce-0c82-4898-b71b-d0ce8d70d43d",
+      "diameter_x_y_mm": [
+        0.3,
+        70.7,
+        27.4
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b71e787e-dbf1-458a-bb38-63440c665f48",
+      "diameter_x_y_mm": [
+        0.3,
+        66.396,
+        27.3015
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ddd64aef-04de-4085-bdd9-7c78325d2177",
+      "diameter_x_y_mm": [
+        0.3,
+        66.3947,
+        24.0964
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c0e36e46-5acf-4f08-a8b3-89cb948e87b2",
+      "diameter_x_y_mm": [
+        0.3,
+        9.2705,
+        87.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "0f9c17f0-459c-4d88-9ad8-9fb74c9dbf4d",
+      "diameter_x_y_mm": [
+        0.3,
+        14.1458,
+        62.645
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4a0dfd59-65ef-4444-ace5-9250100101db",
+      "diameter_x_y_mm": [
+        0.3,
+        38.6581,
+        78.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "7843a11e-dc12-46f2-a156-ca6bf74daca3",
+      "diameter_x_y_mm": [
+        0.3,
+        38.0179,
+        55.1696
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "047fe3cd-83c6-4e70-8ff3-02d0fac723d4",
+      "diameter_x_y_mm": [
+        0.3,
+        21.7958,
+        83.65
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "7ca3f7f8-3504-4957-922a-9439d03d5242",
+      "diameter_x_y_mm": [
+        0.3,
+        55.7816,
+        77.1919
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d9853519-0fc7-42c0-b973-367cb045d53e",
+      "diameter_x_y_mm": [
+        0.3,
+        62.3616,
+        49.0504
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "599b1896-5813-4e1c-b930-cb1fa606f2c2",
+      "diameter_x_y_mm": [
+        0.3,
+        62.6613,
+        50.7835
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "9b614608-c580-4a05-8eae-e97a0f7ac4d0",
+      "diameter_x_y_mm": [
+        0.3,
+        62.4689,
+        64.6463
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "755f68f7-3563-45a5-8398-6c4c15fd7a5f",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2,
+        84.275
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "3d13f18d-e453-4fb9-a199-7a11f62bf115",
+      "diameter_x_y_mm": [
+        0.3,
+        71.0,
+        86.35
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "ca5e3dc2-a590-4251-a9b6-fc808bd78b66",
+      "diameter_x_y_mm": [
+        0.3,
+        70.98,
+        82.25
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "050f9cba-a0c6-47de-99cb-a2b7e3b3444b",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2625,
+        64.1625
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e5991820-7e9c-44f0-83ed-0eff6278ea29",
+      "diameter_x_y_mm": [
+        0.3,
+        81.0243,
+        61.226
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "185b1cc1-8401-4eab-9140-8af78144cc5d",
+      "diameter_x_y_mm": [
+        0.3,
+        28.4472,
+        61.8148
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bf561e2f-f240-4c2c-ba47-724747cc8c8e",
+      "diameter_x_y_mm": [
+        0.3,
+        28.4472,
+        65.5502
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d4533cf0-8a1e-4609-a6e1-b54a771ee3c0",
+      "diameter_x_y_mm": [
+        0.3,
+        47.27,
+        56.1825
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "fb9f653c-5ee9-4893-a039-5e3091363665",
+      "diameter_x_y_mm": [
+        0.3,
+        41.2096,
+        58.1321
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "accc0815-d12e-4e31-b3e0-6e8540c4b7a5",
+      "diameter_x_y_mm": [
+        0.3,
+        70.6313,
+        40.05
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "dbab3fa6-698e-40f9-b833-faf4ef898689",
+      "diameter_x_y_mm": [
+        0.3,
+        70.6,
+        43.5
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "4ca36cd5-1e52-4ab9-ad7e-7751ddde3e17",
+      "diameter_x_y_mm": [
+        0.3,
+        79.2,
+        46.275
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "b46f3f20-fc0b-4a0a-8d63-743fcd7d1253",
+      "diameter_x_y_mm": [
+        0.3,
+        70.7,
+        46.4
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "cf8ae426-162d-464b-bd58-9934ba371c77",
+      "diameter_x_y_mm": [
+        0.3,
+        70.98,
+        44.25
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d50b9a73-6af2-40ff-a169-7617e3299cc5",
+      "diameter_x_y_mm": [
+        0.3,
+        72.25,
+        47.05
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "53385b6a-204b-4d99-9d76-b87ea60603a6",
+      "diameter_x_y_mm": [
+        0.3,
+        44.1979,
+        85.324
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5d25612c-87ed-4ea2-a683-9c5344a80e07",
+      "diameter_x_y_mm": [
+        0.3,
+        33.3425,
+        90.5012
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "f7df898a-2f9d-4f31-b26f-23ec2f5b6046",
+      "diameter_x_y_mm": [
+        0.3,
+        36.5991,
+        87.1057
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "21807f2a-fd2f-43e7-941d-4133ec605e77",
+      "diameter_x_y_mm": [
+        0.3,
+        27.7485,
+        85.5709
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "e5ffc35e-9ced-4429-8508-5569265dbd09",
+      "diameter_x_y_mm": [
+        0.3,
+        42.4894,
+        86.5988
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "26209b26-a835-4e0c-ac6e-e35988a0a0f1",
+      "diameter_x_y_mm": [
+        0.3,
+        27.2319,
+        80.8293
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "a6a0f621-c395-49e9-8928-07eebbbf5fd5",
+      "diameter_x_y_mm": [
+        0.3,
+        24.5461,
+        83.3794
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "39efedc9-0c25-414d-8da8-d3602d1f875a",
+      "diameter_x_y_mm": [
+        0.3,
+        42.8368,
+        83.0904
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "5efb50c2-630a-4b12-9bcb-65172a12b4df",
+      "diameter_x_y_mm": [
+        0.3,
+        33.2299,
+        81.533
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bff4154a-ec26-4061-bc9b-a4c8e0b5234a",
+      "diameter_x_y_mm": [
+        0.3,
+        45.5189,
+        86.8353
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "d38ca948-2007-49e3-8037-4b6dacefb81c",
+      "diameter_x_y_mm": [
+        0.3,
+        27.4986,
+        83.5697
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "0dc998b9-1318-40d5-bead-58fe05787263",
+      "diameter_x_y_mm": [
+        0.3,
+        44.2441,
+        55.5487
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "8898a728-3b62-4739-83b8-4805e93d3f74",
+      "diameter_x_y_mm": [
+        0.3,
+        20.6805,
+        61.1527
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "2cf53f34-ac42-4dc9-80fc-e169733309ec",
+      "diameter_x_y_mm": [
+        0.3,
+        70.95,
+        62.57
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "516b3fa9-1179-4c10-899b-ddaef68f5c60",
+      "diameter_x_y_mm": [
+        0.3,
+        70.55,
+        60.0
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "bea6f1d5-c5bf-42ce-aab4-dc09422b6043",
+      "diameter_x_y_mm": [
+        0.3,
+        66.3356,
+        65.3856
+      ]
+    },
+    {
+      "kind": "PTH",
+      "source": "via",
+      "uuid": "c7a07a35-f8f6-43c4-819e-e27ebb7db0b8",
+      "diameter_x_y_mm": [
+        0.3,
+        66.3356,
+        62.1312
+      ]
+    }
+  ],
+  "models": [
+    {
+      "ref": "R5",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step",
+      "exists": true,
+      "sha256": "adda0647a71569528494b0c89336a4700aa00105603a72f3e617460fa4b7b776",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C11",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U11",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "exists": true,
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R6",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R7",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R8",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R9",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R10",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "exists": true,
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "exists": true,
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "exists": true,
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "exists": true,
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "J5",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step",
+      "exists": true,
+      "sha256": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U3",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "exists": true,
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U4",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+      "exists": true,
+      "sha256": "65626b93d9b55c6bfae7e3fdafcfd9dc36fe0121778aa04d8da3a20c7d1f041e",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U5",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step",
+      "exists": true,
+      "sha256": "353552981eef35cb93635057d4aeb89aef22648c77af6fd095e328bfe6b834bd",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U6",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "exists": true,
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U7",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+      "exists": true,
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U8",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "exists": true,
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U9",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "exists": true,
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "SW1",
+      "path": "${KIPRJMOD}/libraries/3dmodels/SW_JS102011SAQN_nominal.wrl",
+      "exists": true,
+      "sha256": "fbc2b8a7c697bcee076e394b68c53ab248f9eae2d8e1894bf464cacb7c77fbc4",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R100",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R101",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R104",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R105",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R112",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R113",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R116",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R117",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R124",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R125",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R126",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R127",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R128",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R129",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R130",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R131",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R132",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R133",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R134",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R138",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R139",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R140",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R141",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C100",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C101",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C102",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C103",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C104",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C105",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C106",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C107",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step",
+      "exists": true,
+      "sha256": "b5cb8ba55564999d7db361023fe8e370448ccb21865df04947edc053d5dded9e",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U12",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "exists": true,
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C109",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U15",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step",
+      "exists": true,
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U16",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step",
+      "exists": true,
+      "sha256": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C13",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C14",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U14",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+      "exists": true,
+      "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C12",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R11",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R12",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U20",
+      "path": "${KIPRJMOD}/libraries/3dmodels/DRV8874_PWP0016J_EP3.4x5_nominal.wrl",
+      "exists": true,
+      "sha256": "ffb49a16614177d05c739123f730717932c974fc400ec2f1bfe309c7435ab667",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C20",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1H221_nominal.wrl",
+      "exists": true,
+      "sha256": "3bfe0a7c649e671efbe8eee432717026402ac5b301c52b337eedeada0d983636",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C21",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C22",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C23",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C24",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R20",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R21",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R22",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R23",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U21",
+      "path": "${KIPRJMOD}/libraries/3dmodels/DRV8874_PWP0016J_EP3.4x5_nominal.wrl",
+      "exists": true,
+      "sha256": "ffb49a16614177d05c739123f730717932c974fc400ec2f1bfe309c7435ab667",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C25",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1H221_nominal.wrl",
+      "exists": true,
+      "sha256": "3bfe0a7c649e671efbe8eee432717026402ac5b301c52b337eedeada0d983636",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C26",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C27",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C28",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C29",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R24",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R25",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R26",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R27",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U22",
+      "path": "${KIPRJMOD}/libraries/3dmodels/DRV8874_PWP0016J_EP3.4x5_nominal.wrl",
+      "exists": true,
+      "sha256": "ffb49a16614177d05c739123f730717932c974fc400ec2f1bfe309c7435ab667",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C30",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1H221_nominal.wrl",
+      "exists": true,
+      "sha256": "3bfe0a7c649e671efbe8eee432717026402ac5b301c52b337eedeada0d983636",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C31",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C32",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C33",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C34",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R28",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R29",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R30",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R31",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U23",
+      "path": "${KIPRJMOD}/libraries/3dmodels/DRV8874_PWP0016J_EP3.4x5_nominal.wrl",
+      "exists": true,
+      "sha256": "ffb49a16614177d05c739123f730717932c974fc400ec2f1bfe309c7435ab667",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C35",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1H221_nominal.wrl",
+      "exists": true,
+      "sha256": "3bfe0a7c649e671efbe8eee432717026402ac5b301c52b337eedeada0d983636",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C36",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C37",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C38",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C39",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R32",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R33",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R34",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R35",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "F1",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Fuse_Littelfuse_451_nominal.wrl",
+      "exists": true,
+      "sha256": "f807fa00128fb1de36610bdc5d6fb2757bce59846e8f3277cb8b37515aae83a9",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "D1",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Diode_SMD.3dshapes/D_SMB.step",
+      "exists": true,
+      "sha256": "029466277d91e9f5492556be93e46611049e07115c7913880c547afa96058ed4",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "Q1",
+      "path": "${KIPRJMOD}/libraries/3dmodels/CSD19537Q3_Texas_Q3_nominal.wrl",
+      "exists": true,
+      "sha256": "2ffd9f5782a6ec420f75fdd56c13d64502e69558723dafbea5936c8f6cecc6ad",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "Q2",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+      "exists": true,
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U13",
+      "path": "${KIPRJMOD}/libraries/3dmodels/TPS26630_RGE0024H_EP2.7x2.7_nominal.wrl",
+      "exists": true,
+      "sha256": "21182dc40a8c84fbfe74661ac3022ba0d77448f096cd19de29087f915207fe63",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R40",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R41",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R42",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R43",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R44",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+      "exists": true,
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C40",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+      "exists": true,
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C41",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+      "exists": true,
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C42",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step",
+      "exists": true,
+      "sha256": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "D2",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Diode_SMD.3dshapes/D_SMB.step",
+      "exists": true,
+      "sha256": "029466277d91e9f5492556be93e46611049e07115c7913880c547afa96058ed4",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1H102_nominal.wrl",
+      "exists": true,
+      "sha256": "d62385886e362c705a9193f0a8321fd59237f3d3bb8b0d2c1ab4caabde4b9ddc",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "C2",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Panasonic_EEUFR1H102_nominal.wrl",
+      "exists": true,
+      "sha256": "d62385886e362c705a9193f0a8321fd59237f3d3bb8b0d2c1ab4caabde4b9ddc",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R45",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "R46",
+      "path": "${KIPRJMOD}/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
+      "exists": true,
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+      "shown": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "gerbers": [
+    {
+      "file": "ai_robot_interface-F_Mask.gts",
+      "file_function": "Soldermask,Top",
+      "sha256": "7b060cd2492b2e458e4d1db0262ec9d3ae0742e05d77d21d725b4cb34a91286e",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-Edge_Cuts.gm1",
+      "file_function": "Profile,NP",
+      "sha256": "6b5cafc11622f27b0107dceb3a4f9df67c8abc966dff160c71294c34ab0a6d30",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-B_Cu.gbl",
+      "file_function": "Copper,L2,Bot",
+      "sha256": "df09e05f3763c4f5f7d6d7ac83497ec50044ceeab39f1b077dc2fdd22fbbbd41",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-F_Paste.gtp",
+      "file_function": "Paste,Top",
+      "sha256": "81343affb60593d77f7bdb67b77e57664b4f2f3b3a515ff3af78f7c550b968d9",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-B_Mask.gbs",
+      "file_function": "Soldermask,Bot",
+      "sha256": "022b28ba78249369bbb0506d902d76f928c49a0e79ccdbccfb2514015b8262ec",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-F_Cu.gtl",
+      "file_function": "Copper,L1,Top",
+      "sha256": "8b2aea7b05b18698ac0b0ad8ebdf124ca12afe75989bc56f7d7fd7d5c601df23",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-F_Silkscreen.gto",
+      "file_function": "Legend,Top",
+      "sha256": "0b37792ebcdcc46bfb9c81e0735461e31e406f2b27fbbd253e69f9fc7df03b44",
+      "matches_fresh_native_export_except_creation_time": true
+    },
+    {
+      "file": "ai_robot_interface-B_Silkscreen.gbo",
+      "file_function": "Legend,Bot",
+      "sha256": "88b2eb6c7758071b8877a5540675fc3ef6ddda549025cca6d129af61585c7c39",
+      "matches_fresh_native_export_except_creation_time": true
+    }
+  ],
+  "schematic_pdf": {
+    "pages": [
+      {
+        "page": 1,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 2011,
+        "references": [
+          "C1",
+          "C2",
+          "C40",
+          "C41",
+          "C42",
+          "D1",
+          "D2",
+          "F1",
+          "J1",
+          "Q1",
+          "Q2",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44",
+          "R45",
+          "R46",
+          "R5",
+          "TP1",
+          "TP2",
+          "TP3",
+          "U13"
+        ]
+      },
+      {
+        "page": 2,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 1106,
+        "references": [
+          "C11",
+          "C12",
+          "R10",
+          "R11",
+          "R12",
+          "R6",
+          "R7",
+          "R8",
+          "R9",
+          "SW1",
+          "U11",
+          "U14"
+        ]
+      },
+      {
+        "page": 3,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 1601,
+        "references": [
+          "C101",
+          "C13",
+          "C14",
+          "J6",
+          "R100",
+          "R101",
+          "R104",
+          "R105",
+          "R112",
+          "R113",
+          "R116",
+          "R117",
+          "U15",
+          "U16",
+          "U3"
+        ]
+      },
+      {
+        "page": 4,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 1615,
+        "references": [
+          "C100",
+          "C102",
+          "C105",
+          "C106",
+          "C107",
+          "C109",
+          "R124",
+          "R125",
+          "R126",
+          "R127",
+          "R128",
+          "R129",
+          "R130",
+          "R131",
+          "R132",
+          "R133",
+          "R134",
+          "R138",
+          "SW1",
+          "TP4",
+          "TP5",
+          "TP6",
+          "TP7",
+          "U12",
+          "U4",
+          "U7",
+          "U8",
+          "U9"
+        ]
+      },
+      {
+        "page": 5,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 1096,
+        "references": [
+          "C103",
+          "C104",
+          "R139",
+          "R140",
+          "R141",
+          "TP10",
+          "TP8",
+          "TP9",
+          "U5",
+          "U6"
+        ]
+      },
+      {
+        "page": 6,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 1812,
+        "references": [
+          "C20",
+          "C21",
+          "C22",
+          "C23",
+          "C24",
+          "C25",
+          "C26",
+          "C27",
+          "C28",
+          "C29",
+          "J2",
+          "J3",
+          "R20",
+          "R21",
+          "R22",
+          "R23",
+          "R24",
+          "R25",
+          "R26",
+          "R27",
+          "TP20",
+          "TP21",
+          "U20",
+          "U21"
+        ]
+      },
+      {
+        "page": 7,
+        "width_pt": 1190.52001953125,
+        "height_pt": 841.89599609375,
+        "text_chars": 1829,
+        "references": [
+          "C30",
+          "C31",
+          "C32",
+          "C33",
+          "C34",
+          "C35",
+          "C36",
+          "C37",
+          "C38",
+          "C39",
+          "J4",
+          "J5",
+          "R28",
+          "R29",
+          "R30",
+          "R31",
+          "R32",
+          "R33",
+          "R34",
+          "R35",
+          "TP22",
+          "TP23",
+          "U22",
+          "U23"
+        ]
+      }
+    ],
+    "page_count": 7,
+    "encrypted": false
+  },
+  "preserved_mock_evidence": {
+    "software_test_report.md": {
+      "exists": true,
+      "sha256": "ba52e1a29b1bbdef4f2432df6b0ea7b43c350fd1529ff60e16fccd07312ffaf3",
+      "expected_sha256": "ba52e1a29b1bbdef4f2432df6b0ea7b43c350fd1529ff60e16fccd07312ffaf3"
+    },
+    "mock_tests.junit.xml": {
+      "exists": true,
+      "sha256": "db5a70a947769df63656d36b0bc726911738cb661d2122e831d8d5e0c567b473",
+      "expected_sha256": "db5a70a947769df63656d36b0bc726911738cb661d2122e831d8d5e0c567b473"
+    }
+  },
+  "input_sha256": {
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/design_manifest.json": "71b76047da224433f414b0c205fbe67ba003c064f2e59530479020ec6d2da83c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_pcb": "3eb423b15c766e0647403a8f4eb8eeb2b4a45bfc8c8c5f838797a18a8cf6e116",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_pro": "5f4f764a134185af23a258a52c1b234519f496fffcc810089392a85886f9389f",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/fp-lib-table": "756bc28f29f1dcbb61585d097e12cfc6eb343bd6542d389d9ba3511ce59fa8ed",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/ai_robot_interface.kicad_sch": "3891378e03a8870dbfa5a57cb0bb6b20c30e69c914f7ab260920f0967cf4ca9a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/enable_latch.kicad_sch": "cdcfd9b56b457a1e6c4b195bfd8578703d2d90e797ae4bcbc63e1fe32116d3db",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/interface.kicad_sch": "7336505d860a34aaf898aa2b88246bfe6e71a017329653956950683766480a37",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/motor_front.kicad_sch": "68d5dbd8511b16a6951e7c911855f2957cf22b21f6a781e161317c499a7f49a9",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/motor_rear.kicad_sch": "76162f3be7472b45f38f53a535a786a9df64f2c800ef29f9a6231cb52ec4c73e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/rail_monitor.kicad_sch": "22e5a07d10747ed986ae91deade5265392a1556022961858d19aca6b454755d3",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/supervision.kicad_sch": "66a854e899190ff4fe4422a18886780ed5e225697cc5f175a228e81d2e805488",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/CSD19537Q3_Texas_Q3.kicad_mod": "7b70a7779259eaab5659ef3c6c5ed3998dd5b50e53ee8bcdbc85ceb0f06c80d3",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/DRV8874_PWP0016J_EP3.4x5.kicad_mod": "a03317ae740f8a5d42853f77edfb9174154a370444f249d0d5ead44680bd2334",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/Fuse_Littelfuse_451.kicad_mod": "74d3cd56f7c4cda558c882191ead20e886b5dcd836a687e64b738f3695b9ac51",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/IDC_Wurth_61201621621.kicad_mod": "31dc30244c3f308f30499065b31b9a5431770491345c80e98d89fa4e6a6286f8",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TB6612FNG_SSOP24_5.6x7.8_P0.65.kicad_mod": "3d96ddc59fac4837d00c9ce8c3fc60073b3949aa23ab5bef115f089b5f9c2316",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TI_DCU0008A.kicad_mod": "f159a6d5b0942fad4426b9f4b74fe741892dc9a81c520409e1b6c1001a80e7ea",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TPS26630_RGE0024H_EP2.7x2.7.kicad_mod": "f7e48677a0eb68665cb9f8600ea20fb06bca611fdf691b89efa4428cdd123017",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/AI_Robot.pretty/TPS3431_DRB8_3x3_P0.65.kicad_mod": "a5d11b3bb9f9ed5f81bf7264b9aab57662b722884ad3603535deac3906531ebf",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Button_Switch_SMD.pretty/SW_SPDT_CK_JS102011SAQN.kicad_mod": "1d6a25b7bb84c97a6b20133c55bd59857bcd0499b621f10fe2fc897f006fe78c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": "8d1a63f241b1ce174996d64510a8adde8931879d3ec43dff4a22e48202190571",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod": "9df96a2c5ca52577863c988bbb2f56e338023b1a449acc001fc5e3d22105ff7b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod": "2b32778fccd401fc0a4bb60eb5c5e85054096c9b026e1e8dc8b0324aa751581f",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_THT.pretty/CP_Radial_D10.0mm_P5.00mm.kicad_mod": "f75eff8ec0dd43b43d31b98e23113f815f6de756f1d3b79662682b9751cb92c4",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_THT.pretty/CP_Radial_D16.0mm_P7.50mm.kicad_mod": "d645fe264aa519badc711805e6d553926edfbd5fd4724392c062e97058e6df60",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Capacitor_THT.pretty/CP_Radial_D5.0mm_P2.00mm.kicad_mod": "f4769c5a76a97f4ffafd8e4a23a51b17a2dca4f119c487026f06fd7e74763b13",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Connector_IDC.pretty/IDC-Header_2x08_P2.54mm_Vertical.kicad_mod": "34bcf0cbb79d41ee925663de9bf4dbe03f13fd10d970b14479781a3a29cf3940",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Connector_Phoenix_MSTB.pretty/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.kicad_mod": "f656dc1c8b45c6f85e0b9f82566105c29ff5190cf1d50960661a2fa89e9f5f5b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Diode_SMD.pretty/D_SMB.kicad_mod": "6f7f1c0c3ad02d5963c932f7e8c4ea489b479b029e56bbcf8057dcf8f2a34dd0",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Diode_SMD.pretty/D_SMC.kicad_mod": "438b672fa91711480026f1b38d4c78d89cb6ec50210c5333155dbf3f9784551a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "85b79b9d49edff143c61937f24cc8e6a03de9763691628122360628305e5788a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_SO.pretty/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod": "1e315346ebbae9d6def9ed807a76c9835a6bfdc1e0365aa97689cdc45673d93b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod": "398558a828233ca0093e89517f367e87be165738bfb67eea029a7c4162983f65",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod": "e4c726bcdf636bcec97b58501d9fe745492f9bebde3077835309013799c2bd2e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod": "9e9b07822ac0c9afab4a1b3aaae470ebbd2d2f5cf28dffd79249ebd536eb8f63",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod": "2172009a2e0c3db6a28cd2b12d4bbe7a4ea9f2f27676f8c2f41c010c76db7584",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod": "fad6d6cee92b4fd152e95ccea8efebc322825ff2c7cbec9724f1098ef29aa549",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/Resistor_THT.pretty/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.kicad_mod": "5f84c6689c7af8378b6050502112f039797a9a54bef50c0299baea267087c65b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/CSD19537Q3_Texas_Q3_nominal.wrl": "2ffd9f5782a6ec420f75fdd56c13d64502e69558723dafbea5936c8f6cecc6ad",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0603_1608Metric.step": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Capacitor_SMD.3dshapes/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step": "11e948c72c90e2b6322436b72745f40ff4e8ba0da64fb2a0df943dfa61e89c1a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.step": "7367f35dd5439e325ba3912de65e9200831fdc6698080ffd056cd268649ba41d",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D16.0mm_P7.50mm.step": "6ff24b1ad7161c52fa605740f3e2cf292a57964021404ee4b828c6577e1ba561",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.00mm.step": "96f77599ffdd30a40b9738a02543510138a4977d6427f42fef3fdd584405fc1d",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.step": "b5cb8ba55564999d7db361023fe8e370448ccb21865df04947edc053d5dded9e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal.step": "9504778074e79ac1b4abfc34cd2815dc5c108995e50d5d7c6a6e3f00620b7f9a",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/DRV8874_PWP0016J_EP3.4x5_nominal.wrl": "ffb49a16614177d05c739123f730717932c974fc400ec2f1bfe309c7435ab667",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Diode_SMD.3dshapes/D_SMB.step": "029466277d91e9f5492556be93e46611049e07115c7913880c547afa96058ed4",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Diode_SMD.3dshapes/D_SMC.step": "30dab4c2e22239b7e3694a4d45304e04255c6b70a79d28e9c34c6072ba647991",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Fuse_Littelfuse_451_nominal.wrl": "f807fa00128fb1de36610bdc5d6fb2757bce59846e8f3277cb8b37515aae83a9",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step": "65626b93d9b55c6bfae7e3fdafcfd9dc36fe0121778aa04d8da3a20c7d1f041e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step": "3ee5786aae56190997aa793ba3cfc003fd616782770e29719b4562f012982245",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.step": "353552981eef35cb93635057d4aeb89aef22648c77af6fd095e328bfe6b834bd",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23.step": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Panasonic_EEUFR1E102_D10_H20_P5_nominal.wrl": "0f6c7a1aad148595159da874fdc15e51d7fa48d0e9ab02fdf62dcb7f57fe724d",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Panasonic_EEUFR1H102_nominal.wrl": "d62385886e362c705a9193f0a8321fd59237f3d3bb8b0d2c1ab4caabde4b9ddc",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Panasonic_EEUFR1H221_nominal.wrl": "3bfe0a7c649e671efbe8eee432717026402ac5b301c52b337eedeada0d983636",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/README.md": "7cc430f0d201284f780f488752ac21ae1eca576e198560ce37bbea5daeaca34c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Resistor_SMD.3dshapes/R_0603_1608Metric.step": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Resistor_SMD.3dshapes/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step": "adda0647a71569528494b0c89336a4700aa00105603a72f3e617460fa4b7b776",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/SW_JS102011SAQN_nominal.wrl": "fbc2b8a7c697bcee076e394b68c53ab248f9eae2d8e1894bf464cacb7c77fbc4",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/TB6612FNG_nominal.wrl": "5c77ada67766aad07d1feca1d0acb3a3e594a30d95b452f57ff564ba41181ec5",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/libraries/3dmodels/TPS26630_RGE0024H_EP2.7x2.7_nominal.wrl": "21182dc40a8c84fbfe74661ac3022ba0d77448f096cd19de29087f915207fe63",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/README.md": "712c48a31f44fe2f40d1bda1cf57b6c45f31592f6f0a2187d19b0729ea1bc87e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/assembly_top.pdf": "87d2d9e7151857356337120ef8fcd1c246e7fd305df1233041c82e74d9cd05fa",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/bom_fitted.csv": "b6e6d138ad1d93547146649743fe9791fc342349a51d653b5c1946b0e2eec959",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/bom_grouped.csv": "9e14eec4a833034c6edb617524d3e1637e6f68277ec4c7ce86ddbba547a563a6",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/bom_testpoints.csv": "be25e6aaee126a4275b4ce832c5289b0e0f15b6338857af9da2089e25873c8e6",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/drills/ai_robot_interface-NPTH-drl_map.svg": "0bccd2ab1e48fdce6189463f2938e92e2e2ecae6fc80b16213915020a1859986",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/drills/ai_robot_interface-NPTH.drl": "dddee94b6139ee6aa7a6224f7eee1b6b25de7d3a12a07c81e8b68023c63ad869",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/drills/ai_robot_interface-PTH-drl_map.svg": "fc9d26823d0621e7ea5e5a60fa7ba44f4088c5d719ceb0620a955188536fe6f8",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/drills/ai_robot_interface-PTH.drl": "c34a7f4c52d27706955ac9c5503c01f45800be272ba9b87db0dcfb6d5efec2a5",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/drills/drill_report.txt": "b8f98ffdf67cdf199b6cdf31aa39339ea4822b7b7ba48c4766e744a47331a01c",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/drills/selective_via_fill_map.csv": "39eaa1482f1339ed006bc2d21139751c03f1f76f889f3791a98827eabf568c2f",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-B_Cu.gbl": "df09e05f3763c4f5f7d6d7ac83497ec50044ceeab39f1b077dc2fdd22fbbbd41",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-B_Mask.gbs": "022b28ba78249369bbb0506d902d76f928c49a0e79ccdbccfb2514015b8262ec",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-B_Silkscreen.gbo": "88b2eb6c7758071b8877a5540675fc3ef6ddda549025cca6d129af61585c7c39",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-Edge_Cuts.gm1": "6b5cafc11622f27b0107dceb3a4f9df67c8abc966dff160c71294c34ab0a6d30",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-F_Cu.gtl": "8b2aea7b05b18698ac0b0ad8ebdf124ca12afe75989bc56f7d7fd7d5c601df23",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-F_Mask.gts": "7b060cd2492b2e458e4d1db0262ec9d3ae0742e05d77d21d725b4cb34a91286e",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-F_Paste.gtp": "81343affb60593d77f7bdb67b77e57664b4f2f3b3a515ff3af78f7c550b968d9",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-F_Silkscreen.gto": "0b37792ebcdcc46bfb9c81e0735461e31e406f2b27fbbd253e69f9fc7df03b44",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/gerbers/ai_robot_interface-job.gbrjob": "7e5837b78e5bd317fd95ccd140887476551419e317b25afd01475e6c8604a75b",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/pcb_layout.pdf": "12e88108f4d3cffb0a2a9098abe1fc79cd6f335598aca61417cb3dd5d4a2acf7",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/placement_all.csv": "cde0098994c9c4cc40ecad8cd7d752719130171422df34b96c46133111d20168",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/schematic.pdf": "96d2d1c28c44d1a868109c7b18b3529bf39c2573fc8a784cdf45bd513d0a97c7",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/views/kicad_3d_render.png": "70af47fe5dca4833bce164875e742abce07e31b8bfc5b0ee967027bf4f087925",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/views/pcb_bottom.png": "abae358636006051422a4a1c6e6096d473bcb35bacdb59267318a515fb23544f",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/views/pcb_bottom.svg": "4746cad5be7f53ba14560a5a626ab59789e24d6b6661ec03a7028017fa8864d2",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/views/pcb_top.png": "8dfb4e459b57ff528bf28f0435ff6b401582d45e56bd55ae2cc2ab62430eb252",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/exports/draft/views/pcb_top.svg": "cefdaeeab0bddd584c2e7346b1672fb3b4387660b507ac766448cba223f51845",
+    "/Users/qizhengsui/Documents/Codex/2026-09-27/files-pasted-by-the-user-project/work/redesign12v/project/validation/design/schematic_netlist.xml": "4dc52d1eeb661cd8fefca9da77ccf75e2314f3ff78375c051c959c2ec51e8851"
+  },
+  "errors": [],
+  "limits": [
+    "PDF check covers7 readable pages and manifest reference presence, not visual layout or graphical circuit correctness.",
+    "Model paths/existence/transforms are checked; nominal model geometry and mechanical fit need visual/manufacturer review.",
+    "Fresh Gerber comparison ignores creation-time comment lines only; no source copper was refilled or modified.",
+    "Drill counts and every diameter/coordinate are derived from current native pads/vias, not old-board totals. Slots are explicitly rejected pending a slot-aware audit.",
+    "This report does not evaluate procurement availability, assembly vendor acceptance, thermal behavior or current capacity."
+  ]
+}

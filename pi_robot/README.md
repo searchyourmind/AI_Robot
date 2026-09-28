@@ -1,5 +1,17 @@
 # Pi Mobile Robot – Vision, Web Control, and AI Hooks
 
+> **Rev A work in progress (2026-09-28):** The confirmed physical robot has **four DC motors and two TB6612FNG devices/modules**. The historical A/B code below describes two logical groups; it does not establish four-channel GPIO wiring. The user now confirms direct Pi 5 control, no Arduino in the motor loop, and the driver-to-wheel map recorded below.
+
+Current engineering work: [../hardware/rev_a/README.md](../hardware/rev_a/README.md). See the [audit](../hardware/rev_a/docs/existing_system_audit.md), [requirements](../hardware/rev_a/docs/requirements.md), [architecture review](../hardware/rev_a/docs/architecture_review.md) and [resume point](../hardware/rev_a/PROGRESS.md).
+
+The current motor implementation is **mock-only**, starts disarmed and requires explicit ownership/arming with expiring commands. No real GPIO backend is enabled. AI has stop-only authority; it cannot arm or issue motion. Read the [current software/API guide](../hardware/rev_a/docs/software_safety_api.md) and [vision/client guide](../docs/vision_safety_integration.md) before running anything.
+
+State: existing software audited; board proposed; offline software tests recorded. Native schematic/PCB **not created or checked**, Rev A **not fabricated, assembled or physically tested**. Motor/source/controller/mechanical requirements and architecture/electrical review remain open. No fabrication files are released.
+
+## Historical software notes (baseline `034882c`)
+
+The following original project description is retained for history. Its single-driver/two-motor wording is incomplete, wiring is unverified, and run/API examples describe the old behavior. Use the current guides above for this draft; do not use the historical section as a validated wiring or actuation procedure.
+
 This repo is a **showcase** of a Raspberry Pi mobile robot project. It’s designed to be read by recruiters and classmates – you can browse the code in VS Code or run it on real hardware.
 
 At a high level, the system has three main parts:

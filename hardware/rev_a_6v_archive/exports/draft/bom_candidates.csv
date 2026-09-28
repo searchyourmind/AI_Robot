@@ -1,0 +1,16 @@
+proposed_reference_not_frozen,quantity_if_topology_accepted,function_or_reference_value,manufacturer,device_family_mpn,orderable_example_not_approved,package_not_verified_footprint,status,selection_blocker,source_id_or_document
+U1 U2,2,Dual DC motor bridge,Toshiba,TB6612FNG,"TB6612FNG(O,C,8,EL",SSOP24-P-300-0.65A,TENTATIVE_ONLY,Motor/source/thermal review; exact orderable suffix and sourcing; symbol/footprint audit,T1 T2
+C_VM_U1 C_VM_U2,2,VM local capacitor: 10 uF reference capacitance,TBD,TBD,TBD,TBD,UNRESOLVED,Voltage/transient/temperature/ripple/ESR/derating and assembly selection,T1 p7; T4
+C_VMHF_U1 C_VMHF_U2,2,VM local capacitor: 0.1 uF reference capacitance,TBD,TBD,TBD,TBD,UNRESOLVED,Voltage/transient/temperature/DC-bias and layout review,T1 p7; T4
+C_VCC_U1 C_VCC_U2,2,VCC local capacitor: 10 uF reference capacitance,TBD,TBD,TBD,TBD,UNRESOLVED,Actual logic supply/inrush/temperature/ESR and assembly selection,T1 p7; T4
+C_VCCHF_U1 C_VCCHF_U2,2,VCC local capacitor: 0.1 uF reference capacitance,TBD,TBD,TBD,TBD,UNRESOLVED,Actual logic supply and local layout,T1 p7; T4
+TBD,TBD,Input bulk energy storage,TBD,TBD,TBD,TBD,UNRESOLVED,Full-charge source; returned energy; ripple; discharge and inrush budget,electrical_budget.md
+TBD,TBD,Input fuse or current limiter,TBD,TBD,TBD,TBD,UNRESOLVED,Source fault current; wire and connector ampacity; time-current and breaking ratings,electrical_budget.md
+TBD,TBD,Reverse-polarity protection,TBD,TBD,TBD,TBD,UNRESOLVED,Topology; voltage/drop/thermal budget; regeneration path,electrical_budget.md
+TBD,TBD,Transient clamp or energy absorption,TBD,TBD,TBD,TBD,UNRESOLVED,Normal maximum voltage; worst clamp; pulse and repetitive energy,electrical_budget.md
+J_M1 J_M2 J_M3 J_M4,4,Separately labeled two-terminal motor connectors,TBD,TBD,TBD,TBD,UNRESOLVED,Current; wire gauge; polarity and retention; board space,circuit_review.md
+TBD,TBD,Motor source input connector,TBD,TBD,TBD,TBD,UNRESOLVED,Source/harness currents; polarity; retention; mechanical constraints,circuit_review.md
+TBD,TBD,Direct Pi GPIO interface connector,TBD,TBD,TBD,TBD,UNRESOLVED,Direct Pi path user-confirmed; exact GPIO allocation; VCC/power-off review; mating cable,circuit_review.md
+TBD,TBD,Default-off enable gate/pulls and physical disable input,TBD,TBD,TBD,TBD,UNRESOLVED,Power-off specification; feedback; active GPIO cannot be shorted by switch,circuit_review.md
+TBD,TBD,Independent timeout if required by failure-coverage review,TBD,TBD,TBD,TBD,CONDITIONAL,Confirmed direct Pi path; independent STBY timeout coverage and timing; no motor-loop Arduino,circuit_review.md
+TBD,TBD,Labeled test points,TBD,TBD,TBD,TBD,UNRESOLVED,Probe and assembly access; current loops; board outline,circuit_review.md
