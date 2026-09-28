@@ -1,10 +1,10 @@
-# Design decisions and interview explanation
+# Motor-interface design decisions
 
 **2026-09-28 — Current 12 V-class reference redesign. DRAFT, NOT RELEASED.**
 
-This document explains the decisions represented by the new four-DRV8874 design. The earlier two-TB6612, 5.5–6.5 V reference is retained separately in `hardware/rev_a_6v_archive`; its routing and check results do not qualify this revision. Fabrication is **DEFERRED**, assembly is **NOT ASSEMBLED**, and physical validation is **NOT TESTED**.
+This document explains the four-DRV8874 motor interface developed for the Raspberry Pi robot. It covers driver selection, paired commands, power protection, layout, and hardware enable behavior. The earlier two-TB6612, 5.5–6.5 V design is retained in `hardware/rev_a_6v_archive`; the current design has its own routing and check results. The custom board has not yet been fabricated or tested on the robot.
 
-The user has reported four motors, two WHEELTEC R3 chassis, two TB6612 carrier boards and two packs sold as 12 V. The exact motor identity, pack chemistry/full-charge voltage, installed harness and regulator circuit on the purchased carriers remain unconfirmed. The new design adopts a **provisional 9–15 V input envelope**, independently powered Pi, **3.2–3.4 V logic rail**, and ambient at most **40°C**. These are design conditions to verify against the actual robot. They are not measurements of the purchased hardware. See [actual hardware evidence](actual_hardware_evidence.md) and [source review](wheeltec_source_review.md).
+The project hardware includes four motors, two WHEELTEC R3 chassis, two TB6612 carrier boards and two packs sold as 12 V. The exact motor identity, pack chemistry/full-charge voltage, installed harness and regulator circuit on the purchased carriers remain unconfirmed. The new design adopts a **provisional 9–15 V input envelope**, independently powered Pi, **3.2–3.4 V logic rail**, and ambient at most **40°C**. These are design conditions to verify against the actual robot. They are not measurements of the purchased hardware. See [actual hardware evidence](actual_hardware_evidence.md) and [source review](wheeltec_source_review.md).
 
 ## Why change from two TB6612 devices to four DRV8874 devices?
 
@@ -105,9 +105,3 @@ ERC checks the relationships represented by symbol pin types and schematic conne
 The final read-only comparison of this design checked 135 electrical components, 434 logical pins, 459 physical numbered pads, 15 deliberate NCs and 135 native footprint instances. The command truth table matched separately in the manifest, freshly exported native netlist and PCB. The routed-stage comparison also passed native DRC, connectivity and schematic parity against the final saved board; exact hashes and limits appear in the [check report](../validation/design/design_check_report.md).
 
 Even perfectly matching files can encode the same wrong circuit. Neither ERC nor DRC proves driver losses, winding temperature, battery/BMS behavior, regenerative energy, body-diode transients, gate races, harness polarity, enclosure fit or stopping distance. A zero count must be accompanied by the checked file identity, enabled rules and exclusions. Old reports cannot be carried forward after a circuit change. Existing mock software results likewise remain software-only evidence.
-
-## A concise interview explanation
-
-> The prototype uses a Pi and four DC motors with two command groups. I retained the paired left/right control but gave each motor a separate regulated H-bridge. The earlier TB6612 reference did not provide suitable voltage and stall-current margin for the provisional 12 V-class case, so the redesign uses four DRV8874 devices with bounded per-channel current and a protected common input. The Pi remains separately supplied. Discrete hardware separates wake-up, motion permission, timeout and deliberate re-arm; physical disable also shuts the motor feed, while ordinary disarm coasts. The two-layer 100 × 100 mm board is a provisional layout choice, and native consistency checks are distinct from thermal, mechanical and physical validation. The actual motor and pack details still need confirmation, and this proposed PCB has not been fabricated, assembled or physically tested.
-
-Use first-person claims only for work you personally understand and can explain. The project records AI assistance; generated CAD and passing rule checks are not substitutes for hands-on measurement or a fabricated working robot.

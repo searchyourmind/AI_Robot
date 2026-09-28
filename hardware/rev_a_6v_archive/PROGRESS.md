@@ -6,7 +6,7 @@
 
 The [impact review](docs/12v_design_impact.md) identifies D2 SMBJ7.0A, the nominal 7.16 V VM monitor and the lack of a step-down regulator as direct-input conflicts. The monitor/STBY path does not remove source power from the TVS. Exact MG513 identity, motor currents, pack min/nominal/max/topology, module regulator/VCC circuit, actual GPIO harness, Pi supply and switch/E-stop remain unresolved. Candidate MG513P30_12V ratings are conditional manufacturer evidence only.
 
-Updated files: hardware evidence/requirements, wiring and decision guides, current README/export/release notices, portfolio narrative, revision log, source and 12 V impact reviews, and purchase-update integrity records. Native schematic/PCB, BOM and CAD-derived exports remain the existing 6 V design. No 12 V redesign, real backend or encoder interface is claimed. Previous ERC/DRC and 132-mock-test evidence remain historical checks for their original inputs. Documentation links, preserved-file hashes and archive readback are checked in [purchase-update verification](validation/design/purchase_update_verification.json); CAD/software tests are not rerun for this documentation-only update.
+Updated files: hardware evidence/requirements, wiring and decision guides, current README/export/release notices, project development notes, revision log, source and 12 V impact reviews, and purchase-update integrity records. Native schematic/PCB, BOM and CAD-derived exports remain the existing 6 V design. No 12 V redesign, real backend or encoder interface is claimed. Previous ERC/DRC and 132-mock-test evidence remain historical checks for their original inputs. Documentation links, preserved-file hashes and archive readback are checked in [purchase-update verification](validation/design/purchase_update_verification.json); CAD/software tests are not rerun for this documentation-only update.
 
 Fabrication: **DEFERRED / NOT BUILT**. Assembly: **DEFERRED / NOT ASSEMBLED**. Physical validation: **NOT TESTED**. Integration: **NOT TESTED**. No vendor contact, order, push, publication or live actuation. The next design step is an actual-hardware specification and 12 V architecture decision after the remaining electrical inputs are resolved. Earlier checkpoints below are retained as history.
 
@@ -65,7 +65,7 @@ Neither passing mock tests nor ERC/DRC would establish physical electrical safet
 
 ## Session close-out
 
-Files changed: the four existing robot scripts and both README files; new motor configuration/backend/state machine and pure vision validator; hardware requirements/audit/source/circuit/calculation/CAD-workflow/risk documents; draft candidate BOM; validation plans/blank records/test reports; offline mock tests and portfolio narrative. See `validation/changed_files.txt` for the exact list.
+Files changed: the four existing robot scripts and both README files; new motor configuration/backend/state machine and pure vision validator; hardware requirements/audit/source/circuit/calculation/CAD-workflow/risk documents; draft candidate BOM; validation plans/blank records/test reports; offline mock tests and project development notes. See `validation/changed_files.txt` for the exact list.
 
 Checks actually run: baseline pure-parser reproduction; 132 combined mock tests (70 motor, 58 vision/clients, 4 cross-service); Python compilation; git whitespace check; document links; candidate BOM and 17 blank physical records. No physical devices, live model calls, browser execution, CAD checks or manufacturing outputs.
 
@@ -113,12 +113,12 @@ Current checkpoint:
 
 Files changed at this scope checkpoint: `docs/scope_design_only.md`,
 `docs/requirements_assumptions.md`, this progress record, and
-`../../docs/portfolio/engineering_narrative.md`. No existing software, tests,
+`../../docs/project_development.md`. No existing software, tests,
 132-case reports, or historical progress entries were rewritten for this scope
 update.
 
 Checks performed: read the latest scope instruction, previous hardware answers,
-requirements/mapping/architecture/electrical worksheets, portfolio narrative and
+requirements/mapping/architecture/electrical worksheets, project development notes and
 actual software report; verified the report/JUnit file SHA-256 fingerprints
 before and after the documentation edits. These are documentation-integrity
 checks, not electrical, CAD, fabrication or physical tests.

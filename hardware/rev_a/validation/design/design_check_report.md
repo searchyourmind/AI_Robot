@@ -44,7 +44,7 @@ The [archived result](../../../rev_a_6v_archive/validation/design/design_check_r
 | Original software report | `ba52e1a29b1bbdef4f2432df6b0ea7b43c350fd1529ff60e16fccd07312ffaf3` |
 | Original JUnit | `db5a70a947769df63656d36b0bc726911738cb661d2122e831d8d5e0c567b473` |
 
-[Complete artifact inventory](artifact_hashes.json) records every delivered source, sheet, library, review and export, excluding only itself and local transient state. [Archive preservation](archive_preservation.json) checks the original 156 hardware files. [Local link check](documentation_links.json) and [blank physical-record check](physical_records_blank_check.json) describe package integrity, not hardware tests. Generated audit paths may identify the staging workspace where the checks ran; identical promoted files are tied by hash.
+[Complete artifact inventory](artifact_hashes.json) records every delivered source, sheet, library, review and export, excluding only itself and local transient state. [Archive preservation](archive_preservation.json) checks the original 156-file snapshot and distinguishes unchanged files from the three later editorial revisions to archived prose. [Local link check](documentation_links.json) and [blank physical-record check](physical_records_blank_check.json) describe package integrity, not hardware tests. Generated audit paths may identify the staging workspace where the checks ran; identical promoted files are tied by hash.
 
 ## Remaining limits
 

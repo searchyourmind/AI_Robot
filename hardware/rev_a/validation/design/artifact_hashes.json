@@ -1,6 +1,6 @@
 {
   "scope": "Completed provisional12Vdesign-only source/evidence packet; nofabricationrelease",
-  "created": "2026-09-28T08:25:36.220592-04:00",
+  "created": "2026-09-28T08:37:04.721387-04:00",
   "baseline_commit": "034882cb2ce8106982508cf1a8309b4fa69673ff",
   "base": "AI_Robot repository root",
   "excludes": [
@@ -8,23 +8,19 @@
     ".git",
     "local caches/session files"
   ],
-  "file_count": 365,
+  "file_count": 364,
   "files": {
     ".gitignore": {
       "sha256": "b3836b2b91f8c3914185cce429aab5aef3d3b02f32f6ce92c0bc31792be3de22",
       "bytes": 244
     },
     "README.md": {
-      "sha256": "5d90c6c414cd8ab09b090d83a6cc63235d78ba0f789ad537b503274c8c55a233",
-      "bytes": 3317
+      "sha256": "fb8d1584f50b7cae0e1e85b856edf4bd0bd2ca122044860b0cf4249fc39b313f",
+      "bytes": 10000
     },
-    "docs/legacy_project_notes.md": {
-      "sha256": "914688c79081775cc71dbfa2ff9988b6627224653d66855778499040be324284",
-      "bytes": 8156
-    },
-    "docs/portfolio/engineering_narrative.md": {
-      "sha256": "15a4e6beeb9cf281b56ac066a6c12881eb8bf3e15a213d52a8c6ecd596295229",
-      "bytes": 8320
+    "docs/project_development.md": {
+      "sha256": "c23b5a77faaf403f1c164c2ca3471cdf116ad244c20e6eeed96c108bb16fafac",
+      "bytes": 11683
     },
     "docs/vision_safety_integration.md": {
       "sha256": "291d5e1ec3e65d457aa5e3b960366fa07dcd81215b654c4ca5d0264900408b45",
@@ -83,8 +79,8 @@
       "bytes": 7469
     },
     "hardware/rev_a/docs/design_decisions.md": {
-      "sha256": "c6940c5f88e50e9463eda858cb74963bbd81ea76c9ee91da777976291250d086",
-      "bytes": 20189
+      "sha256": "a32f168f6e3bc8bb1ca7a94c13e714f55d56b1ff64bf6f115cd2bd01fb99fcae",
+      "bytes": 19098
     },
     "hardware/rev_a/docs/design_sources.md": {
       "sha256": "da23e530b0fefe03544269e0c14788ea039057d1d1cdb44a2af7660d1d2b1d3b",
@@ -583,8 +579,8 @@
       "bytes": 1978
     },
     "hardware/rev_a/validation/design/archive_preservation.json": {
-      "sha256": "b50ddddb56d450552df2265d413e058cbc8f6f7e85b017f3d86a4e09f5ea04df",
-      "bytes": 42920
+      "sha256": "c1fd4f1d0de99ccf4dd2f8b81d7e69699844ac25d77d8b91d83ac0df0b7e974c",
+      "bytes": 48458
     },
     "hardware/rev_a/validation/design/bom_review.json": {
       "sha256": "59798bfd18c778db5abb224d0e84cc7bb81385848ffcd5da1a5b5595a08434bf",
@@ -599,12 +595,12 @@
       "bytes": 33747
     },
     "hardware/rev_a/validation/design/design_check_report.md": {
-      "sha256": "ebe2d8aa20269ed23e35ee95d18864310b4c74e27775338138e53b5232171822",
-      "bytes": 6071
+      "sha256": "3c309167141c276a9e61baf690e951a2489bf51ffd38bd7c8e5e2c01b9b634d6",
+      "bytes": 6163
     },
     "hardware/rev_a/validation/design/documentation_links.json": {
-      "sha256": "cc714bd115944d6445d91041a7314d89c6cbb875d0fac63b8309f36d42bb897f",
-      "bytes": 41576
+      "sha256": "8a7582933ffb1fe9e29c3befbff1e5ce52ce955162fe0a3bca0521ce02f6d95f",
+      "bytes": 43874
     },
     "hardware/rev_a/validation/design/drc_final.json": {
       "sha256": "1d4605f880ae21d3f9453f6ee30c90fc37e81d9df1854518883b3fa588e8f839",
@@ -755,12 +751,12 @@
       "bytes": 703
     },
     "hardware/rev_a_6v_archive/ARCHIVE_NOTICE.md": {
-      "sha256": "234af58341fea317bdec7a4edf6985ddce47e734c3bf921d8bb2334688df1a0a",
-      "bytes": 486
+      "sha256": "fadee24415cb51bb6bf8db60c9cd44a53e42a7d14f5f686d1822d2fff61c0536",
+      "bytes": 834
     },
     "hardware/rev_a_6v_archive/PROGRESS.md": {
-      "sha256": "9910643b602da099dd69429b5186fcb1fed0d073cb153379af5a3d0657db03f4",
-      "bytes": 16362
+      "sha256": "92d5768a54dd6c957432369b43aeef0c49cd48cd2577e77afd468a3f85b7ed3b",
+      "bytes": 16368
     },
     "hardware/rev_a_6v_archive/README.md": {
       "sha256": "c1fa3332576b7605645c2554996f9712308e2ea4bfb4b9858c542694c867e236",
@@ -787,8 +783,8 @@
       "bytes": 21555
     },
     "hardware/rev_a_6v_archive/docs/architecture_review.md": {
-      "sha256": "c22a2b40d66cfcf7739cf87f0e49d37af858975077b58b4bc8b5ff6fd9e1f849",
-      "bytes": 13685
+      "sha256": "5e6be2cdb04053232e7781e11ae2207f1140e1be85d3944d56f5787825a4ee5e",
+      "bytes": 13695
     },
     "hardware/rev_a_6v_archive/docs/assembly_notes.md": {
       "sha256": "c14dda24809f2e491aeb7fb7e447e0ad6fbeb84e3b2882d1bd46a7ddf872a6e1",
@@ -811,8 +807,8 @@
       "bytes": 14129
     },
     "hardware/rev_a_6v_archive/docs/design_decisions.md": {
-      "sha256": "643f9d8af71c82c35b51fe73b7ea967322b543e5bc0da8df7f0fdc2d5df7df22",
-      "bytes": 13351
+      "sha256": "04bd3f1096e88371b2f799eef163de21a8fbdcfb6d17b41cfc69348be02b81b9",
+      "bytes": 12201
     },
     "hardware/rev_a_6v_archive/docs/design_sources.md": {
       "sha256": "9288827c60efe9f2b5e433ff6e895f689ac12216f3c245465761e4ea17ae23aa",
@@ -1399,8 +1395,8 @@
       "bytes": 1347
     },
     "pi_robot/README.md": {
-      "sha256": "0c390762cc1a74493f6ecb88847ce36d6b549d52b496173e0c612c1ebb977879",
-      "bytes": 9352
+      "sha256": "377e530d84bbed948cfeeb527ce2c9f63e6a315589d7694b92c4d801bc7b2d7e",
+      "bytes": 14651
     },
     "pi_robot/motor_backend.py": {
       "sha256": "1d5274c5e985f1d19c0e922848d6be671ec0e82888a3c473f70f3eda81adcb30",

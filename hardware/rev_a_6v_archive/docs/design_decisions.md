@@ -1,4 +1,4 @@
-# Design decisions and interview explanation
+# Design decisions
 
 **6 V REFERENCE ONLY — DIRECT 12 V INPUT INCOMPATIBLE.** The 2026-09-28 purchase-record update establishes listed 12 V motors and packs. This document retains the existing 5.5–6.5 V design; its calculations, parts and checks have not been qualified for that system. See the [12 V impact review](12v_design_impact.md) and [current hardware evidence](actual_hardware_evidence.md).
 
@@ -66,12 +66,6 @@ The signal-conditioning and permission/supervision circuits account for 62 of 97
 ERC checks electrical-rule relationships represented in the schematic, such as conflicting pin types or unconnected power inputs. DRC checks the configured board geometry/connectivity rules and, here, schematic parity. The actual delivered reports have zero violations, zero unconnected items and zero parity items. No DRC class was ignored; the ERC SPICE-model check was outside scope.
 
 Neither checker proves the motor's stall current, suitability of a battery/BMS, thermal resistance, capacitor ripple, powered-off IC behavior, harness polarity or actual stopping distance. A perfectly consistent schematic and PCB can implement the wrong circuit. Datasheet/pin checks, load/energy calculations, failure-mode review and later authorized physical measurements are separate evidence. The 132 mock tests similarly establish only software behavior under their mocks.
-
-## A short, honest interview narrative
-
-> This AI-assisted reference design consolidates a Pi robot's four motor connections into two dual H-bridge ICs. Each motor has its own power-output pair, while the front/rear motors on each side share commands. The Pi remains separately powered with a common logic reference. The design separates software motion requests from a discrete hardware inhibit, watchdog and re-arm latch. Native schematic/layout checks and BOM reconciliation passed. Later purchase records identified 12 V motors and packs, exposing a direct-input mismatch with my 6 V reference protection and monitor. I documented the mismatch and retained the original CAD/check evidence without claiming a completed 12 V redesign. The exact motor current, pack topology/full-charge voltage and harness still need confirmation. This proposed PCB has not been fabricated, assembled or physically tested.
-
-Only use first-person claims for engineering work you personally understand and can explain. The project explicitly records AI assistance; CAD generation by itself does not establish practical hardware experience.
 
 ## Primary sources and project evidence
 

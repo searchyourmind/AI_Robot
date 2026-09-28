@@ -1,32 +1,12 @@
 {
   "status": "PASS",
   "scope": "Current Markdown local file/directory targets; frozen archive and unchanged historical software report excluded",
-  "checked": 294,
+  "checked": 315,
   "broken": [],
   "links": [
     {
       "source": "README.md",
-      "target": "hardware/rev_a/docs/revision_history.md",
-      "exists": true
-    },
-    {
-      "source": "README.md",
-      "target": "hardware/rev_a_6v_archive/ARCHIVE_NOTICE.md",
-      "exists": true
-    },
-    {
-      "source": "README.md",
-      "target": "hardware/rev_a/README.md",
-      "exists": true
-    },
-    {
-      "source": "README.md",
-      "target": "hardware/rev_a/docs/power_path_review_12v.md",
-      "exists": true
-    },
-    {
-      "source": "README.md",
-      "target": "hardware/rev_a/docs/driver_margin_review.md",
+      "target": "hardware/rev_a/docs/actual_hardware_evidence.md",
       "exists": true
     },
     {
@@ -36,12 +16,62 @@
     },
     {
       "source": "README.md",
-      "target": "hardware/rev_a/validation/design/design_check_report.md",
+      "target": "pi_robot/web_motor.py",
       "exists": true
     },
     {
       "source": "README.md",
-      "target": "hardware/rev_a/exports/draft/views/kicad_3d_render.png",
+      "target": "pi_robot/motor_control.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/motor_backend.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/motor_config.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/web_vision_drive_picam_ai.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/vision_policy_daemon.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/vision_safety.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/voice_ai_motor_simple.py",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "pi_robot/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "tests/hardware_mock/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "docs/vision_safety_integration.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "hardware/rev_a/README.md",
       "exists": true
     },
     {
@@ -56,22 +86,12 @@
     },
     {
       "source": "README.md",
-      "target": "hardware/rev_a/exports/draft/README.md",
+      "target": "hardware/rev_a/exports/draft/bom_fitted.csv",
       "exists": true
     },
     {
       "source": "README.md",
-      "target": "hardware/rev_a/docs/design_decisions.md",
-      "exists": true
-    },
-    {
-      "source": "README.md",
-      "target": "hardware/rev_a/docs/component_count_review.md",
-      "exists": true
-    },
-    {
-      "source": "README.md",
-      "target": "hardware/rev_a/validation/software_test_report.md",
+      "target": "hardware/rev_a/exports/draft/views/kicad_3d_render.png",
       "exists": true
     },
     {
@@ -81,37 +101,72 @@
     },
     {
       "source": "README.md",
+      "target": "docs/project_development.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
       "target": "docs/vision_safety_integration.md",
       "exists": true
     },
     {
       "source": "README.md",
-      "target": "docs/legacy_project_notes.md",
+      "target": "hardware/rev_a/docs/wiring_guide.md",
       "exists": true
     },
     {
-      "source": "docs/portfolio/engineering_narrative.md",
-      "target": "../../hardware/rev_a/docs/revision_history.md",
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/driver_margin_review.md",
       "exists": true
     },
     {
-      "source": "docs/portfolio/engineering_narrative.md",
-      "target": "../../hardware/rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "source": "README.md",
+      "target": "hardware/rev_a/docs/power_path_review_12v.md",
       "exists": true
     },
     {
-      "source": "docs/portfolio/engineering_narrative.md",
-      "target": "../../hardware/rev_a/docs/routing_rationale.md",
+      "source": "README.md",
+      "target": "hardware/rev_a/validation/design/design_check_report.md",
       "exists": true
     },
     {
-      "source": "docs/portfolio/engineering_narrative.md",
-      "target": "../../hardware/rev_a/docs/component_count_review.md",
+      "source": "docs/project_development.md",
+      "target": "vision_safety_integration.md",
       "exists": true
     },
     {
-      "source": "docs/portfolio/engineering_narrative.md",
-      "target": "../../hardware/rev_a/validation/design/design_check_report.md",
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a/docs/revision_history.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a_6v_archive/ARCHIVE_NOTICE.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a/docs/power_circuit_spec.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a/docs/enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a/docs/component_count_review.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a/docs/routing_rationale.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project_development.md",
+      "target": "../hardware/rev_a/validation/design/design_check_report.md",
       "exists": true
     },
     {
@@ -1441,27 +1496,77 @@
     },
     {
       "source": "pi_robot/README.md",
+      "target": "../README.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
       "target": "../hardware/rev_a/README.md",
       "exists": true
     },
     {
       "source": "pi_robot/README.md",
-      "target": "../hardware/rev_a/docs/existing_system_audit.md",
+      "target": "web_motor.py",
       "exists": true
     },
     {
       "source": "pi_robot/README.md",
-      "target": "../hardware/rev_a/docs/requirements.md",
+      "target": "motor_control.py",
       "exists": true
     },
     {
       "source": "pi_robot/README.md",
-      "target": "../hardware/rev_a/docs/architecture_review.md",
+      "target": "motor_config.py",
       "exists": true
     },
     {
       "source": "pi_robot/README.md",
-      "target": "../hardware/rev_a/PROGRESS.md",
+      "target": "motor_backend.py",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "web_vision_drive_picam_ai.py",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "vision_policy_daemon.py",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "vision_safety.py",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "voice_ai_motor_simple.py",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/docs/pin_map.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/docs/enable_interface_spec.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../tests/hardware_mock/README.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../hardware/rev_a/validation/software_test_report.md",
+      "exists": true
+    },
+    {
+      "source": "pi_robot/README.md",
+      "target": "../docs/vision_safety_integration.md",
       "exists": true
     },
     {
@@ -1471,7 +1576,7 @@
     },
     {
       "source": "pi_robot/README.md",
-      "target": "../docs/vision_safety_integration.md",
+      "target": "../hardware/rev_a/README.md",
       "exists": true
     }
   ]

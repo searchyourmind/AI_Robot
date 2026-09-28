@@ -124,7 +124,7 @@ The mock controller's expiry protects against lost client refresh while its proc
 
 #### Stackup and mechanical choice
 
-Start with a **two-layer feasibility study**, continuous ground reference and compact power paths. Do not commit to two layers until current widths, return paths, connector fanout and mounting fit. Select four layers if necessary to maintain a ground reference and route safely within the real outline; verify copper/current assumptions again. Four layers solely for a portfolio appearance is not a reason. Board dimensions, hole coordinates, keep-outs, copper weight and assembler stackup are unresolved.
+Start with a **two-layer feasibility study**, continuous ground reference and compact power paths. Do not commit to two layers until current widths, return paths, connector fanout and mounting fit. Select four layers if necessary to maintain a ground reference and route safely within the real outline; verify copper/current assumptions again. Layer count should follow routing, return-path and thermal requirements. Board dimensions, hole coordinates, keep-outs, copper weight and assembler stackup are unresolved.
 
 #### Work estimate (active work, not a delivery promise)
 
