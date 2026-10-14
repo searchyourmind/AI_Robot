@@ -1,7 +1,5 @@
 # AI Robot — Raspberry Pi Vision & Motor Control
 
-![AI Robot project showcase with labeled Raspberry Pi, camera, display, motors, and power components](docs/images/ai-robot-showcase.png)
-
 AI Robot is a four-wheel Raspberry Pi robot project combining motor control, live camera video, a browser driving interface, and AI-assisted visual observation. A shared HTTP motor service connects the browser, command-line controller, and vision process, so camera processing and user interfaces can evolve independently of motor control.
 
 The robot platform uses a **Raspberry Pi 5, four geared DC motors, two TB6612FNG dual-channel driver boards, a Pi Camera, a USB microphone, and a speaker**. This repository contains the Python services, control logic, tests, wiring documentation, and a custom four-motor interface PCB design.
