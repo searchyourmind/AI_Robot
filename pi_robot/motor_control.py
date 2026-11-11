@@ -1,4 +1,4 @@
-"""Serialized, expiring motor demands for a mock-only four-channel service."""
+"""Serialized, expiring motor demands with an explicit hardware lifecycle."""
 import math
 import re
 import secrets
@@ -7,14 +7,14 @@ import time
 from typing import Callable, Mapping
 
 try:
-    from .motor_backend import MockBackend, MotorBackend
+    from .motor_backend import BackendNotReady, MockBackend, MotorBackend
     from .motor_config import (
         ARM_TIMEOUT_S, CHANNELS, DEFAULT_DURATION_S, DEFAULT_SPEED,
         MAX_DURATION_S, MAX_SERVICE_GAP_S, MAX_SPEED, REVERSAL_HOLDOFF_S,
         Channel, validate_channels,
     )
 except ImportError:  # Allow the existing `python pi_robot/web_motor.py` entry point.
-    from motor_backend import MockBackend, MotorBackend
+    from motor_backend import BackendNotReady, MockBackend, MotorBackend
     from motor_config import (
         ARM_TIMEOUT_S, CHANNELS, DEFAULT_DURATION_S, DEFAULT_SPEED,
         MAX_DURATION_S, MAX_SERVICE_GAP_S, MAX_SPEED, REVERSAL_HOLDOFF_S,
@@ -26,6 +26,10 @@ class CommandError(ValueError):
     def __init__(self, message: str, status: int = 400):
         super().__init__(message)
         self.status = status
+
+
+class _InvalidCompletionClock(RuntimeError):
+    pass
 
 
 def bounded_number(value, name: str, low: float, high: float,
@@ -46,18 +50,28 @@ def bounded_number(value, name: str, low: float, high: float,
 class MotorController:
     """Lock authorization, expiry, every output write, and shutdown together.
 
-    This is software containment only. A frozen process cannot call disable().
-    The physical implementation remains gated on architecture/electrical review.
+    Python requests are not physical feedback. A frozen process cannot call
+    disable(); a physical backend needs independent hardware supervision.
     """
 
     def __init__(self, backend: MotorBackend | None = None,
                  clock: Callable[[], float] = time.monotonic,
-                 channels: tuple[Channel, ...] = CHANNELS):
+                 channels: tuple[Channel, ...] = CHANNELS,
+                 reversal_holdoff_s: float = REVERSAL_HOLDOFF_S):
         validate_channels(channels)
+        if (isinstance(reversal_holdoff_s, bool)
+                or not isinstance(reversal_holdoff_s, (int, float))
+                or not math.isfinite(reversal_holdoff_s) or reversal_holdoff_s <= 0):
+            raise ValueError("reversal_holdoff_s must be finite and positive")
+        self.reversal_holdoff_s = float(reversal_holdoff_s)
         self.channels = channels
         self.backend = backend if backend is not None else MockBackend(tuple(c.name for c in channels))
-        if self.backend.name != "mock":
-            raise ValueError("only the mock backend is permitted until GPIO pins and electrical requirements are verified")
+        if self.backend.name not in {"mock", "drv8874_reva"}:
+            raise ValueError("unsupported motor backend")
+        if any(not callable(getattr(self.backend, method, None)) for method in (
+                "arm", "service", "check_health", "apply", "quiesce", "disable",
+                "close", "describe")):
+            raise ValueError("backend must implement the complete motor lifecycle")
         self.clock = clock
         self.lock = threading.RLock()
         self.speed = DEFAULT_SPEED
@@ -75,23 +89,46 @@ class MotorController:
         self.last_direction = dict.fromkeys(self.outputs, 0)
         self.zero_since = dict.fromkeys(self.outputs, float("-inf"))
         self.outputs_uncertain = False
+        self.zero_timing_uncertain = False
         self.recovery_holdoff_until = float("-inf")
         self.last_service = self.clock()
         self.disable_confirmed = False
         self._disable(self.last_service)
 
+    def _completion_time(self, started: float) -> float | None:
+        """Only a valid timestamp after the write can start a zero interval."""
+        completed = self.clock()
+        if any(isinstance(value, bool) or not isinstance(value, (int, float))
+               or not math.isfinite(value) for value in (started, completed)):
+            return None
+        return completed if completed >= started else None
+
     def _disable(self, now: float) -> bool:
         try:
             self.backend.disable()
+            completed = self._completion_time(now)
+            if completed is None:
+                # The write was accepted, but its zero interval is unknown.
+                # A later valid full disable must start a new recovery holdoff.
+                self.outputs = dict.fromkeys(self.outputs, 0.0)
+                self.outputs_uncertain = False
+                self.disable_confirmed = True
+                self.zero_timing_uncertain = True
+                self.zero_since = dict.fromkeys(self.zero_since, float("inf"))
+                self.recovery_holdoff_until = float("inf")
+                self.faulted = self.latched = True
+                self.reason = "invalid-clock"
+                return False
             for name, value in self.outputs.items():
-                if value or self.outputs_uncertain:
-                    self.zero_since[name] = now
-            if self.outputs_uncertain:
+                if value or self.outputs_uncertain or self.zero_timing_uncertain:
+                    self.zero_since[name] = completed
+            if self.outputs_uncertain or self.zero_timing_uncertain:
                 # A failed apply may have energized a channel whose direction
                 # was never recorded. Recovery must hold ALL channels disabled.
-                self.recovery_holdoff_until = now + REVERSAL_HOLDOFF_S
+                self.recovery_holdoff_until = completed + self.reversal_holdoff_s
             self.outputs = dict.fromkeys(self.outputs, 0.0)
             self.outputs_uncertain = False
+            self.zero_timing_uncertain = False
             self.disable_confirmed = True
             return True
         except Exception:
@@ -114,33 +151,41 @@ class MotorController:
 
     def fault(self, reason: str = "invalid-request") -> None:
         with self.lock:
-            self._trip(reason, self.clock(), fault=True)
+            if not self.closed:
+                self._trip(reason, self.clock(), fault=True)
 
     def _write(self, values: dict[str, float], now: float) -> None:
         try:
             if any(values.values()):
                 self.backend.apply(values)
             else:
-                self.backend.disable()
+                self.backend.quiesce()
+            completed = self._completion_time(now)
+            if completed is None:
+                self.zero_timing_uncertain = True
+                raise _InvalidCompletionClock
             for name, value in values.items():
                 if self.outputs[name] and not value:
-                    self.zero_since[name] = now
+                    self.zero_since[name] = completed
                 if value:
                     self.last_direction[name] = 1 if value > 0 else -1
             self.outputs = dict(values)
-            self.disable_confirmed = not any(values.values())
+            self.disable_confirmed = self.backend.name == "mock" and not any(values.values())
+        except _InvalidCompletionClock:
+            self._trip("invalid-clock", now, fault=True)
+            raise CommandError("invalid clock after backend write; fault latched", 503) from None
         except Exception:
             self.outputs_uncertain = True
             self._trip("backend-write-failed", now, fault=True)
             raise CommandError("backend write failed; fault latched", 503) from None
 
-    def _advance(self, now: float) -> None:
+    def _advance(self, now: float, *, service: bool = False) -> None:
+        if self.closed:
+            return
         gap = now - self.last_service
         self.last_service = now
         if not math.isfinite(now) or gap < 0:
             self._trip("invalid-clock", now, fault=True)
-            return
-        if self.closed:
             return
         if self.armed and gap > MAX_SERVICE_GAP_S:
             self._trip("software-watchdog-gap", now, fault=True)
@@ -148,6 +193,22 @@ class MotorController:
         if self.deadline is not None and now >= self.deadline:
             self._trip("command-expired", now)
             return
+        if self.faulted:
+            return
+        if self.armed:
+            try:
+                # HTTP status/commands must never resume pending motion after
+                # ticker heartbeat has stopped, even if requests keep arriving.
+                self.backend.check_health(now)
+            except Exception:
+                self._trip("backend-health-failed", now, fault=True)
+                return
+        if service:
+            try:
+                self.backend.service(now)
+            except Exception:
+                self._trip("backend-service-failed", now, fault=True)
+                return
         if self.pending is not None and now >= self.pending_at:
             values = self.pending
             self.pending = self.pending_at = None
@@ -155,7 +216,7 @@ class MotorController:
 
     def tick(self) -> None:
         with self.lock:
-            self._advance(self.clock())
+            self._advance(self.clock(), service=True)
 
     def _identity(self, data: Mapping) -> tuple[str, str]:
         source, session = data.get("source"), data.get("session")
@@ -184,7 +245,8 @@ class MotorController:
                 c = data["c"]
                 if c == "stop":
                     # Stop always wins, even from an expired or untrusted session.
-                    self._trip("stop-requested", now)
+                    if not self.closed:
+                        self._trip("stop-requested", now)
                     if not self.disable_confirmed:
                         raise CommandError("disable failed; stop is latched but outputs are uncertain", 503)
                     return self._result(c)
@@ -218,7 +280,25 @@ class MotorController:
                         raise CommandError("already armed or latched; stop/reset before arming", 409)
                     if not self._disable(now):
                         raise CommandError("disable failed; cannot arm", 503)
+                    try:
+                        self.backend.arm(now)
+                    except BackendNotReady as exc:
+                        self.reason = "backend-not-ready"
+                        self.owner = self.lease = self.deadline = None
+                        # Qualification can lapse after RUN or ARM was written.
+                        # Revoke permission again rather than trusting the
+                        # successful disable from before this arm attempt.
+                        if not self._disable(now):
+                            raise CommandError("disable failed after rejected arm; outputs are uncertain", 503) from None
+                        raise CommandError(str(exc), 409) from None
+                    except Exception:
+                        self._trip("backend-arm-failed", now, fault=True)
+                        raise CommandError("backend arm failed; fault latched", 503) from None
                     self.armed = True
+                    # A hardware ARM enables PWM-zero braking; it is no longer
+                    # a full disable request, even while signed demand is zero.
+                    if self.backend.name != "mock":
+                        self.disable_confirmed = False
                     self.reason = "armed-idle"
                     self.owner = identity
                     self.lease = secrets.token_urlsafe(24)
@@ -238,11 +318,9 @@ class MotorController:
                 values = {ch.name: speed * signs[ch.simulation_side == "right"] for ch in self.channels}
                 reversing = [name for name, value in values.items() if value and self.last_direction[name] and (1 if value > 0 else -1) != self.last_direction[name]]
                 if any(self.outputs[name] for name in reversing):
-                    if not self._disable(now):
-                        self._trip("backend-disable-failed", now, fault=True)
-                        raise CommandError("disable failed; fault latched", 503)
+                    self._write(dict.fromkeys(self.outputs, 0.0), now)
                 ready = max([now, self.recovery_holdoff_until if any(values.values()) else now]
-                            + [self.zero_since[name] + REVERSAL_HOLDOFF_S for name in reversing])
+                            + [self.zero_since[name] + self.reversal_holdoff_s for name in reversing])
                 self.pending = self.pending_at = None
                 self.deadline = now + duration
                 self.speed = speed
@@ -259,18 +337,27 @@ class MotorController:
                 raise
 
     def _result(self, command: str | None = None) -> dict:
+        physical_backend = self.backend.name != "mock"
+        now = self.clock()
+        timing_valid = isinstance(now, (int, float)) and not isinstance(now, bool) and math.isfinite(now)
         return {
             "ok": True, "cmd": command, "backend": self.backend.name,
-            "physical_actuation_enabled": False,
+            "physical_backend": physical_backend,
+            "physical_actuation_enabled": None if physical_backend else False,
+            "physical_motion_observed": None,
             "state": "shutdown" if self.closed else "fault" if self.faulted else "stopped" if self.latched else "armed" if self.armed else "disarmed",
             "armed": self.armed, "latched": self.latched, "reason": self.reason,
             "speed": self.speed, "outputs": dict(self.outputs),
             "standby": bool(any(self.outputs.values())),
             "disable_confirmed": self.disable_confirmed,
+            "disable_confirmation_scope": "accepted_disable_write_not_physical_feedback",
+            "outputs_scope": "requested_signed_percent",
             "outputs_uncertain": self.outputs_uncertain,
+            "zero_timing_uncertain": self.zero_timing_uncertain,
             "owner": {"source": self.owner[0], "session": self.owner[1]} if self.owner else None,
-            "expires_in_s": max(0.0, self.deadline - self.clock()) if self.deadline is not None else None,
+            "expires_in_s": max(0.0, self.deadline - now) if timing_valid and self.deadline is not None else None,
             "pending_reversal": self.pending is not None,
+            "hardware": self.backend.describe(now),
         }
 
     def status(self) -> dict:
@@ -280,5 +367,15 @@ class MotorController:
 
     def shutdown(self) -> None:
         with self.lock:
+            if self.closed:
+                return
             self._trip("shutdown", self.clock())
             self.closed = True
+            try:
+                self.backend.close()
+            except Exception:
+                self.faulted = self.latched = True
+                self.disable_confirmed = False
+                self.outputs_uncertain = True
+                self.reason = "backend-close-failed"
+                raise CommandError("backend cleanup failed; outputs are uncertain", 503) from None

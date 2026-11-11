@@ -1,6 +1,6 @@
 # Rev A 12 V reference — enable, inhibit and watchdog interface
 
-**2026-09-28. DESIGN REVIEW ONLY. Fabrication deferred; not assembled or physically tested.** This describes the revised custom board, not the purchased TB6612 carriers. The existing software remains mock-only and does not implement this GPIO interface. The prior 6 V design is preserved separately in `hardware/rev_a_6v_archive`.
+**2026-09-28 hardware design; software integration added 2026-11-11. Fabrication deferred; not assembled or physically tested.** This describes the revised custom board, not the purchased TB6612 carriers. The opt-in [DRV8874 GPIO backend](../../../pi_robot/DRV8874_REVA.md) now implements this interface with offline tests; electrical and motor behavior remain unverified. The prior 6 V design is preserved separately in `hardware/rev_a_6v_archive`.
 
 The selected reference uses a **9–15 V source**, four DRV8874PWPR bridges, a separately supplied Pi 5, **3.2–3.4 V PI_3V3**, common ground, ambient at most 40°C and a provisional **100×100 mm, two-layer, 1 oz** PCB. Each bridge has approximately 0.791 A nominal hardware current regulation. These are design choices; motor identity, pack maximum voltage/BMS behavior, wiring, starting torque and regenerative energy remain unverified. See [driver margins](driver_margin_review.md) and [power specification](power_circuit_spec.md).
 
@@ -117,11 +117,11 @@ SW1 **C&K JS102011SAQN**, `Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN`, is nonsho
 
 SW1 grounds a logic node, never an actively driven Pi output. ENABLE gives about 0.909×PI_3V3 through the 1 kΩ/10 kΩ divider. An open contact decays low through R134. C100's nominal enable/open decay constants are approximately 0.91/10 µs with about ±6% initial RC tolerance. This filters brief noise, but is not a certified debounce or switch-failure detector. Silver-contact reliability at approximately 0.3 mA and the mechanical actuator position still require physical qualification. Releasing physical inhibit permits a supply ramp; it cannot set ARM_Q.
 
-## Watchdog and future firmware sequence
+## Watchdog and firmware sequence
 
 The [TPS3431](https://www.ti.com/lit/ds/symlink/tps3431.pdf) factory 200 ms option uses SET1 high and CWD pulled to VDD through R130=10 kΩ±1%, within its 9–11 kΩ selection band. No timing capacitor is used. Timeout and reset-low interval are each **170–230 ms**. Falling WDI edges service it. Tying ENOUT to WDO ensures watchdog disable also makes WD_RAW low.
 
-The board cannot prove that a valid heartbeat preceded first ARM during the watchdog's initial grace interval. It also cannot detect a broken motion process that continues producing valid heartbeat. A later implementation must therefore follow this contract:
+The board cannot prove that a valid heartbeat preceded first ARM during the watchdog's initial grace interval. It also cannot detect a broken motion process that continues producing valid heartbeat. The [Rev A GPIO backend](../../../pi_robot/DRV8874_REVA.md) implements the following contract. Its offline tests do not establish electrical timing or physical startup qualification:
 
 1. Initialize PWM, RUN and ARM low. Keep motion permission blocked while physical enable starts the motor-rail ramp and driver wake.
 2. Generate heartbeat from the motion arbiter's health decision, with high/low intervals at least 1 ms and accepted falling edges no more than 50 ms apart. An unrelated free-running heartbeat is insufficient.

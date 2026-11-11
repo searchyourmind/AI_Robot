@@ -13,9 +13,9 @@ The robot platform uses a **Raspberry Pi 5, four geared DC motors, two TB6612FNG
 - **Vision policy:** camera snapshots are sent to a vision model for person and stop-sign observations. An annotated video stream shows the result; the current policy can request a stop and does not initiate movement.
 - **Command-line control:** a text interface for the same motor API, including speed changes and short directional commands. The `voice_ai_motor_simple.py` filename comes from earlier voice-control work; this script is currently a manual CLI.
 - **Motor interface PCB:** editable KiCad schematics and layout, component selection, power calculations, wiring diagrams, BOM, and fabrication-format exports for a 12 V-class redesign.
-- **Offline verification:** 132 mock tests cover the control state machine, API, clients, camera interfaces, and vision parsing.
+- **Offline verification:** injected-clock and fake-GPIO tests cover the control state machine, API, clients, camera interfaces, vision parsing, and the Rev A backend lifecycle.
 
-The hardware prototype and the current software backend are distinct parts of the project: **the checked-in motor service currently uses a mock backend**, so running it exercises commands without driving GPIO. Its control contract and the proposed PCB's hardware interface are documented for the next integration step.
+The motor service defaults to an in-memory **mock backend**. An opt-in **Raspberry Pi 5 / Rev A DRV8874 backend** drives the new board's GPIO, PWM, RUN, ARM, and watchdog heartbeat interface. It controls four separate bridges in left/right pairs. The backend has offline verification; the Rev A board remains a design-stage subsystem and the electrical behavior has not been bench-validated. This backend does not use the existing TB6612 harness. See the [Rev A backend guide](pi_robot/DRV8874_REVA.md).
 
 ## System architecture
 
@@ -30,7 +30,8 @@ flowchart LR
     CLI[Manual CLI] --> MOTOR
     VISION -->|Stop requests| MOTOR
     MOTOR --> CONTROL[Ownership / arm state / command deadlines]
-    CONTROL --> BACKEND[Current mock motor backend]
+    CONTROL --> BACKEND[Mock or Rev A DRV8874 backend]
+    BACKEND -->|Opt-in GPIO / PWM / RUN / ARM / heartbeat| PCB[Four bridges · paired left/right commands]
 ```
 
 The motor API is the command boundary. The browser and CLI request manual control; the vision process supplies observations and stop requests. A command belongs to one source/session and expires unless it is replaced by another valid command. Stopping or expiry clears the control lease. This keeps UI state, camera processing, and motor state explicit across separate processes.
@@ -64,7 +65,9 @@ The exact motor label is still unconfirmed; MG513P30_12V is a candidate, not an 
 | --- | --- |
 | [`web_motor.py`](pi_robot/web_motor.py) | Flask `/cmd` and `/status` endpoints; motor-service lifecycle |
 | [`motor_control.py`](pi_robot/motor_control.py) | Ownership, arming, command validation, deadlines, and stop state |
-| [`motor_backend.py`](pi_robot/motor_backend.py) | Mock implementation of motor outputs |
+| [`motor_backend.py`](pi_robot/motor_backend.py) | Backend lifecycle interface and mock motor outputs |
+| [`drv8874_backend.py`](pi_robot/drv8874_backend.py) | Pi 5 GPIO, paired PWM/DIR, explicit ARM, and health-gated heartbeat for Rev A |
+| [`motor_runtime.py`](pi_robot/motor_runtime.py) | Explicit backend selection and validated hardware configuration |
 | [`motor_config.py`](pi_robot/motor_config.py) | Command bounds, timeouts, and motor configuration |
 | [`web_vision_drive_picam_ai.py`](pi_robot/web_vision_drive_picam_ai.py) | Camera worker, video/snapshot routes, browser UI, and motor proxy |
 | [`vision_policy_daemon.py`](pi_robot/vision_policy_daemon.py) | Snapshot acquisition, model requests, observation age checks, and overlay stream |
@@ -83,7 +86,7 @@ source .venv/bin/activate
 python -m pip install -r pi_robot/requirements.txt
 ```
 
-Start the motor service:
+Start the motor service in mock mode:
 
 ```sh
 MOTOR_BACKEND=mock python pi_robot/web_motor.py
@@ -111,16 +114,18 @@ On a system with a configured camera, start the camera/browser service in a thir
 MOTOR_URL=http://127.0.0.1:8088 CAM_W=320 CAM_H=240 CAM_FPS=15 python pi_robot/web_vision_drive_picam_ai.py
 ```
 
-Open `http://127.0.0.1:8090/` on that host for video and controls. The services bind to loopback by default. The [software guide](pi_robot/README.md) covers camera configuration, optional model startup, local access, environment variables, and the API. Camera startup opens a real device; the motor backend remains mock. Voice recognition, wake-word handling, and speech synthesis are not integrated into the current CLI.
+Open `http://127.0.0.1:8090/` on that host for video and controls. The services bind to loopback by default. The [software guide](pi_robot/README.md) covers camera configuration, optional model startup, local access, environment variables, and the API. Camera startup opens a real device; motor behavior follows the separately selected backend. The [Rev A backend guide](pi_robot/DRV8874_REVA.md) covers explicit hardware configuration and first bench checks. Voice recognition, wake-word handling, and speech synthesis are not integrated into the current CLI.
 
 ## Tests
 
 ```sh
 python -m pip install -r tests/hardware_mock/requirements.txt
-python -m pytest tests/hardware_mock -q
+python -m pytest tests/hardware_mock tests/hardware_gpio -q
 ```
 
-The recorded suite has **132 passing tests**. It uses injected clocks, camera frames, HTTP/model responses, and motor outputs. Coverage includes invalid commands, ownership conflicts, expired leases, reversal sequencing, stop behavior, malformed vision results, stale frames, and client shutdown. See the [test guide](tests/hardware_mock/README.md) and [vision integration details](docs/vision_safety_integration.md).
+The offline suites use injected clocks, fake GPIO, camera frames, HTTP/model responses, and motor outputs. Coverage includes invalid commands, ownership conflicts, expired leases, reversal sequencing, stop behavior, GPIO failures and cleanup, heartbeat/ARM sequencing, malformed vision results, stale frames, and client shutdown. These tests do not operate motors or qualify PWM timing. See the [test guide](tests/hardware_mock/README.md) and [vision integration details](docs/vision_safety_integration.md).
+
+The combined suite passed **225 tests**; the [Rev A backend verification report](hardware/rev_a/validation/drv8874_backend_test_report.md) records the checks and physical validation still required.
 
 ## Custom motor-control PCB
 
@@ -133,10 +138,11 @@ The editable design has seven schematic sheets, a provisional 100 × 100 mm two-
 ## Project documentation and next steps
 
 - [Software setup and API](pi_robot/README.md)
+- [Rev A DRV8874 hardware backend](pi_robot/DRV8874_REVA.md)
 - [Project development and design decisions](docs/project_development.md)
 - [Camera, vision, and client integration](docs/vision_safety_integration.md)
 - [Existing and proposed wiring](hardware/rev_a/docs/wiring_guide.md)
 - [Motor-driver selection](hardware/rev_a/docs/driver_margin_review.md) and [power-path design](hardware/rev_a/docs/power_path_review_12v.md)
 - [PCB checks and source identities](hardware/rev_a/validation/design/design_check_report.md)
 
-The next integration steps are to finish the actual motor/battery/harness record, implement and check a real GPIO backend, integrate encoder feedback, and evaluate the custom PCB against the robot's electrical and mechanical requirements. Camera timing, vision response, motor behavior, and the audio interface remain separate areas for continued development.
+The next integration steps are to finish the actual motor/battery/harness record, bench-validate the Rev A GPIO backend and board together, integrate encoder feedback, and evaluate the custom PCB against the robot's electrical and mechanical requirements. Camera timing, vision response, motor behavior, and the audio interface remain separate areas for continued development.

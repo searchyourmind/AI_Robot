@@ -306,13 +306,23 @@ def test_disable_failure_never_reports_confirmation(rig):
         controller.execute({"c": "reset", "source": "browser", "session": "session_123"})
 
 
-def test_configuration_and_backend_gate():
+def test_configuration_and_backend_contract():
     with pytest.raises(ValueError, match="four"):
         MotorController(channels=(Channel("one", "left"),))
     backend = MockBackend(tuple(c.name for c in CHANNELS))
     backend.name = "gpio"
-    with pytest.raises(ValueError, match="only the mock"):
+    with pytest.raises(ValueError, match="unsupported motor backend"):
         MotorController(backend)
+    backend.name = "drv8874_reva"
+    backend.arm = None
+    with pytest.raises(ValueError, match="complete motor lifecycle"):
+        MotorController(backend)
+
+
+@pytest.mark.parametrize("holdoff", [0, -1, float("inf"), float("nan"), True, "0.1"])
+def test_invalid_reversal_holdoff_is_rejected(holdoff):
+    with pytest.raises(ValueError, match="finite and positive"):
+        MotorController(reversal_holdoff_s=holdoff)
 
 
 def test_failed_disable_recovery_starts_holdoff_at_success(rig):

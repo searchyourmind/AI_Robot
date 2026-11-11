@@ -2,13 +2,13 @@
 
 This directory contains the Raspberry Pi software for the four-wheel AI Robot: a motor command service, a camera stream and browser interface, a terminal controller, and an optional AI vision process. The [project README](../README.md) describes the complete robot and its development. The [Rev A hardware directory](../hardware/rev_a/README.md) contains the custom board design.
 
-The current motor backend stores commands in memory. It does not write GPIO or move motors. The camera and AI processes are separate: starting the camera script opens the camera; explicitly enabling the AI process sends images to the configured model service. This separation lets us develop and check the control logic without requiring the physical drivetrain.
+The motor service defaults to an in-memory mock. Selecting `MOTOR_BACKEND=drv8874_reva` with an explicit configuration opens Raspberry Pi 5 GPIO and drives the custom Rev A board's interface. This backend is implemented and offline-tested; electrical timing and robot motion remain untested. The camera and AI processes remain separate: starting the camera script opens the camera; explicitly enabling the AI process sends images to the configured model service.
 
 ## How the software fits together
 
 ```text
 Browser controls ── camera/web service ─┐
-                                      ├── motor HTTP service ── controller ── mock outputs
+                                      ├── motor HTTP service ── controller ── mock or Rev A GPIO
 Terminal controller ──────────────────┘                          │
                                                                 └── four channel demands
 Camera worker ── latest-frame cache ── MJPEG display
@@ -24,7 +24,9 @@ Manual clients share one motor API. The controller owns command parsing, client 
 | [`web_motor.py`](web_motor.py) | Flask motor API, local development launcher, and periodic controller tick. |
 | [`motor_control.py`](motor_control.py) | Four-channel command state machine, owner leases, latched stops, finite movement commands, and backend error handling. |
 | [`motor_config.py`](motor_config.py) | Channel identities and controller timing constants. |
-| [`motor_backend.py`](motor_backend.py) | Backend interface and in-memory `MockBackend`. |
+| [`motor_backend.py`](motor_backend.py) | Backend lifecycle interface and in-memory `MockBackend`. |
+| [`drv8874_backend.py`](drv8874_backend.py) | Pi 5 GPIO and software PWM, explicit Rev A ARM sequence, and health-gated heartbeat. |
+| [`motor_runtime.py`](motor_runtime.py) | Backend selection and validation of the hardware configuration before GPIO access. |
 | [`web_vision_drive_picam_ai.py`](web_vision_drive_picam_ai.py) | Camera capture worker, MJPEG display, snapshot endpoint, browser controls, and same-origin motor/overlay proxies. |
 | [`vision_policy_daemon.py`](vision_policy_daemon.py) | Snapshot acquisition, optional model calls, stop-only policy application, and annotated MJPEG overlay. |
 | [`vision_safety.py`](vision_safety.py) | Observation timestamps, freshness checks, and strict model-result parsing. |
@@ -43,7 +45,7 @@ The existing robot uses four motors on two TB6612 dual-channel boards. The softw
 
 Forward, reverse, and turning commands are expressed as paired left/right demands, while the backend receives four distinct signed duty values. The motor outputs remain separate; pairing commands does not mean connecting H-bridge outputs together. Encoder feedback and closed-loop wheel-speed control are not implemented in this software.
 
-Physical GPIO assignments and polarity remain unset in `motor_config.py`. The current `standby`/STBY fields belong to the retained mock interface. The new four-DRV8874 board has a different PWM/DIR, RUN, ARM, and heartbeat contract; its physical backend has not been implemented. See the board's [pin map](../hardware/rev_a/docs/pin_map.md) and [enable interface](../hardware/rev_a/docs/enable_interface_spec.md) for that integration work.
+The historical mock channel metadata keeps the existing TB6612 assignments without inventing its GPIO wiring. The Rev A backend has a separate fixed pin map: U20/U22 receive the left demand and U21/U23 receive the right demand. It rejects unequal demands within a side; the four bridges cannot be commanded independently through J6. Side polarity is supplied explicitly in the hardware configuration. The retained `standby` field describes nonzero software demand, not hardware sleep or enable feedback. See the [Rev A backend guide](DRV8874_REVA.md), [pin map](../hardware/rev_a/docs/pin_map.md), and [enable interface](../hardware/rev_a/docs/enable_interface_spec.md).
 
 ## Install and run the offline checks
 
@@ -53,10 +55,10 @@ Run these commands from the repository root. Use Python 3.10 or newer; the recor
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r tests/hardware_mock/requirements.txt
-python -m pytest tests/hardware_mock -q
+python -m pytest tests/hardware_mock tests/hardware_gpio -q
 ```
 
-The test dependencies are sufficient for the mock controller and injected camera/model tests. The suite uses fake clocks, in-memory HTTP adapters, camera substitutes, and model responses. It does not open a camera, call a model service, or use GPIO. The recorded full suite has 132 passing tests; details are in the [test guide](../tests/hardware_mock/README.md) and [software test report](../hardware/rev_a/validation/software_test_report.md).
+The test dependencies are sufficient for the mock controller and injected camera/model tests. The suite uses fake clocks, in-memory HTTP adapters, camera substitutes, and model responses. It does not open a camera, call a model service, or use GPIO. The GPIO suite uses a fake `lgpio` provider, so it runs without Pi GPIO access or the hardware dependency. The [mock test guide](../tests/hardware_mock/README.md) and [historical software test report](../hardware/rev_a/validation/software_test_report.md) describe the earlier mock-only checks.
 
 For camera display and optional live model use, install the application dependencies in the same environment:
 
@@ -74,7 +76,7 @@ In one terminal, from the repository root:
 MOTOR_BACKEND=mock python -m pi_robot.web_motor
 ```
 
-The service listens on `http://127.0.0.1:8088`. Its supported launcher starts the controller ticker and disables the Flask reloader. Use this module launcher rather than a bare `flask run` or WSGI import, which does not start the ticker. Only `MOTOR_BACKEND=mock` is accepted.
+The service listens on `http://127.0.0.1:8088`. Its supported launcher starts the controller ticker and disables the Flask reloader. Use this module launcher rather than a bare `flask run` or WSGI import, which does not start the ticker. The default backend is `mock`. Hardware operation requires `MOTOR_BACKEND=drv8874_reva` and `MOTOR_CONFIG`; follow the [Rev A setup guide](DRV8874_REVA.md). Do not launch multiple motor-service workers for one robot.
 
 In a second terminal with the same virtual environment active:
 
@@ -106,7 +108,7 @@ MOTOR_URL=http://127.0.0.1:8088 CAM_W=320 CAM_H=240 CAM_FPS=15 \
   python -m pi_robot.web_vision_drive_picam_ai
 ```
 
-This command opens the camera. Visit `http://127.0.0.1:8090/` on the same machine for the video, speed slider, reset/arm buttons, direction buttons, and stop button. Each direction button sends a 0.25-second demand to the mock motor service. The selected speed is included in that demand.
+This command opens the camera. Visit `http://127.0.0.1:8090/` on the same machine for the video, speed slider, reset/arm buttons, direction buttons, and stop button. Each direction button sends a 0.25-second demand to the selected motor backend. The selected speed is included in that demand.
 
 The page talks to `/motor/cmd` and `/motor/status` on its own origin; the camera service forwards those requests to `MOTOR_URL`. A new page receives a new client session. The page displays server errors, discards expired leases, and requests stop when hidden or closed. Those browser requests are best-effort; command expiration is enforced independently by the motor service.
 
@@ -175,13 +177,14 @@ client.post("/cmd", json={"c": "stop"})
 
 Motion accepts speed from 0–100% and duration greater than zero through 1 second; the defaults are 50% and 0.25 seconds. Only one source/session owns the controller at a time. An expired or revoked lease cannot be reused. Any source may stop, including the AI source; AI cannot reset, arm, set speed, or move.
 
-Responses include state, owner, commanded outputs, expiry, latch reason, and `backend: "mock"`. These fields describe software state, not measured voltage, current, or wheel motion. Session and lease fields coordinate clients; they do not authenticate users. See the [complete motor API contract](../hardware/rev_a/docs/software_safety_api.md) for validation rules, error codes, reversal handling, and shutdown behavior.
+Responses include state, owner, commanded outputs, expiry, latch reason, and the selected `backend`. For Rev A, `physical_backend` is true and `physical_actuation_enabled` is null because J6 has no enable/fault feedback. These fields describe software state, not measured voltage, current, or wheel motion. A successful GPIO disable write is not physical stopping confirmation. Session and lease fields coordinate clients; they do not authenticate users. See the [complete motor API contract](../hardware/rev_a/docs/software_safety_api.md) for validation rules, error codes, reversal handling, and shutdown behavior.
 
 ## Configuration reference
 
 | Variable | Default | Used by |
 |---|---|---|
-| `MOTOR_BACKEND` | `mock` | Motor launcher; other values are rejected. |
+| `MOTOR_BACKEND` | `mock` | Motor launcher: `mock` or `drv8874_reva`. |
+| `MOTOR_CONFIG` | Unset | Required JSON configuration path for `drv8874_reva`; see the [hardware guide](DRV8874_REVA.md). |
 | `PORT` | `8088` for motor; `8090` for camera | Respective service launcher. Set it per process. |
 | `MOTOR_URL` | `http://127.0.0.1:8088` | Camera proxy, CLI, and policy. |
 | `CAM_W`, `CAM_H`, `CAM_FPS` | `320`, `240`, `15` | Camera capture requests. |
@@ -197,4 +200,4 @@ Responses include state, owner, commanded outputs, expiry, latch reason, and `ba
 
 Earlier robot experiments included a USB microphone and speaker, wake words, speech-to-text, text-to-speech, and an OpenAI Realtime connection. This repository currently keeps the typed controller and shared command interface; the full speech pipeline is not included. A future voice client can use that interface while leaving ownership, command expiration, and stop handling in the motor controller.
 
-The next physical integration work is to reconcile the installed GPIO map and power wiring, implement the selected board's backend and enable handshake, and measure actual PWM, motor current, reversal, and fault behavior. Camera buffering and end-to-end observation latency also need measurement before expanding the AI's role. These tasks build on the existing camera/control project and the [12 V board design](../hardware/rev_a/README.md).
+The next physical integration work is to reconcile the installed harness and power wiring with the Rev A pin map, assemble/verify the board, and measure actual PWM, motor current, reversal, and fault behavior with the hardware backend. Camera buffering and end-to-end observation latency also need measurement before expanding the AI's role. These tasks build on the existing camera/control project and the [12 V board design](../hardware/rev_a/README.md).
