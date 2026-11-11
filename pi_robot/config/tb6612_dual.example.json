@@ -1,0 +1,14 @@
+{
+  "channels": {
+    "motor_1": {"pwm": 18, "in1": 23, "in2": 24, "polarity": null},
+    "motor_2": {"pwm": 18, "in1": 23, "in2": 24, "polarity": null},
+    "motor_3": {"pwm": 13, "in1": 5, "in2": 6, "polarity": null},
+    "motor_4": {"pwm": 13, "in1": 5, "in2": 6, "polarity": null}
+  },
+  "stby": [25],
+  "max_duty_percent": 40,
+  "pwm_hz": 1000,
+  "ramp_percent_per_s": 400,
+  "reversal_holdoff_s": 0.1,
+  "gpiochip": null
+}

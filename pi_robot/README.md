@@ -4,6 +4,8 @@ This directory contains the Raspberry Pi software for the four-wheel AI Robot: a
 
 The motor service defaults to an in-memory mock. Selecting `MOTOR_BACKEND=drv8874_reva` with an explicit configuration opens Raspberry Pi 5 GPIO and drives the custom Rev A board's interface. This backend is implemented and offline-tested; electrical timing and robot motion remain untested. The camera and AI processes remain separate: starting the camera script opens the camera; explicitly enabling the AI process sends images to the configured model service.
 
+`MOTOR_BACKEND=tb6612_dual` instead drives the existing prototype's two TB6612FNG boards from the same GPIO library. It is likewise offline-tested only; follow the [TB6612 guide](TB6612_DUAL.md) before powering motors.
+
 ## How the software fits together
 
 ```text
@@ -26,6 +28,7 @@ Manual clients share one motor API. The controller owns command parsing, client 
 | [`motor_config.py`](motor_config.py) | Channel identities and controller timing constants. |
 | [`motor_backend.py`](motor_backend.py) | Backend lifecycle interface and in-memory `MockBackend`. |
 | [`drv8874_backend.py`](drv8874_backend.py) | Pi 5 GPIO and software PWM, explicit Rev A ARM sequence, and health-gated heartbeat. |
+| [`tb6612_backend.py`](tb6612_backend.py) | Pi 5 GPIO for the prototype's two TB6612FNG boards: STBY, PWM/IN1/IN2, duty ceiling, and ramped starts. |
 | [`motor_runtime.py`](motor_runtime.py) | Backend selection and validation of the hardware configuration before GPIO access. |
 | [`web_vision_drive_picam_ai.py`](web_vision_drive_picam_ai.py) | Camera capture worker, MJPEG display, snapshot endpoint, browser controls, and same-origin motor/overlay proxies. |
 | [`vision_policy_daemon.py`](vision_policy_daemon.py) | Snapshot acquisition, optional model calls, stop-only policy application, and annotated MJPEG overlay. |
@@ -183,8 +186,8 @@ Responses include state, owner, commanded outputs, expiry, latch reason, and the
 
 | Variable | Default | Used by |
 |---|---|---|
-| `MOTOR_BACKEND` | `mock` | Motor launcher: `mock` or `drv8874_reva`. |
-| `MOTOR_CONFIG` | Unset | Required JSON configuration path for `drv8874_reva`; see the [hardware guide](DRV8874_REVA.md). |
+| `MOTOR_BACKEND` | `mock` | Motor launcher: `mock`, `drv8874_reva`, or `tb6612_dual`. |
+| `MOTOR_CONFIG` | Unset | Required JSON configuration path for a hardware backend; see the [Rev A guide](DRV8874_REVA.md) or the [TB6612 guide](TB6612_DUAL.md). |
 | `PORT` | `8088` for motor; `8090` for camera | Respective service launcher. Set it per process. |
 | `MOTOR_URL` | `http://127.0.0.1:8088` | Camera proxy, CLI, and policy. |
 | `CAM_W`, `CAM_H`, `CAM_FPS` | `320`, `240`, `15` | Camera capture requests. |

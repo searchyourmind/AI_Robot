@@ -18,6 +18,9 @@ time are supplied by test substitutes.
   and recovery timing, partial ARM cleanup, readable faults, and final shutdown.
 - `test_motor_runtime.py`: explicit backend selection, strict JSON config,
   inert imports, startup failure cleanup, and service shutdown.
+- `test_tb6612_backend.py`: the prototype's TB6612 backend. Pin and polarity
+  rules, STBY ordering, duty ceiling, ramped starts, reversal, failure paths,
+  configuration loading, and Flask-to-backend integration.
 
 These checks verify software behavior and requested operation order. They do
 not measure real GPIO timing, motor current, physical stopping, or PCB function.

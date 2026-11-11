@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local motor API with explicit mock or Rev A GPIO service configuration."""
+"""Local motor API with explicit mock, Rev A or TB6612 GPIO service configuration."""
 import json
 import os
 import signal

@@ -66,7 +66,7 @@ class MotorController:
         self.reversal_holdoff_s = float(reversal_holdoff_s)
         self.channels = channels
         self.backend = backend if backend is not None else MockBackend(tuple(c.name for c in channels))
-        if self.backend.name not in {"mock", "drv8874_reva"}:
+        if self.backend.name not in {"mock", "drv8874_reva", "tb6612_dual"}:
             raise ValueError("unsupported motor backend")
         if any(not callable(getattr(self.backend, method, None)) for method in (
                 "arm", "service", "check_health", "apply", "quiesce", "disable",
