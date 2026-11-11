@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local mock motor API. See hardware/rev_a/docs/software_safety_api.md."""
+"""Local motor API with explicit mock or Rev A GPIO service configuration."""
 import json
 import os
 import signal
@@ -11,9 +11,11 @@ from werkzeug.exceptions import HTTPException
 try:
     from .motor_control import CommandError, MotorController
     from .motor_config import TICK_INTERVAL_S
+    from .motor_runtime import create_controller_from_env
 except ImportError:
     from motor_control import CommandError, MotorController
     from motor_config import TICK_INTERVAL_S
+    from motor_runtime import create_controller_from_env
 
 
 def _unique_object(pairs):
@@ -87,21 +89,32 @@ app = create_app()
 
 
 def main():
-    if os.environ.get("MOTOR_BACKEND", "mock") != "mock":
-        raise SystemExit("Only MOTOR_BACKEND=mock is available; GPIO pins and electrical requirements remain unverified.")
-    controller = app.extensions["motor_controller"]
-    stop_event, thread = start_ticker(controller)
-
     def terminate(_signum, _frame):
         raise SystemExit(0)
 
-    signal.signal(signal.SIGTERM, terminate)
+    # Parse service options before claiming any GPIO. A bare WSGI import keeps
+    # the module-level mock app; only this single-process launcher selects GPIO.
     try:
-        app.run(host="127.0.0.1", port=int(os.environ.get("PORT", "8088")), threaded=True, use_reloader=False)
+        port = int(os.environ.get("PORT", "8088"))
+        if not 1 <= port <= 65535:
+            raise ValueError("PORT must be between 1 and 65535")
+        controller = create_controller_from_env()
+    except Exception as exc:
+        raise SystemExit(f"Cannot start motor service: {exc}") from exc
+    stop_event = thread = None
+    try:
+        signal.signal(signal.SIGTERM, terminate)
+        application = create_app(controller)
+        stop_event, thread = start_ticker(controller)
+        application.run(host="127.0.0.1", port=port, threaded=True, use_reloader=False)
     finally:
-        controller.shutdown()
-        stop_event.set()
-        thread.join(timeout=1)
+        if stop_event is not None:
+            stop_event.set()
+        try:
+            controller.shutdown()
+        finally:
+            if thread is not None:
+                thread.join(timeout=1)
 
 
 if __name__ == "__main__":

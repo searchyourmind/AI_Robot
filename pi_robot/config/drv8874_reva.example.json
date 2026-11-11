@@ -1,0 +1,8 @@
+{
+  "left_polarity": null,
+  "right_polarity": null,
+  "pwm_hz": 1000,
+  "startup_settle_s": 1.0,
+  "reversal_holdoff_s": 0.1,
+  "gpiochip": null
+}

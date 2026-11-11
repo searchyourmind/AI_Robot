@@ -1,0 +1,3 @@
+# Optional Raspberry Pi 5 GPIO provider; not installed by the offline test suite.
+# Raspberry Pi OS's python3-lgpio package is also supported.
+lgpio>=0.2.2.0,<0.3

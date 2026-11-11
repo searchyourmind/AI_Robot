@@ -39,7 +39,7 @@ J6 is Würth 61201621621, a custom 2×8 logic cable, **not** the Pi's 40-pin HAT
 | 15 | GND; no enable feedback | Ground | 30 | Common reference |
 | 16 | GND | Ground | 25 | Common reference |
 
-BCM24 and BCM6/Pi physical 18 and 31 are not allocated by this redesign. In particular, the former J6.6/J6.10 signals are now NC reserves; they are not new ground positions. GPIO22 is not assigned. There is no direct Pi-to-driver-enable or Pi fault-feedback wire. ALL_OK has no return connection to the Pi, so future firmware cannot claim to observe hardware qualification through this harness; the hardware gates reject an unqualified ARM edge.
+BCM24 and BCM6/Pi physical 18 and 31 are not allocated by this redesign. In particular, the former J6.6/J6.10 signals are now NC reserves; they are not new ground positions. GPIO22 is not assigned. There is no direct Pi-to-driver-enable or Pi fault-feedback wire. ALL_OK has no return connection to the Pi, so firmware cannot claim to observe hardware qualification through this harness; the hardware gates reject an unqualified ARM edge.
 
 Six proposed ground wires share one reference. Pi physical 17 is another 3.3 V pin, but this table chooses physical 1. Pi 5 V pins 2/4 have no connection to this board. The PCB does not supply Pi power or generate its 3.3 V rail. Actual ground and supply routing in the existing two-pack robot still need evidence.
 
@@ -61,11 +61,11 @@ LEFT_IN1/2 feed U20/U22. RIGHT_IN1/2 feed U21/U23. PMODE is high for PWM-input m
 | 1 | 1 | 0 | 01 | Electrical reverse |
 | 1 | 1 | 1 | 10 | Electrical forward |
 
-These states follow [TI DRV8874 Table 4](https://www.ti.com/lit/ds/symlink/drv8874.pdf); physical wheel direction still depends on motor wiring. PWM-low while armed is a brake request. Disarming forces coast. Direction-change timing/deceleration belongs to a future backend; the combinational decode is not a reversal timer.
+These states follow [TI DRV8874 Table 4](https://www.ti.com/lit/ds/symlink/drv8874.pdf); physical wheel direction still depends on motor wiring. PWM-low while armed is a brake request. Disarming forces coast. The [Rev A GPIO backend](../../../pi_robot/DRV8874_REVA.md) implements PWM-low direction sequencing and a configurable reversal holdoff; the default interval has not been bench-validated. The combinational decode is not a reversal timer.
 
 FEED_ENABLE=LOGIC_GOOD AND PHYS_OK drives all nSLEEP inputs and the eFuse SHDN network independently of ARM, RUN, fault and PGOOD. This allows rail startup and normal driver wake fault pulses while motion commands remain blocked. A physically enabled, disarmed driver can remain awake. SW1 inhibit lowers FEED_ENABLE and clears permission; VM energy remains in capacitors.
 
-RUN low, watchdog timeout or fault clears the external arm latch and forces inputs 00. Restored qualification alone does not rearm. A fresh ARM edge is required; an internal driver OCP latch additionally requires deliberate physical-enable/power cycling. Hardware recognizes an edge, not human intent. No physical GPIO implementation of this protocol is present in the current mock-only software.
+RUN low, watchdog timeout or fault clears the external arm latch and forces inputs 00. Restored qualification alone does not rearm. A fresh ARM edge is required; an internal driver OCP latch additionally requires deliberate physical-enable/power cycling. Hardware recognizes an edge, not human intent. The opt-in [Rev A GPIO backend](../../../pi_robot/DRV8874_REVA.md) implements this protocol with offline fake-GPIO tests. Hardware assembly, timing, and motor behavior remain untested; successful GPIO writes do not establish actual drive permission.
 
 ## IC and testpoint references
 
