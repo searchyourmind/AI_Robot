@@ -17,6 +17,8 @@ The robot platform uses a **Raspberry Pi 5, four geared DC motors, two TB6612FNG
 
 The motor service defaults to an in-memory **mock backend**. An opt-in **Raspberry Pi 5 / Rev A DRV8874 backend** drives the new board's GPIO, PWM, RUN, ARM, and watchdog heartbeat interface. It controls four separate bridges in left/right pairs. The backend has offline verification; the Rev A board remains a design-stage subsystem and the electrical behavior has not been bench-validated. This backend does not use the existing TB6612 harness. See the [Rev A backend guide](pi_robot/DRV8874_REVA.md).
 
+A second opt-in backend, **`tb6612_dual`**, drives the prototype as built: two TB6612FNG boards wired directly to the Pi 5. It requires an explicit pin and polarity configuration and a duty ceiling, and ramps speed increases. It is verified offline and **has not been run on the robot**; see the [setup and first bench session](pi_robot/TB6612_DUAL.md).
+
 ## System architecture
 
 ```mermaid
@@ -67,6 +69,7 @@ The exact motor label is still unconfirmed; MG513P30_12V is a candidate, not an 
 | [`motor_control.py`](pi_robot/motor_control.py) | Ownership, arming, command validation, deadlines, and stop state |
 | [`motor_backend.py`](pi_robot/motor_backend.py) | Backend lifecycle interface and mock motor outputs |
 | [`drv8874_backend.py`](pi_robot/drv8874_backend.py) | Pi 5 GPIO, paired PWM/DIR, explicit ARM, and health-gated heartbeat for Rev A |
+| [`tb6612_backend.py`](pi_robot/tb6612_backend.py) | Pi 5 GPIO for the prototype's two TB6612FNG boards: STBY, PWM/IN1/IN2, duty ceiling, and ramped starts |
 | [`motor_runtime.py`](pi_robot/motor_runtime.py) | Explicit backend selection and validated hardware configuration |
 | [`motor_config.py`](pi_robot/motor_config.py) | Command bounds, timeouts, and motor configuration |
 | [`web_vision_drive_picam_ai.py`](pi_robot/web_vision_drive_picam_ai.py) | Camera worker, video/snapshot routes, browser UI, and motor proxy |
@@ -125,7 +128,7 @@ python -m pytest tests/hardware_mock tests/hardware_gpio -q
 
 The offline suites use injected clocks, fake GPIO, camera frames, HTTP/model responses, and motor outputs. Coverage includes invalid commands, ownership conflicts, expired leases, reversal sequencing, stop behavior, GPIO failures and cleanup, heartbeat/ARM sequencing, malformed vision results, stale frames, and client shutdown. These tests do not operate motors or qualify PWM timing. See the [test guide](tests/hardware_mock/README.md) and [vision integration details](docs/vision_safety_integration.md).
 
-The combined suite passed **225 tests**; the [Rev A backend verification report](hardware/rev_a/validation/drv8874_backend_test_report.md) records the checks and physical validation still required.
+The combined suite passes **304 tests** (225 before the TB6612 backend was added); the [Rev A backend verification report](hardware/rev_a/validation/drv8874_backend_test_report.md) records the checks and physical validation still required.
 
 ## Custom motor-control PCB
 
@@ -139,6 +142,7 @@ The editable design has seven schematic sheets, a provisional 100 × 100 mm two-
 
 - [Software setup and API](pi_robot/README.md)
 - [Rev A DRV8874 hardware backend](pi_robot/DRV8874_REVA.md)
+- [TB6612 prototype hardware backend and first bench session](pi_robot/TB6612_DUAL.md)
 - [Project development and design decisions](docs/project_development.md)
 - [Camera, vision, and client integration](docs/vision_safety_integration.md)
 - [Existing and proposed wiring](hardware/rev_a/docs/wiring_guide.md)
